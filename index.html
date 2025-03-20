@@ -6,205 +6,308 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>11-Day Iceland Ring Road Adventure</title>
 <style>
+ body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7;
+  color: #444;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4 {
+  color: #2c3e50;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3em;
+  margin-top: 1.8em;
+  color: #3498db;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-top: 1.5em;
+  color: #2c3e50;
+}
+
+h4 {
+  font-size: 1.1em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.overview-image {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 1em 0;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.day-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  margin: 1em auto;
+  display: block;
+}
+
+.quote-box {
+  padding: 1.5em;
+  background-color: #ecf0f1;
+  border-left: 5px solid #3498db;
+  margin: 1.5em 0;
+  border-radius: 8px;
+  font-style: italic;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.gem {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.featured {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.tip-box {
+  background-color: #d4edda;
+  border-left: 5px solid #28a745;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 8px;
+  color: #155724;
+}
+
+.notes-box {
+  background-color: #f8d7da;
+  border-left: 5px solid #dc3545;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 8px;
+  color: #721c24;
+}
+
+.page-break {
+  page-break-after: always;
+  visibility: hidden;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+.map-container {
+  margin: 2em 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1.2em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+li::before {
+  content: "• ";
+  color: #3498db;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Fixed activity-time style for mobile */
+.activity-item {
+  margin-bottom: 0.8em;
+  padding-left: 1em;
+  padding-top: 0.3em;
+  border-left: 3px solid #ddd;
+  position: relative;
+  min-height: 2em;
+  margin-left: 70px; /* Make room for the time */
+}
+
+.activity-time {
+  position: absolute;
+  left: -70px;
+  top: 0;
+  font-size: 0.85em;
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  width: 60px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.daily-summary {
+  background-color: #e9ecef;
+  padding: 1.2em;
+  border-radius: 8px;
+  margin-bottom: 1.2em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.daily-summary strong {
+  color: #3498db;
+}
+
+.sub-list {
+  padding-left: 2em;
+  margin-top: 0.5em;
+}
+
+.sub-list li::before {
+  content: "- ";
+  color: #777;
+}
+
+.itinerary-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.itinerary-list li {
+  background-color: #fff;
+  border-left: 5px solid #3498db;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.itinerary-list li:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.itinerary-list a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+.daily-overview {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.daily-overview th, .daily-overview td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.daily-overview th {
+  background-color: #3498db;
+  color: white;
+}
+
+.daily-overview tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
   body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.7;
-    color: #444;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f8f9fa;
+    padding: 15px;
   }
-  h1, h2, h3, h4 {
-    color: #2c3e50;
-    font-family: 'Montserrat', sans-serif;
-  }
+  
   h1 {
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 0.5em;
-    border-bottom: 3px solid #3498db;
-    padding-bottom: 0.5em;
-  }
-  h2 {
     font-size: 2em;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 0.3em;
-    margin-top: 2em;
-    color: #3498db;
   }
-  h3 {
+  
+  h2 {
     font-size: 1.5em;
-    margin-top: 1.5em;
-    color: #2c3e50;
   }
-  h4 {
+  
+  h3 {
     font-size: 1.2em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
   }
-  .overview-image {
-    width: 100%;
-    max-height: 450px;
-    object-fit: cover;
-    border-radius: 15px;
-    margin: 1em 0;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  
+  h4 {
+    font-size: 1em;
   }
-  .day-image {
-    width: 100%;
-    max-width: 800px;
-    border-radius: 15px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-    margin: 1em auto;
-    display: block;
-  }
-  .quote-box {
-    padding: 1.5em;
-    background-color: #ecf0f1;
-    border-left: 5px solid #3498db;
-    margin: 1.5em 0;
-    border-radius: 8px;
-    font-style: italic;
-    font-size: 1.1em;
-    color: #555;
-  }
-  .gem {
-    background-color: #d1ecf1;
-    color: #0c5460;
-    padding: 0.2em 0.5em;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  .featured {
-    background-color: #fff3cd;
-    color: #856404;
-    padding: 0.2em 0.5em;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  .tip-box {
-    background-color: #d4edda;
-    border-left: 5px solid #28a745;
-    padding: 1em;
-    margin: 1.5em 0;
-    border-radius: 8px;
-    color: #155724;
-  }
-  .notes-box {
-    background-color: #f8d7da;
-    border-left: 5px solid #dc3545;
-    padding: 1em;
-    margin: 1.5em 0;
-    border-radius: 8px;
-    color: #721c24;
-  }
-  .page-break {
-    page-break-after: always;
-    visibility: hidden;
-  }
-  a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  a:hover {
-    color: #2980b9;
-    text-decoration: underline;
-  }
-  .map-container {
-    margin: 2em 0;
-  }
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  li::before {
-    content: "• ";
-    color: #3498db;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
+  
+  /* Improved mobile activity styling */
   .activity-item {
-    margin-bottom: 0.5em;
-    padding-left: 1em;
-    border-left: 3px solid #ddd;
-    position: relative;
+    margin-left: 60px;
   }
+  
   .activity-time {
-    position: absolute;
-    left: -65px;
-    top: 0;
-    font-size: 0.9em;
-    color: #777;
-    background-color: #f0f0f0;
-    padding: 2px 5px;
-    border-radius: 5px;
-    font-weight: 600;
+    left: -60px;
     width: 50px;
-    text-align: center;
+    font-size: 0.8em;
   }
-  .daily-summary {
-    background-color: #e9ecef;
-    padding: 1em;
-    border-radius: 8px;
-    margin-bottom: 1em;
-  }
-  .daily-summary strong {
-    color: #3498db;
-  }
-  .sub-list {
-    padding-left: 2em;
-  }
-  .sub-list li::before {
-    content: "- ";
-    color: #777;
-  }
-  .itinerary-list {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-  }
+  
   .itinerary-list li {
-    background-color: #fff;
-    border-left: 5px solid #3498db;
-    padding: 15px 20px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 12px 15px;
   }
-  .itinerary-list li:hover {
-    transform: translateX(5px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
-  .itinerary-list a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  .daily-overview {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
+  
   .daily-overview th, .daily-overview td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
+    padding: 8px;
+    font-size: 0.9em;
   }
-  .daily-overview th {
-    background-color: #f2f2f2;
-    color: #333;
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+  .activity-item {
+    margin-left: 55px;
   }
-  .daily-overview tr:nth-child(even) {
-    background-color: #f9f9f9;
+  
+  .activity-time {
+    left: -55px;
+    width: 45px;
+    font-size: 0.75em;
+    padding: 2px 4px;
   }
-  .bold {
-    font-weight: bold;
-  }
+}
 </style>
 </head>
 <body>
