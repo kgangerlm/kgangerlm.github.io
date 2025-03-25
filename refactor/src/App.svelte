@@ -1,38 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iceland Ring Road Adventure</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="https://unpkg.com/svelte"></script>
-</head>
-<body>
-
-<script type="module">
+<script>
   import { onMount } from 'svelte';
-
+  import DayCard from './components/DayCard.svelte';
+  import DayDetail from './components/DayDetail.svelte';
+  
   let tripData = {};
   let daysData = [];
   let currentDay = null;
   let isLoading = true;
+  let loadError = null;
 
   onMount(async () => {
+    console.log("App component mounted");
     try {
       // Load trip overview data
+      console.log("Fetching trip overview data...");
       const tripResponse = await fetch('data/trip-overview.json');
+      if (!tripResponse.ok) {
+        throw new Error(`Failed to load trip overview data: ${tripResponse.status}`);
+      }
       tripData = await tripResponse.json();
+      console.log("Trip overview data loaded successfully");
       
-      // Load all day data files
+      // Load all day data files with error handling
       const dayPromises = [];
       for (let i = 1; i <= tripData.totalDays; i++) {
-        dayPromises.push(fetch(`data/day${i}.json`).then(res => res.json()));
+        console.log(`Fetching day ${i} data...`);
+        dayPromises.push(
+          fetch(`data/day${i}.json`)
+            .then(async res => {
+              if (!res.ok) {
+                console.warn(`Day ${i} data not found (${res.status}). This day will be skipped.`);
+                return null; // Return null for days that aren't found
+              }
+              try {
+                const dayData = await res.json();
+                console.log(`Day ${i} data loaded successfully`);
+                return dayData;
+              } catch (parseError) {
+                console.error(`Error parsing day ${i} JSON:`, parseError);
+                return null;
+              }
+            })
+            .catch(err => {
+              console.error(`Error loading day ${i} data:`, err);
+              return null; // Return null for errors
+            })
+        );
       }
       
-      daysData = await Promise.all(dayPromises);
+      // Filter out null values (days that weren't found or failed to load)
+      const daysResults = await Promise.all(dayPromises);
+      daysData = daysResults.filter(day => day !== null);
+      console.log(`Successfully loaded ${daysData.length} days of data`);
+      
+      if (daysData.length === 0) {
+        throw new Error('No day data could be loaded');
+      }
+      
       isLoading = false;
     } catch (error) {
       console.error('Error loading data:', error);
+      loadError = error.message || 'Failed to load trip data';
+      isLoading = false;
     }
   });
 
@@ -48,6 +77,12 @@
 <div class="app">
   {#if isLoading}
     <div class="loading">Loading trip data...</div>
+  {:else if loadError}
+    <div class="error-container">
+      <h2>Error Loading Data</h2>
+      <p>{loadError}</p>
+      <p>Please check that all data files are available and refresh the page.</p>
+    </div>
   {:else}
     <!-- Header -->
     <header>
@@ -86,7 +121,7 @@
                 <div class="card-highlight">{day.emoji} {day.title}</div>
                 <div class="card-route"><strong>Route:</strong> {day.route.from} → {day.route.to}</div>
                 <p>{day.summary}</p>
-                <button class="card-details" on:click={() => scrollToDay(day.id)}>View Details</button>
+                <button class="card-details" on:click|stopPropagation={() => scrollToDay(day.id)}>View Details</button>
               </div>
             </div>
           {/each}
@@ -99,7 +134,7 @@
       <div class="container">
         <h2 class="section-title">Trip Overview Map</h2>
         <div class="map-container">
-          <iframe src={tripData.mapUrl} allowfullscreen="" loading="lazy"></iframe>
+          {@html tripData.mapUrl}
         </div>
       </div>
     </section>
@@ -134,48 +169,23 @@
           </div>
           
           <div class="map-container">
-            <iframe src={day.mapUrl} width="100%" height="480"></iframe>
+            {@html day.mapUrl}
           </div>
           
           <div class="day-schedule">
-            {#each day.schedule as section}
-              <div class="schedule-section">
-                <h3 class="section-heading">{section.section}</h3>
-                <div class="activity-timeline">
-                  {#each section.activities as activity}
-                    <div class="activity-item">
-                      <span class="activity-time">{activity.time}</span>
-                      <div class="activity-content">
-                        <div class="activity-title">
-                          {#if activity.isFeatured}
-                            <span class="featured">✨ {activity.title}</span>
-                          {:else if activity.isGem}
-                            <span class="gem">💎 {activity.title}</span>
-                          {:else}
-                            {activity.title}
-                          {/if}
-                          {#if activity.cost}
-                            <span class="activity-cost">${activity.cost}</span>
-                          {/if}
-                        </div>
-                        {#if activity.description}
-                          <div class="activity-desc">
-                            {activity.description}
-                            {#if activity.duration}
-                              <br>Duration: {activity.duration}
-                            {/if}
-                          </div>
-                        {/if}
-                        {#if activity.links && activity.links.length > 0}
-                          <div class="activity-links">
-                            {#each activity.links as link}
-                              <a href={link.url} target="_blank">{link.text}</a>
-                            {/each}
-                          </div>
-                        {/if}
-                      </div>
+            {#each day.schedule as item}
+              <div class="activity-item">
+                <span class="activity-time">{item.time}</span>
+                <div class="activity-content">
+                  <div class="activity-title">{item.title}</div>
+                  {#if item.description}
+                    <div class="activity-desc">{item.description}</div>
+                  {/if}
+                  {#if item.link && item.link.length > 0}
+                    <div class="activity-links">
+                      <a href={item.link} target="_blank">More Info</a>
                     </div>
-                  {/each}
+                  {/if}
                 </div>
               </div>
             {/each}
@@ -186,7 +196,7 @@
             <h4>Key Highlights of the Day</h4>
             <ul class="highlights-list">
               {#each day.highlights as highlight}
-                <li>{highlight}</li>
+                <li>{highlight.title}: {highlight.description}</li>
               {/each}
             </ul>
           </div>
@@ -195,11 +205,17 @@
           <div class="accommodations-section">
             <h4>Accommodations</h4>
             <div class="accommodations-details">
-              <strong>{day.accommodation.name}</strong> - {day.accommodation.location}
+              <strong>{day.accommodation.name}</strong>
               <br>
-              {day.accommodation.price}
+              {day.accommodation.address}
               <br>
-              {day.accommodation.description}
+              Cost: {day.accommodation.cost}
+              <br>
+              {day.accommodation.roomType}
+              {#if day.accommodation.notes}
+                <br>
+                Note: {day.accommodation.notes}
+              {/if}
             </div>
           </div>
           
@@ -209,15 +225,11 @@
             <ul class="alternatives-list">
               {#each day.alternatives as alt}
                 <li>
-                  {#if alt.isGem}
-                    <span class="gem">💎 </span>
+                  <strong>{alt.title}:</strong> {alt.description}
+                  {#if alt.link}
+                    <br>
+                    <a href={alt.link} target="_blank">More Info</a>
                   {/if}
-                  {#if alt.url}
-                    <a href={alt.url} target="_blank">{alt.name}</a>
-                  {:else}
-                    {alt.name}
-                  {/if}
-                  : {alt.description}
                 </li>
               {/each}
             </ul>
@@ -229,12 +241,11 @@
             <ul class="weather-list">
               {#each day.badWeatherAlternatives as alt}
                 <li>
-                  {#if alt.url}
-                    <a href={alt.url} target="_blank">{alt.name}</a>
-                  {:else}
-                    {alt.name}
+                  <strong>{alt.title}:</strong> {alt.description}
+                  {#if alt.link}
+                    <br>
+                    <a href={alt.link} target="_blank">More Info</a>
                   {/if}
-                  : {alt.description}
                 </li>
               {/each}
             </ul>
@@ -281,7 +292,7 @@
                             {#if subitem.url}
                               <a href={subitem.url} target="_blank">{subitem.name}</a>
                             {:else}
-                              {subitem.name}: {subitem.description}
+                              {subitem.name}{#if subitem.description}: {subitem.description}{/if}
                             {/if}
                           </li>
                         {/each}
@@ -305,5 +316,22 @@
   {/if}
 </div>
 
-</body>
-</html>
+<style>
+  .loading {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em;
+    color: var(--secondary);
+  }
+  
+  .error-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #ffebee;
+    border-left: 5px solid #f44336;
+    color: #b71c1c;
+    border-radius: 4px;
+    text-align: center;
+  }
+</style>

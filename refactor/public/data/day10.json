@@ -1,0 +1,284 @@
+{
+  "id": "day10",
+  "dayNumber": 10,
+  "title": "Magic of Snæfellsnes Peninsula",
+  "emoji": "🌋",
+  "date": "July 23, 2025",
+  "route": {
+    "from": "Grundarfjörður",
+    "to": "Akranes"
+  },
+  "image": {
+    "src": "https://github.com/kgangerlm/iceland-data/blob/main/images/day10.jpg?raw=true",
+    "alt": "Dramatic coastal cliffs of Snæfellsnes Peninsula"
+  },
+  "quote": {
+    "text": "The story of your life becomes visible in time only when, like a map, you can see it all spread out in front of you.",
+    "author": "Sjón, Icelandic author"
+  },
+  "summary": "Explore the diverse wonders of the Snæfellsnes Peninsula, often called 'Iceland in Miniature.' From dramatic black pebble beaches and coastal hiking paths to underground lava tubes and intimate hot springs, this day showcases the peninsula's incredible variety of landscapes. End your day with a golden hour drive to Akranes, completing your clockwise journey around Iceland's Ring Road.",
+  "driving": {
+    "total": {
+      "distance": { "km": 220, "miles": 137 },
+      "time": "3 hours 15 minutes"
+    },
+    "segments": [
+      {
+        "from": "Grundarfjörður",
+        "to": "Djúpalónssandur",
+        "distance": { "km": 35, "miles": 22 },
+        "time": "30 minutes"
+      },
+      {
+        "from": "Djúpalónssandur",
+        "to": "Hellnar",
+        "distance": { "km": 15, "miles": 9 },
+        "time": "15 minutes"
+      },
+      {
+        "from": "Hellnar",
+        "to": "Vatnshellir Cave",
+        "distance": { "km": 10, "miles": 6 },
+        "time": "10 minutes"
+      },
+      {
+        "from": "Vatnshellir Cave",
+        "to": "Ytri Tunga",
+        "distance": { "km": 45, "miles": 28 },
+        "time": "40 minutes"
+      },
+      {
+        "from": "Ytri Tunga",
+        "to": "Lanbrotalaug Hot Spring",
+        "distance": { "km": 15, "miles": 9 },
+        "time": "15 minutes"
+      },
+      {
+        "from": "Lanbrotalaug Hot Spring",
+        "to": "Gerðuberg Basalt Columns",
+        "distance": { "km": 20, "miles": 12 },
+        "time": "20 minutes"
+      },
+      {
+        "from": "Gerðuberg Basalt Columns",
+        "to": "Akranes",
+        "distance": { "km": 80, "miles": 50 },
+        "time": "1 hour 15 minutes"
+      }
+    ]
+  },
+  "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1p5j0Ep3wf98qhPSuZYWVhZ3qrQnPHuI&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
+  "schedule": [
+    {
+      "time": "08:00 - 09:00",
+      "title": "Breakfast at The Old Post Office",
+      "description": "Enjoy breakfast at your accommodation before checking out and beginning your exploration of the Snæfellsnes Peninsula.",
+      "links": []
+    },
+    {
+      "time": "09:30 - 10:30",
+      "title": "Djúpalónssandur Black Pebble Beach",
+      "description": "Explore this dramatic beach with its smooth black pebbles, shipwreck remains, and unique rock formations. The beach was once home to fishing stations, and you can still see the lifting stones used to test fishermen's strength.",
+      "links": [
+        {
+          "text": "Djúpalónssandur Beach Guide",
+          "url": "https://guidetoiceland.is/travel-iceland/drive/djupalonssandur"
+        }
+      ]
+    },
+    {
+      "time": "11:00 - 13:00",
+      "title": "Hellnar to Arnarstapi Coastal Path",
+      "description": "Enjoy a spectacular 2.5-mile coastal hike between these two charming villages. The trail offers stunning views of lava formations, sea arches, and nesting birds. The path is well-maintained but includes some uneven terrain.",
+      "links": [
+        {
+          "text": "Hellnar to Arnarstapi Path",
+          "url": "https://www.west.is/en/west/service/arnarstapi"
+        }
+      ]
+    },
+    {
+      "time": "13:00 - 14:00",
+      "title": "Lunch at Fjöruhúsið in Hellnar",
+      "description": "Enjoy lunch at this charming seaside café known for its excellent seafood soup and homemade cakes. The café offers beautiful views over the sea and coastal rock formations.",
+      "links": [
+        {
+          "text": "Fjöruhúsið Café",
+          "url": "https://www.facebook.com/fjoruhusid/"
+        }
+      ]
+    },
+    {
+      "time": "14:30 - 15:30",
+      "title": "Vatnshellir Cave Tour",
+      "description": "Descend 35 meters below the surface into an 8,000-year-old lava tube. This guided tour takes you through fascinating underground formations and explains the volcanic forces that created them. Helmets and lights are provided.",
+      "links": [
+        {
+          "text": "Vatnshellir Cave Tours",
+          "url": "https://summitguides.is/vatnshellir-cave-tour/"
+        }
+      ]
+    },
+    {
+      "time": "16:30 - 17:30",
+      "title": "Ytri Tunga Beach (Seal Colony)",
+      "description": "Visit this golden sand beach, one of the few non-black beaches in Iceland and home to a colony of harbor seals. Best seal viewing is at low tide when they gather on the rocks offshore.",
+      "links": [
+        {
+          "text": "Ytri Tunga Beach",
+          "url": "https://www.west.is/en/west/places/nature/ytri-tunga"
+        }
+      ]
+    },
+    {
+      "time": "18:00 - 19:00",
+      "title": "Lanbrotalaug Hot Spring",
+      "description": "Enjoy a soak in this tiny natural hot pot with mountain views. The spring fits only 2-3 people, making it an intimate experience away from crowds. The temperature is perfect for relaxation.",
+      "links": [
+        {
+          "text": "Lanbrotalaug Hot Spring",
+          "url": "https://hotpoticeland.com/lanbrotalaug-hot-spring/"
+        }
+      ]
+    },
+    {
+      "time": "19:30 - 20:00",
+      "title": "Gerðuberg Basalt Columns",
+      "description": "Marvel at this symmetrical wall of hexagonal basalt columns, stretching along a hillside for about 1 km. The uniform columns were created by slow cooling of liquid lava, resulting in this spectacular natural formation.",
+      "links": [
+        {
+          "text": "Gerðuberg Basalt Columns",
+          "url": "https://www.west.is/en/west/places/nature/gerduberg"
+        }
+      ]
+    },
+    {
+      "time": "21:15 - 22:00",
+      "title": "Check in at Airbnb in Akranes",
+      "description": "Arrive at your accommodation in the coastal town of Akranes, located on a peninsula northwest of Reykjavík.",
+      "links": []
+    },
+    {
+      "time": "22:00 - 23:00",
+      "title": "Dinner in Akranes",
+      "description": "End your day with dinner at Galito Restaurant or another local eatery in Akranes. Alternatively, pick up supplies for a self-catered meal at your Airbnb.",
+      "links": [
+        {
+          "text": "Galito Restaurant",
+          "url": "https://www.facebook.com/galitoakranes/"
+        }
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hellnar to Arnarstapi Coastal Path",
+      "description": "One of Iceland's most beautiful coastal hikes, featuring dramatic cliffs, sea arches, and bird nesting sites with the Snæfellsjökull glacier looming in the background."
+    },
+    {
+      "title": "Vatnshellir Cave",
+      "description": "Journey into the earth through an 8,000-year-old lava tube, descending 35 meters underground to witness unique volcanic formations."
+    },
+    {
+      "title": "Djúpalónssandur Beach",
+      "description": "Dramatic black pebble beach with remnants of a British trawler shipwreck and traditional strength-testing stones used by fishermen of the past."
+    },
+    {
+      "title": "Lanbrotalaug Hot Spring",
+      "description": "Intimate natural hot pot experience away from crowds - a perfect place to relax and soak tired muscles while enjoying mountain views."
+    },
+    {
+      "title": "Ytri Tunga Seal Colony",
+      "description": "One of the most reliable places in Iceland to observe harbor seals in their natural habitat, set against a backdrop of one of Iceland's few golden sand beaches."
+    }
+  ],
+  "accommodation": {
+    "name": "Airbnb - Patrycja",
+    "address": "Akranes, Iceland",
+    "roomType": "Room",
+    "cost": "$163.89",
+    "confirmationNumber": "HMRMJ8CNWQ",
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "notes": "Private room in Akranes, a coastal town about 40 minutes from Reykjavík."
+  },
+  "alternatives": [
+    {
+      "title": "Berserkjahraun Lava Field",
+      "description": "4,000-year-old lava field with fascinating Viking saga history and dramatic landscape.",
+      "duration": "1 hour",
+      "cost": "Free",
+      "link": "https://www.west.is/en/west/places/nature/berserkjahraun"
+    },
+    {
+      "title": "Svörtuloft Lighthouse",
+      "description": "Striking orange lighthouse perched on dramatic black cliffs at the westernmost part of the peninsula.",
+      "duration": "30 minutes",
+      "cost": "Free",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/svortuloft"
+    },
+    {
+      "title": "Ingjaldshóll Church",
+      "description": "Historic red-roofed church where Christopher Columbus reportedly visited before his voyage to America.",
+      "duration": "30 minutes",
+      "cost": "Free"
+    },
+    {
+      "title": "Rauðfeldsgjá Gorge",
+      "description": "Narrow canyon with a stream running through it, requiring some scrambling to explore but offering a unique adventure.",
+      "duration": "1 hour",
+      "cost": "Free",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/raudfeldsgia"
+    },
+    {
+      "title": "Búðakirkja Black Church",
+      "description": "Iconic small black church standing alone in a lava field, offering striking photo opportunities.",
+      "duration": "30 minutes",
+      "cost": "Free",
+      "link": "https://guidetoiceland.is/connect-with-locals/regina/the-beautiful-budakirkja-in-snaefellsnes"
+    },
+    {
+      "title": "Akranes Lighthouse",
+      "description": "Historic lighthouse offering panoramic views of the surrounding area and sometimes open for visitor tours.",
+      "duration": "45 minutes",
+      "cost": "500 ISK",
+      "link": "https://www.west.is/en/west/places/infrastructure/akranes-lighthouse"
+    }
+  ],
+  "badWeatherAlternatives": [
+    {
+      "title": "Pakkhús Museum in Ólafsvík",
+      "description": "Regional museum showcasing local history and maritime heritage.",
+      "duration": "1 hour",
+      "cost": "1000 ISK"
+    },
+    {
+      "title": "Visit to Stykkishólmur",
+      "description": "Charming town with several indoor attractions including the Library of Water art installation and Norwegian House museum.",
+      "duration": "2-3 hours",
+      "cost": "Varies by attraction"
+    },
+    {
+      "title": "Bjarnarhöfn Shark Museum",
+      "description": "Learn about the tradition of fermenting shark meat and, if you're brave, try a sample of hákarl (fermented shark).",
+      "duration": "1 hour",
+      "cost": "1800 ISK",
+      "link": "https://www.west.is/en/service/the-shark-museum"
+    },
+    {
+      "title": "Café Hopping in Akranes",
+      "description": "Enjoy fresh pastries and hot drinks at local cafés while waiting out bad weather.",
+      "duration": "1-2 hours",
+      "cost": "1500-2500 ISK"
+    },
+    {
+      "title": "Folk Museum in Akranes",
+      "description": "Museum showing Icelandic daily life through the centuries with historical artifacts and exhibits.",
+      "duration": "1-2 hours",
+      "cost": "1000 ISK",
+      "link": "https://www.west.is/en/service/akranes-museum-centre"
+    }
+  ],
+  "tip": "If visiting Lanbrotalaug hot spring, bring your own towel and prepare to change in your car, as there are no facilities. For the Hellnar to Arnarstapi hike, you can leave your car at either end and hike one-way, then take the public bus back (summer only) or hitchhike, which is common practice and generally safe in Iceland.",
+  "notes": "The Snæfellsnes Peninsula is where Jules Verne set the entrance to the center of the Earth in his novel 'Journey to the Center of the Earth.' The Vatnshellir Cave tour should be booked in advance, especially during high season. If time runs short, prioritize activities at the western end of the peninsula (Djúpalónssandur, Arnarstapi) as they're more unique to this region."
+}
