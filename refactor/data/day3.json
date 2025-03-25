@@ -1,0 +1,229 @@
+{
+  "id": "day3",
+  "dayNumber": 3,
+  "title": "South Coast Wonders",
+  "emoji": "🌊",
+  "date": "July 16, 2025",
+  "route": {
+    "from": "Selfoss",
+    "to": "Norðurfoss"
+  },
+  "image": {
+    "src": "https://github.com/kgangerlm/iceland-data/blob/main/images/day3.png?raw=true",
+    "alt": "Beautiful cascading Skógafoss waterfall with rainbow on the South Coast of Iceland"
+  },
+  "quote": {
+    "text": "Iceland is not a destination but an adventure; not a place to visit but a home to experience.",
+    "author": "Hafdís Huld"
+  },
+  "summary": "A journey along Iceland's stunning South Coast featuring iconic waterfalls you can walk behind, dramatic black sand beaches, and otherworldly landscapes shaped by the powerful forces of fire and ice.",
+  "driving": {
+    "total": {
+      "distance": { "km": 190, "miles": 118 },
+      "time": "2.5 hours"
+    },
+    "segments": [
+      { "from": "Selfoss", "to": "Seljalandsfoss", "distance": { "km": 60, "miles": 37 }, "time": "45 minutes" },
+      { "from": "Seljalandsfoss", "to": "Skógafoss", "distance": { "km": 30, "miles": 19 }, "time": "25 minutes" },
+      { "from": "Skógafoss", "to": "Vikurfjara Beach", "distance": { "km": 45, "miles": 28 }, "time": "40 minutes" },
+      { "from": "Vikurfjara Beach", "to": "Reynisfjara Beach", "distance": { "km": 10, "miles": 6 }, "time": "10 minutes" },
+      { "from": "Reynisfjara Beach", "to": "Dyrhólaey", "distance": { "km": 10, "miles": 6 }, "time": "15 minutes" },
+      { "from": "Dyrhólaey", "to": "The Barn (Norðurfoss)", "distance": { "km": 35, "miles": 22 }, "time": "30 minutes" }
+    ]
+  },
+  "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=16not-P5qZezdTRAHL-W0BhUIyZNpXEw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
+  "schedule": [
+    {
+      "time": "08:00-09:00",
+      "title": "Breakfast at Country Dream guesthouse",
+      "description": "Start your day with breakfast at the guesthouse before meeting up with Heather who joins your journey today.",
+      "link": ""
+    },
+    {
+      "time": "09:00-09:45",
+      "title": "Drive to Seljalandsfoss",
+      "description": "Meet Heather and begin your South Coast adventure with a scenic drive to your first waterfall.",
+      "link": ""
+    },
+    {
+      "time": "09:45-11:00",
+      "title": "Seljalandsfoss Waterfall",
+      "description": "Experience the 200-foot waterfall that you can walk behind for a unique perspective. Waterproof clothing recommended as you will get wet! Parking fee: $7.",
+      "link": "https://www.south.is/en/moya/toy/index/place/seljalandsfoss"
+    },
+    {
+      "time": "11:00-11:25",
+      "title": "Drive to Skógafoss",
+      "description": "Short drive to another iconic South Coast waterfall.",
+      "link": ""
+    },
+    {
+      "time": "11:25-13:00",
+      "title": "Skógafoss Waterfall & Optional Hiking Trail",
+      "description": "Powerful 200-foot waterfall that often creates rainbows on sunny days. Climb the 527 steps to the top for panoramic views. Optional: hike a portion of the Fimmvörðuháls trail that starts here.",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/skogafoss"
+    },
+    {
+      "time": "13:00-14:00",
+      "title": "Lunch at Skógar Museum café",
+      "description": "Enjoy lunch with views of Skógafoss. The museum itself is worth a visit if you have extra time.",
+      "link": "https://www.skogasafn.is/en"
+    },
+    {
+      "time": "14:00-14:40",
+      "title": "Drive to Vikurfjara Black Sand Beach",
+      "description": "Head to this less crowded alternative to Reynisfjara for your first black sand beach experience.",
+      "link": ""
+    },
+    {
+      "time": "14:40-16:00",
+      "title": "Vikurfjara Black Sand Beach",
+      "description": "Dramatic black sand and oceanic views with fewer tourists than nearby Reynisfjara. A friend-recommended location for experiencing Iceland's volcanic beaches.",
+      "link": "https://www.south.is/en/moya/toy/index/place/vikurfjara"
+    },
+    {
+      "time": "16:00-16:10",
+      "title": "Drive to Reynisfjara Black Sand Beach",
+      "description": "Short drive to Iceland's most famous black sand beach.",
+      "link": ""
+    },
+    {
+      "time": "16:10-17:15",
+      "title": "Reynisfjara Black Sand Beach",
+      "description": "Famous for its striking basalt columns and sea stacks. Be extremely cautious of sneaker waves - never turn your back to the ocean.",
+      "link": "https://safetravel.is/blog/staying-safe-reynisfjara-black-beach"
+    },
+    {
+      "time": "17:15-17:30",
+      "title": "Drive to Dyrhólaey Peninsula",
+      "description": "Short drive to a promontory offering spectacular views.",
+      "link": ""
+    },
+    {
+      "time": "17:30-18:30",
+      "title": "Dyrhólaey Peninsula",
+      "description": "Rock arch and lighthouse with excellent puffin watching opportunities in July. Panoramic views of the surrounding coastline.",
+      "link": "https://www.south.is/en/moya/toy/index/place/dyrholaey"
+    },
+    {
+      "time": "18:30-19:00",
+      "title": "Drive to The Barn",
+      "description": "Final drive of the day to your accommodation in Norðurfoss.",
+      "link": ""
+    },
+    {
+      "time": "19:00-20:30",
+      "title": "Dinner at Suður-Vík Restaurant",
+      "description": "Enjoy dinner in the charming village of Vík, known for its seafood and traditional Icelandic dishes.",
+      "link": "https://www.south.is/en/service/sudur-vik-restaurant"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Seljalandsfoss Waterfall",
+      "description": "One of Iceland's most famous waterfalls that you can walk behind for a 360° view. A truly unique experience."
+    },
+    {
+      "title": "Skógafoss Waterfall",
+      "description": "Powerful, iconic waterfall with optional hiking trail and 527 steps leading to spectacular views from the top."
+    },
+    {
+      "title": "Vikurfjara Black Sand Beach",
+      "description": "Less crowded alternative to Reynisfjara that offers the same dramatic black sand landscape and powerful Atlantic waves."
+    },
+    {
+      "title": "Reynisfjara Beach",
+      "description": "Famous black sand beach with remarkable basalt columns and Reynisdrangar sea stacks rising from the ocean."
+    },
+    {
+      "title": "Dyrhólaey Peninsula",
+      "description": "Natural arch, lighthouse, and excellent puffin viewing spot in July with panoramic coastal views."
+    }
+  ],
+  "accommodation": {
+    "name": "The Barn",
+    "address": "Norðurfoss, 871, Iceland",
+    "cost": "$304.77",
+    "roomType": "Double Room, Shared Bathroom, Mountain View",
+    "amenities": ["Free WiFi", "Mountain views", "Shared kitchen", "Free parking"],
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "phone": "779 1166",
+    "website": "https://barnhostel.is/",
+    "notes": "Rustic, converted barn accommodation with great views of the surrounding countryside"
+  },
+  "alternatives": [
+    {
+      "title": "Kvernufoss Waterfall",
+      "description": "Hidden waterfall near Skógafoss with fewer tourists, requiring a short 20-minute hike.",
+      "location": "Near Skógafoss",
+      "cost": "Free",
+      "timing": "1 hour detour",
+      "link": "https://guidetoiceland.is/connect-with-locals/regina/kvernufoss-waterfall-in-south-iceland"
+    },
+    {
+      "title": "Sólheimajökull Glacier Viewpoint",
+      "description": "Easy access glacier viewing area with a short walking path to view the glacier tongue.",
+      "location": "Between Skógafoss and Vík",
+      "cost": "Free",
+      "timing": "1 hour detour",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/solheimajokull"
+    },
+    {
+      "title": "Thakgil Canyon",
+      "description": "Beautiful canyons and green valleys perfect for hiking, just off the Ring Road.",
+      "location": "Near Vík",
+      "cost": "Free (small fee for camping)",
+      "timing": "2-3 hour detour",
+      "link": "https://epiciceland.net/thakgil-guide-best-hiking-trails/"
+    },
+    {
+      "title": "DC-3 Plane Wreck",
+      "description": "Famous crashed US Navy plane from 1973 on black sand beach (requires 45-minute walk each way).",
+      "location": "Between Skógafoss and Vík",
+      "cost": "Free",
+      "timing": "2-3 hour detour",
+      "link": "https://guidetoiceland.is/connect-with-locals/jorunnsg/the-abandoned-dc-plane-on-solheimasandur"
+    },
+    {
+      "title": "Fjaðrárgljúfur Canyon",
+      "description": "Impressive canyon with winding trails and viewing platforms (can be visited tomorrow instead).",
+      "location": "East of Vík",
+      "cost": "Free",
+      "timing": "Late afternoon activity",
+      "link": "https://www.south.is/en/moya/toy/index/place/fjadrargljufur"
+    }
+  ],
+  "badWeatherAlternatives": [
+    {
+      "title": "Skógar Museum",
+      "description": "Extensive folk museum with cultural artifacts and historical buildings.",
+      "location": "Near Skógafoss",
+      "cost": "$15 per person",
+      "link": "https://www.skogasafn.is/en"
+    },
+    {
+      "title": "Vík Wool Factory",
+      "description": "Shop for authentic Icelandic wool products and see how traditional sweaters are made.",
+      "location": "Vík",
+      "cost": "Free to visit",
+      "link": "https://www.south.is/en/service/vikurprjon"
+    },
+    {
+      "title": "Skogar Restaurant & Accommodation",
+      "description": "Cozy restaurant with traditional Icelandic food.",
+      "location": "Near Skógafoss",
+      "cost": "Varies",
+      "link": "https://hoteledda.is/en/hotels/edda-skogar"
+    },
+    {
+      "title": "Lava Show in Vík",
+      "description": "Indoor experience where real lava is poured into a showroom.",
+      "location": "Vík",
+      "cost": "$45 per person",
+      "link": "https://icelandiclavashow.com/"
+    }
+  ],
+  "tip": "Reynisfjara Beach is notoriously dangerous due to 'sneaker waves' that can appear without warning. Always stay at least 20-30 meters from the water's edge, never turn your back to the ocean, and keep children close at all times.",
+  "notes": "Grocery options are limited after leaving Selfoss. There's a small Krónan grocery store in Vík if needed. Seljalandsfoss and the path behind it will get you wet, so waterproof clothing and proper footwear are essential. July is an excellent time for puffin watching at Dyrhólaey, so bring binoculars if you have them."
+}

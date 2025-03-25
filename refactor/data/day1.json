@@ -1,0 +1,280 @@
+{
+  "id": "day1",
+  "dayNumber": 1,
+  "title": "Arrival & Blue Lagoon",
+  "emoji": "♨️",
+  "date": "July 14, 2025",
+  "route": {
+    "from": "Keflavík International Airport",
+    "to": "Reykjavík"
+  },
+  "image": {
+    "src": "https://raw.githubusercontent.com/kgangerlm/iceland-data/refs/heads/main/images/day1.jpg",
+    "alt": "Blue Lagoon geothermal spa with its milky blue waters"
+  },
+  "quote": {
+    "text": "The journey of a thousand miles begins with a single step.",
+    "author": "Lao Tzu"
+  },
+  "summary": "Begin your Icelandic adventure with a rejuvenating visit to the world-famous Blue Lagoon before heading to vibrant Reykjavík. After arriving at Keflavík Airport, you'll pick up your rental car, enjoy breakfast, and then immerse yourself in the milky blue waters of this geothermal wonder. In the afternoon, you'll drive to Reykjavík to check into your centrally located hotel, meet with Heather and family, and explore the city's iconic landmarks including Hallgrímskirkja church and the striking Harpa Concert Hall.",
+  "driving": {
+    "total": {
+      "distance": {
+        "km": 77,
+        "miles": 47.8
+      },
+      "time": "1 hour 20 minutes"
+    },
+    "segments": [
+      {
+        "from": "Keflavík International Airport",
+        "to": "Blue Car Rental",
+        "distance": {
+          "km": 3,
+          "miles": 1.9
+        },
+        "time": "5 minutes"
+      },
+      {
+        "from": "Blue Car Rental",
+        "to": "LiBRARY bistro/bar",
+        "distance": {
+          "km": 5,
+          "miles": 3.1
+        },
+        "time": "10 minutes"
+      },
+      {
+        "from": "LiBRARY bistro/bar",
+        "to": "Blue Lagoon",
+        "distance": {
+          "km": 20,
+          "miles": 12.4
+        },
+        "time": "20 minutes"
+      },
+      {
+        "from": "Blue Lagoon",
+        "to": "Reykjavík (Hotel Fron)",
+        "distance": {
+          "km": 49,
+          "miles": 30.4
+        },
+        "time": "45 minutes"
+      }
+    ]
+  },
+  "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=14SQO22uQjMOhV9Q8E7FtIW0fXMesXQw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
+  "schedule": [
+    {
+      "time": "Morning",
+      "activity": "Arrive at Keflavík International Airport",
+      "description": "Welcome to Iceland! After landing, proceed to collect your luggage.",
+      "duration": "Variable",
+      "cost": null,
+      "link": null
+    },
+    {
+      "time": "Morning",
+      "activity": "Get duty-free liquor at airport",
+      "description": "Take advantage of significantly cheaper prices at the airport duty-free shop.",
+      "duration": "15-20 minutes",
+      "cost": "Variable",
+      "link": null
+    },
+    {
+      "time": "Morning",
+      "activity": "Pick up rental car from Blue Car Rental",
+      "description": "Collect your Suzuki Vitara 4WD from Blue Car Rental (confirmation: RVF6FW).",
+      "duration": "30 minutes",
+      "cost": "$2,148.07 (for entire trip)",
+      "link": "http://bluecarrental.is"
+    },
+    {
+      "time": "Morning",
+      "activity": "Breakfast at LiBRARY bistro/bar",
+      "description": "Enjoy your first meal in Iceland at this trendy bistro near the airport. Kitchen opens at 11:30am.",
+      "duration": "45-60 minutes",
+      "cost": "$25-35 per person",
+      "link": "https://librarybistro.is/"
+    },
+    {
+      "time": "Late Morning",
+      "activity": "Blue Lagoon",
+      "description": "Relax in the world-famous geothermal spa with milky blue waters. Pre-booking essential.",
+      "duration": "2-3 hours",
+      "cost": "$93+ per person (Basic package)",
+      "link": "https://www.bluelagoon.com/"
+    },
+    {
+      "time": "Afternoon",
+      "activity": "Drive to Reykjavík",
+      "description": "Drive approximately 45 minutes to your accommodation in the capital city.",
+      "duration": "45 minutes",
+      "cost": null,
+      "link": null
+    },
+    {
+      "time": "Afternoon",
+      "activity": "Grocery shopping",
+      "description": "Stock up on essentials at Bonus or Kronan supermarkets.",
+      "duration": "30-45 minutes",
+      "cost": "Variable",
+      "link": null
+    },
+    {
+      "time": "Afternoon",
+      "activity": "Check into Hotel Fron",
+      "description": "Check in at your central accommodation located on Laugavegur 22A.",
+      "duration": "15-20 minutes",
+      "cost": "$252.74 (included in booking)",
+      "link": null
+    },
+    {
+      "time": "Afternoon",
+      "activity": "Meet up with Heather and family",
+      "description": "Connect with Heather and family who are already in Reykjavík.",
+      "duration": "Variable",
+      "cost": null,
+      "link": null
+    },
+    {
+      "time": "Evening",
+      "activity": "Explore downtown Reykjavík",
+      "description": "Visit key attractions like Hallgrímskirkja church, Harpa Concert Hall, and Sun Voyager sculpture.",
+      "duration": "1-2 hours",
+      "cost": "Free for exterior views, small fee for Hallgrímskirkja tower",
+      "link": null
+    },
+    {
+      "time": "Evening",
+      "activity": "Dinner with Heather and family",
+      "description": "Enjoy a group dinner at Café Loki or another local restaurant near Hallgrímskirkja.",
+      "duration": "1.5-2 hours",
+      "cost": "$30-50 per person",
+      "link": null
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Blue Lagoon",
+      "description": "One of 25 wonders of the world, this geothermal spa offers a unique experience with its milky blue waters rich in minerals like silica and sulfur. Includes amenities such as a sauna, steam room, and in-water bar.",
+      "image": "https://raw.githubusercontent.com/kgangerlm/iceland-data/refs/heads/main/images/day1.jpg",
+      "link": "https://www.bluelagoon.com/"
+    },
+    {
+      "title": "Hallgrímskirkja Church",
+      "description": "Reykjavík's iconic landmark and the largest church in Iceland, offering panoramic views of the city from its tower.",
+      "image": null,
+      "link": "https://hallgrimskirkja.is/"
+    },
+    {
+      "title": "Harpa Concert Hall",
+      "description": "A stunning modern architectural marvel on Reykjavík's harbor with a distinctive colored glass facade inspired by Iceland's basalt landscape.",
+      "image": null,
+      "link": "https://www.harpa.is/en/"
+    },
+    {
+      "title": "Sun Voyager Sculpture",
+      "description": "An elegant stainless steel sculpture resembling a Viking ship, located along Reykjavík's waterfront with views of Mount Esja.",
+      "image": null,
+      "link": null
+    }
+  ],
+  "accommodation": {
+    "name": "Hotel Fron",
+    "description": "Centrally located hotel on Laugavegur, Reykjavík's main shopping street.",
+    "address": "Laugavegur 22A, Reykjavik, 101 Iceland",
+    "cost": "$252.74",
+    "roomType": "Double/Twin Rooms",
+    "checkIn": "3:00 PM",
+    "checkOut": "12:00 PM (next day)",
+    "amenities": [
+      "Central location",
+      "Free Wi-Fi",
+      "Private bathroom",
+      "Kitchenette"
+    ],
+    "contact": "354 (5) 114666",
+    "website": null
+  },
+  "alternatives": [
+    {
+      "title": "Perlan Museum",
+      "description": "Interactive museum featuring exhibits about Iceland's nature, including a man-made ice cave and planetarium.",
+      "timeOfDay": "Afternoon/Evening",
+      "weather": "Any",
+      "duration": "1-2 hours",
+      "cost": "$40 per adult",
+      "link": "https://perlan.is/"
+    },
+    {
+      "title": "Laugardalslaug Swimming Pool",
+      "description": "The largest swimming pool complex in Reykjavík featuring outdoor pools, hot tubs, and water slides.",
+      "timeOfDay": "Afternoon",
+      "weather": "Any",
+      "duration": "1-2 hours",
+      "cost": "$10 per adult",
+      "link": null
+    },
+    {
+      "title": "Grotta Lighthouse & Beach Walk",
+      "description": "Scenic lighthouse at the tip of the Seltjarnarnes Peninsula with a beautiful coastal walking path.",
+      "timeOfDay": "Evening",
+      "weather": "Fair",
+      "duration": "1 hour",
+      "cost": "Free",
+      "link": null
+    },
+    {
+      "title": "Whales of Iceland Exhibition",
+      "description": "The largest whale exhibition in Europe, featuring life-size models of the various whale species found around Iceland.",
+      "timeOfDay": "Afternoon",
+      "weather": "Any",
+      "duration": "1-1.5 hours",
+      "cost": "$30 per adult",
+      "link": "https://whalesoficeland.is/"
+    },
+    {
+      "title": "FlyOver Iceland",
+      "description": "Immersive flight simulation experience that takes you on a journey over Iceland's most stunning landscapes.",
+      "timeOfDay": "Afternoon/Evening",
+      "weather": "Any",
+      "duration": "35 minutes",
+      "cost": "$45 per adult",
+      "link": "https://www.flyovericeland.com/"
+    }
+  ],
+  "badWeatherAlternatives": [
+    {
+      "title": "National Museum of Iceland",
+      "description": "Comprehensive collection showcasing Iceland's cultural history from settlement to present day.",
+      "duration": "1-2 hours",
+      "cost": "$20 per adult",
+      "link": "https://www.nationalmuseum.is/"
+    },
+    {
+      "title": "Kolaportið Flea Market",
+      "description": "Indoor market offering a variety of Icelandic foods, clothing, antiques, and souvenirs.",
+      "duration": "1 hour",
+      "cost": "Free entry",
+      "link": null
+    },
+    {
+      "title": "Reykjavík Art Museum",
+      "description": "Contemporary art museum spread across three different locations in the city.",
+      "duration": "1-2 hours",
+      "cost": "$20 per adult",
+      "link": "https://listasafnreykjavikur.is/en"
+    },
+    {
+      "title": "Settlement Exhibition",
+      "description": "Archaeological museum built around the remains of a Viking longhouse from the 10th century.",
+      "duration": "1 hour",
+      "cost": "$20 per adult",
+      "link": null
+    }
+  ],
+  "tip": "Purchase alcohol at the duty-free shop in the airport, as prices are significantly cheaper than in town. Also, pre-book your Blue Lagoon visit as it often sells out, especially during peak summer season.",
+  "notes": "Heather and family will meet you in Reykjavík. You should check the opening hours for downtown attractions as some may close early. The Blue Lagoon asks guests to shower before entering, and the silica in the water can be harsh on hair, so apply the provided conditioner before entering the lagoon."
+}
