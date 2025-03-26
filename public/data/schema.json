@@ -1,0 +1,342 @@
+{
+    "type": "object",
+    "required": ["id", "dayNumber", "title", "emoji", "date", "route", "image", "quote", "summary", "shortSummary", "driving", "mapUrl", "schedule", "highlights", "accommodation", "alternatives", "badWeatherAlternatives", "tip", "notes"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for the day"
+      },
+      "dayNumber": {
+        "type": "integer",
+        "description": "Sequential number of the day in the itinerary"
+      },
+      "title": {
+        "type": "string",
+        "description": "Brief title describing the day's activities"
+      },
+      "emoji": {
+        "type": "string",
+        "description": "Emoji representing the day's theme"
+      },
+      "date": {
+        "type": "string",
+        "description": "Date of the trip day (month and day)"
+      },
+      "route": {
+        "type": "object",
+        "required": ["from", "to"],
+        "properties": {
+          "from": {
+            "type": "string",
+            "description": "Starting location/accommodation"
+          },
+          "to": {
+            "type": "string",
+            "description": "Ending location/accommodation"
+          }
+        }
+      },
+      "image": {
+        "type": "object",
+        "required": ["src", "alt"],
+        "properties": {
+          "src": {
+            "type": "string",
+            "description": "URL to an image representing the day"
+          },
+          "alt": {
+            "type": "string",
+            "description": "Alt text for the image"
+          }
+        }
+      },
+      "quote": {
+        "type": "object",
+        "required": ["text", "author"],
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Inspirational quote related to the day's theme"
+          },
+          "author": {
+            "type": "string",
+            "description": "Author of the quote"
+          }
+        }
+      },
+      "summary": {
+        "type": "string",
+        "description": "Detailed overview of the day's itinerary"
+      },
+      "shortSummary": {
+        "type": "string",
+        "description": "Brief overview of the day's itinerary"
+      },
+      "driving": {
+        "type": "object",
+        "required": ["total", "segments"],
+        "properties": {
+          "total": {
+            "type": "object",
+            "required": ["distance", "time"],
+            "properties": {
+              "distance": {
+                "type": "object",
+                "required": ["km", "miles"],
+                "properties": {
+                  "km": {
+                    "type": "number",
+                    "description": "Total distance in kilometers"
+                  },
+                  "miles": {
+                    "type": "number",
+                    "description": "Total distance in miles"
+                  }
+                }
+              },
+              "time": {
+                "type": "string",
+                "description": "Total estimated driving time"
+              }
+            }
+          },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["from", "to", "distance", "time"],
+              "properties": {
+                "from": {
+                  "type": "string",
+                  "description": "Starting point of segment"
+                },
+                "to": {
+                  "type": "string",
+                  "description": "Ending point of segment"
+                },
+                "distance": {
+                  "type": "object",
+                  "required": ["km", "miles"],
+                  "properties": {
+                    "km": {
+                      "type": "number",
+                      "description": "Segment distance in kilometers"
+                    },
+                    "miles": {
+                      "type": "number",
+                      "description": "Segment distance in miles"
+                    }
+                  }
+                },
+                "time": {
+                  "type": "string",
+                  "description": "Estimated driving time for segment"
+                }
+              }
+            }
+          }
+        }
+      },
+      "mapUrl": {
+        "type": "string",
+        "description": "Embedded map URL for the day's route"
+      },
+      "schedule": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["time", "title", "description", "details", "duration", "isFeatured", "isGem", "isUserSelected", "cost", "quickStops", "typeEmoji"],
+          "properties": {
+            "time": {
+              "type": "string",
+              "description": "Start time for the activity"
+            },
+            "title": {
+              "type": "string",
+              "description": "Title of the activity"
+            },
+            "description": {
+              "type": "string",
+              "description": "Description of the activity"
+            },
+            "details": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Bullet points with additional details"
+            },
+            "duration": {
+              "type": "string",
+              "description": "Duration of the activity"
+            },
+            "isFeatured": {
+              "type": "boolean",
+              "description": "Whether the activity is featured"
+            },
+            "isGem": {
+              "type": "boolean",
+              "description": "Whether the activity is a hidden gem"
+            },
+            "isUserSelected": {
+              "type": "boolean",
+              "description": "Whether the activity was selected by the user"
+            },
+            "cost": {
+              "type": ["string", "null"],
+              "description": "Cost of the activity in USD"
+            },
+            "quickStops": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Quick stops along the way"
+            },
+            "typeEmoji": {
+              "type": "string",
+              "description": "Emoji representing the type of activity"
+            }
+          }
+        }
+      },
+      "highlights": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Key highlights for the day"
+      },
+      "accommodation": {
+        "type": "object",
+        "required": ["name", "address", "cost", "roomType", "amenities", "checkIn", "checkOut", "confirmation", "phone", "notes"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the accommodation"
+          },
+          "address": {
+            "type": "string",
+            "description": "Address of the accommodation"
+          },
+          "cost": {
+            "type": "string",
+            "description": "Cost of the accommodation"
+          },
+          "roomType": {
+            "type": "string",
+            "description": "Type of room booked"
+          },
+          "amenities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Amenities provided"
+          },
+          "checkIn": {
+            "type": "string",
+            "description": "Check-in time"
+          },
+          "checkOut": {
+            "type": "string",
+            "description": "Check-out time"
+          },
+          "confirmation": {
+            "type": "string",
+            "description": "Booking confirmation number"
+          },
+          "phone": {
+            "type": "string",
+            "description": "Contact phone number"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Additional notes about the accommodation"
+          }
+        }
+      },
+      "alternatives": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["title", "description", "location", "cost", "isGem", "isUserSelected", "timing", "link"],
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "Title of the alternative activity"
+            },
+            "description": {
+              "type": "string",
+              "description": "Description of the alternative activity"
+            },
+            "location": {
+              "type": "string",
+              "description": "Location of the alternative activity"
+            },
+            "cost": {
+              "type": "string",
+              "description": "Cost of the alternative activity"
+            },
+            "isGem": {
+              "type": "boolean",
+              "description": "Whether the alternative is a hidden gem"
+            },
+            "isUserSelected": {
+              "type": "boolean",
+              "description": "Whether the alternative was selected by the user"
+            },
+            "timing": {
+              "type": "string",
+              "description": "Best time to do the alternative activity"
+            },
+            "link": {
+              "type": "string",
+              "description": "Link to more information about the alternative"
+            }
+          }
+        }
+      },
+      "badWeatherAlternatives": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["title", "description", "location", "cost", "timing", "link"],
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "Title of the bad weather alternative"
+            },
+            "description": {
+              "type": "string",
+              "description": "Description of the bad weather alternative"
+            },
+            "location": {
+              "type": "string",
+              "description": "Location of the bad weather alternative"
+            },
+            "cost": {
+              "type": "string",
+              "description": "Cost of the bad weather alternative"
+            },
+            "timing": {
+              "type": "string",
+              "description": "Best time to do the bad weather alternative"
+            },
+            "link": {
+              "type": "string",
+              "description": "Link to more information about the bad weather alternative"
+            }
+          }
+        }
+      },
+      "tip": {
+        "type": "string",
+        "description": "Helpful tip for the day"
+      },
+      "notes": {
+        "type": "string",
+        "description": "Additional notes for the day"
+      }
+    }
+  }
