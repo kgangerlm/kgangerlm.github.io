@@ -1,0 +1,244 @@
+{
+  "id": "day1",
+  "dayNumber": 1,
+  "title": "Arrival & Blue Lagoon",
+  "emoji": "♨️",
+  "date": "July 14",
+  "route": {
+    "from": "Keflavík International Airport",
+    "to": "Reykjavík"
+  },
+  "image": {
+    "src": "https://raw.githubusercontent.com/kgangerlm/iceland-data/refs/heads/main/images/day1.jpg",
+    "alt": "Geothermal waters of the Blue Lagoon surrounded by volcanic landscape"
+  },
+  "quote": {
+    "text": "The journey of a thousand miles begins with a single step.",
+    "author": "Lao Tzu"
+  },
+  "summary": "Begin your Icelandic adventure with a rejuvenating soak in the world-famous Blue Lagoon. After arriving at Keflavík, you'll collect your rental car and head straight to this geothermal wonder where silica-rich waters offer the perfect remedy for jet lag. Later, explore Reykjavík's iconic landmarks and enjoy dinner with Heather and family, setting the stage for your Ring Road journey.",
+  "driving": {
+    "total": {
+      "distance": { "km": 70.5, "miles": 43.8 },
+      "time": "1 hour 15 minutes"
+    },
+    "segments": [
+      { "from": "Keflavík International Airport", "to": "Blue Lagoon", "distance": { "km": 21.5, "miles": 13.4 }, "time": "25 minutes" },
+      { "from": "Blue Lagoon", "to": "Reykjavík", "distance": { "km": 49, "miles": 30.4 }, "time": "50 minutes" }
+    ]
+  },
+  "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=14SQO22uQjMOhV9Q8E7FtIW0fXMesXQw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
+  "schedule": [
+    {
+      "time": "Morning",
+      "title": "Arrival at Keflavík International Airport",
+      "description": "Touch down in Iceland and begin your adventure. Pick up your rental car from Blue Car Rental and get ready to explore.",
+      "details": [
+        "Remember to pick up duty-free alcohol at the airport (much cheaper than in town)",
+        "Your rental is a Suzuki Vitara 4WD, perfect for exploring Iceland's diverse terrain"
+      ],
+      "duration": "1 hour",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": null,
+      "quickStops": [],
+      "typeEmoji": "🛬"
+    },
+    {
+      "time": "9:00 AM",
+      "title": "Breakfast at LiBRARY bistro/bar",
+      "description": "Enjoy your first Icelandic meal at this convenient airport-area restaurant to fuel up for the day.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "$25 per person",
+      "quickStops": [],
+      "typeEmoji": "🍳"
+    },
+    {
+      "time": "10:30 AM",
+      "title": "Blue Lagoon",
+      "description": "Relax in the mineral-rich geothermal waters of Iceland's most famous spa. The perfect way to recover from your flight and begin your Icelandic adventure.",
+      "details": [
+        "Pre-booking essential - this is one of Iceland's most popular attractions",
+        "The milky blue water is rich in silica and sulfur, known for its healing properties",
+        "Water temperature averages a comfortable 100-104°F (38-40°C)"
+      ],
+      "duration": "2-3 hours",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "$93 per person (basic package)",
+      "quickStops": [],
+      "typeEmoji": "♨️"
+    },
+    {
+      "time": "2:00 PM",
+      "title": "Drive to Reykjavík",
+      "description": "Make your way to Iceland's capital city, where you'll be spending your first night.",
+      "details": [],
+      "duration": "50 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": null,
+      "quickStops": [
+        "Pull over at any viewpoints along the way - the lava fields around the road offer an otherworldly landscape"
+      ],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "3:00 PM",
+      "title": "Grocery Shopping",
+      "description": "Stock up on essentials at Bonus or Kronan supermarkets - great for snacks and supplies for your journey ahead.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": null,
+      "quickStops": [],
+      "typeEmoji": "🛒"
+    },
+    {
+      "time": "3:45 PM",
+      "title": "Check into Hotel Fron",
+      "description": "Settle into your accommodation in downtown Reykjavík, perfectly positioned for exploring the city.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": null,
+      "quickStops": [],
+      "typeEmoji": "🏨"
+    },
+    {
+      "time": "4:30 PM",
+      "title": "Explore Downtown Reykjavík",
+      "description": "Discover the charm of Iceland's capital with a walking tour of key landmarks.",
+      "details": [
+        "Hallgrímskirkja - Iceland's largest church with an observation deck offering panoramic city views ($7.50 for tower access)",
+        "Harpa Concert Hall - Award-winning architectural masterpiece on the harbor",
+        "Sun Voyager sculpture - Dreamboat sculpture symbolizing adventure and progress"
+      ],
+      "duration": "2 hours",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "$7.50 for Hallgrímskirkja tower",
+      "quickStops": [
+        "Reykjavík Street Art - The city is known for its vibrant murals",
+        "Tjörnin (The Pond) - Peaceful lake in the city center with abundant birdlife"
+      ],
+      "typeEmoji": "🏙️"
+    },
+    {
+      "time": "7:00 PM",
+      "title": "Dinner with Heather and Family",
+      "description": "Meet up with Heather and family for a traditional Icelandic meal in downtown Reykjavík.",
+      "details": [
+        "Recommended: Café Loki near Hallgrímskirkja for authentic Icelandic cuisine",
+        "Try traditional dishes like fermented shark (hákarl), rye bread ice cream, or fish stew"
+      ],
+      "duration": "1.5 hours",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "$35 per person",
+      "quickStops": [],
+      "typeEmoji": "🍽️"
+    }
+  ],
+  "highlights": [
+    "Soaking in the mineral-rich waters of the Blue Lagoon",
+    "First glimpse of Iceland's unique volcanic landscape",
+    "Exploring Reykjavík's iconic architecture",
+    "Traditional Icelandic dinner with Heather and family"
+  ],
+  "accommodation": {
+    "name": "Hotel Fron",
+    "address": "Laugavegur 22A, Reykjavik, 101 Iceland",
+    "cost": "$252.74",
+    "roomType": "Double/Twin Rooms",
+    "amenities": ["Central location", "Free Wi-Fi"],
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "confirmation": "73051105801878",
+    "phone": "354 (5) 114666",
+    "notes": "Located on Laugavegur, Reykjavík's main shopping street"
+  },
+  "alternatives": [
+    {
+      "title": "Perlan Museum",
+      "description": "Interactive science museum with exhibitions on Icelandic nature, including a man-made ice cave and planetarium show. Allow 1.5-2 hours for a complete visit.",
+      "location": "Reykjavík, on Öskjuhlíð hill",
+      "cost": "$36 per adult",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon (instead of downtown exploration)",
+      "link": "https://perlan.is/en/"
+    },
+    {
+      "title": "Laugardalslaug Swimming Pool",
+      "description": "Iceland's largest swimming pool complex with hot tubs, steam baths, and water slides. Experience the Icelandic bathing culture like a local.",
+      "location": "Reykjavík, 5-minute drive from downtown",
+      "cost": "$9 per person",
+      "isGem": true,
+      "isUserSelected": false,
+      "timing": "Late afternoon",
+      "link": "https://reykjavik.is/en/laugardalslaug"
+    },
+    {
+      "title": "Grotta Lighthouse Beach Walk",
+      "description": "Scenic coastal area with a lighthouse at the tip of Seltjarnarnes Peninsula. Great for bird watching and northern lights in winter.",
+      "location": "Seltjarnarnes (western Reykjavík)",
+      "cost": "Free",
+      "isGem": true,
+      "isUserSelected": false,
+      "timing": "Evening (after dinner)",
+      "link": ""
+    },
+    {
+      "title": "Reykjavík Roasters Coffee Experience",
+      "description": "One of the best coffee shops in Iceland with artisanal approach to brewing. Popular with locals and coffee enthusiasts.",
+      "location": "Multiple locations in downtown Reykjavík",
+      "cost": "$5-8 per coffee",
+      "isGem": true,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://reykjavikroasters.is/"
+    }
+  ],
+  "badWeatherAlternatives": [
+    {
+      "title": "National Museum of Iceland",
+      "description": "Comprehensive collection showcasing Iceland's cultural history from settlement to present day. The perfect rainy day activity.",
+      "location": "Reykjavík, near the University of Iceland",
+      "cost": "$18 per adult",
+      "timing": "Afternoon",
+      "link": "https://www.nationalmuseum.is/"
+    },
+    {
+      "title": "Shopping on Laugavegur",
+      "description": "Browse Reykjavík's main shopping street for Icelandic wool products, designer items, and souvenirs.",
+      "location": "Downtown Reykjavík",
+      "cost": "Varies",
+      "timing": "Afternoon",
+      "link": ""
+    },
+    {
+      "title": "Sægreifinn (The Sea Baron)",
+      "description": "Cozy harbor restaurant famous for its lobster soup and fresh fish skewers. A local favorite.",
+      "location": "Old Harbor, Reykjavík",
+      "cost": "$25-30 per person",
+      "timing": "Lunch or dinner",
+      "link": ""
+    }
+  ],
+  "tip": "The Blue Lagoon is less crowded in the morning and late evening. If you arrive early, you'll have more space to enjoy the experience before the midday rush.",
+  "notes": "Today is focused on relaxation after your flight, with minimal physical activity. The Blue Lagoon is the perfect antidote to jet lag and will set the tone for your Iceland adventure. Remember to pack your swimwear in your carry-on so you can head straight to the Blue Lagoon from the airport."
+}

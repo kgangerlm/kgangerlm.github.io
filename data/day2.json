@@ -1,0 +1,275 @@
+{
+  "id": "day2",
+  "dayNumber": 2,
+  "title": "Golden Circle & Hot Springs",
+  "emoji": "♨️",
+  "date": "July 15",
+  "route": {
+    "from": "Reykjavík",
+    "to": "Selfoss"
+  },
+  "image": {
+    "src": "https://github.com/kgangerlm/iceland-data/blob/main/images/day2.jpg?raw=true",
+    "alt": "Golden Circle landscape with geysir eruption and dramatic clouds"
+  },
+  "quote": {
+    "text": "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.",
+    "author": "Marcel Proust"
+  },
+  "summary": "Today you'll explore Iceland's famous Golden Circle, a route that showcases some of the country's most spectacular natural wonders. From the historical Þingvellir National Park where tectonic plates meet, to the powerful Gullfoss waterfall and erupting Strokkur geyser, today offers iconic Icelandic landscapes. End your day with a relaxing soak in a natural hot river after a scenic hike through geothermal landscapes.",
+  "driving": {
+    "total": {
+      "distance": { "km": 271, "miles": 168 },
+      "time": "3 hours 40 minutes"
+    },
+    "segments": [
+      { "from": "Hotel Frón, Reykjavík", "to": "Þingvellir National Park", "distance": { "km": 48, "miles": 30 }, "time": "50 minutes" },
+      { "from": "Þingvellir National Park", "to": "Geysir Geothermal Area", "distance": { "km": 60, "miles": 37 }, "time": "40 minutes" },
+      { "from": "Geysir Geothermal Area", "to": "Gullfoss Waterfall", "distance": { "km": 10, "miles": 6 }, "time": "10 minutes" },
+      { "from": "Gullfoss Waterfall", "to": "Reykjadalur Hot Spring", "distance": { "km": 43, "miles": 27 }, "time": "40 minutes" },
+      { "from": "Reykjadalur Hot Spring", "to": "Tungnaárfellsfoss", "distance": { "km": 50, "miles": 31 }, "time": "1 hour" },
+      { "from": "Tungnaárfellsfoss", "to": "Country Dream Guesthouse", "distance": { "km": 60, "miles": 37 }, "time": "1 hour" }
+    ]
+  },
+  "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=14SQO22uQjMOhV9Q8E7FtIW0fXMesXQw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
+  "schedule": [
+    {
+      "time": "07:30",
+      "title": "Breakfast at Hotel Frón",
+      "description": "Enjoy breakfast at your hotel before departing for the Golden Circle. Early departure recommended to beat the crowds at popular sites.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "Included with stay",
+      "quickStops": [],
+      "typeEmoji": "🍳"
+    },
+    {
+      "time": "08:30",
+      "title": "Drive to Þingvellir National Park",
+      "description": "Head east from Reykjavík to your first Golden Circle destination.",
+      "details": [],
+      "duration": "50 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "09:30",
+      "title": "Þingvellir National Park",
+      "description": "Explore this UNESCO World Heritage site where you can walk between the North American and Eurasian tectonic plates. Visit the historic parliament site, Almannagjá gorge, and enjoy panoramic views across the park.",
+      "details": [
+        "Site of Iceland's first parliament established in 930 AD",
+        "Walk in the rift between two continental plates",
+        "Visit Öxarárfoss waterfall within the park"
+      ],
+      "duration": "2 hours",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free entry (parking fee: 750 ISK / $5.50)",
+      "quickStops": [
+        "Law Rock viewpoint - historically where laws were announced",
+        "Þingvallakirkja - small church dating from 1859"
+      ],
+      "typeEmoji": "🏞️"
+    },
+    {
+      "time": "12:00",
+      "title": "Geysir Geothermal Area",
+      "description": "Witness Strokkur geyser erupting every 5-7 minutes, sending water up to 30 meters in the air. Explore the surrounding geothermal area with bubbling mud pools and steaming vents.",
+      "details": [
+        "Strokkur erupts reliably every 5-7 minutes",
+        "The original Great Geysir (now mostly dormant) gave all geysers their name",
+        "Various colored hot springs and mud pots to observe"
+      ],
+      "duration": "1 hour",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free entry",
+      "quickStops": [
+        "Geysir Center gift shop and restaurant"
+      ],
+      "typeEmoji": "💦"
+    },
+    {
+      "time": "13:30",
+      "title": "Gullfoss Waterfall",
+      "description": "Experience the raw power of this massive two-tiered waterfall as it thunders down into a rugged canyon. Multiple viewing platforms allow you to appreciate the falls from different angles.",
+      "details": [
+        "Two-stage waterfall dropping 32 meters (105 ft) into a 70-meter deep canyon",
+        "On sunny days, rainbows often appear in the mist",
+        "In winter, parts of the falls freeze creating dramatic ice formations"
+      ],
+      "duration": "1 hour",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free entry",
+      "quickStops": [],
+      "typeEmoji": "🌊"
+    },
+    {
+      "time": "14:45",
+      "title": "Lunch at Friðheimar Tomato Greenhouse",
+      "description": "Enjoy a unique dining experience at this working tomato farm where you'll eat lunch surrounded by growing tomato plants. Their famous tomato soup with fresh-baked bread is a highlight.",
+      "details": [],
+      "duration": "1 hour 15 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "$25-30 per person",
+      "quickStops": [],
+      "typeEmoji": "🍅"
+    },
+    {
+      "time": "16:30",
+      "title": "Reykjadalur Hot Spring Thermal River Hike",
+      "description": "Take a moderate 3-mile round trip hike (approximately 2 hours total) through a geothermal area to reach a natural hot river where you can bathe in the warm waters. This was highly recommended by your friends as a highlight experience.",
+      "details": [
+        "3-mile (5 km) round trip hike with 200m elevation gain",
+        "Multiple steaming vents and bubbling mud pots along the trail",
+        "The river has different temperature zones - move upstream for hotter water",
+        "Simple wooden platforms for changing clothes",
+        "Bring towels and water shoes"
+      ],
+      "duration": "3 hours",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🥾"
+    },
+    {
+      "time": "20:00",
+      "title": "Check in at Country Dream Guesthouse",
+      "description": "Arrive at your accommodation in Selfoss and get settled for the evening.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🏠"
+    },
+    {
+      "time": "20:30",
+      "title": "Dinner in Selfoss",
+      "description": "Enjoy dinner at Tryggvaskáli, a historical restaurant in a renovated bridge house along the river. This restaurant is known for its locally-sourced ingredients and Icelandic specialties.",
+      "details": [],
+      "duration": "1 hour 30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "$35-45 per person",
+      "quickStops": [],
+      "typeEmoji": "🍽️"
+    }
+  ],
+  "highlights": [
+    "Witnessing Strokkur geyser erupt",
+    "The thundering cascade of Gullfoss waterfall",
+    "Bathing in the natural hot river at Reykjadalur",
+    "Walking between two continents at Þingvellir"
+  ],
+  "accommodation": {
+    "name": "Country Dream guesthouse",
+    "address": "Langholt 2, Selfoss, 0801 Iceland",
+    "cost": "$216.97",
+    "roomType": "Basic Studio",
+    "amenities": ["Kitchen", "Free parking", "Wi-Fi"],
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "confirmation": "73051117986889",
+    "phone": "354 (354) 6592030",
+    "notes": "Stock up on groceries in Selfoss as it's the largest town before continuing east."
+  },
+  "alternatives": [
+    {
+      "title": "Tungnaárfellsfoss Waterfall",
+      "description": "One of Iceland's widest waterfalls, yet seldom visited. Accessible via Road 208 (former F208 North), near Sigöldugljúfur Canyon.",
+      "location": "Approximately 1 hour from Reykjadalur",
+      "cost": "Free",
+      "isGem": true,
+      "isUserSelected": false,
+      "timing": "Afternoon/Evening",
+      "link": "https://epiciceland.net/hidden-gems-in-iceland/"
+    },
+    {
+      "title": "Secret Lagoon (Gamla Laugin)",
+      "description": "Historic natural hot spring in Flúðir with facilities. A less crowded alternative to Blue Lagoon with a more natural setting.",
+      "location": "On the way between Gullfoss and Selfoss",
+      "cost": "$25 per person",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://secretlagoon.is/"
+    },
+    {
+      "title": "Kerið Crater Lake",
+      "description": "A 3,000-year-old volcanic crater lake with vivid blue water contrasting against red volcanic rock. Easy walking path around the rim and down to the water.",
+      "location": "Near Selfoss, on the Golden Circle route",
+      "cost": "400 ISK ($3) per person",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": ""
+    },
+    {
+      "title": "Faxi Waterfall",
+      "description": "A smaller but beautiful waterfall near the Golden Circle route. Less crowded than the main attractions with a salmon ladder visible on one side.",
+      "location": "Between Geysir and Selfoss",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": ""
+    },
+    {
+      "title": "Brúarfoss Waterfall",
+      "description": "Known as 'Iceland's Bluest Waterfall.' A 7 km (4.3 mile) round trip hike leads to this stunning blue waterfall. Allow 2.5-3 hours for the complete hike.",
+      "location": "Near Geysir area",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Morning",
+      "link": ""
+    }
+  ],
+  "badWeatherAlternatives": [
+    {
+      "title": "Laugarvatn Fontana",
+      "description": "Geothermal baths, steam rooms, and hot pools. They also offer a unique geothermal bread-making experience.",
+      "location": "On the way back from Gullfoss to Selfoss",
+      "cost": "$30-35 per person",
+      "timing": "Afternoon",
+      "link": "https://www.fontana.is/"
+    },
+    {
+      "title": "Ljósafossstöð Power Station Visitor Center",
+      "description": "Interactive exhibition about renewable energy in Iceland, including hands-on displays about hydroelectric, geothermal, and wind power.",
+      "location": "Near Þingvellir",
+      "cost": "Free",
+      "timing": "Morning or Afternoon",
+      "link": ""
+    },
+    {
+      "title": "Efstidalur II Farm",
+      "description": "Farm-to-table restaurant and ice cream barn where you can enjoy dairy products while watching the cows that produced the milk.",
+      "location": "Between Þingvellir and Geysir",
+      "cost": "$10-20 per person",
+      "timing": "Lunch",
+      "link": "https://efstidalur.is/"
+    }
+  ],
+  "tip": "Pack a swimsuit, towel, and water shoes for Reykjadalur. There are no changing facilities except for simple wooden platforms, so consider wearing your swimsuit under your clothes if the weather is good.",
+  "notes": "The Golden Circle is Iceland's most popular tourist route, so early morning departures help avoid crowds. If it's raining, consider postponing Reykjadalur and substituting one of the indoor alternatives."
+}

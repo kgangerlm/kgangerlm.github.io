@@ -1,0 +1,315 @@
+{
+  "id": "day4",
+  "dayNumber": 4,
+  "title": "Glacier Experiences",
+  "emoji": "🧊",
+  "date": "July 17",
+  "route": {
+    "from": "Norðurfoss",
+    "to": "Höfn"
+  },
+  "image": {
+    "src": "https://raw.githubusercontent.com/kgangerlm/iceland-data/refs/heads/main/images/day4.webp",
+    "alt": "Glacial lagoon with floating ice chunks and mountains in the background"
+  },
+  "quote": {
+    "text": "In Iceland, you can see the contours of the mountains wherever you go, and the swell of the hills, and always beyond that the horizon. And there's this strange thing: you're never sort of hidden; you always feel exposed in that landscape.",
+    "author": "Hannah Kent"
+  },
+  "summary": "Today you'll journey through Iceland's glacier country, experiencing the magnificent ice formations that give the country its name. From the deep canyon of Fjaðrárgljúfur to the iconic Jökulsárlón Glacier Lagoon where icebergs float serenely before washing up on Diamond Beach, this day showcases Iceland's dramatic relationship with ice. Get up close to these ancient glaciers on a boat tour among the icebergs for a truly unforgettable experience.",
+  "driving": {
+    "total": {
+      "distance": { "km": 331, "miles": 206 },
+      "time": "4 hours 35 minutes"
+    },
+    "segments": [
+      { "from": "The Barn, Norðurfoss", "to": "Fjaðrárgljúfur Canyon", "distance": { "km": 50, "miles": 31 }, "time": "45 minutes" },
+      { "from": "Fjaðrárgljúfur Canyon", "to": "Skaftafell (Svartifoss Hike)", "distance": { "km": 60, "miles": 37 }, "time": "45 minutes" },
+      { "from": "Skaftafell", "to": "Strútsfoss Waterfall", "distance": { "km": 70, "miles": 43 }, "time": "1 hour" },
+      { "from": "Strútsfoss Waterfall", "to": "Jökulsárlón Glacier Lagoon", "distance": { "km": 80, "miles": 50 }, "time": "1 hour" },
+      { "from": "Jökulsárlón", "to": "Diamond Beach", "distance": { "km": 1, "miles": 0.6 }, "time": "5 minutes" },
+      { "from": "Diamond Beach", "to": "Fjallajökull Viewpoint", "distance": { "km": 30, "miles": 19 }, "time": "30 minutes" },
+      { "from": "Fjallajökull Viewpoint", "to": "Airbnb in Höfn", "distance": { "km": 40, "miles": 25 }, "time": "30 minutes" }
+    ]
+  },
+  "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1g9ZYp95N7OgXC8GwSDtvVXbikv742fo&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
+  "schedule": [
+    {
+      "time": "08:00",
+      "title": "Breakfast at The Barn",
+      "description": "Enjoy breakfast at your accommodation before starting your glacier adventure day.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🍳"
+    },
+    {
+      "time": "08:45",
+      "title": "Drive to Fjaðrárgljúfur Canyon",
+      "description": "Head east along the Ring Road to your first destination of the day.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "09:30",
+      "title": "Fjaðrárgljúfur Canyon",
+      "description": "Explore this spectacular 328-foot deep canyon with its winding river and moss-covered walls. Follow the walking paths along the rim for incredible views down into the serpentine gorge.",
+      "details": [
+        "100-meter (328-foot) deep canyon formed during the last Ice Age",
+        "Multiple viewing platforms connected by walking paths",
+        "Featured in Justin Bieber's 'I'll Show You' music video",
+        "The name translates to 'Feather Canyon' in English"
+      ],
+      "duration": "1 hour",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🏞️"
+    },
+    {
+      "time": "10:45",
+      "title": "Drive to Skaftafell",
+      "description": "Continue east to Skaftafell, part of the vast Vatnajökull National Park.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [
+        "Skeiðará Bridge Monument - remnants of a bridge destroyed in a glacial flood"
+      ],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "11:30",
+      "title": "Svartifoss Waterfall Hike",
+      "description": "Embark on a 3-mile round trip, moderate difficulty hike to see the unique Svartifoss waterfall with its backdrop of black basalt columns. The trail also offers excellent views of surrounding glaciers.",
+      "details": [
+        "3-mile (5 km) round trip hike with 400 feet of elevation gain",
+        "Distinctive waterfall framed by hexagonal basalt columns",
+        "The columnar basalt inspired the design of Hallgrímskirkja church in Reykjavík",
+        "Several viewpoints along the trail offer glacier views"
+      ],
+      "duration": "2 hours",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free (parking fee: 750 ISK / $5.50)",
+      "quickStops": [],
+      "typeEmoji": "🥾"
+    },
+    {
+      "time": "13:30",
+      "title": "Lunch at Visitor Center",
+      "description": "Enjoy lunch at the Skaftafell Visitor Center café, offering sandwiches, soups, and other light meals.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "$15-25 per person",
+      "quickStops": [],
+      "typeEmoji": "🍽️"
+    },
+    {
+      "time": "14:15",
+      "title": "Drive to Jökulsárlón Glacier Lagoon",
+      "description": "Due to time constraints, we'll skip Strútsfoss Waterfall and head directly to the glacier lagoon for your pre-booked boat tour.",
+      "details": [],
+      "duration": "1 hour",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "15:30",
+      "title": "Zodiac Boat Tour of Jökulsárlón Glacier Lagoon",
+      "description": "Experience the otherworldly beauty of the glacier lagoon up-close on a zodiac boat tour, navigating between floating icebergs and possibly spotting seals. The zodiac boats can get closer to the glacier face than the larger amphibian boats.",
+      "details": [
+        "Pre-booked zodiac boat tour lasting approximately 1 hour",
+        "Get much closer to the glacier and icebergs than on land",
+        "Opportunity to see seals resting on ice chunks",
+        "Professional guide explains glacier formation and recent changes due to climate change",
+        "Dress warmly - you'll be provided with a flotation suit"
+      ],
+      "duration": "1 hour 30 minutes (including preparation time)",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "$95 per person (pre-booked)",
+      "quickStops": [],
+      "typeEmoji": "🚤"
+    },
+    {
+      "time": "17:15",
+      "title": "Diamond Beach Exploration",
+      "description": "Visit the famous black sand beach across from the lagoon where ice chunks wash up on shore, creating a stunning contrast of crystal ice against black sand.",
+      "details": [
+        "Chunks of glacial ice wash up on the black volcanic beach",
+        "The ice appears like diamonds against the dark sand",
+        "Perfect for photography, especially around sunset",
+        "The ice pieces constantly change as new pieces wash ashore"
+      ],
+      "duration": "1 hour",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🏝️"
+    },
+    {
+      "time": "18:30",
+      "title": "Fjallajökull Glacier Viewpoint",
+      "description": "Stop at this less-visited glacier viewpoint for a different perspective on Iceland's ice caps.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🏔️"
+    },
+    {
+      "time": "19:30",
+      "title": "Check in at Airbnb near Höfn",
+      "description": "Arrive at your accommodation and settle in for the evening.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🏠"
+    },
+    {
+      "time": "20:15",
+      "title": "Dinner at Pakkhús Restaurant",
+      "description": "Enjoy dinner at this popular restaurant in Höfn known for its fresh langoustine (Icelandic lobster) and other seafood dishes.",
+      "details": [],
+      "duration": "1 hour 30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "$35-55 per person",
+      "quickStops": [],
+      "typeEmoji": "🍽️"
+    }
+  ],
+  "highlights": [
+    "Zodiac boat tour among floating icebergs at Jökulsárlón Glacier Lagoon",
+    "Walking among 'diamonds' on Diamond Beach",
+    "Hiking to the unique basalt column waterfall Svartifoss",
+    "The serpentine beauty of Fjaðrárgljúfur Canyon"
+  ],
+  "accommodation": {
+    "name": "Airbnb in Jökulsárlón/Höfn",
+    "address": "Seljavöllum, Höfn í Hornafirði 781, Iceland",
+    "cost": "$357.52",
+    "roomType": "Double or twin",
+    "amenities": ["Kitchen", "Wi-Fi", "Free parking"],
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "confirmation": "HMXME38BS5",
+    "phone": "",
+    "notes": "Höfn is known as the langoustine capital of Iceland, so seafood is a must-try while staying here."
+  },
+  "alternatives": [
+    {
+      "title": "Strútsfoss Waterfall",
+      "description": "Even larger red strata waterfall than the famous Hengifoss. Accessible with a regular car in summer via Road 935 to Sturluflöt farm, followed by an easy family-friendly hike.",
+      "location": "On the way to Jökulsárlón",
+      "cost": "Free",
+      "isGem": true,
+      "isUserSelected": true,
+      "timing": "Afternoon (would require 3 extra hours total)",
+      "link": "https://epiciceland.net/hidden-gems-in-iceland/#4_Strutsfoss_waterfall"
+    },
+    {
+      "title": "Hofskirkja Turf Church",
+      "description": "One of Iceland's last traditional turf churches, built in 1884. This picturesque church with a grass-covered roof is both historically and architecturally significant.",
+      "location": "Near Skaftafell",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": ""
+    },
+    {
+      "title": "Stokknes/Vestrahorn",
+      "description": "Dramatic mountain backdrop with black sand beach. One of Iceland's most photogenic mountains, especially at sunrise or sunset.",
+      "location": "30 minutes east of Höfn",
+      "cost": "800 ISK ($6) per person",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Evening or next morning",
+      "link": ""
+    },
+    {
+      "title": "Heinabergslón Glacial Lagoon",
+      "description": "Less crowded alternative to Jökulsárlón for kayaking among icebergs. Requires a guided tour but offers a more intimate glacier experience.",
+      "location": "Between Jökulsárlón and Höfn",
+      "cost": "$85-120 per person for kayak tour",
+      "isGem": true,
+      "isUserSelected": false,
+      "timing": "Afternoon (advance booking required)",
+      "link": ""
+    },
+    {
+      "title": "Hoffelsjökull Glacier Viewpoint",
+      "description": "Lesser-known glacier viewpoint offering close-up views of the glacier from a short walking path.",
+      "location": "Near Höfn",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Evening or next morning",
+      "link": ""
+    }
+  ],
+  "badWeatherAlternatives": [
+    {
+      "title": "Höfn Swimming Pool",
+      "description": "Indoor and outdoor swimming pools with hot tubs - a great way to relax in bad weather.",
+      "location": "Höfn",
+      "cost": "1000 ISK ($7) per person",
+      "timing": "Evening",
+      "link": ""
+    },
+    {
+      "title": "Vatnajökull Visitor Center",
+      "description": "Learn about the Vatnajökull glacier and national park through interactive exhibits and displays.",
+      "location": "Höfn",
+      "cost": "Free",
+      "timing": "Afternoon",
+      "link": "https://www.vatnajokulsthjodgardur.is/en"
+    },
+    {
+      "title": "Þórbergssetur Museum",
+      "description": "Museum dedicated to the writer Þórbergur Þórðarson with exhibits on local history and culture.",
+      "location": "Between Jökulsárlón and Höfn",
+      "cost": "1500 ISK ($11) per person",
+      "timing": "Afternoon",
+      "link": "https://thorbergssetur.is/"
+    }
+  ],
+  "tip": "Even in July, dress warmly for the Jökulsárlón boat tour. The temperature near the glacier can be significantly colder than elsewhere, and the wind on the water adds an extra chill factor.",
+  "notes": "This is a day with multiple highlight experiences but also significant driving. We've prioritized the pre-booked Zodiac tour over Strútsfoss Waterfall, but you could visit Strútsfoss if you leave earlier in the morning. Höfn is known for its langoustine (Icelandic lobster), so consider trying it for dinner."
+}
