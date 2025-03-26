@@ -1,4 +1,5 @@
 {
+  "$schema": "schema.json",
   "id": "day6",
   "dayNumber": 6,
   "title": "Borgarfjörður Eystri Exploration",

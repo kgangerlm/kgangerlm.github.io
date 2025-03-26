@@ -1,4 +1,5 @@
 {
+  "$schema": "schema.json",
   "id": "day2",
   "dayNumber": 2,
   "title": "Golden Circle & Hot Springs",

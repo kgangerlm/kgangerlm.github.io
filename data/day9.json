@@ -1,4 +1,5 @@
 {
+  "$schema": "schema.json",
   "id": "day9",
   "dayNumber": 9,
   "title": "Troll Peninsula to Snæfellsnes",

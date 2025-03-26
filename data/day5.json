@@ -1,4 +1,5 @@
 {
+  "$schema": "schema.json",
   "id": "day5",
   "dayNumber": 5,
   "title": "East Fjords",
@@ -17,20 +18,61 @@
     "author": "John Muir"
   },
   "shortSummary": "Wind through Iceland's East Fjords with their dramatic coastal roads, picturesque fishing villages, and hidden waterfalls, experiencing a more authentic side of Iceland away from the crowds.",
-  "summary": "Journey through Iceland's spectacular East Fjords, a region of winding coastal roads, dramatic mountain vistas, and colorful fishing villages. Today's adventure takes you from the lobster capital of Höfn to the remote Borgarfjörður Eystri, with stunning photo stops, hidden waterfalls, and mineral collections along the way. The East Fjords offer a more authentic glimpse of Iceland away from the crowds, with landscapes that rival the country's more famous attractions.",
+  "summary": "Journey through Iceland's spectacular East Fjords, a region of winding coastal roads, dramatic mountain vistas, and colorful fishing villages. Today's adventure takes you from the lobster capital of Höfn to the remote Borgarfjörður Eystri, with stunning photo stops at iconic locations like Vestrahorn mountain and Hvalnes Lighthouse. Enjoy a more relaxed pace with scenic viewpoints and Petra's unique stone collection. The East Fjords offer a more authentic glimpse of Iceland away from the crowds, with landscapes that rival the country's more famous attractions.",
   "driving": {
     "total": {
-      "distance": { "km": 435, "miles": 270 },
-      "time": "6 hours 15 minutes"
+      "distance": {
+        "km": 320,
+        "miles": 199
+      },
+      "time": "5 hours"
     },
     "segments": [
-      { "from": "Airbnb in Höfn", "to": "Vestrahorn/Stokksnes", "distance": { "km": 25, "miles": 16 }, "time": "30 minutes" },
-      { "from": "Vestrahorn", "to": "East Fjords Coastal Drive", "distance": { "km": 150, "miles": 93 }, "time": "2 hours 30 minutes" },
-      { "from": "Djúpivogur village", "to": "The Waterfall Circle", "distance": { "km": 60, "miles": 37 }, "time": "1 hour" },
-      { "from": "The Waterfall Circle", "to": "Strútsfoss Waterfall", "distance": { "km": 50, "miles": 31 }, "time": "1 hour" },
-      { "from": "Strútsfoss", "to": "Petra's Stone Collection", "distance": { "km": 70, "miles": 43 }, "time": "1 hour" },
-      { "from": "Petra's Stone Collection", "to": "Vestdalsfossar", "distance": { "km": 30, "miles": 19 }, "time": "30 minutes" },
-      { "from": "Vestdalsfossar", "to": "Alfheimar Hotel", "distance": { "km": 50, "miles": 31 }, "time": "45 minutes" }
+      {
+        "from": "Airbnb in Höfn",
+        "to": "Vestrahorn/Stokksnes",
+        "distance": {
+          "km": 25,
+          "miles": 16
+        },
+        "time": "30 minutes"
+      },
+      {
+        "from": "Vestrahorn",
+        "to": "Hvalnes Lighthouse",
+        "distance": {
+          "km": 30,
+          "miles": 19
+        },
+        "time": "30 minutes"
+      },
+      {
+        "from": "Hvalnes Lighthouse",
+        "to": "Djúpivogur",
+        "distance": {
+          "km": 100,
+          "miles": 62
+        },
+        "time": "1 hour 45 minutes"
+      },
+      {
+        "from": "Djúpivogur",
+        "to": "Petra's Stone Collection",
+        "distance": {
+          "km": 80,
+          "miles": 50
+        },
+        "time": "1 hour 30 minutes"
+      },
+      {
+        "from": "Petra's Stone Collection",
+        "to": "Alfheimar Hotel",
+        "distance": {
+          "km": 85,
+          "miles": 53
+        },
+        "time": "1 hour 15 minutes"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1eRRn2Q6RY1QEGECxiQC3F3eXJZ4QbFs&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -81,8 +123,40 @@
     },
     {
       "time": "10:00",
+      "title": "Drive to Hvalnes Lighthouse",
+      "description": "Head to this iconic orange lighthouse along the coast.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "10:30",
+      "title": "Hvalnes Lighthouse",
+      "description": "Visit this striking orange lighthouse perched on dramatic black beaches with views of Eystrahorn mountain. The lighthouse offers excellent photo opportunities and a glimpse into Iceland's maritime history.",
+      "details": [
+        "Distinctive bright orange lighthouse built in 1954",
+        "Dramatic contrast against black sand beaches and mountains",
+        "Great views of Eystrahorn mountain in the distance",
+        "Located on a narrow peninsula with rough seas on both sides",
+        "One of the most photogenic lighthouses in Iceland"
+      ],
+      "duration": "30 minutes",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🏞️"
+    },
+    {
+      "time": "11:00",
       "title": "East Fjords Coastal Drive",
-      "description": "Begin the spectacular drive along the East Fjords, one of Iceland's most scenic coastal routes. The winding road takes you through deep fjords, past towering mountains, and through small fishing villages.",
+      "description": "Continue the spectacular drive along the East Fjords, one of Iceland's most scenic coastal routes. The winding road takes you through deep fjords, past towering mountains, and through small fishing villages.",
       "details": [
         "Dramatic scenery with mountains plunging into the sea",
         "Multiple viewpoints perfect for photo stops",
@@ -90,20 +164,21 @@
         "Much less crowded than other parts of Iceland",
         "Road occasionally narrows to one lane but traffic is light"
       ],
-      "duration": "2 hours 30 minutes",
+      "duration": "1 hour 45 minutes",
       "isFeatured": true,
       "isGem": false,
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [
-        "Almannaskarð Pass - panoramic viewpoint just outside Höfn",
-        "Eystrahorn mountain - dramatic peak visible from the road",
-        "Hvalnes Lighthouse - iconic orange lighthouse on a black beach"
+        "Lækjavík Coast - picturesque black sand beach with mountain views (15 minutes)",
+        "Vattarnes Sea cliffs - dramatic cliffs with crashing waves and seabird colonies (15 minutes)",
+        "Saxa Sea Geysir - natural rock formation where waves create geyser-like eruptions (15 minutes)",
+        "Almannaskarð Pass - panoramic viewpoint with fjord views (10 minutes)"
       ],
       "typeEmoji": "🚗"
     },
     {
-      "time": "12:30",
+      "time": "13:00",
       "title": "Lunch in Djúpivogur",
       "description": "Stop for lunch in this charming fishing village, known for its artistic flair and relaxed atmosphere. The Við Voginn restaurant offers fresh local seafood and other Icelandic specialties.",
       "details": [],
@@ -113,31 +188,27 @@
       "isUserSelected": false,
       "cost": "$20-30 per person",
       "quickStops": [
-        "Eggin í Gleðivík (The Eggs of Merry Bay) - outdoor art installation of 34 stone eggs representing local bird species"
+        "Eggin í Gleðivík (The Eggs of Merry Bay) - outdoor art installation of 34 stone eggs representing local bird species (10 minutes)"
       ],
       "typeEmoji": "🍽️"
     },
     {
-      "time": "13:45",
-      "title": "The Waterfall Circle",
-      "description": "Embark on this magical hike featuring nearly ten diverse waterfalls in the eastern highlands. This 5-mile loop trail takes you through varied landscapes with waterfalls of different shapes and sizes.",
-      "details": [
-        "5-mile (8km) moderate loop trail taking about 3 hours",
-        "Trailhead at Laugarfell Guesthouse, accessible with your car",
-        "Features multiple waterfalls including Faxi, Kirkjufoss, and Stuðlafoss",
-        "Relatively unknown trail with few other hikers",
-        "Some uneven terrain but no technical climbing required"
-      ],
-      "duration": "3 hours",
+      "time": "14:00",
+      "title": "Drive to Petra's Stone Collection",
+      "description": "Continue your journey along the coast toward Petra's Stone Collection, with a stop at a picturesque waterfall along the way.",
+      "details": [],
+      "duration": "1 hour 30 minutes",
       "isFeatured": false,
-      "isGem": true,
+      "isGem": false,
       "isUserSelected": false,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "🥾"
+      "cost": "",
+      "quickStops": [
+        "Folaldafoss Waterfall - easily accessible cascade visible from the road with a short walking path (15 minutes)"
+      ],
+      "typeEmoji": "🚗"
     },
     {
-      "time": "17:00",
+      "time": "15:45",
       "title": "Petra's Stone Collection",
       "description": "Visit this unique museum housing an extensive private collection of East Iceland minerals and stones, gathered by local resident Petra Sveinsdóttir throughout her lifetime.",
       "details": [
@@ -155,20 +226,22 @@
       "typeEmoji": "🪨"
     },
     {
-      "time": "18:30",
-      "title": "Vestdalsfossar Waterfall Viewpoint",
-      "description": "Stop at this viewpoint overlooking a series of beautiful cascades flowing from the mountains down to the fjord below.",
+      "time": "16:45",
+      "title": "Drive to Borgarfjörður Eystri",
+      "description": "Complete your journey to Borgarfjörður Eystri with scenic stops along the way.",
       "details": [],
-      "duration": "30 minutes",
+      "duration": "1 hour 15 minutes",
       "isFeatured": false,
       "isGem": false,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "🌊"
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [
+        "Vestdalsfossar Waterfall Viewpoint - series of cascades flowing from mountains to fjord (15 minutes)"
+      ],
+      "typeEmoji": "🚗"
     },
     {
-      "time": "20:00",
+      "time": "18:15",
       "title": "Check in at Alfheimar Hotel",
       "description": "Arrive at your accommodation in Borgarfjörður Eystri and get settled for the evening.",
       "details": [],
@@ -181,7 +254,7 @@
       "typeEmoji": "🏠"
     },
     {
-      "time": "20:30",
+      "time": "18:45",
       "title": "Dinner at Alfheimar Hotel Restaurant",
       "description": "Enjoy dinner at the hotel restaurant, which serves traditional Icelandic cuisine using locally-sourced ingredients.",
       "details": [],
@@ -196,8 +269,8 @@
   ],
   "highlights": [
     "Photographing the dramatic peaks of Vestrahorn mountain",
-    "The scenic coastal drive through the East Fjords",
-    "Discovering multiple waterfalls on the Waterfall Circle hike",
+    "The scenic coastal drive through the East Fjords with numerous quick stops",
+    "The striking orange Hvalnes Lighthouse against black beaches",
     "Exploring unique minerals at Petra's Stone Collection"
   ],
   "accommodation": {
@@ -205,7 +278,11 @@
     "address": "v/Merkisveg, Borgarfirdi Eystra, 720 Iceland",
     "cost": "$358.13",
     "roomType": "Standard Double or Twin Room, Patio",
-    "amenities": ["Free Wi-Fi", "Restaurant", "Free parking"],
+    "amenities": [
+      "Free Wi-Fi",
+      "Restaurant",
+      "Free parking"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "73058051849662",
@@ -214,33 +291,33 @@
   },
   "alternatives": [
     {
-      "title": "Strútsfoss Waterfall",
-      "description": "Larger red strata waterfall than the famous Hengifoss. This easy family-friendly hike takes you to a truly impressive waterfall with distinctive red rock layers similar to Hengifoss but with fewer visitors.",
-      "location": "Take Road 935 to Sturluflöt farm",
-      "cost": "Free",
-      "isGem": true,
-      "isUserSelected": true,
-      "timing": "Afternoon (after Djúpivogur)",
-      "link": "https://epiciceland.net/hidden-gems-in-iceland/#4_Strutsfoss_waterfall"
-    },
-    {
-      "title": "Hengifoss and Litlanesfoss Waterfall Hike",
-      "description": "3-mile round trip hike to see Iceland's third-highest waterfall (128m) with distinctive red clay and black basalt layers. On the way, you'll also pass Litlanesfoss, framed by giant hexagonal basalt columns.",
-      "location": "Near Egilsstaðir",
+      "title": "Tvísöngur Sound Sculpture",
+      "description": "A concrete sound sculpture designed by German artist Lukas Kühne, consisting of five interconnected domes of different sizes. Each dome has its own resonance that corresponds to the Icelandic tradition of five-tone harmony.",
+      "location": "Seyðisfjörður (detour from main route)",
       "cost": "Free",
       "isGem": false,
       "isUserSelected": false,
-      "timing": "Afternoon (2-3 hours needed)",
-      "link": ""
+      "timing": "Afternoon (would require 1.5-hour detour)",
+      "link": "https://www.visitseydisfjordur.com/tvisongur-sound-sculpture/"
     },
     {
-      "title": "Atlavik Beach",
-      "description": "Peaceful fjord beach surrounded by forest - a rarity in Iceland. Features picnic tables and hiking trails through the trees. A tranquil spot to relax by the water.",
-      "location": "Near Hallormsstaður Forest",
-      "cost": "Free",
+      "title": "Fáskrúðsfjörður French Connection",
+      "description": "Village with strong historical ties to French fishermen, featuring a French museum, bilingual street signs, and the annual French Days festival (if visiting in July). The renovated French Hospital now serves as a hotel and museum.",
+      "location": "Fáskrúðsfjörður (along the coastal route)",
+      "cost": "Museum: 1,500 ISK ($11) per person",
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
+      "link": "https://franska.is/en/"
+    },
+    {
+      "title": "Búlandstindur Mountain",
+      "description": "Distinctive pyramid-shaped mountain rising 1,069m above Djúpivogur. According to local legend, the mountain fulfills wishes during the summer solstice. A hiking trail leads to the summit for panoramic views.",
+      "location": "Near Djúpivogur",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Morning or Afternoon (3-4 hour hike)",
       "link": ""
     },
     {
@@ -254,13 +331,13 @@
       "link": "https://www.visitdjupivogur.is/en/activities-excursions/papey-island"
     },
     {
-      "title": "Teigarhorn Nature Reserve",
-      "description": "Famous geological site known for its zeolite crystal formations. Features a small museum in a historic house and short walking paths with coastal views.",
-      "location": "Between Djúpivogur and Stöðvarfjörður",
+      "title": "Rauðubjörg (Red Rocks)",
+      "description": "Distinctive red rhyolite cliffs contrasting dramatically with black sand beaches. The striking colors are the result of volcanic activity and make for excellent photography opportunities.",
+      "location": "Between Breiðdalsvík and Stöðvarfjörður",
       "cost": "Free",
       "isGem": false,
       "isUserSelected": false,
-      "timing": "Morning or Afternoon (1 hour)",
+      "timing": "Afternoon",
       "link": ""
     }
   ],

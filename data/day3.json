@@ -1,4 +1,5 @@
 {
+  "$schema": "schema.json",
   "id": "day3",
   "dayNumber": 3,
   "title": "South Coast Wonders",
