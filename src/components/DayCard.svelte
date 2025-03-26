@@ -14,7 +14,12 @@
   </div>
   <div class="card-content">
     <div class="card-highlight">{day.emoji} {day.title}</div>
-    <div class="card-route"><strong>Route:</strong> {day.route.from} → {day.route.to}</div>
+    <div class="card-route">
+      <strong>Route:</strong> {day.route.from} → {day.route.to} 
+      {#if day.driving && day.driving.total && day.driving.total.time}
+        <span class="driving-time">({day.driving.total.time})</span>
+      {/if}
+    </div>
     <p class="card-summary">{day.shortSummary || day.summary}</p>
     
     {#if day.highlights && day.highlights.length > 0}
@@ -130,6 +135,11 @@
 
   .card-route strong {
     color: var(--secondary);
+  }
+  
+  .driving-time {
+    font-style: italic;
+    color: var(--primary-dark);
   }
   
   .card-summary {
