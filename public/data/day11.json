@@ -1,0 +1,283 @@
+{
+  "id": "day11",
+  "dayNumber": 11,
+  "title": "Return & Departure",
+  "emoji": "✈️",
+  "date": "July 24",
+  "route": {
+    "from": "Akranes",
+    "to": "Keflavík International Airport"
+  },
+  "image": {
+    "src": "https://raw.githubusercontent.com/kgangerlm/iceland-data/refs/heads/main/images/day11.avif",
+    "alt": "Aerial view of Reykjavik city with colorful buildings and mountains in background"
+  },
+  "quote": {
+    "text": "We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.",
+    "author": "Jawaharlal Nehru"
+  },
+  "summary": "As your Icelandic adventure comes to a close, today offers a final taste of this remarkable island. Begin with a leisurely morning in Akranes before heading back to the capital for some last-minute shopping and sightseeing in Reykjavík. Enjoy a farewell lunch sampling Icelandic cuisine one last time before heading to the airport. Take the time to reflect on the incredible landscapes, experiences, and memories you've collected circumnavigating this land of fire and ice.",
+  "driving": {
+    "total": {
+      "distance": { "km": 120, "miles": 75 },
+      "time": "1 hour 30 minutes"
+    },
+    "segments": [
+      { "from": "Airbnb in Akranes", "to": "Reykjavík", "distance": { "km": 50, "miles": 31 }, "time": "45 minutes" },
+      { "from": "Reykjavík", "to": "Keflavík International Airport", "distance": { "km": 50, "miles": 31 }, "time": "45 minutes" }
+    ]
+  },
+  "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1p5j0Ep3wf98qhPSuZYWVhZ3qrQnPHuI&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
+  "schedule": [
+    {
+      "time": "08:00",
+      "title": "Breakfast at Airbnb",
+      "description": "Enjoy a final breakfast at your accommodation in Akranes.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🍳"
+    },
+    {
+      "time": "08:45",
+      "title": "Check out and depart for Reykjavík",
+      "description": "Check out of your Airbnb and begin the drive back to Reykjavík for some final sightseeing and shopping.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [
+        "Akranes Lighthouse - quick photo stop if not visited the evening before"
+      ],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "09:45",
+      "title": "Shopping in Reykjavík",
+      "description": "Enjoy some last-minute shopping in downtown Reykjavík for Icelandic souvenirs, woolen goods, or design items. Laugavegur and Skólavörðustígur streets offer the best selection of shops.",
+      "details": [
+        "Laugavegur street is Reykjavík's main shopping street",
+        "Skólavörðustígur has many artisan and design stores",
+        "Popular souvenirs include Icelandic wool products, lava jewelry, and Viking-themed items",
+        "The Kolaportið flea market is open on weekends",
+        "Tax-free shopping available with refunds at the airport"
+      ],
+      "duration": "1 hour 45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Varies",
+      "quickStops": [],
+      "typeEmoji": "🛍️"
+    },
+    {
+      "time": "11:30",
+      "title": "Visit to Seltjarnarnes Peninsula",
+      "description": "Take a quick trip to this peninsula on the western edge of Reykjavík featuring a lighthouse, bird sanctuary, and scenic coastal walks with views of Mount Esja across the bay.",
+      "details": [
+        "Home to Grótta lighthouse at the westernmost tip",
+        "Nature reserve with rich birdlife",
+        "Walking paths along the coast",
+        "Views of Reykjavík city, Mount Esja, and Faxaflói Bay",
+        "Footbridge to the lighthouse island (accessible at low tide only)"
+      ],
+      "duration": "1 hour",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🏞️"
+    },
+    {
+      "time": "12:30",
+      "title": "Farewell Lunch in Reykjavík",
+      "description": "Enjoy a final Icelandic meal at Messinn, a popular restaurant known for its traditional fish pans and seafood dishes.",
+      "details": [],
+      "duration": "1 hour",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "$25-40 per person",
+      "quickStops": [],
+      "typeEmoji": "🍽️"
+    },
+    {
+      "time": "13:45",
+      "title": "Drive to Keflavík International Airport",
+      "description": "Drive from Reykjavík to the airport with enough time for rental car return and check-in procedures.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [
+        "Gas station to fill up the rental car before return"
+      ],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "14:30",
+      "title": "Return Rental Car",
+      "description": "Return your Suzuki Vitara to Blue Car Rental and complete the necessary paperwork.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚙"
+    },
+    {
+      "time": "15:00",
+      "title": "Airport Check-in",
+      "description": "Check in for your international flight and proceed through security. Recommended to arrive at least 2 hours before departure for international flights.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "✈️"
+    },
+    {
+      "time": "15:45",
+      "title": "Duty-Free Shopping and Relaxation",
+      "description": "Browse the airport's extensive duty-free shopping area (known for good prices on Icelandic products and alcohol) and relax before your flight.",
+      "details": [
+        "Keflavík Airport offers extensive duty-free shopping",
+        "Good selection of Icelandic products and international brands",
+        "Alcohol and confectionery prices are generally lower than in town",
+        "Several restaurants and cafés available",
+        "Free WiFi throughout the airport"
+      ],
+      "duration": "1 hour",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "Varies",
+      "quickStops": [],
+      "typeEmoji": "🛍️"
+    },
+    {
+      "time": "16:50",
+      "title": "Flight Departure",
+      "description": "Board your Icelandair flight FI 671 from Keflavík (KEF) to Denver (DEN), departing at 4:50 PM GMT.",
+      "details": [],
+      "duration": "7 hours 45 minutes (flight duration)",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "Included in trip",
+      "quickStops": [],
+      "typeEmoji": "✈️"
+    }
+  ],
+  "highlights": [
+    "Final shopping for Icelandic souvenirs in Reykjavík",
+    "Coastal views and lighthouse at Seltjarnarnes Peninsula",
+    "One last authentic Icelandic meal",
+    "Duty-free shopping at Keflavík Airport"
+  ],
+  "accommodation": {
+    "name": "N/A - Departure Day",
+    "address": "",
+    "cost": "",
+    "roomType": "",
+    "amenities": [],
+    "checkIn": "",
+    "checkOut": "",
+    "confirmation": "",
+    "phone": "",
+    "notes": "Check your Airbnb checkout time and plan accordingly. Most Airbnbs have a checkout time of 11:00 AM, but you may be able to leave your luggage if you communicate with your host."
+  },
+  "alternatives": [
+    {
+      "title": "Blue Lagoon Visit",
+      "description": "If you didn't visit on arrival day, the Blue Lagoon is conveniently located between Reykjavík and the airport. Perfect for relaxation before a long flight. Pre-booking essential.",
+      "location": "Near Keflavík Airport",
+      "cost": "From $93 per person",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Morning (would replace Reykjavík activities)",
+      "link": "https://www.bluelagoon.com/"
+    },
+    {
+      "title": "Reykjanes Peninsula Geothermal Areas",
+      "description": "Explore the volcanic landscapes of the Reykjanes UNESCO Global Geopark, including bubbling mud pools, steam vents, and dramatic geological formations.",
+      "location": "Between Reykjavík and the airport",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Morning",
+      "link": ""
+    },
+    {
+      "title": "Perlan Museum",
+      "description": "Interactive museum with exhibitions about Icelandic nature, including a real indoor ice cave, Northern Lights planetarium show, and observation deck with 360° views of Reykjavík.",
+      "location": "Reykjavík",
+      "cost": "4,490 ISK ($32) per person",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Morning",
+      "link": "https://perlan.is/"
+    },
+    {
+      "title": "Hallgrímskirkja Observation Deck",
+      "description": "Ascend the tower of Reykjavík's iconic church for panoramic views over the colorful city and surrounding mountains and ocean.",
+      "location": "Downtown Reykjavík",
+      "cost": "1,000 ISK ($7) per person",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Morning",
+      "link": ""
+    },
+    {
+      "title": "Sky Lagoon",
+      "description": "New luxury geothermal spa with an infinity edge overlooking the ocean. Features a 7-step spa ritual based on Icelandic traditions.",
+      "location": "Reykjavík",
+      "cost": "From 6,990 ISK ($50) per person",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Morning (pre-booking recommended)",
+      "link": "https://skylagoon.com/"
+    }
+  ],
+  "badWeatherAlternatives": [
+    {
+      "title": "Harpa Concert Hall",
+      "description": "Explore the stunning glass architecture of Reykjavík's concert hall and cultural center. The building itself is a work of art with its colored glass facade inspired by Iceland's basalt landscapes.",
+      "location": "Reykjavík Waterfront",
+      "cost": "Free to enter building",
+      "timing": "Morning",
+      "link": "https://www.harpa.is/en/"
+    },
+    {
+      "title": "National Museum of Iceland",
+      "description": "Comprehensive museum chronicling Iceland's history from settlement to present day, with artifacts and exhibits covering over 1,200 years.",
+      "location": "Reykjavík",
+      "cost": "2,000 ISK ($15) per person",
+      "timing": "Morning",
+      "link": "https://www.nationalmuseum.is/"
+    },
+    {
+      "title": "Kringlan Shopping Mall",
+      "description": "Iceland's largest shopping mall with over 150 shops, restaurants, and services. Good alternative for souvenir shopping in bad weather.",
+      "location": "Reykjavík",
+      "cost": "Free entry",
+      "timing": "Morning",
+      "link": "https://www.kringlan.is/en"
+    }
+  ],
+  "tip": "If purchasing alcohol or other duty-free items, remember that Keflavík Airport's prices are generally lower than in downtown Reykjavík, so consider waiting until you reach the airport to make these purchases.",
+  "notes": "Allow extra time for rental car return and airport procedures. Double-check your rental agreement for any special return requirements. Remember that international flight check-in typically closes 45 minutes before departure, and it's recommended to arrive at least 2-2.5 hours before your flight."
+}

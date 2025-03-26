@@ -1,4 +1,6 @@
+<!-- src/components/DayDetail.svelte -->
 <script>
+  import ActivityItem from './ActivityItem.svelte';
   export let day;
 </script>
 
@@ -34,30 +36,26 @@
     </div>
     
     <div class="day-schedule">
-      {#each day.schedule as item}
-        <div class="activity-item">
-          <span class="activity-time">{item.time}</span>
-          <div class="activity-content">
-            <div class="activity-title">{item.title}</div>
-            {#if item.description}
-              <div class="activity-desc">{item.description}</div>
-            {/if}
-            {#if item.link}
-              <div class="activity-links">
-                <a href={item.link} target="_blank">More Info</a>
-              </div>
-            {/if}
-          </div>
-        </div>
-      {/each}
+      <h3 class="section-heading">Daily Schedule</h3>
+      <div class="activity-timeline">
+        {#each day.schedule as item}
+          <ActivityItem {item} />
+        {/each}
+      </div>
     </div>
     
     <!-- Highlights Section -->
     <div class="highlights-section">
       <h4>Key Highlights of the Day</h4>
       <ul class="highlights-list">
-        {#each day.highlights as highlight}
-          <li>{highlight.title}: {highlight.description}</li>
+        {#each day.highlights as highlight, i}
+          <li>
+            {#if typeof highlight === 'string'}
+              {highlight}
+            {:else}
+              <strong>{highlight.title}:</strong> {highlight.description}
+            {/if}
+          </li>
         {/each}
       </ul>
     </div>
@@ -87,6 +85,8 @@
         {#each day.alternatives as alt}
           <li>
             <strong>{alt.title}:</strong> {alt.description}
+            {#if alt.isGem}<span class="badge gem-badge">💎 Hidden Gem</span>{/if}
+            {#if alt.isUserSelected}<span class="badge selected-badge">✓ Selected</span>{/if}
             {#if alt.link}
               <br>
               <a href={alt.link} target="_blank">More Info</a>
@@ -122,3 +122,60 @@
     {/if}
   </div>
 </section>
+
+<style>
+  .section-heading {
+    font-size: 1.4em;
+    color: var(--primary-dark);
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .section-heading:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary);
+    border-radius: 50%;
+  }
+  
+  .activity-timeline {
+    position: relative;
+    padding-left: 30px;
+  }
+
+  .activity-timeline:before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: var(--gray-light);
+  }
+  
+  .badge {
+    font-size: 0.75em;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .gem-badge {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .selected-badge {
+    background-color: var(--success);
+    color: white;
+  }
+</style>
