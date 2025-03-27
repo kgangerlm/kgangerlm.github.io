@@ -21,12 +21,31 @@
   "summary": "As your Icelandic adventure comes to a close, today offers a final taste of this remarkable island. Begin with a leisurely morning in Akranes before heading back to the capital for some last-minute shopping and sightseeing in Reykjavík. Enjoy a farewell lunch sampling Icelandic cuisine one last time before heading to the airport. Take the time to reflect on the incredible landscapes, experiences, and memories you've collected circumnavigating this land of fire and ice.",
   "driving": {
     "total": {
-      "distance": { "km": 120, "miles": 75 },
+      "distance": {
+        "km": 120,
+        "miles": 75
+      },
       "time": "1 hour 30 minutes"
     },
     "segments": [
-      { "from": "Airbnb in Akranes", "to": "Reykjavík", "distance": { "km": 50, "miles": 31 }, "time": "45 minutes" },
-      { "from": "Reykjavík", "to": "Keflavík International Airport", "distance": { "km": 50, "miles": 31 }, "time": "45 minutes" }
+      {
+        "from": "Airbnb in Akranes",
+        "to": "Reykjavík",
+        "distance": {
+          "km": 50,
+          "miles": 31
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Reykjavík",
+        "to": "Keflavík International Airport",
+        "distance": {
+          "km": 50,
+          "miles": 31
+        },
+        "time": "45 minutes"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1p5j0Ep3wf98qhPSuZYWVhZ3qrQnPHuI&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -281,5 +300,9 @@
     }
   ],
   "tip": "If purchasing alcohol or other duty-free items, remember that Keflavík Airport's prices are generally lower than in downtown Reykjavík, so consider waiting until you reach the airport to make these purchases.",
-  "notes": "Allow extra time for rental car return and airport procedures. Double-check your rental agreement for any special return requirements. Remember that international flight check-in typically closes 45 minutes before departure, and it's recommended to arrive at least 2-2.5 hours before your flight."
+  "notes": [
+    "Allow extra time for rental car return and airport procedures.",
+    "Double-check your rental agreement for any special return requirements.",
+    "Remember that international flight check-in typically closes 45 minutes before departure, and it's recommended to arrive at least 2-2.5 hours before your flight."
+  ]
 }

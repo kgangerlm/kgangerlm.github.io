@@ -21,16 +21,67 @@
   "summary": "Welcome Heather to your adventure as you explore Iceland's dramatic South Coast! Today features iconic waterfalls, including one you can walk behind, dramatic black sand beaches, and breathtaking coastal landscapes. From the thundering Skógafoss to the hauntingly beautiful black sand beaches with their towering sea stacks, today's journey showcases the raw power and beauty of Iceland's southern shoreline.",
   "driving": {
     "total": {
-      "distance": { "km": 175, "miles": 109 },
+      "distance": {
+        "km": 175,
+        "miles": 109
+      },
       "time": "2 hours 35 minutes"
     },
     "segments": [
-      { "from": "Country Dream guesthouse, Selfoss", "to": "Seljalandsfoss Waterfall", "distance": { "km": 60, "miles": 37 }, "time": "45 minutes" },
-      { "from": "Seljalandsfoss Waterfall", "to": "Skógafoss Waterfall", "distance": { "km": 30, "miles": 19 }, "time": "25 minutes" },
-      { "from": "Skógafoss Waterfall", "to": "Vikurfjara Black Sand Beach", "distance": { "km": 40, "miles": 25 }, "time": "40 minutes" },
-      { "from": "Vikurfjara Black Sand Beach", "to": "Reynisfjara Black Sand Beach", "distance": { "km": 10, "miles": 6 }, "time": "10 minutes" },
-      { "from": "Reynisfjara Black Sand Beach", "to": "Dyrhólaey Peninsula", "distance": { "km": 15, "miles": 9 }, "time": "15 minutes" },
-      { "from": "Dyrhólaey Peninsula", "to": "The Barn, Norðurfoss", "distance": { "km": 20, "miles": 12 }, "time": "20 minutes" }
+      {
+        "from": "Country Dream guesthouse, Selfoss",
+        "to": "Seljalandsfoss Waterfall",
+        "distance": {
+          "km": 60,
+          "miles": 37
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Seljalandsfoss Waterfall",
+        "to": "Skógafoss Waterfall",
+        "distance": {
+          "km": 30,
+          "miles": 19
+        },
+        "time": "25 minutes"
+      },
+      {
+        "from": "Skógafoss Waterfall",
+        "to": "Vikurfjara Black Sand Beach",
+        "distance": {
+          "km": 40,
+          "miles": 25
+        },
+        "time": "40 minutes"
+      },
+      {
+        "from": "Vikurfjara Black Sand Beach",
+        "to": "Reynisfjara Black Sand Beach",
+        "distance": {
+          "km": 10,
+          "miles": 6
+        },
+        "time": "10 minutes"
+      },
+      {
+        "from": "Reynisfjara Black Sand Beach",
+        "to": "Dyrhólaey Peninsula",
+        "distance": {
+          "km": 15,
+          "miles": 9
+        },
+        "time": "15 minutes"
+      },
+      {
+        "from": "Dyrhólaey Peninsula",
+        "to": "The Barn, Norðurfoss",
+        "distance": {
+          "km": 20,
+          "miles": 12
+        },
+        "time": "20 minutes"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=16not-P5qZezdTRAHL-W0BhUIyZNpXEw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -260,7 +311,11 @@
     "address": "Norðurfoss, 871, Iceland",
     "cost": "$304.77",
     "roomType": "Double Room, Shared Bathroom, Mountain View",
-    "amenities": ["Free Wi-Fi", "Shared kitchen", "Mountain views"],
+    "amenities": [
+      "Free Wi-Fi",
+      "Shared kitchen",
+      "Mountain views"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "",
@@ -346,5 +401,8 @@
     }
   ],
   "tip": "Be extremely cautious at all black sand beaches in Iceland, especially Reynisfjara. Never turn your back to the ocean and stay at least 30 meters from the water's edge. Sneaker waves have claimed lives here, even on calm-looking days.",
-  "notes": "Most restaurants along the South Coast close early (around 9pm), so plan dinner accordingly. Consider stocking up on some groceries as options are limited after Selfoss."
+  "notes": [
+    "Most restaurants along the South Coast close early (around 9pm), so plan dinner accordingly.",
+    "Consider stocking up on some groceries as options are limited after Selfoss."
+  ]
 }

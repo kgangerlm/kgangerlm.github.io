@@ -21,17 +21,76 @@
   "shortSummary": "Journey along Iceland's dramatic South Coast with Heather, discovering waterfalls you can walk behind, impressive black sand beaches, and coastal rock formations.",
   "driving": {
     "total": {
-      "distance": { "km": 331, "miles": 206 },
+      "distance": {
+        "km": 331,
+        "miles": 206
+      },
       "time": "4 hours 35 minutes"
     },
     "segments": [
-      { "from": "The Barn, Norðurfoss", "to": "Fjaðrárgljúfur Canyon", "distance": { "km": 50, "miles": 31 }, "time": "45 minutes" },
-      { "from": "Fjaðrárgljúfur Canyon", "to": "Skaftafell (Svartifoss Hike)", "distance": { "km": 60, "miles": 37 }, "time": "45 minutes" },
-      { "from": "Skaftafell", "to": "Strútsfoss Waterfall", "distance": { "km": 70, "miles": 43 }, "time": "1 hour" },
-      { "from": "Strútsfoss Waterfall", "to": "Jökulsárlón Glacier Lagoon", "distance": { "km": 80, "miles": 50 }, "time": "1 hour" },
-      { "from": "Jökulsárlón", "to": "Diamond Beach", "distance": { "km": 1, "miles": 0.6 }, "time": "5 minutes" },
-      { "from": "Diamond Beach", "to": "Fjallajökull Viewpoint", "distance": { "km": 30, "miles": 19 }, "time": "30 minutes" },
-      { "from": "Fjallajökull Viewpoint", "to": "Airbnb in Höfn", "distance": { "km": 40, "miles": 25 }, "time": "30 minutes" }
+      {
+        "from": "The Barn, Norðurfoss",
+        "to": "Fjaðrárgljúfur Canyon",
+        "distance": {
+          "km": 50,
+          "miles": 31
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Fjaðrárgljúfur Canyon",
+        "to": "Skaftafell (Svartifoss Hike)",
+        "distance": {
+          "km": 60,
+          "miles": 37
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Skaftafell",
+        "to": "Strútsfoss Waterfall",
+        "distance": {
+          "km": 70,
+          "miles": 43
+        },
+        "time": "1 hour"
+      },
+      {
+        "from": "Strútsfoss Waterfall",
+        "to": "Jökulsárlón Glacier Lagoon",
+        "distance": {
+          "km": 80,
+          "miles": 50
+        },
+        "time": "1 hour"
+      },
+      {
+        "from": "Jökulsárlón",
+        "to": "Diamond Beach",
+        "distance": {
+          "km": 1,
+          "miles": 0.6
+        },
+        "time": "5 minutes"
+      },
+      {
+        "from": "Diamond Beach",
+        "to": "Fjallajökull Viewpoint",
+        "distance": {
+          "km": 30,
+          "miles": 19
+        },
+        "time": "30 minutes"
+      },
+      {
+        "from": "Fjallajökull Viewpoint",
+        "to": "Airbnb in Höfn",
+        "distance": {
+          "km": 40,
+          "miles": 25
+        },
+        "time": "30 minutes"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1g9ZYp95N7OgXC8GwSDtvVXbikv742fo&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -227,7 +286,11 @@
     "address": "Seljavöllum, Höfn í Hornafirði 781, Iceland",
     "cost": "$357.52",
     "roomType": "Double or twin",
-    "amenities": ["Kitchen", "Wi-Fi", "Free parking"],
+    "amenities": [
+      "Kitchen",
+      "Wi-Fi",
+      "Free parking"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "HMXME38BS5",
@@ -313,5 +376,9 @@
     }
   ],
   "tip": "Even in July, dress warmly for the Jökulsárlón boat tour. The temperature near the glacier can be significantly colder than elsewhere, and the wind on the water adds an extra chill factor.",
-  "notes": "This is a day with multiple highlight experiences but also significant driving. We've prioritized the pre-booked Zodiac tour over Strútsfoss Waterfall, but you could visit Strútsfoss if you leave earlier in the morning. Höfn is known for its langoustine (Icelandic lobster), so consider trying it for dinner."
+  "notes": [
+    "This is a day with multiple highlight experiences but also significant driving.",
+    "We've prioritized the pre-booked Zodiac tour over Strútsfoss Waterfall, but you could visit Strútsfoss if you leave earlier in the morning.",
+    "Höfn is known for its langoustine (Icelandic lobster), so consider trying it for dinner."
+  ]
 }

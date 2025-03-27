@@ -19,21 +19,80 @@
   },
   "shortSummary": "Wind through Iceland's East Fjords with their dramatic coastal roads, picturesque fishing villages, and hidden waterfalls, experiencing a more authentic side of Iceland away from the crowds.",
   "summary": "Journey through Iceland's spectacular East Fjords, a region of winding coastal roads, dramatic mountain vistas, and colorful fishing villages. Today's adventure takes you from the lobster capital of Höfn to the remote Borgarfjörður Eystri, with stunning photo stops at iconic locations like Vestrahorn mountain and Hvalnes Lighthouse. Enjoy a more relaxed pace with scenic viewpoints and Petra's unique stone collection. The East Fjords offer a more authentic glimpse of Iceland away from the crowds, with landscapes that rival the country's more famous attractions.",
-"driving": {
-  "total": {
-    "distance": { "km": 350, "miles": 217 },
-    "time": "6 hours"
+  "driving": {
+    "total": {
+      "distance": {
+        "km": 350,
+        "miles": 217
+      },
+      "time": "6 hours"
+    },
+    "segments": [
+      {
+        "from": "Airbnb in Höfn",
+        "to": "Vestrahorn/Stokksnes",
+        "distance": {
+          "km": 25,
+          "miles": 16
+        },
+        "time": "30 minutes"
+      },
+      {
+        "from": "Vestrahorn",
+        "to": "Hvalnes Lighthouse",
+        "distance": {
+          "km": 30,
+          "miles": 19
+        },
+        "time": "30 minutes"
+      },
+      {
+        "from": "Hvalnes Lighthouse",
+        "to": "Djúpivogur",
+        "distance": {
+          "km": 100,
+          "miles": 62
+        },
+        "time": "1 hour 45 minutes"
+      },
+      {
+        "from": "Djúpivogur",
+        "to": "Petra's Stone Collection",
+        "distance": {
+          "km": 80,
+          "miles": 50
+        },
+        "time": "1 hour 30 minutes"
+      },
+      {
+        "from": "Petra's Stone Collection",
+        "to": "Alfheimar Hotel",
+        "distance": {
+          "km": 85,
+          "miles": 53
+        },
+        "time": "1 hour 15 minutes"
+      },
+      {
+        "from": "Alfheimar Hotel",
+        "to": "Stórurð Basin Trailhead",
+        "distance": {
+          "km": 15,
+          "miles": 9
+        },
+        "time": "15 minutes"
+      },
+      {
+        "from": "Stórurð Basin Trailhead",
+        "to": "Alfheimar Hotel",
+        "distance": {
+          "km": 15,
+          "miles": 9
+        },
+        "time": "15 minutes"
+      }
+    ]
   },
-  "segments": [
-    { "from": "Airbnb in Höfn", "to": "Vestrahorn/Stokksnes", "distance": { "km": 25, "miles": 16 }, "time": "30 minutes" },
-    { "from": "Vestrahorn", "to": "Hvalnes Lighthouse", "distance": { "km": 30, "miles": 19 }, "time": "30 minutes" },
-    { "from": "Hvalnes Lighthouse", "to": "Djúpivogur", "distance": { "km": 100, "miles": 62 }, "time": "1 hour 45 minutes" },
-    { "from": "Djúpivogur", "to": "Petra's Stone Collection", "distance": { "km": 80, "miles": 50 }, "time": "1 hour 30 minutes" },
-    { "from": "Petra's Stone Collection", "to": "Alfheimar Hotel", "distance": { "km": 85, "miles": 53 }, "time": "1 hour 15 minutes" },
-    { "from": "Alfheimar Hotel", "to": "Stórurð Basin Trailhead", "distance": { "km": 15, "miles": 9 }, "time": "15 minutes" },
-    { "from": "Stórurð Basin Trailhead", "to": "Alfheimar Hotel", "distance": { "km": 15, "miles": 9 }, "time": "15 minutes" }
-  ]
-},
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1eRRn2Q6RY1QEGECxiQC3F3eXJZ4QbFs&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
   "schedule": [
     {
@@ -186,10 +245,43 @@
     },
     {
       "time": "16:45",
-      "title": "Drive to Borgarfjörður Eystri",
-      "description": "Complete your journey to Borgarfjörður Eystri with scenic stops along the way.",
+      "title": "Drive to Reindeer Park",
+      "description": "Travel to the Reindeer Park in Fellabær, just outside Egilsstaðir, to visit rescued reindeer in a conservation setting.",
       "details": [],
-      "duration": "1 hour 15 minutes",
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "17:30",
+      "title": "Reindeer Park",
+      "description": "Visit this unique park featuring rescued reindeer that have been raised by hand. Take a short guided tour to learn about these majestic animals and get up close with them in their enclosure.",
+      "details": [
+        "Home to rescued reindeer including bulls named Mosi and Garpur",
+        "Located at Vínland guesthouse in Fellabær, near Egilsstaðir",
+        "Short guided tours available during opening hours (11:00-17:00)",
+        "One of the only places in Iceland where you can see reindeer up close",
+        "Run by reindeer expert Björn Magnússon who has extensive knowledge about the animals"
+      ],
+      "duration": "1 hour",
+      "isFeatured": true,
+      "isGem": true,
+      "isUserSelected": true,
+      "cost": "Approximately $20-25 per person (estimated)",
+      "quickStops": [],
+      "typeEmoji": "🦌",
+      "link": "https://reindeerpark.is/"
+    },
+    {
+      "time": "18:45",
+      "title": "Drive to Borgarfjörður Eystri",
+      "description": "Complete your journey to Borgarfjörður Eystri, with a scenic stop along the way.",
+      "details": [],
+      "duration": "1 hour",
       "isFeatured": false,
       "isGem": false,
       "isUserSelected": false,
@@ -200,7 +292,25 @@
       "typeEmoji": "🚗"
     },
     {
-      "time": "18:15",
+      "time": "17:45",
+      "title": "Stórurð Basin Hike",
+      "description": "This relaxed 3-mile loop trail takes you through massive boulders and past turquoise pools in a stunning valley setting. The name translates to 'The Giant Boulders' which perfectly describes this unique landscape.",
+      "details": [
+        "3-mile loop trail through boulder field and meadows",
+        "Several small, brilliantly blue glacier water pools",
+        "Relatively easy terrain with some uneven surfaces",
+        "Long daylight hours in July make evening hiking possible"
+      ],
+      "duration": "1 hour 30 minutes (we can make this short)",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🥾"
+    },
+    {
+      "time": "20:00",
       "title": "Check in at Alfheimar Hotel",
       "description": "Arrive at your accommodation in Borgarfjörður Eystri and get settled for the evening.",
       "details": [],
@@ -213,7 +323,7 @@
       "typeEmoji": "🏠"
     },
     {
-      "time": "18:45",
+      "time": "20:30",
       "title": "Dinner at Alfheimar Hotel Restaurant",
       "description": "Enjoy dinner at the hotel restaurant, which serves traditional Icelandic cuisine using locally-sourced ingredients.",
       "details": [],
@@ -327,5 +437,10 @@
     }
   ],
   "tip": "The East Fjords have Iceland's largest population of wild reindeer. They were introduced in the 18th century and are most commonly spotted in this region, especially in the morning and evening hours.",
-  "notes": "This is a long driving day with multiple stops, so keeping to schedule is important. The roads through the East Fjords are paved but winding, with occasional single-lane bridges and tunnels. Note that the Azamara Quest cruise ship will be in port today with 698 passengers, so some locations might be busier than usual during midday hours."
+  "notes": [
+    "This is a long driving day with multiple stops, so keeping to schedule is important.",
+    "The roads through the East Fjords are paved but winding, with occasional single-lane bridges and tunnels.",
+    "Route 939 Axarvegur is an alternate to driving the fjords that would save time by going through the mountains. It is also supposed to be quite pretty. Some prefer it",
+    "Note that the Azamara Quest cruise ship will be in port today with 698 passengers, so some locations might be busier than usual during midday hours."
+  ]
 }
