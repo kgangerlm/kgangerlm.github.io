@@ -4,7 +4,7 @@
     "properties": {
       "id": {
         "type": "string",
-        "description": "Unique identifier for the day"
+        "description": "Unique identifier for the day, formatted as 'day[X]' where X is the day number"
       },
       "dayNumber": {
         "type": "integer",
@@ -12,15 +12,15 @@
       },
       "title": {
         "type": "string",
-        "description": "Brief title describing the day's activities"
+        "description": "A brief title describing the day's activities"
       },
       "emoji": {
         "type": "string",
-        "description": "Emoji representing the day's theme"
+        "description": "An emoji that describes the theme of the day"
       },
       "date": {
         "type": "string",
-        "description": "Date of the trip day (month and day)"
+        "description": "Date of the trip day (month and day, without the year)"
       },
       "route": {
         "type": "object",
@@ -28,11 +28,11 @@
         "properties": {
           "from": {
             "type": "string",
-            "description": "Starting location/accommodation"
+            "description": "Starting location/accommodation (lodging from the previous day)"
           },
           "to": {
             "type": "string",
-            "description": "Ending location/accommodation"
+            "description": "Ending location/accommodation (lodging for the current day)"
           }
         }
       },
@@ -42,7 +42,7 @@
         "properties": {
           "src": {
             "type": "string",
-            "description": "URL to an image representing the day"
+            "description": "URL to an overview image for the day (find this in the provided images)"
           },
           "alt": {
             "type": "string",
@@ -56,17 +56,17 @@
         "properties": {
           "text": {
             "type": "string",
-            "description": "Inspirational quote related to the day's theme"
+            "description": "An inspirational quote that captures the essence of the day"
           },
           "author": {
             "type": "string",
-            "description": "Author of the quote"
+            "description": "The author of the quote"
           }
         }
       },
       "summary": {
         "type": "string",
-        "description": "Detailed overview of the day's itinerary"
+        "description": "A brief overview of the day that gives the reader a sense of what to expect and excites them"
       },
       "shortSummary": {
         "type": "string",
@@ -96,7 +96,7 @@
               },
               "time": {
                 "type": "string",
-                "description": "Total estimated driving time"
+                "description": "Total estimated driving time (be precise and think carefully)"
               }
             }
           },
@@ -108,11 +108,11 @@
               "properties": {
                 "from": {
                   "type": "string",
-                  "description": "Starting point of segment"
+                  "description": "Starting point of segment (lodging or scheduled activity)"
                 },
                 "to": {
-                  "type": "string",
-                  "description": "Ending point of segment"
+                  "type": "string", 
+                  "description": "Ending point of segment (lodging or scheduled activity)"
                 },
                 "distance": {
                   "type": "object",
@@ -130,7 +130,7 @@
                 },
                 "time": {
                   "type": "string",
-                  "description": "Estimated driving time for segment"
+                  "description": "Estimated driving time for segment (be precise and think carefully)"
                 }
               }
             }
@@ -139,7 +139,7 @@
       },
       "mapUrl": {
         "type": "string",
-        "description": "Embedded map URL for the day's route"
+        "description": "Embedded map URL for the day's route (find this clearly marked in the provided data)"
       },
       "schedule": {
         "type": "array",
@@ -153,18 +153,18 @@
             },
             "title": {
               "type": "string",
-              "description": "Title of the activity"
+              "description": "A short title for the activity"
             },
             "description": {
               "type": "string",
-              "description": "Description of the activity"
+              "description": "A brief description of the activity"
             },
             "details": {
               "type": "array",
               "items": {
                 "type": "string"
               },
-              "description": "Bullet points with additional details"
+              "description": "Relevant details as bullet points (should only be added to featured activities)"
             },
             "duration": {
               "type": "string",
@@ -172,30 +172,34 @@
             },
             "isFeatured": {
               "type": "boolean",
-              "description": "Whether the activity is featured"
+              "description": "Whether the activity is featured (look for items marked as featured or highlights in the data, then use judgment to feature a few things for the day)"
             },
             "isGem": {
               "type": "boolean",
-              "description": "Whether the activity is a hidden gem"
+              "description": "Whether the activity is marked as a hidden gem"
             },
             "isUserSelected": {
               "type": "boolean",
-              "description": "Whether the activity was selected by the user"
+              "description": "Whether the activity was selected by the user (if true in previous context maintain it, otherwise set to false)"
             },
             "cost": {
               "type": ["string", "null"],
-              "description": "Cost of the activity in USD"
+              "description": "Cost of the activity in USD (if there are associated costs)"
             },
             "quickStops": {
               "type": "array",
               "items": {
                 "type": "string"
               },
-              "description": "Quick stops along the way"
+              "description": "A list of quick viewpoints, photo spots, or other quick stops along the way (note if they occur before or after the scheduled activity)"
             },
             "typeEmoji": {
               "type": "string",
-              "description": "Emoji representing the type of activity"
+              "description": "Emoji representing the type of activity (photo, hike, restaurant, shopping, history, viewpoints, waterfall, cultural, tour, lodging, museum)"
+            },
+            "link": {
+              "type": "string",
+              "description": "Link to more information about the activity"
             }
           }
         }
@@ -205,7 +209,7 @@
         "items": {
           "type": "string"
         },
-        "description": "Key highlights for the day"
+        "description": "A few items that will be highlights for the day"
       },
       "accommodation": {
         "type": "object",
@@ -213,30 +217,30 @@
         "properties": {
           "name": {
             "type": "string",
-            "description": "Name of the accommodation"
+            "description": "Name of the accommodation (found in tripit data)"
           },
           "address": {
             "type": "string",
-            "description": "Address of the accommodation"
+            "description": "Address of the accommodation (found in tripit data)"
           },
           "cost": {
             "type": "string",
-            "description": "Cost of the accommodation"
+            "description": "Cost of the accommodation in USD"
           },
           "roomType": {
             "type": "string",
-            "description": "Type of room booked"
+            "description": "Type of room booked (from tripit data)"
           },
           "amenities": {
             "type": "array",
             "items": {
               "type": "string"
             },
-            "description": "Amenities provided"
+            "description": "Amenities provided (only include those you can determine with confidence, do not invent data)"
           },
           "checkIn": {
             "type": "string",
-            "description": "Check-in time"
+            "description": "Check-in time in UTC"
           },
           "checkOut": {
             "type": "string",
@@ -260,19 +264,19 @@
         "type": "array",
         "items": {
           "type": "object",
-          "required": ["title", "description", "location", "cost", "isGem", "isUserSelected", "timing", "link"],
+          "required": ["title", "description", "location", "cost", "isGem", "isUserSelected", "timing"],
           "properties": {
             "title": {
               "type": "string",
-              "description": "Title of the alternative activity"
+              "description": "A short title for the alternative activity"
             },
             "description": {
               "type": "string",
-              "description": "Description of the alternative activity"
+              "description": "A brief description of the alternative activity (include details about duration and if it requires prebooking)"
             },
             "location": {
               "type": "string",
-              "description": "Location of the alternative activity"
+              "description": "The general area where the activity is located and how it would fit into the day"
             },
             "cost": {
               "type": "string",
@@ -288,7 +292,7 @@
             },
             "timing": {
               "type": "string",
-              "description": "Best time to do the alternative activity"
+              "description": "Best time to do the alternative activity (Morning, afternoon, evening)"
             },
             "link": {
               "type": "string",
@@ -301,7 +305,7 @@
         "type": "array",
         "items": {
           "type": "object",
-          "required": ["title", "description", "location", "cost", "timing", "link"],
+          "required": ["title", "description", "location", "cost", "timing"],
           "properties": {
             "title": {
               "type": "string",
@@ -335,7 +339,10 @@
         "description": "Helpful tip for the day"
       },
       "notes": {
-        "type": "string",
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
         "description": "Additional notes for the day"
       }
     }

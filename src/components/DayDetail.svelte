@@ -117,8 +117,12 @@
       <div class="tip-box">{day.tip}</div>
     {/if}
     
-    {#if day.notes}
-      <div class="notes-box">{day.notes}</div>
+    {#if day.notes && day.notes.length > 0}
+      <div class="notes-box">
+        {#each day.notes as note}
+          <p>{note}</p>
+        {/each}
+      </div>
     {/if}
   </div>
 </section>

@@ -19,62 +19,21 @@
   },
   "shortSummary": "Wind through Iceland's East Fjords with their dramatic coastal roads, picturesque fishing villages, and hidden waterfalls, experiencing a more authentic side of Iceland away from the crowds.",
   "summary": "Journey through Iceland's spectacular East Fjords, a region of winding coastal roads, dramatic mountain vistas, and colorful fishing villages. Today's adventure takes you from the lobster capital of Höfn to the remote Borgarfjörður Eystri, with stunning photo stops at iconic locations like Vestrahorn mountain and Hvalnes Lighthouse. Enjoy a more relaxed pace with scenic viewpoints and Petra's unique stone collection. The East Fjords offer a more authentic glimpse of Iceland away from the crowds, with landscapes that rival the country's more famous attractions.",
-  "driving": {
-    "total": {
-      "distance": {
-        "km": 320,
-        "miles": 199
-      },
-      "time": "5 hours"
-    },
-    "segments": [
-      {
-        "from": "Airbnb in Höfn",
-        "to": "Vestrahorn/Stokksnes",
-        "distance": {
-          "km": 25,
-          "miles": 16
-        },
-        "time": "30 minutes"
-      },
-      {
-        "from": "Vestrahorn",
-        "to": "Hvalnes Lighthouse",
-        "distance": {
-          "km": 30,
-          "miles": 19
-        },
-        "time": "30 minutes"
-      },
-      {
-        "from": "Hvalnes Lighthouse",
-        "to": "Djúpivogur",
-        "distance": {
-          "km": 100,
-          "miles": 62
-        },
-        "time": "1 hour 45 minutes"
-      },
-      {
-        "from": "Djúpivogur",
-        "to": "Petra's Stone Collection",
-        "distance": {
-          "km": 80,
-          "miles": 50
-        },
-        "time": "1 hour 30 minutes"
-      },
-      {
-        "from": "Petra's Stone Collection",
-        "to": "Alfheimar Hotel",
-        "distance": {
-          "km": 85,
-          "miles": 53
-        },
-        "time": "1 hour 15 minutes"
-      }
-    ]
+"driving": {
+  "total": {
+    "distance": { "km": 350, "miles": 217 },
+    "time": "6 hours"
   },
+  "segments": [
+    { "from": "Airbnb in Höfn", "to": "Vestrahorn/Stokksnes", "distance": { "km": 25, "miles": 16 }, "time": "30 minutes" },
+    { "from": "Vestrahorn", "to": "Hvalnes Lighthouse", "distance": { "km": 30, "miles": 19 }, "time": "30 minutes" },
+    { "from": "Hvalnes Lighthouse", "to": "Djúpivogur", "distance": { "km": 100, "miles": 62 }, "time": "1 hour 45 minutes" },
+    { "from": "Djúpivogur", "to": "Petra's Stone Collection", "distance": { "km": 80, "miles": 50 }, "time": "1 hour 30 minutes" },
+    { "from": "Petra's Stone Collection", "to": "Alfheimar Hotel", "distance": { "km": 85, "miles": 53 }, "time": "1 hour 15 minutes" },
+    { "from": "Alfheimar Hotel", "to": "Stórurð Basin Trailhead", "distance": { "km": 15, "miles": 9 }, "time": "15 minutes" },
+    { "from": "Stórurð Basin Trailhead", "to": "Alfheimar Hotel", "distance": { "km": 15, "miles": 9 }, "time": "15 minutes" }
+  ]
+},
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1eRRn2Q6RY1QEGECxiQC3F3eXJZ4QbFs&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
   "schedule": [
     {

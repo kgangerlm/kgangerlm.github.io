@@ -19,164 +19,158 @@
   },
   "shortSummary": "Wind through Iceland's East Fjords with their dramatic coastal roads, picturesque fishing villages, and hidden waterfalls, experiencing a more authentic side of Iceland away from the crowds.",
   "summary": "Immerse yourself in the remote beauty of Borgarfjörður Eystri, one of Iceland's most pristine regions. Today's adventures include a moderate hike to the stunning Brúnavík Beach with its otherworldly landscapes, exploration of a remote mountain road, and up-close encounters with puffins at one of Iceland's best viewing sites. The day combines spectacular hiking, breathtaking scenery, and unique wildlife opportunities in an area few tourists ever visit.",
-  "driving": {
-    "total": {
-      "distance": { "km": 170, "miles": 106 },
-      "time": "2 hours 45 minutes"
-    },
-    "segments": [
-      { "from": "Alfheimar Hotel", "to": "Brúnavík Beach Trailhead", "distance": { "km": 5, "miles": 3 }, "time": "10 minutes" },
-      { "from": "Brúnavík Beach Trailhead", "to": "F946 Loðmundarfjarðarvegur", "distance": { "km": 15, "miles": 9 }, "time": "25 minutes" },
-      { "from": "F946 Loðmundarfjarðarvegur", "to": "Stórurð Basin Trailhead", "distance": { "km": 30, "miles": 19 }, "time": "40 minutes" },
-      { "from": "Stórurð Basin Trailhead", "to": "Hafnarhólmi Puffin Colony", "distance": { "km": 20, "miles": 12 }, "time": "30 minutes" },
-      { "from": "Hafnarhólmi Puffin Colony", "to": "Ásgeirsstaðir Cottages", "distance": { "km": 100, "miles": 62 }, "time": "1 hour 30 minutes" }
-    ]
+"driving": {
+  "total": {
+    "distance": { "km": 140, "miles": 87 },
+    "time": "2 hours 35 minutes"
   },
+  "segments": [
+    { "from": "Alfheimar Hotel", "to": "Brúnavík Beach Trailhead", "distance": { "km": 5, "miles": 3 }, "time": "10 minutes" },
+    { "from": "Brúnavík Beach Trailhead", "to": "Hafnarhólmi Puffin Colony", "distance": { "km": 3, "miles": 2 }, "time": "5 minutes" },
+    { "from": "Hafnarhólmi Puffin Colony", "to": "F946 Loðmundarfjarðarvegur", "distance": { "km": 15, "miles": 9 }, "time": "20 minutes" },
+    { "from": "F946 Loðmundarfjarðarvegur", "to": "Ásgeirsstaðir Cottages", "distance": { "km": 117, "miles": 73 }, "time": "2 hours" }
+  ]
+},
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1f84QU5RhBBXX-YLQmfDVseVNaWkShsQ&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
-  "schedule": [
-    {
-      "time": "08:00",
-      "title": "Breakfast at Alfheimar Hotel",
-      "description": "Enjoy breakfast at your hotel before starting a day of hiking and exploration.",
-      "details": [],
-      "duration": "45 minutes",
-      "isFeatured": false,
-      "isGem": false,
-      "isUserSelected": false,
-      "cost": "Included with stay",
-      "quickStops": [],
-      "typeEmoji": "🍳"
-    },
-    {
-      "time": "09:00",
-      "title": "Drive to Brúnavík Beach Trailhead",
-      "description": "Short drive from the hotel to the hiking trailhead near Kolbeinsfjara cliffs.",
-      "details": [],
-      "duration": "10 minutes",
-      "isFeatured": false,
-      "isGem": false,
-      "isUserSelected": false,
-      "cost": "",
-      "quickStops": [],
-      "typeEmoji": "🚗"
-    },
-    {
-      "time": "09:15",
-      "title": "Brúnavík Beach Hike",
-      "description": "Embark on a stunning 5-mile moderate hike to one of Iceland's most beautiful hidden beaches. The trail passes through colorful mountains, lush valleys, and offers panoramic coastal views before descending to the otherworldly Brúnavík Beach.",
-      "details": [
-        "5-mile (8km) round-trip hike with 1,300 feet of elevation gain",
-        "Moderate difficulty with some steep sections and uneven terrain",
-        "Takes approximately 2.5 hours each way (5 hours total)",
-        "Pack lunch to enjoy on the beach",
-        "Trail is well-marked but bring a map as cell service is limited",
-        "Weather can change quickly - bring layers and rain gear"
-      ],
-      "duration": "5 hours",
-      "isFeatured": true,
-      "isGem": true,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "🥾"
-    },
-    {
-      "time": "14:30",
-      "title": "Drive on F946 Loðmundarfjarðarvegur",
-      "description": "Experience this remote mountain road in East Iceland leading through picturesque landscapes. The road is suitable for your 4WD Suzuki Vitara and offers stunning mountain and fjord views along the way.",
-      "details": [
-        "Remote F-road with picturesque surroundings and mountain views",
-        "No river crossings, primarily rough gravel and steep sections",
-        "Route passes through uninhabited wilderness areas",
-        "Drive slowly and cautiously, especially on narrow and steep portions"
-      ],
-      "duration": "1 hour",
-      "isFeatured": true,
-      "isGem": false,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [
-        "Various scenic pullouts for photos of the dramatic landscapes"
-      ],
-      "typeEmoji": "🚗"
-    },
-    {
-      "time": "15:45",
-      "title": "Stórurð Basin Hike",
-      "description": "This relaxed 3-mile loop trail takes you through massive boulders and past turquoise pools in a stunning valley setting. The name translates to 'The Giant Boulders' which perfectly describes this unique landscape.",
-      "details": [
-        "3-mile loop trail through boulder field and meadows",
-        "Several small, brilliantly blue glacier water pools",
-        "Relatively easy terrain with some uneven surfaces",
-        "Allow 2-3 hours for a leisurely pace with photo stops"
-      ],
-      "duration": "2 hours 30 minutes",
-      "isFeatured": true,
-      "isGem": false,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "🥾"
-    },
-    {
-      "time": "18:30",
-      "title": "Hafnarhólmi Puffin Colony",
-      "description": "Visit one of Iceland's best and most accessible puffin viewing areas, with wooden walkways and viewing platforms that bring you remarkably close to these charming birds. July is peak season for puffin watching.",
-      "details": [
-        "Home to thousands of Atlantic puffins (May to mid-August)",
-        "Wooden walkways and viewing platforms for safe, close observation",
-        "Also home to kittiwakes, fulmars and other seabirds",
-        "Mid-evening is often less crowded but still good for photography",
-        "Bring binoculars if you have them, though birds are visible without them"
-      ],
-      "duration": "1 hour",
-      "isFeatured": true,
-      "isGem": false,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "🦜"
-    },
-    {
-      "time": "19:45",
-      "title": "Drive to Ásgeirsstaðir Cottages",
-      "description": "Make the drive from Borgarfjörður Eystri to your accommodation in Eidar.",
-      "details": [],
-      "duration": "1 hour 30 minutes",
-      "isFeatured": false,
-      "isGem": false,
-      "isUserSelected": false,
-      "cost": "",
-      "quickStops": [],
-      "typeEmoji": "🚗"
-    },
-    {
-      "time": "21:15",
-      "title": "Check in at Ásgeirsstaðir Cottages",
-      "description": "Arrive at your cottage accommodation and settle in for the evening.",
-      "details": [],
-      "duration": "30 minutes",
-      "isFeatured": false,
-      "isGem": false,
-      "isUserSelected": false,
-      "cost": "",
-      "quickStops": [],
-      "typeEmoji": "🏠"
-    },
-    {
-      "time": "21:45",
-      "title": "Self-catered dinner at cottage",
-      "description": "Prepare a simple dinner using the kitchen facilities in your cottage.",
-      "details": [],
-      "duration": "1 hour",
-      "isFeatured": false,
-      "isGem": false,
-      "isUserSelected": true,
-      "cost": "Varies (groceries)",
-      "quickStops": [],
-      "typeEmoji": "🍽️"
-    }
-  ],
+"schedule": [
+  {
+    "time": "08:00",
+    "title": "Breakfast at Alfheimar Hotel",
+    "description": "Enjoy breakfast at your hotel before starting a day of hiking and exploration.",
+    "details": [],
+    "duration": "45 minutes",
+    "isFeatured": false,
+    "isGem": false,
+    "isUserSelected": false,
+    "cost": "Included with stay",
+    "quickStops": [],
+    "typeEmoji": "🍳"
+  },
+  {
+    "time": "08:45",
+    "title": "Drive to Brúnavík Beach Trailhead",
+    "description": "Short drive from the hotel to the hiking trailhead near Kolbeinsfjara cliffs.",
+    "details": [],
+    "duration": "10 minutes",
+    "isFeatured": false,
+    "isGem": false,
+    "isUserSelected": false,
+    "cost": "",
+    "quickStops": [],
+    "typeEmoji": "🚗"
+  },
+  {
+    "time": "09:00",
+    "title": "Brúnavík Beach Hike",
+    "description": "Embark on a stunning 5-mile moderate hike to one of Iceland's most beautiful hidden beaches. The trail passes through colorful mountains, lush valleys, and offers panoramic coastal views before descending to the otherworldly Brúnavík Beach.",
+    "details": [
+      "5-mile (8km) round-trip hike with 1,300 feet of elevation gain",
+      "Moderate difficulty with some steep sections and uneven terrain",
+      "Takes approximately 2.5 hours each way (5 hours total)",
+      "Pack lunch to enjoy on the beach",
+      "Trail is well-marked but bring a map as cell service is limited",
+      "Weather can change quickly - bring layers and rain gear"
+    ],
+    "duration": "5 hours",
+    "isFeatured": true,
+    "isGem": true,
+    "isUserSelected": true,
+    "cost": "Free",
+    "quickStops": [],
+    "typeEmoji": "🥾"
+  },
+  {
+    "time": "14:15",
+    "title": "Drive to Hafnarhólmi Puffin Colony",
+    "description": "Short drive to the puffin viewing area located in Borgarfjörður Eystri.",
+    "details": [],
+    "duration": "5 minutes",
+    "isFeatured": false,
+    "isGem": false,
+    "isUserSelected": false,
+    "cost": "",
+    "quickStops": [],
+    "typeEmoji": "🚗"
+  },
+  {
+    "time": "14:30",
+    "title": "Hafnarhólmi Puffin Colony",
+    "description": "Visit one of Iceland's best and most accessible puffin viewing areas, with wooden walkways and viewing platforms that bring you remarkably close to these charming birds. July is peak season for puffin watching.",
+    "details": [
+      "Home to thousands of Atlantic puffins (May to mid-August)",
+      "Wooden walkways and viewing platforms for safe, close observation",
+      "Also home to kittiwakes, fulmars and other seabirds",
+      "Mid-afternoon is often less crowded but still good for photography",
+      "Bring binoculars if you have them, though birds are visible without them"
+    ],
+    "duration": "1 hour",
+    "isFeatured": true,
+    "isGem": false,
+    "isUserSelected": true,
+    "cost": "Free",
+    "quickStops": [],
+    "typeEmoji": "🦜"
+  },
+  {
+    "time": "15:45",
+    "title": "Drive on F946 Loðmundarfjarðarvegur",
+    "description": "Experience this remote mountain road in East Iceland leading through picturesque landscapes. The road is suitable for your 4WD Suzuki Vitara and offers stunning mountain and fjord views along the way.",
+    "details": [
+      "Remote F-road with picturesque surroundings and mountain views",
+      "No river crossings, primarily rough gravel and steep sections",
+      "Route passes through uninhabited wilderness areas",
+      "Drive slowly and cautiously, especially on narrow and steep portions"
+    ],
+    "duration": "1 hour",
+    "isFeatured": true,
+    "isGem": false,
+    "isUserSelected": true,
+    "cost": "Free",
+    "quickStops": [
+      "Various scenic pullouts for photos of the dramatic landscapes"
+    ],
+    "typeEmoji": "🚗"
+  },
+  {
+    "time": "17:00",
+    "title": "Drive to Ásgeirsstaðir Cottages",
+    "description": "Make the drive from Borgarfjörður Eystri to your accommodation in Eidar.",
+    "details": [],
+    "duration": "2 hours",
+    "isFeatured": false,
+    "isGem": false,
+    "isUserSelected": false,
+    "cost": "",
+    "quickStops": [],
+    "typeEmoji": "🚗"
+  },
+  {
+    "time": "19:00",
+    "title": "Check in at Ásgeirsstaðir Cottages",
+    "description": "Arrive at your cottage accommodation and settle in for the evening.",
+    "details": [],
+    "duration": "30 minutes",
+    "isFeatured": false,
+    "isGem": false,
+    "isUserSelected": false,
+    "cost": "",
+    "quickStops": [],
+    "typeEmoji": "🏠"
+  },
+  {
+    "time": "19:30",
+    "title": "Self-catered dinner at cottage",
+    "description": "Prepare a simple dinner using the kitchen facilities in your cottage.",
+    "details": [],
+    "duration": "1 hour",
+    "isFeatured": false,
+    "isGem": false,
+    "isUserSelected": true,
+    "cost": "Varies (groceries)",
+    "quickStops": [],
+    "typeEmoji": "🍽️"
+  }
+],
   "highlights": [
     "Hiking to the stunning and secluded Brúnavík Beach",
     "Exploring the turquoise pools and massive boulders at Stórurð Basin",
