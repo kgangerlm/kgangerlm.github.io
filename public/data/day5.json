@@ -106,7 +106,8 @@
       "isUserSelected": false,
       "cost": "$10-15 per person",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.tripadvisor.com/Restaurants-g189960-zfp2-Hofn_East_Region.html"
     },
     {
       "time": "08:00",
@@ -137,7 +138,8 @@
       "isUserSelected": true,
       "cost": "$12 per person (entry fee)",
       "quickStops": [],
-      "typeEmoji": "📸"
+      "typeEmoji": "📸",
+      "link": "https://www.adventurouskate.com/stokksnes/"
     },
     {
       "time": "10:00",
@@ -251,7 +253,7 @@
       "duration": "45 minutes",
       "isFeatured": false,
       "isGem": false,
-      "isUserSelected": true,
+      "isUserSelected": false,
       "cost": "",
       "quickStops": [],
       "typeEmoji": "🚗"
@@ -299,7 +301,8 @@
         "3-mile loop trail through boulder field and meadows",
         "Several small, brilliantly blue glacier water pools",
         "Relatively easy terrain with some uneven surfaces",
-        "Long daylight hours in July make evening hiking possible"
+        "Long daylight hours in July make evening hiking possible",
+        "This is probably to much it looks like there is a 2 hour one way hike just to get to the loop"
       ],
       "duration": "1 hour 30 minutes (we can make this short)",
       "isFeatured": true,
@@ -307,7 +310,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🥾"
+      "typeEmoji": "🥾",
+      "link": "https://www.iceland-dream.com/guide/east/storurd"
     },
     {
       "time": "20:00",
@@ -367,7 +371,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon (would require 1.5-hour detour)",
-      "link": "https://www.visitseydisfjordur.com/tvisongur-sound-sculpture/"
+      "link": "https://guidetoiceland.is/connect-with-locals/regina/the-sound-sculpture-tvisongur-in-seydisfjordur"
     },
     {
       "title": "Fáskrúðsfjörður French Connection",
@@ -377,7 +381,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": "https://franska.is/en/"
+      "link": "https://icelandtravelguide.is/locations/faskrudsfjordur-village/"
     },
     {
       "title": "Búlandstindur Mountain",
@@ -387,7 +391,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Morning or Afternoon (3-4 hour hike)",
-      "link": ""
+      "link": "https://www.funiceland.is/nature/mountains/bulandstindur/"
     },
     {
       "title": "Papey Island Boat Tour",
@@ -433,7 +437,7 @@
       "location": "Egilsstaðir",
       "cost": "1,000 ISK ($7) per person",
       "timing": "Afternoon",
-      "link": "https://www.minjasafn.is/en"
+      "link": "https://www.icelandtravel.is/attractions/heritage-museum/"
     }
   ],
   "tip": "The East Fjords have Iceland's largest population of wild reindeer. They were introduced in the 18th century and are most commonly spotted in this region, especially in the morning and evening hours.",
@@ -442,5 +446,31 @@
     "The roads through the East Fjords are paved but winding, with occasional single-lane bridges and tunnels.",
     "Route 939 Axarvegur is an alternate to driving the fjords that would save time by going through the mountains. It is also supposed to be quite pretty. Some prefer it",
     "Note that the Azamara Quest cruise ship will be in port today with 698 passengers, so some locations might be busier than usual during midday hours."
+  ],
+  "hotSprings": [
+    {
+      "name": "Djúpavogskörin",
+      "description": "A natural hot spring in Djúpivogur, conveniently located on your route through the East Fjords.",
+      "location": "Djúpivogur",
+      "isEveningRelaxation": false,
+      "cost": "Free",
+      "link": "https://visitdjupivogur.is/en/activities-excursions/sveitar-3"
+    },
+    {
+      "name": "Vök Baths",
+      "description": "Unique floating geothermal pools on Lake Urriðavatn near Egilsstaðir with stunning views.",
+      "location": "Near Egilsstaðir",
+      "isEveningRelaxation": false,
+      "cost": "6,990 ISK (~$50) per person",
+      "link": "https://vokbaths.is/"
+    },
+    {
+      "name": "Blábjörg Guesthouse Hot Tubs",
+      "description": "Seaside hot tubs with stunning views of the harbor and mountains, located right in Borgarfjörður Eystri where you're staying.",
+      "location": "Borgarfjörður Eystri",
+      "isEveningRelaxation": true,
+      "cost": "1,500 ISK (~$11) per person for non-guests",
+      "link": "https://www.blabjorg.is/en"
+    }
   ]
 }

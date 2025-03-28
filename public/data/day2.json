@@ -97,7 +97,8 @@
       "isUserSelected": false,
       "cost": "Included with stay",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.tripadvisor.com/LocationPhotoDirectLink-g189970-d487223-i230038301-Hotel_Fron-Reykjavik_Capital_Region.html"
     },
     {
       "time": "08:30",
@@ -130,7 +131,8 @@
         "Law Rock viewpoint - historically where laws were announced",
         "Þingvallakirkja - small church dating from 1859"
       ],
-      "typeEmoji": "🏞️"
+      "typeEmoji": "🏞️",
+      "link": "https://www.thingvellir.is/en/"
     },
     {
       "time": "12:00",
@@ -149,7 +151,8 @@
       "quickStops": [
         "Geysir Center gift shop and restaurant"
       ],
-      "typeEmoji": "💦"
+      "typeEmoji": "💦",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/geysir"
     },
     {
       "time": "13:30",
@@ -166,7 +169,8 @@
       "isUserSelected": true,
       "cost": "Free entry",
       "quickStops": [],
-      "typeEmoji": "🌊"
+      "typeEmoji": "🌊",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/gullfoss"
     },
     {
       "time": "14:45",
@@ -179,7 +183,8 @@
       "isUserSelected": false,
       "cost": "$25-30 per person",
       "quickStops": [],
-      "typeEmoji": "🍅"
+      "typeEmoji": "🍅",
+      "link": "https://fridheimar.is/en/"
     },
     {
       "time": "16:30",
@@ -198,7 +203,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🥾"
+      "typeEmoji": "🥾",
+      "link": "https://siggadottir.com/reykjadalur-hot-springs/"
     },
     {
       "time": "20:00",
@@ -224,7 +230,8 @@
       "isUserSelected": false,
       "cost": "$35-45 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://guidetoiceland.is/best-of-iceland/top-things-to-do-in-selfoss"
     }
   ],
   "highlights": [
@@ -258,7 +265,7 @@
       "isGem": true,
       "isUserSelected": false,
       "timing": "Afternoon/Evening",
-      "link": "https://epiciceland.net/hidden-gems-in-iceland/"
+      "link": "https://icelandthebeautiful.com/tungnaarfellsfoss-waterfall-tungnaa-central-iceland/"
     },
     {
       "title": "Secret Lagoon (Gamla Laugin)",
@@ -278,7 +285,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://www.icelandtravel.is/attractions/kerid/"
     },
     {
       "title": "Faxi Waterfall",
@@ -288,7 +295,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://guidetoiceland.is/travel-iceland/drive/faxi"
     },
     {
       "title": "Brúarfoss Waterfall",

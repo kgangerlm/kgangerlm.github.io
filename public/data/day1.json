@@ -21,12 +21,31 @@
   "shortSummary": "Begin your Icelandic adventure with a rejuvenating soak in the Blue Lagoon's mineral-rich waters before exploring Reykjavík's colorful streets and iconic landmarks.",
   "driving": {
     "total": {
-      "distance": { "km": 70.5, "miles": 43.8 },
+      "distance": {
+        "km": 70.5,
+        "miles": 43.8
+      },
       "time": "1 hour 15 minutes"
     },
     "segments": [
-      { "from": "Keflavík International Airport", "to": "Blue Lagoon", "distance": { "km": 21.5, "miles": 13.4 }, "time": "25 minutes" },
-      { "from": "Blue Lagoon", "to": "Reykjavík", "distance": { "km": 49, "miles": 30.4 }, "time": "50 minutes" }
+      {
+        "from": "Keflavík International Airport",
+        "to": "Blue Lagoon",
+        "distance": {
+          "km": 21.5,
+          "miles": 13.4
+        },
+        "time": "25 minutes"
+      },
+      {
+        "from": "Blue Lagoon",
+        "to": "Reykjavík",
+        "distance": {
+          "km": 49,
+          "miles": 30.4
+        },
+        "time": "50 minutes"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=14SQO22uQjMOhV9Q8E7FtIW0fXMesXQw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -45,7 +64,8 @@
       "isUserSelected": true,
       "cost": null,
       "quickStops": [],
-      "typeEmoji": "🛬"
+      "typeEmoji": "🛬",
+      "link": "https://www.visiticeland.com/article/arrival-in-iceland/"
     },
     {
       "time": "9:00 AM",
@@ -58,7 +78,8 @@
       "isUserSelected": true,
       "cost": "$25 per person",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.facebook.com/groups/bluelagooniceland/posts/856688933328429/"
     },
     {
       "time": "10:30 AM",
@@ -75,7 +96,8 @@
       "isUserSelected": true,
       "cost": "$93 per person (basic package)",
       "quickStops": [],
-      "typeEmoji": "♨️"
+      "typeEmoji": "♨️",
+      "link": "https://www.bluelagoon.com/"
     },
     {
       "time": "2:00 PM",
@@ -103,7 +125,8 @@
       "isUserSelected": true,
       "cost": null,
       "quickStops": [],
-      "typeEmoji": "🛒"
+      "typeEmoji": "🛒",
+      "link": "https://www.reddit.com/r/VisitingIceland/comments/zxed1v/grocery_shopping_in_iceland/"
     },
     {
       "time": "3:45 PM",
@@ -116,7 +139,8 @@
       "isUserSelected": true,
       "cost": null,
       "quickStops": [],
-      "typeEmoji": "🏨"
+      "typeEmoji": "🏨",
+      "link": "https://www.facebook.com/groups/bluelagooniceland/posts/944228404574481/"
     },
     {
       "time": "4:30 PM",
@@ -136,7 +160,8 @@
         "Reykjavík Street Art - The city is known for its vibrant murals",
         "Tjörnin (The Pond) - Peaceful lake in the city center with abundant birdlife"
       ],
-      "typeEmoji": "🏙️"
+      "typeEmoji": "🏙️",
+      "link": "https://guidetoiceland.is/reykjavik-guide/reykjavik-101-the-ultimate-guide-to-reykjavik-s-city-centre"
     },
     {
       "time": "7:00 PM",
@@ -152,7 +177,8 @@
       "isUserSelected": true,
       "cost": "$35 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://www.facebook.com/groups/guidetoiceland/posts/3079544565519321/"
     }
   ],
   "highlights": [
@@ -166,7 +192,10 @@
     "address": "Laugavegur 22A, Reykjavik, 101 Iceland",
     "cost": "$252.74",
     "roomType": "Double/Twin Rooms",
-    "amenities": ["Central location", "Free Wi-Fi"],
+    "amenities": [
+      "Central location",
+      "Free Wi-Fi"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "73051105801878",
@@ -202,7 +231,7 @@
       "isGem": true,
       "isUserSelected": false,
       "timing": "Evening (after dinner)",
-      "link": ""
+      "link": "https://www.reddit.com/r/VisitingIceland/comments/1ex4m5s/a_warning_about_grotta_island_in_reykjavik_learn/"
     },
     {
       "title": "Reykjavík Roasters Coffee Experience",
@@ -222,7 +251,7 @@
       "location": "Reykjavík, near the University of Iceland",
       "cost": "$18 per adult",
       "timing": "Afternoon",
-      "link": "https://www.nationalmuseum.is/"
+      "link": "https://www.tripadvisor.com/FAQ_Answers-g189970-d624551-t4510406-How_long_should_I_plan_to_visit_the_museum.html"
     },
     {
       "title": "Shopping on Laugavegur",
@@ -230,7 +259,7 @@
       "location": "Downtown Reykjavík",
       "cost": "Varies",
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://guidetoiceland.is/travel-iceland/drive/laugavegur-street"
     },
     {
       "title": "Sægreifinn (The Sea Baron)",
@@ -238,12 +267,14 @@
       "location": "Old Harbor, Reykjavík",
       "cost": "$25-30 per person",
       "timing": "Lunch or dinner",
-      "link": ""
+      "link": "https://www.seiskamimura.com/home/iceland-eats-sgreifinn-the-sea-baron"
     }
   ],
   "tip": "The Blue Lagoon is less crowded in the morning and late evening. If you arrive early, you'll have more space to enjoy the experience before the midday rush.",
-"notes": [
-  "Today is focused on relaxation after your flight, with minimal physical activity.",
-  "The Blue Lagoon is the perfect antidote to jet lag and will set the tone for your Iceland adventure.",
-  "Remember to pack your swimwear in your carry-on so you can head straight to the Blue Lagoon from the airport."
-]}
+  "notes": [
+    "Today is focused on relaxation after your flight, with minimal physical activity.",
+    "The Blue Lagoon is the perfect antidote to jet lag and will set the tone for your Iceland adventure.",
+    "Remember to pack your swimwear in your carry-on so you can head straight to the Blue Lagoon from the airport."
+  ]
+  
+}

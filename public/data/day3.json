@@ -97,7 +97,8 @@
       "isUserSelected": false,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.tripadvisor.com/ShowUserReviews-g315852-d10514078-r733730284-Country_Dream-Selfoss_South_Region.html?m=27208"
     },
     {
       "time": "09:00",
@@ -110,7 +111,8 @@
       "isUserSelected": true,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "👋"
+      "typeEmoji": "👋",
+      "link": "https://icelandweddingplanner.com/2019/01/18/iceland-elopement-photographer-heather-mike/"
     },
     {
       "time": "09:45",
@@ -143,7 +145,8 @@
       "quickStops": [
         "Gljúfrabúi - hidden waterfall just a 5-minute walk north through the canyon"
       ],
-      "typeEmoji": "🌊"
+      "typeEmoji": "🌊",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/seljalandsfoss"
     },
     {
       "time": "11:45",
@@ -176,7 +179,8 @@
       "quickStops": [
         "Skógar Museum - folk museum displaying Icelandic cultural heritage (if time permits)"
       ],
-      "typeEmoji": "🌊"
+      "typeEmoji": "🌊",
+      "link": "https://siggadottir.com/skogafoss-waterfall-hike/"
     },
     {
       "time": "13:45",
@@ -189,7 +193,8 @@
       "isUserSelected": false,
       "cost": "$15-25 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g608884-d24141588-Reviews-Freya_Cafe-Skogar_South_Region.html"
     },
     {
       "time": "14:45",
@@ -222,7 +227,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🏝️"
+      "typeEmoji": "🏝️",
+      "link": "https://www.tripadvisor.com/Attraction_Review-g189978-d2402443-Reviews-Vikurfjara_Black_Sand_Beach-Vik_South_Region.html"
     },
     {
       "time": "16:45",
@@ -240,7 +246,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🏝️"
+      "typeEmoji": "🏝️",
+      "link": "https://fortheloveofwanderlust.com/the-black-sand-beaches-of-vik-and-reynisfjara-iceland/"
     },
     {
       "time": "18:00",
@@ -258,7 +265,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🦅"
+      "typeEmoji": "🦅",
+      "link": "https://ilivetotravel.me/iceland-south-shore-dyrholaey-vik/"
     },
     {
       "time": "19:15",
@@ -297,7 +305,8 @@
       "isUserSelected": false,
       "cost": "$25-40 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://www.reddit.com/r/VisitingIceland/comments/132bqp1/best_dining_in_vik/"
     }
   ],
   "highlights": [
@@ -331,7 +340,7 @@
       "isGem": true,
       "isUserSelected": false,
       "timing": "Morning (after Skógafoss)",
-      "link": ""
+      "link": "https://www.adventurouskate.com/kvernufoss-waterfall-iceland/"
     },
     {
       "title": "Sólheimajökull Glacier Viewpoint",
@@ -341,7 +350,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://www.tripadvisor.com/Attraction_Review-g189978-d7790479-Reviews-Solheimajokull_Glacier-Vik_South_Region.html"
     },
     {
       "title": "Thakgil Canyon",
@@ -361,7 +370,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Evening",
-      "link": ""
+      "link": "https://www.facebook.com/groups/bluelagooniceland/posts/848116270852362/"
     },
     {
       "title": "Zipline Tour in Vík",
@@ -397,12 +406,39 @@
       "location": "Near Skógafoss",
       "cost": "1000 ISK ($7) per person",
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://www.tripadvisor.com/Attraction_Review-g608884-d1138165-Reviews-Seljavallalaug-Skogar_South_Region.html"
     }
   ],
   "tip": "Be extremely cautious at all black sand beaches in Iceland, especially Reynisfjara. Never turn your back to the ocean and stay at least 30 meters from the water's edge. Sneaker waves have claimed lives here, even on calm-looking days.",
   "notes": [
     "Most restaurants along the South Coast close early (around 9pm), so plan dinner accordingly.",
     "Consider stocking up on some groceries as options are limited after Selfoss."
+  ],
+
+  "hotSprings": [
+    {
+      "name": "Seljavallalaug",
+      "description": "One of Iceland's oldest swimming pools (built 1923), nestled in a mountain valley near Seljalandsfoss. Accessible via a 20-minute hike.",
+      "location": "Near Seljalandsfoss",
+      "isEveningRelaxation": false,
+      "cost": "Free",
+      "link": "https://guidetoiceland.is/connect-with-locals/regina/seljavallalaug-a-hidden-gem-in-south-iceland"
+    },
+    {
+      "name": "Gljúfrabúi Hot Spring",
+      "description": "A small natural hot spring at the base of the hidden Gljúfrabúi waterfall, just a short walk from Seljalandsfoss.",
+      "location": "Near Seljalandsfoss",
+      "isEveningRelaxation": false,
+      "cost": "Free",
+      "link": "https://www.south.is/en/place/gljufrabui"
+    },
+    {
+      "name": "Secret Lagoon (Gamla Laugin)",
+      "description": "Iceland's oldest swimming pool in Flúðir offering a natural hot spring experience. Perfect for unwinding after a day of waterfalls and black sand beaches.",
+      "location": "Flúðir (on the way back to accommodation)",
+      "isEveningRelaxation": true,
+      "cost": "3,000 ISK (~$22) per person",
+      "link": "https://secretlagoon.is/"
+    }
   ]
 }

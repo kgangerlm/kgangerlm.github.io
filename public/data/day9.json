@@ -21,15 +21,58 @@
   "summary": "Journey from the remote beauty of North Iceland's Troll Peninsula to the dramatic landscapes of the Snæfellsnes Peninsula. Today's route showcases the incredible diversity of Iceland's scenery, from historic turf churches and ancient fortresses, to dramatic sea stacks, hidden waterfalls, and finally the iconic Kirkjufell mountain. This transition day covers significant distance but rewards you with some of Iceland's most distinctive and photogenic landscapes.",
   "driving": {
     "total": {
-      "distance": { "km": 395, "miles": 245 },
+      "distance": {
+        "km": 395,
+        "miles": 245
+      },
       "time": "5 hours 30 minutes"
     },
     "segments": [
-      { "from": "Siglufjörður", "to": "Grafarkirkja", "distance": { "km": 70, "miles": 43 }, "time": "1 hour" },
-      { "from": "Grafarkirkja", "to": "Hofsós Swimming Pool", "distance": { "km": 15, "miles": 9 }, "time": "15 minutes" },
-      { "from": "Hofsós", "to": "Hvítserkur", "distance": { "km": 135, "miles": 84 }, "time": "1 hour 45 minutes" },
-      { "from": "Hvítserkur", "to": "Bergárfoss Waterfall", "distance": { "km": 25, "miles": 16 }, "time": "30 minutes" },
-      { "from": "Bergárfoss Waterfall", "to": "Kirkjufell Mountain", "distance": { "km": 150, "miles": 93 }, "time": "2 hours" }
+      {
+        "from": "Siglufjörður",
+        "to": "Grafarkirkja",
+        "distance": {
+          "km": 70,
+          "miles": 43
+        },
+        "time": "1 hour"
+      },
+      {
+        "from": "Grafarkirkja",
+        "to": "Hofsós Swimming Pool",
+        "distance": {
+          "km": 15,
+          "miles": 9
+        },
+        "time": "15 minutes"
+      },
+      {
+        "from": "Hofsós",
+        "to": "Hvítserkur",
+        "distance": {
+          "km": 135,
+          "miles": 84
+        },
+        "time": "1 hour 45 minutes"
+      },
+      {
+        "from": "Hvítserkur",
+        "to": "Bergárfoss Waterfall",
+        "distance": {
+          "km": 25,
+          "miles": 16
+        },
+        "time": "30 minutes"
+      },
+      {
+        "from": "Bergárfoss Waterfall",
+        "to": "Kirkjufell Mountain",
+        "distance": {
+          "km": 150,
+          "miles": 93
+        },
+        "time": "2 hours"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1rEEyKRYtWJ2wE3hfstl7ShVbcP9n3uw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -45,7 +88,8 @@
       "isUserSelected": false,
       "cost": "$10-15 per person at café",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.airbnb.com/siglufjordur-iceland/stays"
     },
     {
       "time": "09:00",
@@ -80,7 +124,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "⛪"
+      "typeEmoji": "⛪",
+      "link": "https://icelandtravelguide.is/locations/grafarkirkja-turf-church/"
     },
     {
       "time": "10:45",
@@ -221,7 +266,11 @@
     "address": "Grundargata 50, Grundarfjörður, 350 Iceland",
     "cost": "$500.22",
     "roomType": "Double or Twin Room, Private Bathroom",
-    "amenities": ["Free Wi-Fi", "Restaurant", "Free parking"],
+    "amenities": [
+      "Free Wi-Fi",
+      "Restaurant",
+      "Free parking"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "73057461061626",
@@ -287,7 +336,7 @@
       "location": "Stykkishólmur (30 minutes from Grundarfjörður)",
       "cost": "1,000 ISK ($7) per person",
       "timing": "Afternoon",
-      "link": "http://www.eldfjallasafn.is/en/"
+      "link": "https://guidetoiceland.is/best-of-iceland/best-volcanic-experiences-in-iceland"
     },
     {
       "title": "Library of Water",
@@ -295,7 +344,7 @@
       "location": "Stykkishólmur",
       "cost": "700 ISK ($5) per person",
       "timing": "Afternoon",
-      "link": "https://www.libraryofwater.is/"
+      "link": "https://www.icelandtravel.is/attractions/library-of-water/"
     },
     {
       "title": "Icelandic Settlement Center",
@@ -303,12 +352,39 @@
       "location": "Borgarnes (on the way to Snæfellsnes)",
       "cost": "2,500 ISK ($18) per person",
       "timing": "Afternoon",
-      "link": "https://www.settlementcenter.is/"
+      "link": "https://www.icelandtravel.is/attractions/settlement-center-of-iceland/"
     }
   ],
   "tip": "The classic photo of Kirkjufell with the waterfalls in the foreground requires crossing the road and walking a short distance to the small footbridge. Be careful when crossing as the road can be busy with other photographers and tourists.",
-"notes": [
-  "This is a significant driving day (about 5.5 hours total) but broken up with diverse and interesting stops.",
-  "Consider doing some of the longer optional activities tomorrow if you're feeling tired from the drive.",
-  "Kirkjufell looks best in evening light, so the late arrival works well for photography."
-]}
+  "notes": [
+    "This is a significant driving day (about 5.5 hours total) but broken up with diverse and interesting stops.",
+    "Consider doing some of the longer optional activities tomorrow if you're feeling tired from the drive.",
+    "Kirkjufell looks best in evening light, so the late arrival works well for photography."
+  ],
+  "hotSprings": [
+    {
+      "name": "Grettislaug",
+      "description": "A historic hot spring with connections to Icelandic sagas, if not visited on Day 8.",
+      "location": "Near Sauðárkrókur",
+      "isEveningRelaxation": false,
+      "cost": "1,000 ISK (~$7) per person",
+      "link": "https://www.northwest.is/en/place/grettislaug-2"
+    },
+    {
+      "name": "Guðrúnarlaug",
+      "description": "Another historic hot spring with saga connections, reconstructed based on medieval descriptions.",
+      "location": "Near Laugar in Sælingsdalur",
+      "isEveningRelaxation": false,
+      "cost": "Free",
+      "link": "https://westfjords.is/en/destinations/natural-wonders/gudrunarlaug"
+    },
+    {
+      "name": "Grundarfjörður Swimming Pool",
+      "description": "Located in the town where you're staying, this local pool has hot tubs with views of Kirkjufell mountain. Perfect for relaxing after your long driving day.",
+      "location": "Grundarfjörður",
+      "isEveningRelaxation": true,
+      "cost": "900 ISK (~$7) per person",
+      "link": "https://grundarfjordur.is/mannlif/sundlaugin/"
+    }
+  ]
+}

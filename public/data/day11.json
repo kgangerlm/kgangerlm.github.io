@@ -61,7 +61,8 @@
       "isUserSelected": false,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.reddit.com/r/VisitingIceland/comments/17itsas/where_to_stay_hotel_vs_airbnb/"
     },
     {
       "time": "08:45",
@@ -76,7 +77,8 @@
       "quickStops": [
         "Akranes Lighthouse - quick photo stop if not visited the evening before"
       ],
-      "typeEmoji": "🚗"
+      "typeEmoji": "🚗",
+      "link": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iceland.html"
     },
     {
       "time": "09:45",
@@ -95,7 +97,8 @@
       "isUserSelected": true,
       "cost": "Varies",
       "quickStops": [],
-      "typeEmoji": "🛍️"
+      "typeEmoji": "🛍️",
+      "link": "https://www.reddit.com/r/VisitingIceland/comments/13skoh5/last_full_day_in_reykjavik_shopping_questions/"
     },
     {
       "time": "11:30",
@@ -114,7 +117,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🏞️"
+      "typeEmoji": "🏞️",
+      "link": "https://www.tripadvisor.com/Attraction_Review-g3195219-d3195245-Reviews-Seltjarnarnes_Peninsula_Jogging_Path-Seltjarnarnes_Reykjavik_Capital_Region.html"
     },
     {
       "time": "12:30",
@@ -127,7 +131,8 @@
       "isUserSelected": false,
       "cost": "$25-40 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://www.facebook.com/groups/bluelagooniceland/posts/790548939942429/"
     },
     {
       "time": "13:45",
@@ -155,7 +160,8 @@
       "isUserSelected": false,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "🚙"
+      "typeEmoji": "🚙",
+      "link": "https://www.tripadvisor.com/ShowTopic-g189952-i223-k12184606-Timing_of_rental_car_return_etc-Iceland.html"
     },
     {
       "time": "15:00",
@@ -168,7 +174,8 @@
       "isUserSelected": false,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "✈️"
+      "typeEmoji": "✈️",
+      "link": "https://www.icelandair.com/support/pre-flight/check-in/"
     },
     {
       "time": "15:45",
@@ -187,7 +194,8 @@
       "isUserSelected": false,
       "cost": "Varies",
       "quickStops": [],
-      "typeEmoji": "🛍️"
+      "typeEmoji": "🛍️",
+      "link": "https://www.flydenver.com/"
     },
     {
       "time": "16:50",
@@ -200,7 +208,8 @@
       "isUserSelected": false,
       "cost": "Included in trip",
       "quickStops": [],
-      "typeEmoji": "✈️"
+      "typeEmoji": "✈️",
+      "link": "https://www.icelandair.com/support/pre-flight/flight-status/"
     }
   ],
   "highlights": [
@@ -240,7 +249,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Morning",
-      "link": ""
+      "link": "https://humphreystravel.com/2023/07/25/a-whole-different-world-icelands-reykjanes-peninsula/"
     },
     {
       "title": "Perlan Museum",
@@ -260,7 +269,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Morning",
-      "link": ""
+      "link": "https://www.introducingiceland.com/hallgrimskirkja"
     },
     {
       "title": "Sky Lagoon",
@@ -288,7 +297,7 @@
       "location": "Reykjavík",
       "cost": "2,000 ISK ($15) per person",
       "timing": "Morning",
-      "link": "https://www.nationalmuseum.is/"
+      "link": "https://www.tripadvisor.com/FAQ_Answers-g189970-d624551-t4510406-How_long_should_I_plan_to_visit_the_museum.html"
     },
     {
       "title": "Kringlan Shopping Mall",
@@ -296,7 +305,7 @@
       "location": "Reykjavík",
       "cost": "Free entry",
       "timing": "Morning",
-      "link": "https://www.kringlan.is/en"
+      "link": "https://www.kringlan.is"
     }
   ],
   "tip": "If purchasing alcohol or other duty-free items, remember that Keflavík Airport's prices are generally lower than in downtown Reykjavík, so consider waiting until you reach the airport to make these purchases.",
