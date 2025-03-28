@@ -11,8 +11,9 @@
   const quickStops = item.quickStops || [];
   const cost = item.cost !== undefined ? item.cost : null;
   
-  // If it's an older format, links might be just a string
-  const links = item.links || (item.link ? [{ text: "More Info", url: item.link }] : []);
+  // Get the first link if available
+  const link = item.links && item.links.length > 0 ? item.links[0].url : 
+               item.link ? item.link : null;
 </script>
 
 <div class="activity-item">
@@ -30,7 +31,11 @@
     <!-- Title with type emoji -->
     <div class="activity-title">
       {#if typeEmoji}<span class="type-emoji">{typeEmoji}</span>{/if}
-      {item.title}
+      {#if link}
+        <a href={link} target="_blank" rel="noopener">{item.title}</a>
+      {:else}
+        {item.title}
+      {/if}
     </div>
     
     <!-- Description -->
@@ -52,15 +57,6 @@
       <div class="activity-cost">
         <span class="cost-label">Cost:</span> 
         <span class="cost-value">{cost || "Free"}</span>
-      </div>
-    {/if}
-    
-    <!-- Links -->
-    {#if links.length > 0}
-      <div class="activity-links">
-        {#each links as link}
-          <a href={link.url} target="_blank">{link.text}</a>
-        {/each}
       </div>
     {/if}
   </div>
@@ -176,6 +172,17 @@
     gap: 8px;
   }
   
+  .activity-title a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .activity-title a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+  }
+  
   .type-emoji {
     font-size: 1.2em;
   }
@@ -205,22 +212,6 @@
   
   .cost-value {
     color: var(--primary-dark);
-  }
-  
-  .activity-links {
-    margin-top: 8px;
-  }
-  
-  .activity-links a {
-    color: var(--primary);
-    text-decoration: none;
-    font-size: 0.9em;
-    transition: color 0.2s;
-  }
-  
-  .activity-links a:hover {
-    color: var(--primary-dark);
-    text-decoration: underline;
   }
   
   .quick-stops-container {
