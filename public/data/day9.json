@@ -88,8 +88,7 @@
       "isUserSelected": false,
       "cost": "$10-15 per person at café",
       "quickStops": [],
-      "typeEmoji": "🍳",
-      "link": "https://www.airbnb.com/siglufjordur-iceland/stays"
+      "typeEmoji": "🍳"
     },
     {
       "time": "09:00",
@@ -173,7 +172,8 @@
       "isUserSelected": true,
       "cost": "Free (parking fee: 500 ISK / $3.50)",
       "quickStops": [],
-      "typeEmoji": "🏞️"
+      "typeEmoji": "🏞️",
+      "link": "https://guidetoiceland.is/connect-with-locals/regina/hvitserkur-up-north"
     },
     {
       "time": "15:15",
@@ -192,7 +192,8 @@
       "isUserSelected": false,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🌊"
+      "typeEmoji": "🌊",
+      "link": "https://thephotohikes.com/bergarfoss-waterfall/"
     },
     {
       "time": "16:30",
@@ -326,7 +327,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Evening",
-      "link": ""
+      "link": "https://www.west.is/en/service/grundarfjordur-swimming-pool"
     }
   ],
   "badWeatherAlternatives": [
@@ -376,7 +377,7 @@
       "location": "Near Laugar in Sælingsdalur",
       "isEveningRelaxation": false,
       "cost": "Free",
-      "link": "https://westfjords.is/en/destinations/natural-wonders/gudrunarlaug"
+      "link": "https://guidetoiceland.is/connect-with-locals/regina/hot-tubs-in-iceland-gurunarlaug"
     },
     {
       "name": "Grundarfjörður Swimming Pool",
@@ -384,7 +385,7 @@
       "location": "Grundarfjörður",
       "isEveningRelaxation": true,
       "cost": "900 ISK (~$7) per person",
-      "link": "https://grundarfjordur.is/mannlif/sundlaugin/"
+      "link": "https://www.west.is/en/service/grundarfjordur-swimming-pool"
     }
   ]
 }

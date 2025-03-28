@@ -184,8 +184,7 @@
       "isUserSelected": false,
       "cost": "$15-25 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️",
-      "link": "https://visitorsguide.is/"
+      "typeEmoji": "🍽️"
     },
     {
       "time": "14:15",
@@ -217,7 +216,8 @@
       "isUserSelected": true,
       "cost": "$95 per person (pre-booked)",
       "quickStops": [],
-      "typeEmoji": "🚤"
+      "typeEmoji": "🚤",
+      "link": "https://icelagoon.is/"
     },
     {
       "time": "17:15",
@@ -379,7 +379,7 @@
       "location": "Near Höfn",
       "isEveningRelaxation": true,
       "cost": "1,000 ISK (~$7) per person",
-      "link": "https://www.east.is/en/see-and-do/service/hoffell-hot-tubs"
+      "link": "https://www.tripadvisor.com/Attraction_Review-g189960-d10223970-Reviews-Hoffell_Hot_Tubs-Hofn_East_Region.html"
     },
     {
       "name": "Krosslaug",
@@ -387,7 +387,7 @@
       "location": "Laugarfell area",
       "isEveningRelaxation": false,
       "cost": "Free",
-      "link": "https://hotpots.is/laugarfell-hot-springs/"
+      "link": "https://guidetoiceland.is/travel-iceland/drive/krosslaug-hot-springs"
     }
   ]
 }
