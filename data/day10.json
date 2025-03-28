@@ -21,17 +21,76 @@
   "summary": "Explore the diverse wonders of the Snæfellsnes Peninsula, often called \"Iceland in Miniature\" for its concentration of landscapes from around the country. Today's journey takes you around this magical peninsula with its dramatic coastlines, black pebble beaches, lava fields, and the glacier-topped Snæfellsjökull volcano that inspired Jules Verne's \"Journey to the Center of the Earth.\" From rugged sea cliffs to hidden hot springs, today showcases some of Iceland's most unique and photogenic landscapes.",
   "driving": {
     "total": {
-      "distance": { "km": 220, "miles": 137 },
+      "distance": {
+        "km": 220,
+        "miles": 137
+      },
       "time": "3 hours 15 minutes"
     },
     "segments": [
-      { "from": "The Old Post Office, Grundarfjörður", "to": "Djúpalónssandur Black Pebble Beach", "distance": { "km": 45, "miles": 28 }, "time": "40 minutes" },
-      { "from": "Djúpalónssandur", "to": "Hellnar", "distance": { "km": 15, "miles": 9 }, "time": "15 minutes" },
-      { "from": "Hellnar", "to": "Vatnshellir Cave", "distance": { "km": 10, "miles": 6 }, "time": "15 minutes" },
-      { "from": "Vatnshellir Cave", "to": "Ytri Tunga Beach", "distance": { "km": 50, "miles": 31 }, "time": "45 minutes" },
-      { "from": "Ytri Tunga Beach", "to": "Lanbrotalaug Hot Spring", "distance": { "km": 20, "miles": 12 }, "time": "25 minutes" },
-      { "from": "Lanbrotalaug Hot Spring", "to": "Gerðuberg Basalt Columns", "distance": { "km": 15, "miles": 9 }, "time": "20 minutes" },
-      { "from": "Gerðuberg Basalt Columns", "to": "Airbnb in Akranes", "distance": { "km": 65, "miles": 40 }, "time": "55 minutes" }
+      {
+        "from": "The Old Post Office, Grundarfjörður",
+        "to": "Djúpalónssandur Black Pebble Beach",
+        "distance": {
+          "km": 45,
+          "miles": 28
+        },
+        "time": "40 minutes"
+      },
+      {
+        "from": "Djúpalónssandur",
+        "to": "Hellnar",
+        "distance": {
+          "km": 15,
+          "miles": 9
+        },
+        "time": "15 minutes"
+      },
+      {
+        "from": "Hellnar",
+        "to": "Vatnshellir Cave",
+        "distance": {
+          "km": 10,
+          "miles": 6
+        },
+        "time": "15 minutes"
+      },
+      {
+        "from": "Vatnshellir Cave",
+        "to": "Ytri Tunga Beach",
+        "distance": {
+          "km": 50,
+          "miles": 31
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Ytri Tunga Beach",
+        "to": "Lanbrotalaug Hot Spring",
+        "distance": {
+          "km": 20,
+          "miles": 12
+        },
+        "time": "25 minutes"
+      },
+      {
+        "from": "Lanbrotalaug Hot Spring",
+        "to": "Gerðuberg Basalt Columns",
+        "distance": {
+          "km": 15,
+          "miles": 9
+        },
+        "time": "20 minutes"
+      },
+      {
+        "from": "Gerðuberg Basalt Columns",
+        "to": "Airbnb in Akranes",
+        "distance": {
+          "km": 65,
+          "miles": 40
+        },
+        "time": "55 minutes"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1p5j0Ep3wf98qhPSuZYWVhZ3qrQnPHuI&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -47,7 +106,8 @@
       "isUserSelected": false,
       "cost": "Included with stay",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g666462-d2157652-Reviews-The_Old_Post_Office_Guest_House-Grundarfjorour_West_Region.html"
     },
     {
       "time": "09:00",
@@ -82,7 +142,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🏝️"
+      "typeEmoji": "🏝️",
+      "link": "https://icelandtravelguide.is/locations/djupalonssandur/"
     },
     {
       "time": "11:15",
@@ -115,7 +176,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🥾"
+      "typeEmoji": "🥾",
+      "link": "https://siggadottir.com/an-easy-hike-from-arnarstapi/"
     },
     {
       "time": "14:00",
@@ -128,7 +190,8 @@
       "isUserSelected": false,
       "cost": "$20-30 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g671732-d2354459-Reviews-Fjoruhusid-Hellnar_West_Region.html"
     },
     {
       "time": "15:15",
@@ -148,7 +211,8 @@
       "isUserSelected": true,
       "cost": "$35 per person",
       "quickStops": [],
-      "typeEmoji": "🕳️"
+      "typeEmoji": "🕳️",
+      "link": "https://guidetoiceland.is/book-holiday-trips/cave-vatnshellir"
     },
     {
       "time": "16:45",
@@ -182,7 +246,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🦭"
+      "typeEmoji": "🦭",
+      "link": "https://www.tripadvisor.com/Attraction_Review-g1537454-d12588973-Reviews-Ytri_Tunga_Beach-Budir_West_Region.html"
     },
     {
       "time": "18:45",
@@ -202,7 +267,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "♨️"
+      "typeEmoji": "♨️",
+      "link": "https://media.worldnomads.com/guides/new/iceland-insiders-guide.pdf"
     },
     {
       "time": "20:00",
@@ -215,7 +281,8 @@
       "isUserSelected": false,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🏞️"
+      "typeEmoji": "🏞️",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/gerduberg"
     },
     {
       "time": "21:00",
@@ -255,7 +322,11 @@
     "address": "Akranes, Iceland",
     "cost": "$163.89",
     "roomType": "Room",
-    "amenities": ["Wi-Fi", "Kitchen access", "Free parking"],
+    "amenities": [
+      "Wi-Fi",
+      "Kitchen access",
+      "Free parking"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "HMRMJ8CNWQ",
@@ -271,7 +342,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Morning",
-      "link": ""
+      "link": "https://www.tripadvisor.com/Attraction_Review-g1185905-d13230524-Reviews-Berserkjahraun-Snaefellsbaer_West_Region.html"
     },
     {
       "title": "Svörtuloft Lighthouse",
@@ -281,7 +352,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Morning (requires detour)",
-      "link": ""
+      "link": "https://www.facebook.com/groups/bluelagooniceland/posts/928177802846208/"
     },
     {
       "title": "Ingjaldshóll Church",
@@ -291,7 +362,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://www.facebook.com/groups/bluelagooniceland/posts/971291748534813/"
     },
     {
       "title": "Rauðfeldsgjá Gorge",
@@ -301,7 +372,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://guidetoiceland.is/travel-iceland/drive/raudfeldsgja-gorge"
     },
     {
       "title": "Stykkishólmur Town",
@@ -311,7 +382,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Lunch alternative",
-      "link": ""
+      "link": "https://guidetoiceland.is/travel-iceland/drive/stykkisholmur"
     }
   ],
   "badWeatherAlternatives": [
@@ -321,7 +392,7 @@
       "location": "Ólafsvík",
       "cost": "1,000 ISK ($7) per person",
       "timing": "Morning",
-      "link": ""
+      "link": "https://www.visiticeland.com/service-provider/5ec7d096a90548233654DD08"
     },
     {
       "title": "Library of Water",
@@ -329,7 +400,7 @@
       "location": "Stykkishólmur",
       "cost": "700 ISK ($5) per person",
       "timing": "Afternoon",
-      "link": "https://www.libraryofwater.is/"
+      "link": "https://www.tripadvisor.com/Attraction_Review-g189983-d3194065-Reviews-Library_of_Water-Stykkisholmur_West_Region.html"
     },
     {
       "title": "Shark Museum (Bjarnarhöfn)",
@@ -337,9 +408,39 @@
       "location": "Near Stykkishólmur",
       "cost": "1,500 ISK ($11) per person",
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://www.stuckiniceland.com/icelandic-shark-bjarnarhofn/"
     }
   ],
   "tip": "Pack swimwear and towels for Lanbrotalaug hot spring. There are no changing facilities, so consider wearing your swimsuit under your clothes if the weather permits.",
-  "notes": "The Snæfellsnes Peninsula offers a perfect finale to your Iceland Ring Road adventure, showcasing many of the landscape features you've seen throughout your trip in one compact area. This is a flexible day with many possible stops; adjust based on weather and your interests. If planning to visit Vatnshellir Cave, consider booking the tour in advance during high season."
+  "notes": [
+    "The Snæfellsnes Peninsula offers a perfect finale to your Iceland Ring Road adventure, showcasing many of the landscape features you've seen throughout your trip in one compact area.",
+    "This is a flexible day with many possible stops; adjust based on weather and your interests.",
+    "If planning to visit Vatnshellir Cave, consider booking the tour in advance during high season."
+  ],
+  "hotSprings": [
+    {
+      "name": "Landbrotalaug",
+      "description": "A tiny natural hot pot that fits only 2-3 people (already in your itinerary), good for afternoon relaxation.",
+      "location": "Snæfellsnes Peninsula",
+      "isEveningRelaxation": true,
+      "cost": "Free",
+      "link": "https://www.west.is/en/place/landbrotalaug-hot-spring"
+    },
+    {
+      "name": "Sturlungalaug",
+      "description": "A hidden gem hot spring on the Snæfellsnes peninsula with mountain views, less visited than others.",
+      "location": "Snæfellsnes Peninsula",
+      "isEveningRelaxation": false,
+      "cost": "Free",
+      "link": "https://epiciceland.net/hidden-gems-in-iceland/"
+    },
+    {
+      "name": "Krauma Geothermal Baths",
+      "description": "Located near Borgarnes on your way to Akranes, these modern thermal baths use water from Europe's most powerful hot spring. Ideal for evening relaxation with both hot and cold baths.",
+      "location": "Near Borgarnes",
+      "isEveningRelaxation": true,
+      "cost": "4,900 ISK (~$35) per person",
+      "link": "https://krauma.is/en/"
+    }
+  ]
 }

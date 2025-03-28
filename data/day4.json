@@ -21,17 +21,76 @@
   "shortSummary": "Journey along Iceland's dramatic South Coast with Heather, discovering waterfalls you can walk behind, impressive black sand beaches, and coastal rock formations.",
   "driving": {
     "total": {
-      "distance": { "km": 331, "miles": 206 },
+      "distance": {
+        "km": 331,
+        "miles": 206
+      },
       "time": "4 hours 35 minutes"
     },
     "segments": [
-      { "from": "The Barn, Norðurfoss", "to": "Fjaðrárgljúfur Canyon", "distance": { "km": 50, "miles": 31 }, "time": "45 minutes" },
-      { "from": "Fjaðrárgljúfur Canyon", "to": "Skaftafell (Svartifoss Hike)", "distance": { "km": 60, "miles": 37 }, "time": "45 minutes" },
-      { "from": "Skaftafell", "to": "Strútsfoss Waterfall", "distance": { "km": 70, "miles": 43 }, "time": "1 hour" },
-      { "from": "Strútsfoss Waterfall", "to": "Jökulsárlón Glacier Lagoon", "distance": { "km": 80, "miles": 50 }, "time": "1 hour" },
-      { "from": "Jökulsárlón", "to": "Diamond Beach", "distance": { "km": 1, "miles": 0.6 }, "time": "5 minutes" },
-      { "from": "Diamond Beach", "to": "Fjallajökull Viewpoint", "distance": { "km": 30, "miles": 19 }, "time": "30 minutes" },
-      { "from": "Fjallajökull Viewpoint", "to": "Airbnb in Höfn", "distance": { "km": 40, "miles": 25 }, "time": "30 minutes" }
+      {
+        "from": "The Barn, Norðurfoss",
+        "to": "Fjaðrárgljúfur Canyon",
+        "distance": {
+          "km": 50,
+          "miles": 31
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Fjaðrárgljúfur Canyon",
+        "to": "Skaftafell (Svartifoss Hike)",
+        "distance": {
+          "km": 60,
+          "miles": 37
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Skaftafell",
+        "to": "Strútsfoss Waterfall",
+        "distance": {
+          "km": 70,
+          "miles": 43
+        },
+        "time": "1 hour"
+      },
+      {
+        "from": "Strútsfoss Waterfall",
+        "to": "Jökulsárlón Glacier Lagoon",
+        "distance": {
+          "km": 80,
+          "miles": 50
+        },
+        "time": "1 hour"
+      },
+      {
+        "from": "Jökulsárlón",
+        "to": "Diamond Beach",
+        "distance": {
+          "km": 1,
+          "miles": 0.6
+        },
+        "time": "5 minutes"
+      },
+      {
+        "from": "Diamond Beach",
+        "to": "Fjallajökull Viewpoint",
+        "distance": {
+          "km": 30,
+          "miles": 19
+        },
+        "time": "30 minutes"
+      },
+      {
+        "from": "Fjallajökull Viewpoint",
+        "to": "Airbnb in Höfn",
+        "distance": {
+          "km": 40,
+          "miles": 25
+        },
+        "time": "30 minutes"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1g9ZYp95N7OgXC8GwSDtvVXbikv742fo&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -111,7 +170,8 @@
       "isUserSelected": true,
       "cost": "Free (parking fee: 750 ISK / $5.50)",
       "quickStops": [],
-      "typeEmoji": "🥾"
+      "typeEmoji": "🥾",
+      "link": "https://enrichingpursuits.com/svartifoss-waterfall-hike/"
     },
     {
       "time": "13:30",
@@ -124,7 +184,8 @@
       "isUserSelected": false,
       "cost": "$15-25 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://visitorsguide.is/"
     },
     {
       "time": "14:15",
@@ -173,24 +234,13 @@
       "isGem": false,
       "isUserSelected": true,
       "cost": "Free",
-      "quickStops": [],
+      "quickStops": [
+        "Fjallsjokull Glacier Lagoon and viewpoint"
+      ],
       "typeEmoji": "🏝️"
     },
     {
-      "time": "18:30",
-      "title": "Fjallajökull Glacier Viewpoint",
-      "description": "Stop at this less-visited glacier viewpoint for a different perspective on Iceland's ice caps.",
-      "details": [],
-      "duration": "30 minutes",
-      "isFeatured": false,
-      "isGem": false,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "🏔️"
-    },
-    {
-      "time": "19:30",
+      "time": "19:00",
       "title": "Check in at Airbnb near Höfn",
       "description": "Arrive at your accommodation and settle in for the evening.",
       "details": [],
@@ -227,7 +277,11 @@
     "address": "Seljavöllum, Höfn í Hornafirði 781, Iceland",
     "cost": "$357.52",
     "roomType": "Double or twin",
-    "amenities": ["Kitchen", "Wi-Fi", "Free parking"],
+    "amenities": [
+      "Kitchen",
+      "Wi-Fi",
+      "Free parking"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "HMXME38BS5",
@@ -273,7 +327,7 @@
       "isGem": true,
       "isUserSelected": false,
       "timing": "Afternoon (advance booking required)",
-      "link": ""
+      "link": "https://duckduckgo.com/y.js?ad_domain=adventures.is&ad_provider=bingv7aa&ad_type=txad&click_metadata=g41sHeHyslpPMQ04xx71wWe6gMcLKsxlg3%2DX5I3Sw0o5X2mIZawNzy7vcXtSHHZxQfsqNq2lMFNcDRtZuRBONrbmouTXWCUjEz3SiuuHHl1zdc4AYi7rsCOl3Q0_alTc.yST7NC0u5WuZkMm_0sbS4Q&rut=1ed9cb3969f6926a4506622400ca7cd0c53a9632b3f6a1c252189ed28d0f1fdd&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8K2a7A3R3PcJs%2DDVLMcS0pDVUCUx3xkwhZi1DUYyz%2DuNAyVwnRJkLitaI2JJsnHNqGjUYzKNB1plNNAnWdogHp_xYnm1BEd_NV%2DVygY6QsDhmxVSURxP6lX73Nfzs7Yov4EmTHqrjdNZ5U45XIJ%2DipvlLnzDxhgwAChpnEblnqSDETWJeTkkfcvTpNj8eplIA03YMFg%26u%3DaHR0cHMlM2ElMmYlMmZhZHZlbnR1cmVzLmlzJTJmaWNlbGFuZCUyZmRheS10b3VycyUyZmdsYWNpZXItdG91cnMlMmZnbGFjaWVyLXRvdXJzLW9uLXZhdG5ham9rdWxsJTJmZ2xhY2llci1ncmFuZC1zbGFtJTJmJTNmbXNjbGtpZCUzZGY4ZmJmMTg1ODE3ZDFhY2U3NDFkOTY2MTMwODdjNDViJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkTUNNJTI1MjAlMjU3QyUyNTIwR2xhY2llciUyNTIwJTI1N0MlMjUyMFNlYXJjaCUyNTIwJTI1N0MlMjUyMFVTJTI2dXRtX3Rlcm0lM2RnbGFjaWVyJTI1MjBsYWdvb24lMjUyMHRvdXIlMjUyMGljZWxhbmQlMjZ1dG1fY29udGVudCUzZE1DTSUyNTIwLSUyNTIwR2xhY2llciUyNTIwLSUyNTIwVVMlMjUyMC0lMjUyMExhZ29vbiUyNTIwLSUyNTIwUGhyYXNl%26rlid%3Df8fbf185817d1ace741d96613087c45b&vqd=4-54271613507023968212572477531655333633&iurl=%7B1%7DIG%3DEE2D6BC244134B0FA8698D7F72BECA45%26CID%3D10DA412692A6675D0F32549A93C966CB%26ID%3DDevEx%2C5047.1"
     },
     {
       "title": "Hoffelsjökull Glacier Viewpoint",
@@ -283,7 +337,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Evening or next morning",
-      "link": ""
+      "link": "https://duckduckgo.com/y.js?ad_domain=adventures.is&ad_provider=bingv7aa&ad_type=txad&click_metadata=NBc1UbHmpLmeEOMZT3kqJwD%2DtSPgwDt7nF9O1UfpFvC%2Dn_DFEE98Y6ZVkGqhXc4P4RoNU4yP_rkb5X6xUA5C0m2faEgZf7mKpCgjfLbc6vMlu7xOVWuUscdcwOdAdW%2Dg.qOt52irVf4mtcTRUDTCsEQ&rut=4073a2897460550da0bdcc7851af3970432faa9224f2bd38ded4792ce8d1b3a4&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8K1VqZnKQ5jsRWRG7yRbq1DVUCUwTmCss%2DzklF842PzBp0EsfCzy9OL%2DI0TiOzrp4fiCXI6esvnUAQhG9eCj6TXQFkZOrZrUyxnXNJ16JrTNxOdddS6p8pILHn_Gun%2DWUoMErccvptRaEUkn7JplJ2OscEgkqTJDld1JKDvl6ZJNDEPoWL3g5SIVil8p%2Dl0wnBm3twQ%26u%3DaHR0cHMlM2ElMmYlMmZhZHZlbnR1cmVzLmlzJTJmaWNlbGFuZCUyZmRheS10b3VycyUyZmdsYWNpZXItdG91cnMlMmYlM2Ztc2Nsa2lkJTNkMTYzOGQyZjM0OTU0MTZhNThkODliNTE3ZmI1M2ExZDclMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RNQ00lMjUyMCUyNTdDJTI1MjBHbGFjaWVyJTI1MjAlMjU3QyUyNTIwU2VhcmNoJTI1MjAlMjU3QyUyNTIwVVMlMjZ1dG1fdGVybSUzZGljZWxhbmQlMjUyMHRvdXJzJTI1MjBnbGFjaWVyJTI2dXRtX2NvbnRlbnQlM2RNQ00lMjUyMC0lMjUyMEdsYWNpZXIlMjUyMC0lMjUyMFVTJTI1MjAtJTI1MjBHZW5lcmljJTI1MjAtJTI1MjBQaHJhc2U%26rlid%3D1638d2f3495416a58d89b517fb53a1d7&vqd=4-5558207221925388455331224432875591664&iurl=%7B1%7DIG%3D4B4CAC840DE04D6E836211CD71CD4456%26CID%3D2D726EF43499692423FA7B4835BE68CF%26ID%3DDevEx%2C5047.1"
     }
   ],
   "badWeatherAlternatives": [
@@ -313,5 +367,27 @@
     }
   ],
   "tip": "Even in July, dress warmly for the Jökulsárlón boat tour. The temperature near the glacier can be significantly colder than elsewhere, and the wind on the water adds an extra chill factor.",
-  "notes": "This is a day with multiple highlight experiences but also significant driving. We've prioritized the pre-booked Zodiac tour over Strútsfoss Waterfall, but you could visit Strútsfoss if you leave earlier in the morning. Höfn is known for its langoustine (Icelandic lobster), so consider trying it for dinner."
+  "notes": [
+    "This is a day with multiple highlight experiences but also significant driving.",
+    "We've prioritized the pre-booked Zodiac tour over Strútsfoss Waterfall, but you could visit Strútsfoss if you leave earlier in the morning.",
+    "Höfn is known for its langoustine (Icelandic lobster), so consider trying it for dinner."
+  ],
+  "hotSprings": [
+    {
+      "name": "Hoffell Hot Tubs",
+      "description": "Rustic hot tubs with mountain views just outside Höfn, ideal for evening relaxation after your glacier adventures.",
+      "location": "Near Höfn",
+      "isEveningRelaxation": true,
+      "cost": "1,000 ISK (~$7) per person",
+      "link": "https://www.east.is/en/see-and-do/service/hoffell-hot-tubs"
+    },
+    {
+      "name": "Krosslaug",
+      "description": "A small natural hot spring in the scenic Laugarfell area. More remote but offers an authentic experience.",
+      "location": "Laugarfell area",
+      "isEveningRelaxation": false,
+      "cost": "Free",
+      "link": "https://hotpots.is/laugarfell-hot-springs/"
+    }
+  ]
 }

@@ -17,21 +17,71 @@
     "text": "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.",
     "author": "Marcel Proust"
   },
-  "shortSummary": "Explore Iceland's Golden Circle featuring the historic Þingvellir National Park, erupting Strokkur geyser, and thundering Gullfoss waterfall, ending with a natural hot spring river hike."
-,
+  "shortSummary": "Explore Iceland's Golden Circle featuring the historic Þingvellir National Park, erupting Strokkur geyser, and thundering Gullfoss waterfall, ending with a natural hot spring river hike.",
   "summary": "Today you'll explore Iceland's famous Golden Circle, a route that showcases some of the country's most spectacular natural wonders. From the historical Þingvellir National Park where tectonic plates meet, to the powerful Gullfoss waterfall and erupting Strokkur geyser, today offers iconic Icelandic landscapes. End your day with a relaxing soak in a natural hot river after a scenic hike through geothermal landscapes.",
   "driving": {
     "total": {
-      "distance": { "km": 271, "miles": 168 },
+      "distance": {
+        "km": 271,
+        "miles": 168
+      },
       "time": "3 hours 40 minutes"
     },
     "segments": [
-      { "from": "Hotel Frón, Reykjavík", "to": "Þingvellir National Park", "distance": { "km": 48, "miles": 30 }, "time": "50 minutes" },
-      { "from": "Þingvellir National Park", "to": "Geysir Geothermal Area", "distance": { "km": 60, "miles": 37 }, "time": "40 minutes" },
-      { "from": "Geysir Geothermal Area", "to": "Gullfoss Waterfall", "distance": { "km": 10, "miles": 6 }, "time": "10 minutes" },
-      { "from": "Gullfoss Waterfall", "to": "Reykjadalur Hot Spring", "distance": { "km": 43, "miles": 27 }, "time": "40 minutes" },
-      { "from": "Reykjadalur Hot Spring", "to": "Tungnaárfellsfoss", "distance": { "km": 50, "miles": 31 }, "time": "1 hour" },
-      { "from": "Tungnaárfellsfoss", "to": "Country Dream Guesthouse", "distance": { "km": 60, "miles": 37 }, "time": "1 hour" }
+      {
+        "from": "Hotel Frón, Reykjavík",
+        "to": "Þingvellir National Park",
+        "distance": {
+          "km": 48,
+          "miles": 30
+        },
+        "time": "50 minutes"
+      },
+      {
+        "from": "Þingvellir National Park",
+        "to": "Geysir Geothermal Area",
+        "distance": {
+          "km": 60,
+          "miles": 37
+        },
+        "time": "40 minutes"
+      },
+      {
+        "from": "Geysir Geothermal Area",
+        "to": "Gullfoss Waterfall",
+        "distance": {
+          "km": 10,
+          "miles": 6
+        },
+        "time": "10 minutes"
+      },
+      {
+        "from": "Gullfoss Waterfall",
+        "to": "Reykjadalur Hot Spring",
+        "distance": {
+          "km": 43,
+          "miles": 27
+        },
+        "time": "40 minutes"
+      },
+      {
+        "from": "Reykjadalur Hot Spring",
+        "to": "Tungnaárfellsfoss",
+        "distance": {
+          "km": 50,
+          "miles": 31
+        },
+        "time": "1 hour"
+      },
+      {
+        "from": "Tungnaárfellsfoss",
+        "to": "Country Dream Guesthouse",
+        "distance": {
+          "km": 60,
+          "miles": 37
+        },
+        "time": "1 hour"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=14SQO22uQjMOhV9Q8E7FtIW0fXMesXQw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -47,7 +97,8 @@
       "isUserSelected": false,
       "cost": "Included with stay",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.tripadvisor.com/LocationPhotoDirectLink-g189970-d487223-i230038301-Hotel_Fron-Reykjavik_Capital_Region.html"
     },
     {
       "time": "08:30",
@@ -80,7 +131,8 @@
         "Law Rock viewpoint - historically where laws were announced",
         "Þingvallakirkja - small church dating from 1859"
       ],
-      "typeEmoji": "🏞️"
+      "typeEmoji": "🏞️",
+      "link": "https://www.thingvellir.is/en/"
     },
     {
       "time": "12:00",
@@ -99,7 +151,8 @@
       "quickStops": [
         "Geysir Center gift shop and restaurant"
       ],
-      "typeEmoji": "💦"
+      "typeEmoji": "💦",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/geysir"
     },
     {
       "time": "13:30",
@@ -116,7 +169,8 @@
       "isUserSelected": true,
       "cost": "Free entry",
       "quickStops": [],
-      "typeEmoji": "🌊"
+      "typeEmoji": "🌊",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/gullfoss"
     },
     {
       "time": "14:45",
@@ -129,7 +183,8 @@
       "isUserSelected": false,
       "cost": "$25-30 per person",
       "quickStops": [],
-      "typeEmoji": "🍅"
+      "typeEmoji": "🍅",
+      "link": "https://fridheimar.is/en/"
     },
     {
       "time": "16:30",
@@ -148,7 +203,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🥾"
+      "typeEmoji": "🥾",
+      "link": "https://siggadottir.com/reykjadalur-hot-springs/"
     },
     {
       "time": "20:00",
@@ -174,7 +230,8 @@
       "isUserSelected": false,
       "cost": "$35-45 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://guidetoiceland.is/best-of-iceland/top-things-to-do-in-selfoss"
     }
   ],
   "highlights": [
@@ -188,7 +245,11 @@
     "address": "Langholt 2, Selfoss, 0801 Iceland",
     "cost": "$216.97",
     "roomType": "Basic Studio",
-    "amenities": ["Kitchen", "Free parking", "Wi-Fi"],
+    "amenities": [
+      "Kitchen",
+      "Free parking",
+      "Wi-Fi"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "73051117986889",
@@ -204,7 +265,7 @@
       "isGem": true,
       "isUserSelected": false,
       "timing": "Afternoon/Evening",
-      "link": "https://epiciceland.net/hidden-gems-in-iceland/"
+      "link": "https://icelandthebeautiful.com/tungnaarfellsfoss-waterfall-tungnaa-central-iceland/"
     },
     {
       "title": "Secret Lagoon (Gamla Laugin)",
@@ -224,7 +285,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://www.icelandtravel.is/attractions/kerid/"
     },
     {
       "title": "Faxi Waterfall",
@@ -234,7 +295,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://guidetoiceland.is/travel-iceland/drive/faxi"
     },
     {
       "title": "Brúarfoss Waterfall",
@@ -274,5 +335,8 @@
     }
   ],
   "tip": "Pack a swimsuit, towel, and water shoes for Reykjadalur. There are no changing facilities except for simple wooden platforms, so consider wearing your swimsuit under your clothes if the weather is good.",
-  "notes": "The Golden Circle is Iceland's most popular tourist route, so early morning departures help avoid crowds. If it's raining, consider postponing Reykjadalur and substituting one of the indoor alternatives."
+  "notes": [
+    "The Golden Circle is Iceland's most popular tourist route, so early morning departures help avoid crowds.",
+    "If it's raining, consider postponing Reykjadalur and substituting one of the indoor alternatives."
+  ]
 }

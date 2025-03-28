@@ -17,21 +17,71 @@
     "text": "Life isn't about waiting for the storm to pass... It's about learning to dance in the rain.",
     "author": "Vivian Greene"
   },
-  "shortSummary": "Explore Akureyri, Iceland's northern capital, before embarking on a scenic drive of the Troll Peninsula featuring mountain horseback riding and unique beer spa relaxation.",
   "shortSummary": "Wind through Iceland's East Fjords with their dramatic coastal roads, picturesque fishing villages, and hidden waterfalls, experiencing a more authentic side of Iceland away from the crowds.",
   "summary": "After several days of intense hiking and sightseeing, enjoy a more relaxed pace exploring Akureyri, Iceland's northern capital, and the stunning Tröllaskagi (Troll Peninsula). This region offers dramatic mountain scenery, charming fishing villages, and unique cultural experiences. From colorful gardens to coastal fjord views, mountain horseback riding, and Icelandic beer spa relaxation, today provides a perfect blend of cultural immersion and natural beauty off the typical tourist path.",
   "driving": {
     "total": {
-      "distance": { "km": 173, "miles": 107 },
+      "distance": {
+        "km": 173,
+        "miles": 107
+      },
       "time": "2 hours 30 minutes"
     },
     "segments": [
-      { "from": "Airbnb in Akureyri", "to": "Akureyri Botanical Gardens", "distance": { "km": 3, "miles": 2 }, "time": "10 minutes" },
-      { "from": "Akureyri Botanical Gardens", "to": "Akureyrarkirkja Church", "distance": { "km": 2, "miles": 1.2 }, "time": "5 minutes" },
-      { "from": "Akureyri", "to": "Troll Peninsula (Route 82)", "distance": { "km": 45, "miles": 28 }, "time": "45 minutes" },
-      { "from": "Langhús Farm", "to": "Bjórböðin Beer Spa", "distance": { "km": 25, "miles": 15.5 }, "time": "25 minutes" },
-      { "from": "Bjórböðin Beer Spa", "to": "Hofsós Swimming Pool", "distance": { "km": 35, "miles": 22 }, "time": "30 minutes" },
-      { "from": "Hofsós Swimming Pool", "to": "Siglufjörður", "distance": { "km": 63, "miles": 39 }, "time": "35 minutes" }
+      {
+        "from": "Airbnb in Akureyri",
+        "to": "Akureyri Botanical Gardens",
+        "distance": {
+          "km": 3,
+          "miles": 2
+        },
+        "time": "10 minutes"
+      },
+      {
+        "from": "Akureyri Botanical Gardens",
+        "to": "Akureyrarkirkja Church",
+        "distance": {
+          "km": 2,
+          "miles": 1.2
+        },
+        "time": "5 minutes"
+      },
+      {
+        "from": "Akureyri",
+        "to": "Troll Peninsula (Route 82)",
+        "distance": {
+          "km": 45,
+          "miles": 28
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Langhús Farm",
+        "to": "Bjórböðin Beer Spa",
+        "distance": {
+          "km": 25,
+          "miles": 15.5
+        },
+        "time": "25 minutes"
+      },
+      {
+        "from": "Bjórböðin Beer Spa",
+        "to": "Hofsós Swimming Pool",
+        "distance": {
+          "km": 35,
+          "miles": 22
+        },
+        "time": "30 minutes"
+      },
+      {
+        "from": "Hofsós Swimming Pool",
+        "to": "Siglufjörður",
+        "distance": {
+          "km": 63,
+          "miles": 39
+        },
+        "time": "35 minutes"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1Vl6k8M4-dpx0eJ8ClUu7O3XwsNTDn60&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -47,7 +97,8 @@
       "isUserSelected": false,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://duckduckgo.com/y.js?ad_domain=tripadvisor.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=2DSBAVFN_W4HG7%2DRFR5MMSgUsxBe3cFVT0FMM5vjsOufgYjpGi79QZKtywjwHXK1d1pE989_X5w9qzwY%2DPc5B%2DhkDHihwVji9mjZsm37HJ%2DqvSFbHkphI3Xw4HV6Htz_.WiMe1wDtuFGj0GnnQbLK3w&rut=8a6d44754a8588f81f8dc1eaccafa7c4cd3ae1a656cb522f99e478d55432ad14&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8sPSeQvg%2DSwmV_tPlRLGKODVUCUzh1eCmJ4Dn_tOxvrzviqki02wyn9TbzgIH7iddqpnH5zwuHl6MOrhSc00ltPDipavIR6YS5uYq_xbqCW5ktv2m004zesjz6j5xpHUFINfL1KjAER7fVAdwoOIqcootuSm%2DcqWnvGz9km9o%2DZ%2Da%2DQCKumOAklwHb3%2DgBpOz_X272w%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cudHJpcGFkdmlzb3IuY29tJTJmU21hcnREZWFscyUzZmdlbyUzZDE4OTk1NCUyNnpmdCUzZDkxOTAlMjZtJTNkMTEwMDQlMjZzdXBjbSUzZDI5NTAwNjc4MSUyNnN1cGFnJTNkMTI2MDA0MDQxMjYzOTA4OCUyNnN1cHRpJTNka3dkLTc4NzUyNTYzNTU4NTEwJTNhbG9jLTE5MCUyNnN1cGFpJTNkNzg3NTI3MjY2MTczMjQlMjZzdXBkdiUzZGMlMjZzdXBudCUzZHMlMjZzdXBrdyUzZEJyZWFrZmFzdCUyNTIwYXQlMjUyMEFrdXJleXJpJTI1MjBBaXJibmIlMjUyMEljZWxhbmQlMjUyMHRyYXZlbCUyNm1zY2xraWQlM2Q4YTUzZmQ2MDllZGQxM2EwMTFkODlhODQyZWFiMGZiYg%26rlid%3D8a53fd609edd13a011d89a842eab0fbb&vqd=4-176207519532121277102835378703475320518&iurl=%7B1%7DIG%3D512FF42D3B354AD89FA0AFB551CD089D%26CID%3D27D658F5C4B760C923164D49C53F61C4%26ID%3DDevEx%2C5048.1"
     },
     {
       "time": "09:30",
@@ -159,7 +210,8 @@
       "isUserSelected": true,
       "cost": "$45 per person",
       "quickStops": [],
-      "typeEmoji": "🍺"
+      "typeEmoji": "🍺",
+      "link": "https://guidetoiceland.is/book-holiday-trips/bjorbodin"
     },
     {
       "time": "18:45",
@@ -235,7 +287,8 @@
       "isUserSelected": false,
       "cost": "$25-40 per person",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://www.northiceland.is/en/service/kaffi-raudka"
     }
   ],
   "highlights": [
@@ -249,7 +302,11 @@
     "address": "Siglufjörður, Iceland",
     "cost": "",
     "roomType": "Home - Entire home/apt",
-    "amenities": ["Balcony with view", "Kitchen", "Wi-Fi"],
+    "amenities": [
+      "Balcony with view",
+      "Kitchen",
+      "Wi-Fi"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "",
@@ -285,7 +342,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://icelandtravelguide.is/locations/grafarkirkja-turf-church/"
     },
     {
       "title": "Forest Lagoon",
@@ -335,5 +392,35 @@
     }
   ],
   "tip": "When doing the Troll Peninsula drive, watch for the one-way tunnels near Siglufjörður and Ólafsfjörður. These are regulated by traffic lights, so be sure to wait for the green light before entering.",
-  "notes": "Today provides a more relaxed pace after several days of intense activity. The Tröllaskagi Peninsula is one of North Iceland's hidden gems, offering landscapes that rival the country's more famous attractions but with far fewer tourists. The beer spa is a unique experience - if interested, it's recommended to book in advance as it can be popular in summer."
+  "notes": [
+    "Today provides a more relaxed pace after several days of intense activity.",
+    "The Tröllaskagi Peninsula is one of North Iceland's hidden gems, offering landscapes that rival the country's more famous attractions but with far fewer tourists.",
+    "The beer spa is a unique experience - if interested, it's recommended to book in advance as it can be popular in summer."
+  ],
+  "hotSprings": [
+    {
+      "name": "Hofsós Swimming Pool",
+      "description": "An infinity-style pool perched on a cliff edge overlooking Skagafjörður fjord, already in your itinerary.",
+      "location": "Hofsós",
+      "isEveningRelaxation": false,
+      "cost": "1,090 ISK (~$8) per person",
+      "link": "https://www.facebook.com/sundlauginhofsosi/"
+    },
+    {
+      "name": "Grettislaug",
+      "description": "A historic hot spring on the Troll Peninsula with connections to Icelandic sagas.",
+      "location": "Near Sauðárkrókur",
+      "isEveningRelaxation": false,
+      "cost": "1,000 ISK (~$7) per person",
+      "link": "https://www.northwest.is/en/place/grettislaug-2"
+    },
+    {
+      "name": "Siglufjörður Swimming Pool",
+      "description": "Located in the town where you're staying, offering hot tubs with views of the surrounding mountains. Great for unwinding after your day of exploration.",
+      "location": "Siglufjörður",
+      "isEveningRelaxation": true,
+      "cost": "1,000 ISK (~$7) per person",
+      "link": "https://www.fjallabyggd.is/is/thjonusta/ithrottir-og-afthreying/sundlaugar"
+    }
+  ]
 }

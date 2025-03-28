@@ -21,16 +21,67 @@
   "summary": "Journey across Iceland's diverse northeastern landscapes, from the dramatic sea cliffs of the East Fjords to the geothermal wonders near Lake Mývatn. Today's route takes you through remote countryside to the thundering Dettifoss waterfall, the otherworldly Ásbyrgi canyon, and the relaxing Mývatn Nature Baths, before reaching Akureyri, the capital of the North. After several days of intense hiking, today offers a perfect balance of scenic driving with shorter walks to spectacular natural wonders.",
   "driving": {
     "total": {
-      "distance": { "km": 325, "miles": 202 },
+      "distance": {
+        "km": 325,
+        "miles": 202
+      },
       "time": "5 hours 25 minutes"
     },
     "segments": [
-      { "from": "Ásgeirsstaðir Cottages", "to": "Ker Cliffs", "distance": { "km": 60, "miles": 37 }, "time": "1 hour" },
-      { "from": "Ker Cliffs", "to": "Dettifoss Waterfall", "distance": { "km": 120, "miles": 75 }, "time": "2 hours" },
-      { "from": "Dettifoss Waterfall", "to": "Ásbyrgi Canyon", "distance": { "km": 40, "miles": 25 }, "time": "45 minutes" },
-      { "from": "Ásbyrgi Canyon", "to": "Mývatn Nature Baths", "distance": { "km": 70, "miles": 43 }, "time": "1 hour" },
-      { "from": "Mývatn Nature Baths", "to": "Goðafoss Waterfall", "distance": { "km": 45, "miles": 28 }, "time": "40 minutes" },
-      { "from": "Goðafoss Waterfall", "to": "Airbnb in Akureyri", "distance": { "km": 30, "miles": 19 }, "time": "30 minutes" }
+      {
+        "from": "Ásgeirsstaðir Cottages",
+        "to": "Ker Cliffs",
+        "distance": {
+          "km": 60,
+          "miles": 37
+        },
+        "time": "1 hour"
+      },
+      {
+        "from": "Ker Cliffs",
+        "to": "Dettifoss Waterfall",
+        "distance": {
+          "km": 120,
+          "miles": 75
+        },
+        "time": "2 hours"
+      },
+      {
+        "from": "Dettifoss Waterfall",
+        "to": "Ásbyrgi Canyon",
+        "distance": {
+          "km": 40,
+          "miles": 25
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Ásbyrgi Canyon",
+        "to": "Mývatn Nature Baths",
+        "distance": {
+          "km": 70,
+          "miles": 43
+        },
+        "time": "1 hour"
+      },
+      {
+        "from": "Mývatn Nature Baths",
+        "to": "Goðafoss Waterfall",
+        "distance": {
+          "km": 45,
+          "miles": 28
+        },
+        "time": "40 minutes"
+      },
+      {
+        "from": "Goðafoss Waterfall",
+        "to": "Airbnb in Akureyri",
+        "distance": {
+          "km": 30,
+          "miles": 19
+        },
+        "time": "30 minutes"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1yLxSSLW5Rj9_ULPOxlD1ptzMxLuSyjc&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -46,7 +97,8 @@
       "isUserSelected": false,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.expedia.com/Iceland-Cottages.d79-aaCottages.Travel-Guide-Accommodation"
     },
     {
       "time": "08:30",
@@ -78,7 +130,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🥾"
+      "typeEmoji": "🥾",
+      "link": "https://epiciceland.net/tag/ker/"
     },
     {
       "time": "11:15",
@@ -115,7 +168,8 @@
       "quickStops": [
         "Selfoss - smaller but beautiful waterfall upstream (10-minute walk)"
       ],
-      "typeEmoji": "🌊"
+      "typeEmoji": "🌊",
+      "link": "https://www.earthtrekkers.com/dettifoss-selfoss-hafragilsfoss-east-and-west-sides/"
     },
     {
       "time": "15:15",
@@ -147,7 +201,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🏞️"
+      "typeEmoji": "🏞️",
+      "link": "https://www.tripadvisor.com/ShowTopic-g189952-i223-k14450265-Visiting_Dettifoss_and_Asbyrgi_canyon_864_and_862-Iceland.html"
     },
     {
       "time": "17:15",
@@ -179,7 +234,8 @@
       "isUserSelected": true,
       "cost": "$41 per person",
       "quickStops": [],
-      "typeEmoji": "♨️"
+      "typeEmoji": "♨️",
+      "link": "https://myvatnnaturebaths.is/"
     },
     {
       "time": "20:15",
@@ -211,7 +267,8 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🌊"
+      "typeEmoji": "🌊",
+      "link": "https://www.icelandtravel.is/attractions/godafoss/"
     },
     {
       "time": "22:00",
@@ -251,7 +308,11 @@
     "address": "Akureyri, Iceland",
     "cost": "$452.00",
     "roomType": "Entire home/apt",
-    "amenities": ["Kitchen", "Wi-Fi", "Free parking"],
+    "amenities": [
+      "Kitchen",
+      "Wi-Fi",
+      "Free parking"
+    ],
     "checkIn": "15:00",
     "checkOut": "11:00",
     "confirmation": "HM8YWHA8PD",
@@ -267,7 +328,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon (before Mývatn Nature Baths)",
-      "link": ""
+      "link": "https://guidetoiceland.is/travel-iceland/drive/namaskard"
     },
     {
       "title": "Krafla Volcano",
@@ -277,7 +338,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://iceland.nordicvisitor.com/travel-guide/attractions/north-iceland/krafla/"
     },
     {
       "title": "Grjótagjá Cave",
@@ -287,7 +348,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://www.reddit.com/r/Iceland/comments/262dk9/question_about_grj%C3%B3tagj%C3%A1_game_of_thrones_shooting/"
     },
     {
       "title": "Hverfjall Crater Hike",
@@ -297,7 +358,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://www.havemediawilltravel.com/iceland-part-4-of-7-studlagil-canyon-dettifoss-viti-crater-hverfjall-crater-lake-myvatn-godafoss-haifoss-stong-and-gjain/"
     },
     {
       "title": "Bergárfoss Waterfall",
@@ -307,7 +368,7 @@
       "isGem": true,
       "isUserSelected": false,
       "timing": "Evening",
-      "link": "https://epiciceland.net/hidden-gems-in-iceland/"
+      "link": "https://thephotohikes.com/bergarfoss-waterfall/"
     }
   ],
   "badWeatherAlternatives": [
@@ -325,7 +386,7 @@
       "location": "Lake Mývatn area",
       "cost": "2,000 ISK ($15) per person",
       "timing": "Afternoon",
-      "link": "https://www.fuglasafn.is/en/"
+      "link": "https://www.tripadvisor.com/Attraction_Review-g1096230-d3224765-Reviews-Sigurgeirs_Bird_Museum-Reykjahlid_Lake_Myvatn_Northeast_Region.html"
     },
     {
       "title": "Akureyri Art Museum",
@@ -333,9 +394,32 @@
       "location": "Akureyri",
       "cost": "1,000 ISK ($7) per person",
       "timing": "Evening",
-      "link": "https://www.listasafn.akureyri.is/en"
+      "link": "https://www.tripadvisor.com/Attraction_Review-g189954-d2068005-Reviews-Safnasafnid_The_Folk_and_Outsider_Art_Museum-Akureyri_Northeast_Region.html"
     }
   ],
   "tip": "While the Mývatn area is famous for its natural beauty, it's also notorious for midges (small flies) in summer. Though not harmful, they can be annoying - consider bringing a head net if you're particularly sensitive.",
-  "notes": "This is a day with significant driving but broken up with diverse stops. After several active hiking days, the Mývatn Nature Baths offer a perfect opportunity to relax and recover. Note that despite the midnight sun, some attractions like Goðafoss can be especially beautiful in evening light with fewer tourists."
+  "notes": [
+    "This is a day with significant driving but broken up with diverse stops.",
+    "After several active hiking days, the Mývatn Nature Baths offer a perfect opportunity to relax and recover.",
+    "Note that despite the midnight sun, some attractions like Goðafoss can be especially beautiful in evening light with fewer tourists."
+  ],
+
+"hotSprings": [
+  {
+    "name": "Mývatn Nature Baths",
+    "description": "Often called the 'Blue Lagoon of the North' but with fewer crowds. Already in your itinerary, perfect for relaxation after exploring the area.",
+    "location": "Lake Mývatn area",
+    "isEveningRelaxation": true,
+    "cost": "5,700 ISK (~$41) per person",
+    "link": "https://myvatnnaturebaths.is/"
+  },
+  {
+    "name": "Forest Lagoon",
+    "description": "A newer geothermal spa near Akureyri with infinity pools carved into the mountainside with views of the fjord and forest.",
+    "location": "Near Akureyri",
+    "isEveningRelaxation": true,
+    "cost": "5,900 ISK (~$42) per person",
+    "link": "https://forestlagoon.is/en/"
+  }
+]
 }

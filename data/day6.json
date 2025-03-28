@@ -21,15 +21,49 @@
   "summary": "Immerse yourself in the remote beauty of Borgarfjörður Eystri, one of Iceland's most pristine regions. Today's adventures include a moderate hike to the stunning Brúnavík Beach with its otherworldly landscapes, exploration of a remote mountain road, and up-close encounters with puffins at one of Iceland's best viewing sites. The day combines spectacular hiking, breathtaking scenery, and unique wildlife opportunities in an area few tourists ever visit.",
   "driving": {
     "total": {
-      "distance": { "km": 170, "miles": 106 },
-      "time": "2 hours 45 minutes"
+      "distance": {
+        "km": 140,
+        "miles": 87
+      },
+      "time": "2 hours 35 minutes"
     },
     "segments": [
-      { "from": "Alfheimar Hotel", "to": "Brúnavík Beach Trailhead", "distance": { "km": 5, "miles": 3 }, "time": "10 minutes" },
-      { "from": "Brúnavík Beach Trailhead", "to": "F946 Loðmundarfjarðarvegur", "distance": { "km": 15, "miles": 9 }, "time": "25 minutes" },
-      { "from": "F946 Loðmundarfjarðarvegur", "to": "Stórurð Basin Trailhead", "distance": { "km": 30, "miles": 19 }, "time": "40 minutes" },
-      { "from": "Stórurð Basin Trailhead", "to": "Hafnarhólmi Puffin Colony", "distance": { "km": 20, "miles": 12 }, "time": "30 minutes" },
-      { "from": "Hafnarhólmi Puffin Colony", "to": "Ásgeirsstaðir Cottages", "distance": { "km": 100, "miles": 62 }, "time": "1 hour 30 minutes" }
+      {
+        "from": "Alfheimar Hotel",
+        "to": "Brúnavík Beach Trailhead",
+        "distance": {
+          "km": 5,
+          "miles": 3
+        },
+        "time": "10 minutes"
+      },
+      {
+        "from": "Brúnavík Beach Trailhead",
+        "to": "Hafnarhólmi Puffin Colony",
+        "distance": {
+          "km": 3,
+          "miles": 2
+        },
+        "time": "5 minutes"
+      },
+      {
+        "from": "Hafnarhólmi Puffin Colony",
+        "to": "F946 Loðmundarfjarðarvegur",
+        "distance": {
+          "km": 15,
+          "miles": 9
+        },
+        "time": "20 minutes"
+      },
+      {
+        "from": "F946 Loðmundarfjarðarvegur",
+        "to": "Ásgeirsstaðir Cottages",
+        "distance": {
+          "km": 117,
+          "miles": 73
+        },
+        "time": "2 hours"
+      }
     ]
   },
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1f84QU5RhBBXX-YLQmfDVseVNaWkShsQ&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
@@ -45,10 +79,11 @@
       "isUserSelected": false,
       "cost": "Included with stay",
       "quickStops": [],
-      "typeEmoji": "🍳"
+      "typeEmoji": "🍳",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g3226240-d2218239-Reviews-Alfheimar-Borgarfjordur_Eystri_East_Region.html"
     },
     {
-      "time": "09:00",
+      "time": "08:45",
       "title": "Drive to Brúnavík Beach Trailhead",
       "description": "Short drive from the hotel to the hiking trailhead near Kolbeinsfjara cliffs.",
       "details": [],
@@ -61,7 +96,7 @@
       "typeEmoji": "🚗"
     },
     {
-      "time": "09:15",
+      "time": "09:00",
       "title": "Brúnavík Beach Hike",
       "description": "Embark on a stunning 5-mile moderate hike to one of Iceland's most beautiful hidden beaches. The trail passes through colorful mountains, lush valleys, and offers panoramic coastal views before descending to the otherworldly Brúnavík Beach.",
       "details": [
@@ -78,10 +113,44 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🥾"
+      "typeEmoji": "🥾",
+      "link": "https://epiciceland.net/tag/brunavik/"
+    },
+    {
+      "time": "14:15",
+      "title": "Drive to Hafnarhólmi Puffin Colony",
+      "description": "Short drive to the puffin viewing area located in Borgarfjörður Eystri.",
+      "details": [],
+      "duration": "5 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
     },
     {
       "time": "14:30",
+      "title": "Hafnarhólmi Puffin Colony",
+      "description": "Visit one of Iceland's best and most accessible puffin viewing areas, with wooden walkways and viewing platforms that bring you remarkably close to these charming birds. July is peak season for puffin watching.",
+      "details": [
+        "Home to thousands of Atlantic puffins (May to mid-August)",
+        "Wooden walkways and viewing platforms for safe, close observation",
+        "Also home to kittiwakes, fulmars and other seabirds",
+        "Mid-afternoon is often less crowded but still good for photography",
+        "Bring binoculars if you have them, though birds are visible without them"
+      ],
+      "duration": "1 hour",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🦜",
+      "link": "https://www.safaritalk.net/topic/23114-iceland-in-july-priority-puffins/"
+    },
+    {
+      "time": "15:45",
       "title": "Drive on F946 Loðmundarfjarðarvegur",
       "description": "Experience this remote mountain road in East Iceland leading through picturesque landscapes. The road is suitable for your 4WD Suzuki Vitara and offers stunning mountain and fjord views along the way.",
       "details": [
@@ -98,51 +167,15 @@
       "quickStops": [
         "Various scenic pullouts for photos of the dramatic landscapes"
       ],
-      "typeEmoji": "🚗"
+      "typeEmoji": "🚗",
+      "link": "https://www.reddit.com/r/VisitingIceland/comments/ujsx7k/iceland_f_roads_in_4k_f946_lo%C3%B0mundarfjar%C3%B0arvegur/"
     },
     {
-      "time": "15:45",
-      "title": "Stórurð Basin Hike",
-      "description": "This relaxed 3-mile loop trail takes you through massive boulders and past turquoise pools in a stunning valley setting. The name translates to 'The Giant Boulders' which perfectly describes this unique landscape.",
-      "details": [
-        "3-mile loop trail through boulder field and meadows",
-        "Several small, brilliantly blue glacier water pools",
-        "Relatively easy terrain with some uneven surfaces",
-        "Allow 2-3 hours for a leisurely pace with photo stops"
-      ],
-      "duration": "2 hours 30 minutes",
-      "isFeatured": true,
-      "isGem": false,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "🥾"
-    },
-    {
-      "time": "18:30",
-      "title": "Hafnarhólmi Puffin Colony",
-      "description": "Visit one of Iceland's best and most accessible puffin viewing areas, with wooden walkways and viewing platforms that bring you remarkably close to these charming birds. July is peak season for puffin watching.",
-      "details": [
-        "Home to thousands of Atlantic puffins (May to mid-August)",
-        "Wooden walkways and viewing platforms for safe, close observation",
-        "Also home to kittiwakes, fulmars and other seabirds",
-        "Mid-evening is often less crowded but still good for photography",
-        "Bring binoculars if you have them, though birds are visible without them"
-      ],
-      "duration": "1 hour",
-      "isFeatured": true,
-      "isGem": false,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "🦜"
-    },
-    {
-      "time": "19:45",
+      "time": "17:00",
       "title": "Drive to Ásgeirsstaðir Cottages",
       "description": "Make the drive from Borgarfjörður Eystri to your accommodation in Eidar.",
       "details": [],
-      "duration": "1 hour 30 minutes",
+      "duration": "2 hours",
       "isFeatured": false,
       "isGem": false,
       "isUserSelected": false,
@@ -151,7 +184,7 @@
       "typeEmoji": "🚗"
     },
     {
-      "time": "21:15",
+      "time": "19:00",
       "title": "Check in at Ásgeirsstaðir Cottages",
       "description": "Arrive at your cottage accommodation and settle in for the evening.",
       "details": [],
@@ -164,7 +197,7 @@
       "typeEmoji": "🏠"
     },
     {
-      "time": "21:45",
+      "time": "19:30",
       "title": "Self-catered dinner at cottage",
       "description": "Prepare a simple dinner using the kitchen facilities in your cottage.",
       "details": [],
@@ -174,7 +207,8 @@
       "isUserSelected": true,
       "cost": "Varies (groceries)",
       "quickStops": [],
-      "typeEmoji": "🍽️"
+      "typeEmoji": "🍽️",
+      "link": "https://www.tour.is/tour-package/family-self-catering-cottage-stay-7-days"
     }
   ],
   "highlights": [
@@ -188,7 +222,11 @@
     "address": "Ásgeirsstaðir, Eidar, 701 Iceland",
     "cost": "$246.00",
     "roomType": "Standard Cabin, 1 Bedroom",
-    "amenities": ["Kitchen", "Free parking", "Private bathroom"],
+    "amenities": [
+      "Kitchen",
+      "Free parking",
+      "Private bathroom"
+    ],
     "checkIn": "16:00",
     "checkOut": "12:00",
     "confirmation": "73055400652002",
@@ -204,7 +242,7 @@
       "isGem": true,
       "isUserSelected": false,
       "timing": "Morning (alternative to Brúnavík)",
-      "link": "https://epiciceland.net/hidden-gems-in-iceland/"
+      "link": "https://www.iceland-dream.com/stories/2021/therribjorg-landsendi"
     },
     {
       "title": "Dyrfjöll Mountain Viewpoint",
@@ -214,7 +252,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Morning",
-      "link": ""
+      "link": "https://icelandtravelguide.is/locations/dyrfjoll-mountains/"
     },
     {
       "title": "Lindarbakki Turf House",
@@ -224,7 +262,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://guidetoiceland.is/connect-with-locals/regina/lindarbakki-turf-house-in-borgarfjordur-eystri"
     },
     {
       "title": "Álfaborg (Elf Rock)",
@@ -234,7 +272,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": ""
+      "link": "https://guidetoiceland.is/connect-with-locals/regina/alfaborg---the-city-of-the-hidden-people-in-east-iceland"
     },
     {
       "title": "Icelandic Wilderness Center",
@@ -244,7 +282,7 @@
       "isGem": false,
       "isUserSelected": false,
       "timing": "Evening",
-      "link": "https://wilderness.is/"
+      "link": "http://wilderness.is/"
     }
   ],
   "badWeatherAlternatives": [
@@ -254,7 +292,7 @@
       "location": "Borgarfjörður Eystri",
       "cost": "1,000 ISK ($7) per person",
       "timing": "Morning or Afternoon",
-      "link": ""
+      "link": "https://guidetoiceland.is/travel-iceland/drive/eldheimar-museum"
     },
     {
       "title": "East Iceland Heritage Museum",
@@ -262,7 +300,7 @@
       "location": "Egilsstaðir (on the way to Ásgeirsstaðir)",
       "cost": "1,000 ISK ($7) per person",
       "timing": "Afternoon or Evening",
-      "link": "https://www.minjasafn.is/en"
+      "link": "https://www.tripadvisor.com/Attraction_Review-g315847-d522832-Reviews-East_Iceland_Heritage_Museum_Minjasafn_Austurlands-Egilsstadir_East_Region.html"
     },
     {
       "title": "Egilsstaðir Swimming Pool",
@@ -270,9 +308,39 @@
       "location": "Egilsstaðir (on the way to Ásgeirsstaðir)",
       "cost": "1,000 ISK ($7) per person",
       "timing": "Afternoon or Evening",
-      "link": ""
+      "link": "https://www.tripadvisor.com/Attraction_Review-g315847-d9461469-Reviews-Egilsstadir_Swimming_Pool-Egilsstadir_East_Region.html"
     }
   ],
   "tip": "Bring a packed lunch for the Brúnavík Beach hike as there are no facilities along the trail. The hike is weather-dependent, so have an alternative plan if conditions aren't favorable.",
-  "notes": "This is a day with two substantial hikes, so wear appropriate footwear and dress in layers. Remember to cancel your Mývatn reservation as noted in your original plan. The Ásgeirsstaðir Cottages are quite remote, so stock up on groceries in Egilsstaðir before arrival if you plan to self-cater."
+  "notes": [
+    "This is a day with two substantial hikes, so wear appropriate footwear and dress in layers.",
+    "Remember to cancel your Mývatn reservation as noted in your original plan.",
+    "The Ásgeirsstaðir Cottages are quite remote, so stock up on groceries in Egilsstaðir before arrival if you plan to self-cater."
+  ],
+  "hotSprings": [
+    {
+      "name": "Laugarfell Highland Hostel Hot Pots",
+      "description": "Remote hot springs in the highlands offering a secluded bathing experience.",
+      "location": "Highlands near Fljótsdalur",
+      "isEveningRelaxation": false,
+      "cost": "1,000 ISK (~$7) per person (for non-guests)",
+      "link": "https://laugarfell.is/hot-springs/"
+    },
+    {
+      "name": "Laugarvalladalur Hot Spring Waterfall",
+      "description": "A unique natural hot waterfall where warm water cascades down. Requires a detour but is one of Iceland's most special experiences.",
+      "location": "Near Kárahnjúkar",
+      "isEveningRelaxation": false,
+      "cost": "Free",
+      "link": "https://www.east.is/en/what-to-see-and-do/nature/geothermal-areas/laugarvalladalur"
+    },
+    {
+      "name": "Egilsstaðir Swimming Pool",
+      "description": "Conveniently located on your route to your accommodation in Eidar, this facility has multiple hot pots of varying temperatures.",
+      "location": "Egilsstaðir",
+      "isEveningRelaxation": true,
+      "cost": "1,000 ISK (~$7) per person",
+      "link": "https://www.visitegilsstadir.is/en/see-and-do/sundlaugin-i-egilsstoedum"
+    }
+  ]
 }
