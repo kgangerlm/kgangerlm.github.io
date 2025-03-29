@@ -96,59 +96,9 @@
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1p5j0Ep3wf98qhPSuZYWVhZ3qrQnPHuI&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
   "schedule": [
     {
-      "time": "08:00",
+      "time": "06:45",
       "title": "Breakfast at The Old Post Office",
-      "description": "Enjoy breakfast at your accommodation before starting your exploration of the Snæfellsnes Peninsula.",
-      "details": [],
-      "duration": "45 minutes",
-      "isFeatured": false,
-      "isGem": false,
-      "isUserSelected": false,
-      "cost": "Included with stay",
-      "quickStops": [],
-      "typeEmoji": "🍳",
-      "link": "https://www.tripadvisor.com/Hotel_Review-g666462-d2157652-Reviews-The_Old_Post_Office_Guest_House-Grundarfjorour_West_Region.html"
-    },
-    {
-      "time": "09:00",
-      "title": "Drive to Djúpalónssandur",
-      "description": "Drive west toward Snæfellsjökull National Park, with views of the glacier-topped volcano along the way.",
-      "details": [],
-      "duration": "40 minutes",
-      "isFeatured": false,
-      "isGem": false,
-      "isUserSelected": false,
-      "cost": "",
-      "quickStops": [
-        "Multiple photo stops of Snæfellsjökull glacier with clear weather",
-        "Scenic coastal views along the southern peninsula"
-      ],
-      "typeEmoji": "🚗"
-    },
-    {
-      "time": "09:45",
-      "title": "Djúpalónssandur Black Pebble Beach",
-      "description": "Explore this dramatic black pebble beach with its uniquely shaped rocks, rugged lava formations, and remnants of a British trawler shipwreck from 1948. The beach is known for the 'lifting stones' that were used to test the strength of fishermen.",
-      "details": [
-        "Black pebble beach surrounded by jagged lava formations",
-        "Four 'lifting stones' of different weights used to test fishermen's strength",
-        "Remnants of the Epine GY7 British trawler that wrecked in 1948",
-        "Short walk from the parking area through a lava labyrinth",
-        "Powerful waves - caution advised near the water's edge"
-      ],
-      "duration": "1 hour 15 minutes",
-      "isFeatured": true,
-      "isGem": false,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "🏝️",
-      "link": "https://icelandtravelguide.is/locations/djupalonssandur/"
-    },
-    {
-      "time": "11:15",
-      "title": "Drive to Hellnar",
-      "description": "Short drive to Hellnar, the starting point for your coastal hike.",
+      "description": "Enjoy a quick self catered breakfast at your accommodation before starting your exploration of the Snæfellsnes Peninsula.",
       "details": [],
       "duration": "15 minutes",
       "isFeatured": false,
@@ -156,21 +106,38 @@
       "isUserSelected": false,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "🚗"
+      "typeEmoji": "🍳",
+      "link": ""
     },
     {
-      "time": "11:30",
+      "time": "07:00",
+      "title": "Drive F Road to Snowcat Tour Meeting Point",
+      "description": "F570 is an old mountain road connecting Ólafsvik with Arnastapi. The road is steep and narrow at several spots, but beautiful! It is also the closest road to Snæfellsjökull glacier. Super jeep tours use it for reaching the glacier and also for bringing the snowmobiles up towards the glacier. ",
+      "details": [],
+      "duration": "1.5 hours",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [
+        "Multiple Scenic viewpoints along the way"
+      ],
+      "typeEmoji": "🚗",
+      "link": "https://epiciceland.net/list-f-roads-iceland/#F570_Jokulshalsvegur"
+    },
+    {
+      "time": "8:30",
       "title": "Hellnar to Arnarstapi Coastal Path",
       "description": "Hike this stunning 2.5-mile one-way coastal trail featuring dramatic cliffs, unique rock formations, arches, and nesting bird colonies. The path offers constant views of the ocean and volcanic rock formations created by ancient lava flows meeting the sea.",
       "details": [
-        "2.5-mile one-way trail (you can return the same way or arrange pickup)",
+        "2.5-mile one-way trail we can just walk part of it and return in time for tour",
         "Easy to moderate difficulty with some uneven terrain",
         "Takes approximately 1-1.5 hours one way",
         "Bárðar Saga Snæfellsáss statue at Arnarstapi marks the end/start of trail",
         "Stunning rock formations including Gatklettur (arch rock)",
         "Various seabird species nest in the cliffs (kittiwakes, fulmars, arctic terns)"
       ],
-      "duration": "2 hours 30 minutes",
+      "duration": "1.5 hours",
       "isFeatured": true,
       "isGem": false,
       "isUserSelected": true,
@@ -180,9 +147,30 @@
       "link": "https://siggadottir.com/an-easy-hike-from-arnarstapi/"
     },
     {
-      "time": "14:00",
-      "title": "Lunch at Fjöruhúsið in Hellnar",
-      "description": "Enjoy lunch at this charming seaside café known for its excellent fish soup and homemade cakes, with views overlooking the bay and rock formations.",
+      "time": "10:00",
+      "title": "The Diamond Snowcat Tour on Snæfellsjökull Glacier",
+      "description": "Experience an unforgettable adventure on a snowcat vehicle driving up the famous Snæfellsjökull Glacier. Enjoy breathtaking panoramic views from the summit and learn about this iconic glacier that inspired Jules Verne's 'Journey to the Center of the Earth.'",
+      "details": [
+        "Unique opportunity to reach 1,446m elevation on Snæfellsjökull Glacier by snowcat vehicle",
+        "Panoramic views of the Snæfellsnes Peninsula, surrounding mountains, and ocean on clear days",
+        "Informative guide sharing facts about glaciology and local folklore",
+        "Weather-dependent activity - tour operates only in suitable conditions",
+        "Can be canceled up to 48 hours prior to departure",
+        "Warm clothes and sturdy footwear recommended"
+      ],
+      "duration": "3 hours",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "$137 per person",
+      "quickStops": [],
+      "typeEmoji": "🏔️",
+      "link": "https://adventures.is/iceland/day-tours/sightseeing-tours/snowcat-snaefellsjokull-glacier/"
+    },
+    {
+      "time": "13:15",
+      "title": "Lunch in Arnastapi",
+      "description": "Have a quick light lunch at one of the cafes in Arnastapi. You can also pack a lunch from the grocery store in Grundarfjörður to enjoy at one of the scenic spots along the way.",
       "details": [],
       "duration": "1 hour",
       "isFeatured": false,
@@ -191,46 +179,57 @@
       "cost": "$20-30 per person",
       "quickStops": [],
       "typeEmoji": "🍽️",
-      "link": "https://www.tripadvisor.com/Restaurant_Review-g671732-d2354459-Reviews-Fjoruhusid-Hellnar_West_Region.html"
+      "link": "https://www.tripadvisor.com/Restaurants-g12873242-zfp30-Arnarstapi_West_Region.html"
     },
     {
-      "time": "15:15",
-      "title": "Vatnshellir Cave",
-      "description": "Descend into this 8,000-year-old lava tube cave on a guided tour, exploring the colorful underground world created by ancient volcanic activity. The cave extends 35 meters below the surface and over 200 meters in length.",
+      "time": "13:45",
+      "title": "Djúpalónssandur Black Pebble Beach",
+      "description": "backtrack on utnsvegur to explore this dramatic black pebble beach with its uniquely shaped rocks, rugged lava formations, and remnants of a British trawler shipwreck from 1948. The beach is known for the 'lifting stones' that were used to test the strength of fishermen.",
       "details": [
-        "8,000-year-old lava tube formed during a volcanic eruption",
-        "35-meter descent via spiral staircase",
-        "45-minute guided tour with helmets and flashlights provided",
-        "Unique lava formations, stalactites, and vivid colors",
-        "Constant 38°F (3°C) temperature - warm clothing recommended",
-        "Tours depart every hour - reservations recommended"
+        "Black pebble beach surrounded by jagged lava formations",
+        "Four 'lifting stones' of different weights used to test fishermen's strength",
+        "Remnants of the Epine GY7 British trawler that wrecked in 1948",
+        "Short walk from the parking area through a lava labyrinth",
+        "Powerful waves - caution advised near the water's edge"
       ],
-      "duration": "1 hour 15 minutes",
+      "duration": "1 hour",
       "isFeatured": true,
       "isGem": false,
       "isUserSelected": true,
-      "cost": "$35 per person",
-      "quickStops": [],
-      "typeEmoji": "🕳️",
-      "link": "https://guidetoiceland.is/book-holiday-trips/cave-vatnshellir"
+      "cost": "Free",
+      "quickStops": [
+        "Hellnar - cute village and alternative lunch spot",
+        "Lóndrangar View Point - Two basalt columns soar above the surrounding cliffs. These dramatic columns help to explain Lóndrangar's nickname: 'the rocky castle.'",
+        "Malarrif Lighthouse - This distinctive lighthouse was built in 1917 to help sailors navigate the treacherous basalt cliffs. The Malarrif Lighthouse is almost shaped like a rocket preparing for lift-off."
+      ],
+      "typeEmoji": "🏝️",
+      "link": "https://icelandtravelguide.is/locations/djupalonssandur/"
     },
     {
-      "time": "16:45",
-      "title": "Drive to Ytri Tunga Beach",
-      "description": "Travel along the southern coast of the peninsula to this golden sand beach known for its seal colony.",
-      "details": [],
-      "duration": "45 minutes",
+      "time": "14:45",
+      "title": "Drive back along the western tip to see the highlights of the snuffleupagus peninsula",
+      "description": "Backtrack to see the sights on the peninsula's western tip. stopping to explore the sights.",
+      "details": [
+        "Plan to cut across on 56 and continue on to Ytri Tunga"
+      ],
+      "duration": "3.5 hours",
       "isFeatured": false,
       "isGem": false,
-      "isUserSelected": false,
+      "isUserSelected": true,
       "cost": "",
       "quickStops": [
-        "Búðakirkja - iconic black church on the southern coast"
+        "Saxholl Crater - Formed by a phreatic eruption when magma rose to meet water-saturated rocks. During these eruptions, water, steam, and molten rock explode outwards, leaving behind an enormous hollow.",
+        "Skardsvik Beach - This beach is an absolute study in contrasts. Turquoise water straight out of a tropical vacation meets dark volcanic rock that defines so much of the peninsula.",
+        "Svortuloft Lighthouse - The bright orange Svörtuloft Lighthouse stands out against the dark lava cliffs. Built in 1931, this lighthouse has helped generations of sailors safely navigate the rocks of western Snæfellsnes Peninsula. Considered the best viewpoint in the national park.",
+        "Öndverðarnesviti - Another lighthouse, Öndverðarnesviti, overlooks the cliffs. Since its construction in 1973, sailors have relied on it to help them navigate the peninsula's rocky tip.",
+        "Svödufoss - Behind the falls rises Snæfellsjökull with its glacier-capped summit. Meltwater from the glacier helps to sustain nearly all the waterfalls on Snæfellsnes Peninsula.",
+        "Bjarnarfoss - The Lady of the Mountain once bathed here. She is a legendary matriarch who locals consider the very incarnation of Iceland itself.",
+        "Búðakirkja - A black church in a stark landscape, one of Iceland's most famous churches."
       ],
       "typeEmoji": "🚗"
     },
     {
-      "time": "17:45",
+      "time": "19:15",
       "title": "Ytri Tunga Beach",
       "description": "Visit this golden sand beach (rare in volcanic Iceland) known for its resident seal colony. The seals can often be spotted lounging on the rocks just offshore, especially during low tide.",
       "details": [
@@ -240,7 +239,7 @@
         "Short walk from the parking area to the beach",
         "Binoculars helpful but not essential"
       ],
-      "duration": "45 minutes",
+      "duration": "20 minutes",
       "isFeatured": true,
       "isGem": false,
       "isUserSelected": true,
@@ -250,21 +249,26 @@
       "link": "https://www.tripadvisor.com/Attraction_Review-g1537454-d12588973-Reviews-Ytri_Tunga_Beach-Budir_West_Region.html"
     },
     {
-      "time": "20:00",
-      "title": "Gerðuberg Basalt Columns",
-      "description": "Stop at this impressive natural wall of hexagonal basalt columns rising up to 14 meters high. These symmetrical formations were created when lava cooled slowly, allowing perfect crystallization.",
-      "details": [],
-      "duration": "30 minutes",
-      "isFeatured": false,
+      "time": "19:50",
+      "title": "Lanbrotalaug Hot Spring",
+      "description": "Relax in this small, natural hot spring located in a scenic valley. The hot spring is surrounded by beautiful landscapes and offers a peaceful atmosphere for unwinding after a day of exploration.",
+      "details": [
+        "Small, natural hot spring with room for 2-3 people",
+        "Located in a scenic valley with beautiful views",
+        "No changing facilities - consider wearing your swimsuit under your clothes",
+        "Free to access"
+      ],
+      "duration": "1 hour",
+      "isFeatured": true,
       "isGem": false,
-      "isUserSelected": false,
+      "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🏞️",
-      "link": "https://guidetoiceland.is/travel-iceland/drive/gerduberg"
+      "typeEmoji": "♨️",
+      "link": "https://www.seekingoursomeday.com/blog/landbrotalaug-hot-springs"
     },
     {
-      "time": "21:00",
+      "time": "20:30",
       "title": "Drive to Akranes",
       "description": "Complete your journey to Akranes, a town situated on a peninsula just north of Reykjavík.",
       "details": [],
@@ -273,11 +277,14 @@
       "isGem": false,
       "isUserSelected": false,
       "cost": "",
-      "quickStops": [],
+      "quickStops": [
+        "Gerðuberg Basalt Columns",
+        "Eldborg Crater - A beautifully-formed crater rising 60m above the surrounding lava." 
+      ],
       "typeEmoji": "🚗"
     },
     {
-      "time": "22:00",
+      "time": "21:30",
       "title": "Check in at Airbnb in Akranes",
       "description": "Arrive at your accommodation and settle in for your final night in Iceland.",
       "details": [],
@@ -291,9 +298,9 @@
     }
   ],
   "highlights": [
+    "SnowCat tour of the snuffleupagus glacier",
     "The dramatic black pebble beach at Djúpalónssandur",
     "Hiking the spectacular coastal path from Hellnar to Arnarstapi",
-    "Exploring the ancient lava tube of Vatnshellir Cave",
     "Spotting seals at Ytri Tunga Beach"
   ],
   "accommodation": {
@@ -394,7 +401,8 @@
   "notes": [
     "The Snæfellsnes Peninsula offers a perfect finale to your Iceland Ring Road adventure, showcasing many of the landscape features you've seen throughout your trip in one compact area.",
     "This is a flexible day with many possible stops; adjust based on weather and your interests.",
-    "If planning to visit Vatnshellir Cave, consider booking the tour in advance during high season."
+    "If planning to visit Vatnshellir Cave, consider booking the tour in advance during high season.",
+    "Look into this self guided audio tour of the Snæfellsnes Peninsula:https://www.tripadvisor.com/AttractionProductReview-g608868-d27989125-Snaefellsnes_Peninsula_Self_Guided_Driving_Audio_Tour-Borgarnes_Borgarbyggd_West_R.html"
   ],
   "hotSprings": [
     {
