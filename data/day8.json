@@ -190,6 +190,7 @@
       "isGem": false,
       "isUserSelected": true,
       "cost": "$120 per person",
+      "link": "https://icelandichorse.is/",
       "quickStops": [],
       "typeEmoji": "🐎"
     },
@@ -245,7 +246,8 @@
       "quickStops": [
         "Icelandic Emigration Center - museum about Icelanders who migrated to North America"
       ],
-      "typeEmoji": "🏊"
+      "typeEmoji": "🏊",
+      "link":"https://sundlaugar.is/en/sundlaugasafn/hofsos-2/"
     },
     {
       "time": "20:30",
