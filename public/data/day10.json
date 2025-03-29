@@ -250,27 +250,6 @@
       "link": "https://www.tripadvisor.com/Attraction_Review-g1537454-d12588973-Reviews-Ytri_Tunga_Beach-Budir_West_Region.html"
     },
     {
-      "time": "18:45",
-      "title": "Lanbrotalaug Hot Spring",
-      "description": "Soak in this tiny natural hot spring from your specific interests list. This hidden gem is barely large enough for 2-3 people, offering an intimate thermal bathing experience away from crowds.",
-      "details": [
-        "Tiny natural hot pot on the Snæfellsnes Peninsula",
-        "Room for only 2-3 people at a time",
-        "Water temperature around 102-108°F (39-42°C)",
-        "Natural setting with mountain views",
-        "No facilities - come prepared with towels and swimwear",
-        "Small parking area about 200 meters from the spring"
-      ],
-      "duration": "1 hour",
-      "isFeatured": false,
-      "isGem": true,
-      "isUserSelected": true,
-      "cost": "Free",
-      "quickStops": [],
-      "typeEmoji": "♨️",
-      "link": "https://media.worldnomads.com/guides/new/iceland-insiders-guide.pdf"
-    },
-    {
       "time": "20:00",
       "title": "Gerðuberg Basalt Columns",
       "description": "Stop at this impressive natural wall of hexagonal basalt columns rising up to 14 meters high. These symmetrical formations were created when lava cooled slowly, allowing perfect crystallization.",
@@ -424,7 +403,7 @@
       "location": "Snæfellsnes Peninsula",
       "isEveningRelaxation": true,
       "cost": "Free",
-      "link": "https://www.west.is/en/place/landbrotalaug-hot-spring"
+      "link": "https://www.seekingoursomeday.com/blog/landbrotalaug-hot-springs"
     },
     {
       "name": "Sturlungalaug",
@@ -432,7 +411,7 @@
       "location": "Snæfellsnes Peninsula",
       "isEveningRelaxation": false,
       "cost": "Free",
-      "link": "https://epiciceland.net/hidden-gems-in-iceland/"
+      "link": "https://guidetoiceland.is/travel-iceland/drive/sturlungalaug-hot-springs"
     },
     {
       "name": "Krauma Geothermal Baths",
