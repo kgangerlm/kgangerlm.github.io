@@ -42,12 +42,12 @@
     <div class="tutorial-overlay" on:click={dismiss}>
       <div class="tutorial-modal" on:click|stopPropagation>
         <div class="tutorial-content">
-          <h3>Navigate with Two Fingers</h3>
+          <h3>Swipe to Navigate</h3>
           <div class="gesture-demo">
-            <div class="hand-icon">👆👆</div>
+            <div class="hand-icon">👆</div>
             <div class="swipe-animation"></div>
           </div>
-          <p>Swipe left or right with two fingers to navigate between days of your trip</p>
+          <p>Swipe left or right to navigate between days of your trip</p>
           <button class="tutorial-button" on:click={dismiss}>Got it!</button>
         </div>
       </div>
