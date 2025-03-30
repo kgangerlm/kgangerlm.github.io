@@ -19,80 +19,89 @@
   },
   "shortSummary": "Circle the magical Snæfellsnes Peninsula with its black pebble beaches, coastal hiking paths, ancient lava caves, and seal colonies, showcasing Iceland's diverse landscapes in one area.",
   "summary": "Explore the diverse wonders of the Snæfellsnes Peninsula, often called \"Iceland in Miniature\" for its concentration of landscapes from around the country. Today's journey takes you around this magical peninsula with its dramatic coastlines, black pebble beaches, lava fields, and the glacier-topped Snæfellsjökull volcano that inspired Jules Verne's \"Journey to the Center of the Earth.\" From rugged sea cliffs to hidden hot springs, today showcases some of Iceland's most unique and photogenic landscapes.",
-  "driving": {
-    "total": {
-      "distance": {
-        "km": 220,
-        "miles": 137
-      },
-      "time": "3 hours 15 minutes"
+"driving": {
+  "total": {
+    "distance": {
+      "km": 295,
+      "miles": 183
     },
-    "segments": [
-      {
-        "from": "The Old Post Office, Grundarfjörður",
-        "to": "Djúpalónssandur Black Pebble Beach",
-        "distance": {
-          "km": 45,
-          "miles": 28
-        },
-        "time": "40 minutes"
-      },
-      {
-        "from": "Djúpalónssandur",
-        "to": "Hellnar",
-        "distance": {
-          "km": 15,
-          "miles": 9
-        },
-        "time": "15 minutes"
-      },
-      {
-        "from": "Hellnar",
-        "to": "Vatnshellir Cave",
-        "distance": {
-          "km": 10,
-          "miles": 6
-        },
-        "time": "15 minutes"
-      },
-      {
-        "from": "Vatnshellir Cave",
-        "to": "Ytri Tunga Beach",
-        "distance": {
-          "km": 50,
-          "miles": 31
-        },
-        "time": "45 minutes"
-      },
-      {
-        "from": "Ytri Tunga Beach",
-        "to": "Lanbrotalaug Hot Spring",
-        "distance": {
-          "km": 20,
-          "miles": 12
-        },
-        "time": "25 minutes"
-      },
-      {
-        "from": "Lanbrotalaug Hot Spring",
-        "to": "Gerðuberg Basalt Columns",
-        "distance": {
-          "km": 15,
-          "miles": 9
-        },
-        "time": "20 minutes"
-      },
-      {
-        "from": "Gerðuberg Basalt Columns",
-        "to": "Airbnb in Akranes",
-        "distance": {
-          "km": 65,
-          "miles": 40
-        },
-        "time": "55 minutes"
-      }
-    ]
+    "time": "5 hours"
   },
+  "segments": [
+    {
+      "from": "The Old Post Office, Grundarfjörður",
+      "to": "F570 Scenic Drive Start",
+      "distance": {
+        "km": 15,
+        "miles": 9
+      },
+      "time": "15 minutes"
+    },
+    {
+      "from": "F570 Scenic Drive",
+      "to": "Arnarstapi - Snowcat Tour Meeting Point",
+      "distance": {
+        "km": 35,
+        "miles": 22
+      },
+      "time": "1 hour"
+    },
+    {
+      "from": "Arnarstapi",
+      "to": "Djúpalónssandur",
+      "distance": {
+        "km": 15,
+        "miles": 9
+      },
+      "time": "15 minutes"
+    },
+    {
+      "from": "Djúpalónssandur",
+      "to": "Western Peninsula Stops",
+      "distance": {
+        "km": 70,
+        "miles": 43
+      },
+      "time": "1 hour 30 minutes"
+    },
+    {
+      "from": "Western Peninsula",
+      "to": "Ytri Tunga Beach",
+      "distance": {
+        "km": 40,
+        "miles": 25
+      },
+      "time": "35 minutes"
+    },
+    {
+      "from": "Ytri Tunga Beach",
+      "to": "Lanbrotalaug Hot Spring",
+      "distance": {
+        "km": 20,
+        "miles": 12
+      },
+      "time": "25 minutes"
+    },
+    {
+      "from": "Lanbrotalaug Hot Spring",
+      "to": "Gerðuberg Basalt Columns",
+      "distance": {
+        "km": 15,
+        "miles": 9
+      },
+      "time": "20 minutes"
+    },
+    {
+      "from": "Gerðuberg Basalt Columns",
+      "to": "Airbnb in Akranes",
+      "distance": {
+        "km": 65,
+        "miles": 40
+      },
+      "time": "55 minutes"
+    }
+  ]
+},
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1p5j0Ep3wf98qhPSuZYWVhZ3qrQnPHuI&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
   "schedule": [
     {
