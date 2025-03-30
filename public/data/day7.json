@@ -97,7 +97,8 @@
       "isUserSelected": false,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "🍳"    },
+      "typeEmoji": "🍳"
+    },
     {
       "time": "08:30",
       "title": "Drive to Ker Cliffs (Þerribjörg Sea Cliffs)",
@@ -401,23 +402,22 @@
     "After several active hiking days, the Mývatn Nature Baths offer a perfect opportunity to relax and recover.",
     "Note that despite the midnight sun, some attractions like Goðafoss can be especially beautiful in evening light with fewer tourists."
   ],
-
-"hotSprings": [
-  {
-    "name": "Mývatn Nature Baths",
-    "description": "Often called the 'Blue Lagoon of the North' but with fewer crowds. Already in your itinerary, perfect for relaxation after exploring the area.",
-    "location": "Lake Mývatn area",
-    "isEveningRelaxation": true,
-    "cost": "5,700 ISK (~$41) per person",
-    "link": "https://myvatnnaturebaths.is/"
-  },
-  {
-    "name": "Forest Lagoon",
-    "description": "A newer geothermal spa near Akureyri with infinity pools carved into the mountainside with views of the fjord and forest.",
-    "location": "Near Akureyri",
-    "isEveningRelaxation": true,
-    "cost": "5,900 ISK (~$42) per person",
-    "link": "https://forestlagoon.is/en/"
-  }
-]
+  "hotSprings": [
+    {
+      "name": "Mývatn Nature Baths",
+      "description": "Often called the 'Blue Lagoon of the North' but with fewer crowds. Already in your itinerary, perfect for relaxation after exploring the area.",
+      "location": "Lake Mývatn area",
+      "isEveningRelaxation": true,
+      "cost": "5,700 ISK (~$41) per person",
+      "link": "https://myvatnnaturebaths.is/"
+    },
+    {
+      "name": "Forest Lagoon",
+      "description": "A newer geothermal spa near Akureyri with infinity pools carved into the mountainside with views of the fjord and forest.",
+      "location": "Near Akureyri",
+      "isEveningRelaxation": true,
+      "cost": "5,900 ISK (~$42) per person",
+      "link": "https://forestlagoon.is/en/"
+    }
+  ]
 }
