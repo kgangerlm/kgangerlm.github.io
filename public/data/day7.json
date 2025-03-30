@@ -17,15 +17,15 @@
     "text": "The clearest way into the Universe is through a forest wilderness.",
     "author": "John Muir"
   },
-  "shortSummary": "Journey across Northeast Iceland from coastal cliffs to Europe's most powerful waterfall, a mythological canyon, and end with a relaxing soak in geothermal waters near Lake Mývatn.",
-  "summary": "Journey across Iceland's diverse northeastern landscapes, from the dramatic sea cliffs of the East Fjords to the geothermal wonders near Lake Mývatn. Today's route takes you through remote countryside to the thundering Dettifoss waterfall, the otherworldly Ásbyrgi canyon, and the relaxing Mývatn Nature Baths, before reaching Akureyri, the capital of the North. After several days of intense hiking, today offers a perfect balance of scenic driving with shorter walks to spectacular natural wonders.",
+  "shortSummary": "Journey across Northeast Iceland from coastal cliffs to Europe's most powerful waterfall, a colorful volcanic crater, and end with a relaxing soak in geothermal waters near Lake Mývatn.",
+  "summary": "Journey across Iceland's diverse northeastern landscapes, from the dramatic sea cliffs of the East Fjords to the geothermal wonders near Lake Mývatn. Today's route takes you through remote countryside to the thundering Dettifoss waterfall, the colorful Viti Crater in the Krafla volcanic area, and the relaxing Mývatn Nature Baths, before reaching Akureyri, the capital of the North. After several days of intense hiking, today offers a perfect balance of scenic driving with shorter walks to spectacular natural wonders.",
   "driving": {
     "total": {
       "distance": {
-        "km": 325,
-        "miles": 202
+        "km": 285,
+        "miles": 177
       },
-      "time": "5 hours 25 minutes"
+      "time": "4 hours 45 minutes"
     },
     "segments": [
       {
@@ -48,21 +48,21 @@
       },
       {
         "from": "Dettifoss Waterfall",
-        "to": "Ásbyrgi Canyon",
+        "to": "Viti Crater",
         "distance": {
-          "km": 40,
-          "miles": 25
+          "km": 105,
+          "miles": 65
         },
-        "time": "45 minutes"
+        "time": "1 hour 15 minutes"
       },
       {
-        "from": "Ásbyrgi Canyon",
+        "from": "Viti Crater",
         "to": "Mývatn Nature Baths",
         "distance": {
-          "km": 70,
-          "miles": 43
+          "km": 5,
+          "miles": 3
         },
-        "time": "1 hour"
+        "time": "10 minutes"
       },
       {
         "from": "Mývatn Nature Baths",
@@ -128,7 +128,9 @@
       "isGem": true,
       "isUserSelected": true,
       "cost": "Free",
-      "quickStops": [],
+      "quickStops": [
+        "Gljúfursárfoss - Hidden waterfall near the cliffs accessible via a short detour"
+      ],
       "typeEmoji": "🥾",
       "link": "https://epiciceland.net/tag/ker/"
     },
@@ -172,10 +174,10 @@
     },
     {
       "time": "15:15",
-      "title": "Drive to Ásbyrgi Canyon",
-      "description": "Continue your journey to this remarkable horseshoe-shaped canyon.",
+      "title": "Drive to Viti Crater",
+      "description": "Continue your journey to the colorful Viti Crater in the Krafla volcanic area.",
       "details": [],
-      "duration": "45 minutes",
+      "duration": "1 hour 15 minutes",
       "isFeatured": false,
       "isGem": false,
       "isUserSelected": false,
@@ -184,31 +186,31 @@
       "typeEmoji": "🚗"
     },
     {
-      "time": "16:00",
-      "title": "Ásbyrgi Canyon",
-      "description": "Explore this horseshoe-shaped canyon with its impressive rock formations, lush greenery, and peaceful atmosphere. According to Norse mythology, the canyon was formed by the hoofprint of Odin's eight-legged horse, Sleipnir.",
+      "time": "16:30",
+      "title": "Viti Crater",
+      "description": "Explore this striking explosion crater with its vivid blue-green water set in a dramatic volcanic landscape. The name 'Viti' means 'hell' in Icelandic, and it was formed during the massive eruptions of 1724 known as the 'Mývatn Fires.'",
       "details": [
-        "Horseshoe-shaped canyon 3.5 km long and 1 km wide",
-        "Walking paths of various lengths, from 15 minutes to 2 hours",
-        "Lush vegetation including birch and willow forest",
-        "Small lake (Botnstjörn) at the canyon's end",
-        "Part of Vatnajökull National Park"
+        "Vibrant blue-green crater lake surrounded by colorful rhyolite mountains",
+        "Easy 15-20 minute walking loop around the crater rim",
+        "Part of the active Krafla volcanic system",
+        "Geothermal area with steam vents and hot ground",
+        "Spectacular views of the surrounding lava fields and mountains"
       ],
       "duration": "1 hour",
-      "isFeatured": false,
+      "isFeatured": true,
       "isGem": false,
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [],
-      "typeEmoji": "🏞️",
-      "link": "https://www.tripadvisor.com/ShowTopic-g189952-i223-k14450265-Visiting_Dettifoss_and_Asbyrgi_canyon_864_and_862-Iceland.html"
+      "typeEmoji": "🌋",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/viti-crater"
     },
     {
-      "time": "17:15",
+      "time": "17:45",
       "title": "Drive to Mývatn Nature Baths",
-      "description": "Head to the Lake Mývatn area for a relaxing geothermal experience.",
+      "description": "A short drive to the Lake Mývatn area for a relaxing geothermal experience.",
       "details": [],
-      "duration": "1 hour",
+      "duration": "10 minutes",
       "isFeatured": false,
       "isGem": false,
       "isUserSelected": false,
@@ -217,7 +219,7 @@
       "typeEmoji": "🚗"
     },
     {
-      "time": "18:30",
+      "time": "18:00",
       "title": "Mývatn Nature Baths",
       "description": "Relax in these geothermal baths, often called the 'Blue Lagoon of the North'. Enjoy the mineral-rich waters with views of the surrounding volcanic landscape - a perfect way to unwind after several days of hiking and exploration.",
       "details": [
@@ -237,7 +239,7 @@
       "link": "https://myvatnnaturebaths.is/"
     },
     {
-      "time": "20:15",
+      "time": "19:45",
       "title": "Drive to Goðafoss Waterfall",
       "description": "Continue your journey toward Akureyri, stopping at this historically significant waterfall along the way.",
       "details": [],
@@ -250,7 +252,7 @@
       "typeEmoji": "🚗"
     },
     {
-      "time": "21:00",
+      "time": "20:30",
       "title": "Goðafoss Waterfall",
       "description": "Visit the 'Waterfall of the Gods,' one of Iceland's most spectacular waterfalls with historical significance. According to the Sagas, in the year 1000, the Lawspeaker Þorgeir Ljósvetningagoði threw his pagan idols into the falls when Iceland converted to Christianity.",
       "details": [
@@ -270,7 +272,7 @@
       "link": "https://www.icelandtravel.is/attractions/godafoss/"
     },
     {
-      "time": "22:00",
+      "time": "21:30",
       "title": "Drive to Akureyri",
       "description": "Complete your journey to Iceland's northern capital.",
       "details": [],
@@ -283,7 +285,7 @@
       "typeEmoji": "🚗"
     },
     {
-      "time": "22:30",
+      "time": "22:00",
       "title": "Check in at Airbnb in Akureyri",
       "description": "Arrive at your accommodation in Akureyri and settle in for the evening.",
       "details": [],
@@ -299,6 +301,7 @@
   "highlights": [
     "Witnessing the raw power of Europe's mightiest waterfall, Dettifoss",
     "Hiking along the dramatic Ker Cliffs with panoramic ocean views",
+    "Exploring the colorful Viti Crater in the active Krafla volcanic area",
     "Relaxing in the mineral-rich waters of Mývatn Nature Baths",
     "Experiencing the beauty and history of Goðafoss, the 'Waterfall of the Gods'"
   ],
@@ -320,6 +323,16 @@
   },
   "alternatives": [
     {
+      "title": "Ásbyrgi Canyon",
+      "description": "Horseshoe-shaped canyon with impressive rock formations, lush greenery, and peaceful atmosphere. According to Norse mythology, formed by the hoofprint of Odin's eight-legged horse, Sleipnir.",
+      "location": "North of Dettifoss",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://www.tripadvisor.com/ShowTopic-g189952-i223-k14450265-Visiting_Dettifoss_and_Asbyrgi_canyon_864_and_862-Iceland.html"
+    },
+    {
       "title": "Námaskarð Geothermal Area",
       "description": "Otherworldly landscape with bubbling mud pools, steaming fumaroles, and colorful mineral deposits. The sulfurous, multicolored pass offers an excellent introduction to Iceland's geothermal activity.",
       "location": "Near Lake Mývatn",
@@ -330,14 +343,14 @@
       "link": "https://guidetoiceland.is/travel-iceland/drive/namaskard"
     },
     {
-      "title": "Krafla Volcano",
-      "description": "Massive 300-meter crater with dramatic lava fields from the 1975-1984 'Krafla Fires' eruption series. The Víti explosion crater with its blue-green lake is particularly impressive.",
-      "location": "Near Lake Mývatn",
+      "title": "Krafla Power Station",
+      "description": "Visitor center providing information about geothermal energy and how Iceland harnesses this sustainable power source. Offers insight into Iceland's renewable energy production.",
+      "location": "Near Viti Crater",
       "cost": "Free",
       "isGem": false,
       "isUserSelected": false,
       "timing": "Afternoon",
-      "link": "https://iceland.nordicvisitor.com/travel-guide/attractions/north-iceland/krafla/"
+      "link": "https://www.landsvirkjun.com/visitus/kraflastation"
     },
     {
       "title": "Grjótagjá Cave",

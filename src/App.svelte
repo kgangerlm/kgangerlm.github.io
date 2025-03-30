@@ -5,6 +5,7 @@
   import DayDetail from './components/DayDetail.svelte';
   import SwipeNavigation from './components/SwipeNavigation.svelte';
   import SwipeTutorial from './components/SwipeTutorial.svelte';
+  import ScrollSpy from './components/ScrollSpy.svelte'; // Import ScrollSpy
   
   let tripData = {};
   let daysData = [];
@@ -13,6 +14,7 @@
   let isLoading = true;
   let loadError = null;
   let mobileNavVisible = false;
+  let daySectionIds = []; // To store all day section IDs
 
   onMount(async () => {
     console.log("App component mounted");
@@ -62,6 +64,9 @@
         throw new Error('No day data could be loaded');
       }
       
+      // Create array of day section IDs for ScrollSpy
+      daySectionIds = daysData.map(day => day.id);
+      
       isLoading = false;
     } catch (error) {
       console.error('Error loading data:', error);
@@ -94,6 +99,20 @@
     }
   }
   
+  // Handle ScrollSpy section change event
+  function handleSectionChange(event) {
+    const { section, inOverview } = event.detail;
+    
+    if (!inOverview && section) {
+      // Update current day and index based on section ID
+      currentDay = section;
+      const dayIndex = daysData.findIndex(day => day.id === section);
+      if (dayIndex !== -1) {
+        currentDayIndex = dayIndex;
+      }
+    }
+  }
+  
   // Toggle mobile navigation menu
   function toggleMobileNav() {
     mobileNavVisible = !mobileNavVisible;
@@ -115,6 +134,9 @@
       <p>Please check that all data files are available and refresh the page.</p>
     </div>
   {:else}
+    <!-- ScrollSpy component to track visible sections -->
+    <ScrollSpy sectionIds={daySectionIds} offset={150} on:change={handleSectionChange} />
+    
     <!-- Mobile Swipe Tutorial -->
     <SwipeTutorial showOnce={true} delay={2000} />
     
