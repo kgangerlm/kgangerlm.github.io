@@ -1,6 +1,36 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap');
 
+/* Add these at the top of your style section */
+:global(body) {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+:global(*) {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow-x: hidden;
+}
+
+.map-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Fix for iframe potentially causing overflow */
+iframe {
+  max-width: 100%;
+}
+
 :root {
   --primary: #3498db;
   --primary-dark: #2980b9;
@@ -648,5 +678,20 @@ footer p {
   
   .activity-time {
     font-size: 0.75em;
+  }
+}
+
+.itinerary-grid,
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .itinerary-grid,
+  .resources-grid {
+    grid-template-columns: 1fr;
   }
 }
