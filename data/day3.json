@@ -88,8 +88,8 @@
   "schedule": [
     {
       "time": "08:00",
-      "title": "Breakfast at Country Dream guesthouse",
-      "description": "Enjoy breakfast at your accommodation before starting your South Coast adventure.",
+      "title": "Breakfast near accommodation",
+      "description": "Look for some good breakfast options near your accommodation. Consider stocking up on snacks for the day while you wait for Heather",
       "details": [],
       "duration": "45 minutes",
       "isFeatured": false,
@@ -98,20 +98,21 @@
       "cost": "",
       "quickStops": [],
       "typeEmoji": "🍳",
-      "link": "https://www.expedia.com/Selfoss-Hotels-Country-Dream-Guesthouse.h23920102.Hotel-Information"
+      "link": "https://www.tripadvisor.com/Restaurants-g315852-zfp2-Selfoss_South_Region.html"
     },
     {
       "time": "09:00",
       "title": "Meet Heather",
-      "description": "Heather joins your journey today. Make sure you have everything packed and ready for her arrival.",
-      "details": [],
+      "description": "Heather joins your journey today. Make sure you have a good meetup plan",
+      "details": ["see link for bus schedule"],
       "duration": "30 minutes",
       "isFeatured": false,
       "isGem": false,
       "isUserSelected": true,
       "cost": "",
       "quickStops": [],
-      "typeEmoji": "👋"
+      "typeEmoji": "👋",
+      "link": "https://www.rome2rio.com/map/Reykjav%C3%ADk/Selfoss#r/Bus/s/0"
     },
     {
       "time": "09:45",
@@ -123,7 +124,12 @@
       "isGem": false,
       "isUserSelected": false,
       "cost": "",
-      "quickStops": [],
+      "quickStops": [
+        "Hafið Bláa - You will find a funky giant lobster here but the scenery in this area is very nice (all along route 34) and you can access a really beautiful pristine black sand beach",
+        "Urriðafoss - doesn't look spectacular",
+        "LAVA Centre - Museum",
+        "Gluggafoss - luggafoss or Window Falls. (also known as Merkjárfoss) The upper half of the cliff is palagonite or tuff rock and the lower ledge is basalt. The river has formed tunnels and grooves through the soft rock and a series of ‘windows’ in the tunnels,"
+      ],
       "typeEmoji": "🚗"
     },
     {
@@ -157,7 +163,7 @@
       "isGem": false,
       "isUserSelected": false,
       "cost": "",
-      "quickStops": [],
+      "quickStops": ["Nauthúsagil Waterfall - A mystical waterfalls inside a ravine! 40 minutes round trip hike"],
       "typeEmoji": "🚗"
     },
     {
@@ -176,7 +182,9 @@
       "isUserSelected": true,
       "cost": "Free",
       "quickStops": [
-        "Skógar Museum - folk museum displaying Icelandic cultural heritage (if time permits)"
+        "Skógar Museum - folk museum displaying Icelandic cultural heritage (if time permits)",
+        "Fimmvörðuháls (Skogar - Porsmork) - famous hiking trail starting from Skógafoss, 22 km (13.6 miles) one way, 8-10 hours. Not a quick stop but consider a back-and-forth from the top of Skogafoss for a few hours, it will blow your mind!",
+        "Solheimajokull Glacier (snout) - a short detour to see the glacier tongue, but not a hike. You can also do a glacier hike here if you have time."
       ],
       "typeEmoji": "🌊",
       "link": "https://siggadottir.com/skogafoss-waterfall-hike/"
@@ -220,7 +228,7 @@
         "Excellent views of Dyrhólaey arch in the distance",
         "Always keep a safe distance from the water - sneaker waves are dangerous"
       ],
-      "duration": "1 hour",
+      "duration": "20 minutes",
       "isFeatured": true,
       "isGem": false,
       "isUserSelected": true,
@@ -230,7 +238,7 @@
       "link": "https://www.tripadvisor.com/Attraction_Review-g189978-d2402443-Reviews-Vikurfjara_Black_Sand_Beach-Vik_South_Region.html"
     },
     {
-      "time": "16:45",
+      "time": "16:00",
       "title": "Reynisfjara Black Sand Beach",
       "description": "Visit Iceland's most famous black sand beach with its impressive basalt columns and Reynisdrangar sea stacks rising from the ocean.",
       "details": [
@@ -239,7 +247,7 @@
         "IMPORTANT: Be extremely cautious of sneaker waves - never turn your back to the ocean",
         "Can be very crowded with tourists during peak hours"
       ],
-      "duration": "1 hour",
+      "duration": "20 minutes",
       "isFeatured": false,
       "isGem": false,
       "isUserSelected": true,
@@ -249,7 +257,7 @@
       "link": "https://fortheloveofwanderlust.com/the-black-sand-beaches-of-vik-and-reynisfjara-iceland/"
     },
     {
-      "time": "18:00",
+      "time": "17:00",
       "title": "Dyrhólaey Peninsula",
       "description": "Visit this small peninsula with a large sea arch and lighthouse. In July, you'll have a good chance to spot puffins nesting on the cliffs.",
       "details": [
@@ -268,7 +276,7 @@
       "link": "https://ilivetotravel.me/iceland-south-shore-dyrholaey-vik/"
     },
     {
-      "time": "19:15",
+      "time": "18:00",
       "title": "Drive to The Barn",
       "description": "Make the short drive to your accommodation for the night.",
       "details": [],
@@ -281,7 +289,7 @@
       "typeEmoji": "🚗"
     },
     {
-      "time": "19:45",
+      "time": "18:20",
       "title": "Check in at The Barn",
       "description": "Arrive at your accommodation for the night, a charming farmhouse hostel with mountain views.",
       "details": [],
@@ -294,7 +302,7 @@
       "typeEmoji": "🏠"
     },
     {
-      "time": "20:15",
+      "time": "19:00",
       "title": "Dinner at Suður-Vík Restaurant",
       "description": "Enjoy dinner at this popular restaurant in Vík offering a variety of Icelandic and international dishes.",
       "details": [],

@@ -51,7 +51,7 @@
   "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=14SQO22uQjMOhV9Q8E7FtIW0fXMesXQw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
   "schedule": [
     {
-      "time": "Morning",
+      "time": "6:00",
       "title": "Arrival at Keflavík International Airport",
       "description": "Touch down in Iceland and begin your adventure. Pick up your rental car from Blue Car Rental and get ready to explore.",
       "details": [
@@ -68,7 +68,7 @@
       "link": "https://www.visiticeland.com/article/arrival-in-iceland/"
     },
     {
-      "time": "9:00 AM",
+      "time": "7:30",
       "title": "Breakfast at LiBRARY bistro/bar",
       "description": "Enjoy your first Icelandic meal at this convenient airport-area restaurant to fuel up for the day.",
       "details": [],
@@ -82,7 +82,7 @@
       "link": "https://www.facebook.com/groups/bluelagooniceland/posts/856688933328429/"
     },
     {
-      "time": "10:30 AM",
+      "time": "9:00",
       "title": "Blue Lagoon",
       "description": "Relax in the mineral-rich geothermal waters of Iceland's most famous spa. The perfect way to recover from your flight and begin your Icelandic adventure.",
       "details": [
@@ -100,7 +100,7 @@
       "link": "https://www.bluelagoon.com/"
     },
     {
-      "time": "2:00 PM",
+      "time": "12:00",
       "title": "Drive to Reykjavík",
       "description": "Make your way to Iceland's capital city, where you'll be spending your first night.",
       "details": [],
@@ -129,7 +129,7 @@
       "link": "https://www.reddit.com/r/VisitingIceland/comments/zxed1v/grocery_shopping_in_iceland/"
     },
     {
-      "time": "3:45 PM",
+      "time": "15:45",
       "title": "Check into Hotel Fron",
       "description": "Settle into your accommodation in downtown Reykjavík, perfectly positioned for exploring the city.",
       "details": [],
@@ -143,7 +143,7 @@
       "link": "https://www.hotelfron.is/"
     },
     {
-      "time": "4:30 PM",
+      "time": "16:30",
       "title": "Explore Downtown Reykjavík",
       "description": "Discover the charm of Iceland's capital with a walking tour of key landmarks.",
       "details": [
@@ -164,7 +164,7 @@
       "link": "https://guidetoiceland.is/reykjavik-guide/reykjavik-101-the-ultimate-guide-to-reykjavik-s-city-centre"
     },
     {
-      "time": "7:00 PM",
+      "time": "19:00",
       "title": "Dinner with Heather and Family",
       "description": "Meet up with Heather and family for a traditional Icelandic meal in downtown Reykjavík.",
       "details": [
