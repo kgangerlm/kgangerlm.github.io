@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>As we travel through glacier country, it's worth exploring how these massive ice formations have shaped not only Iceland's physical landscape but also its folklore and cultural imagination.</s>
+  </p>
+  <p>
+    <s>In traditional Icelandic folklore, glaciers were often believed to be home to various supernatural beings.</s>
+    <s>The most famous are the <lang xml:lang="is-is">jökulþursar</lang> or glacier giants, fearsome trolls who were said to live deep within the ice.</s>
+  </p>
+  <p>
+    <s>One famous local legend tells of <lang xml:lang="is-is">Grýla</lang>, a fearsome giantess who lived in the mountains near <lang xml:lang="is-is">Vatnajökull</lang>.</s>
+    <s>She would come down from her icy home during winter to search for misbehaving children to put in her sack.</s>
+    <s>Today, she's best known as the mother of the thirteen Yule Lads, Iceland's mischievous Christmas figures.</s>
+  </p>
+  <p>
+    <s>Glaciers were also believed to have distinct personalities and moods.</s>
+    <s>When a glacier cracked and groaned, locals would say it was hungry or angry.</s>
+    <s>Some communities would leave offerings of milk or food to appease the glacier and prevent calamities like <lang xml:lang="is-is">jökulhlaups</lang>.</s>
+  </p>
+  <p>
+    <s>Even today, many Icelanders maintain a deeply personal relationship with their glaciers.</s>
+    <s>When the Ok glacier was officially declared "dead" in 2014 (having lost its status as a glacier due to climate change), Icelanders held a funeral ceremony complete with a memorial plaque.</s>
+  </p>
+  <p>
+    <s>As you continue to observe these ancient ice formations throughout your journey, consider how they've shaped not just the physical landscape but the cultural one as well.</s>
+  </p>
+</speak>

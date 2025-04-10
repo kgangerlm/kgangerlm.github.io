@@ -1,0 +1,15 @@
+<speak>
+  <prosody rate="106%">
+    <p>
+      The farms you see dot a landscape that has been continuously inhabited for nearly <say-as interpret-as="cardinal">1,150</say-as> years – representing one of the world's oldest continuous democracies through the Althing, established in <say-as interpret-as="date" format="y">930</say-as>.
+    </p>
+
+    <p>
+      The agricultural fields around you sit atop young volcanic soil—remarkably fertile, yet scarcely <say-as interpret-as="cardinal">10,000</say-as> years old. Traditional farming here evolved unique practices to deal with this volatile environment, including transhumance—the seasonal movement of livestock between lowland winter pastures and mountain summer grazing grounds called <phoneme alphabet="ipa" ph="afrehtɪr">afréttir</phoneme>.
+    </p>
+
+    <p>
+      As you approach the coastal escarpment ahead, you're witnessing what was once an ancient shoreline, carved by Atlantic waves when the sea reached much farther inland. Soon, you'll glimpse your first waterfall - <phoneme alphabet="ipa" ph="sɛljalantsfɔs">Seljalandsfoss</phoneme> - appearing initially as a distant white thread against the green backdrop. Each droplet began its journey atop that glacier you see, perhaps centuries ago, before finding this dramatic shortcut to the sea.
+    </p>
+  </prosody>
+</speak>

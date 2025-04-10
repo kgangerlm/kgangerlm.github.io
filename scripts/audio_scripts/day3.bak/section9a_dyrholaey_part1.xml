@@ -1,0 +1,17 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        From this elevated promontory, we gain perhaps the most comprehensive view of Iceland's southern coast - a landscape that epitomizes the phrase 'fire and ice.' The black beaches extending in both directions represent the newest land in Europe, while the glaciers visible inland hold ice that fell as snow centuries ago.
+      </p>
+
+      <p>
+        The massive stone arch that gives <lang xml:lang="is-IS">Dyrhólaey</lang> its name demonstrates the relentless power of ocean erosion. Wave action gradually carved a cave into both sides of this headland until they connected, creating this natural bridge. Eventually - perhaps within a few hundred years - the arch will collapse, transforming <lang xml:lang="is-IS">Dyrhólaey</lang>'s profile forever.
+      </p>
+
+      <p>
+        This promontory has served as a crucial navigational landmark for sailors since the earliest settlement days. Long before GPS or even lighthouses, Icelandic fishermen navigated by memorizing distinctive coastal features like <lang xml:lang="is-IS">Dyrhólaey</lang>.
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>

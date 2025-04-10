@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>You're now approaching the remnants of the <lang xml:lang="is-is">Skeiðará</lang> Bridge Monument – a powerful testament to the destructive forces of glacial floods.</s>
+    <s>What you see are twisted metal structures displayed alongside the road, preserved as a memorial to one of Iceland's most devastating natural disasters.</s>
+  </p>
+  <p>
+    <s>In November 1996, the <lang xml:lang="is-is">Grímsvötn</lang> volcano erupted beneath the <lang xml:lang="is-is">Vatnajökull</lang> ice cap.</s>
+    <s>The eruption melted massive amounts of ice, which accumulated under the glacier before bursting out in a catastrophic flood known as a <lang xml:lang="is-is">jökulhlaup</lang>.</s>
+  </p>
+  <p>
+    <s>This wall of water and ice rushed toward the ocean, carrying icebergs the size of houses.</s>
+    <s>The peak flow rate reached an astonishing 45,000 cubic meters per second – nearly equivalent to the Amazon River!</s>
+    <s>When it reached this bridge, the force was unstoppable, tearing away and twisting the steel girders like they were made of paper.</s>
+  </p>
+  <p>
+    <s>This monument serves as a humbling reminder of nature's power in Iceland.</s>
+    <s>The Ring Road was severed at this point, cutting off eastern Iceland from the rest of the country for weeks.</s>
+    <s>Today's modern bridge is designed to allow such floods to pass underneath, but the monument remains to tell this dramatic story.</s>
+  </p>
+  <p>
+    <s>The geological forces you'll see throughout today's journey – from peaceful glacial lagoons to violent floods – all represent different aspects of Iceland's dynamic relationship with ice.</s>
+  </p>
+</speak>

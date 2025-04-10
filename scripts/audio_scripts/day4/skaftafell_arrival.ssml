@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>Welcome to Skaftafell, a remarkable area within <lang xml:lang="is-is">Vatnajökull</lang> National Park, which is the largest national park in Europe.</s>
+    <s>What makes this place special is the surprising contrast between its lush vegetation and the looming ice cap nearby.</s>
+  </p>
+  <p>
+    <s>Skaftafell was once a thriving farm and community so isolated it functioned almost as its own micro-society.</s>
+    <s>The area's unique climate – sheltered by mountains and glaciers – creates milder conditions than the surrounding regions, allowing for the birch forests and other vegetation you see around you.</s>
+  </p>
+  <p>
+    <s>The landscape here has been dramatically shaped by eruptions from the nearby <lang xml:lang="is-is">Öræfajökull</lang> volcano, which last erupted in 1727.</s>
+    <s>In 1362, it produced the largest tephra eruption in Iceland's history, destroying the local district and killing all inhabitants.</s>
+    <s>The area was so devastated it was renamed <lang xml:lang="is-is">Öræfi</lang>, meaning "wasteland."</s>
+  </p>
+  <p>
+    <s>As you prepare for your hike to Svartifoss waterfall, notice the various hiking trails that crisscross this area – they range from easy walks to challenging glacier hikes.</s>
+    <s>Your 3-mile round trip to Svartifoss will take you on a moderate uphill climb, offering increasingly spectacular views as you ascend.</s>
+  </p>
+</speak>

@@ -1,0 +1,26 @@
+{
+  "title": "Icelandic Road Trip: Glacier Experiences",
+  "sections": [
+    {
+      "id": "day4_intro",
+      "title": "Introduction to Glacier Day",
+      "ssmlFile": "day4_intro.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.4186809,
+          "longitude": -19.0060479
+        },
+        "radius": 500,
+        "description": "Starting point at Norðurfoss",
+        "approachTriggers": [
+          {
+            "direction": "north",
+            "latitude": 63.4166809,
+            "longitude": -19.0060479
+          }
+        ]
+      }
+    }
+  ]
+}

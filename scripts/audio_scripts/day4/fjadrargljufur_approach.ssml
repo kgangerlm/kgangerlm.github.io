@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>We're now approaching <lang xml:lang="is-is">Fjaðrárgljúfur</lang> Canyon, which translates to "Feather Canyon" in English.</s>
+    <s>Despite its ancient appearance, this remarkable formation is relatively young, carved out at the end of the last Ice Age around 9,000 years ago.</s>
+  </p>
+  <p>
+    <s>As massive glaciers retreated, an enormous flood of meltwater surged through this area, cutting into the soft palagonite bedrock and creating the dramatic 328-foot deep canyon you'll soon see.</s>
+  </p>
+  <p>
+    <s>In recent years, this location gained international fame after appearing in Justin Bieber's music video "I'll Show You" in 2015.</s>
+    <s>The resulting tourism boom actually led to temporary closures, allowing the delicate moss-covered walls to recover.</s>
+    <s>This is a reminder of how fragile Iceland's unique ecosystems can be.</s>
+  </p>
+  <p>
+    <s>As you prepare to explore, listen for the sound of the <lang xml:lang="is-is">Fjaðrá</lang> river flowing through the canyon below.</s>
+    <s>According to local folklore, you might also be in the presence of <lang xml:lang="is-is">huldufólk</lang> or "hidden people" who are said to reside in the nooks and crevices of these dramatic walls.</s>
+  </p>
+</speak>

@@ -1,0 +1,17 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        In Icelandic folklore, waterfalls like this were believed to be homes to <lang xml:lang="is-IS">huldufólk</lang>—hidden people or elves. These mystical beings occupy a special place in Iceland's cultural heritage, with many Icelanders still respecting their existence today. Construction projects are sometimes rerouted to avoid disturbing large rocks believed to be elf homes.
+      </p>
+
+      <p>
+        The name '<lang xml:lang="is-IS">Seljalandsfoss</lang>' derives from '<lang xml:lang="is-IS">Seljaland</lang>' farm, which has existed here for centuries. In medieval times, this farm would have been considered wealthy due to its reliable water source and relative protection from glacial floods. Farmers would have gathered angelica and other herbs growing in the mist-nourished microhabitat around the falls.
+      </p>
+
+      <p>
+        The perpetual mist nourishes an astonishing microhabitat of mosses and small ferns that cling to the rock face - life finding opportunity even in this vertical world. Take your time to explore this magnificent natural wonder before continuing your journey eastward toward <lang xml:lang="is-IS">Skógafoss</lang>.
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>

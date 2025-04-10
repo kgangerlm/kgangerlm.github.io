@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s><emphasis>Welcome to one of Iceland's most breathtaking natural wonders – <lang xml:lang="is-is">Jökulsárlón</lang> Glacier Lagoon.</emphasis></s>
+    <s>What you're seeing is a relatively recent phenomenon.</s>
+    <s>This lagoon didn't exist before the 1930s, when the <lang xml:lang="is-is">Breiðamerkurjökull</lang> glacier began retreating from the Atlantic Ocean.</s>
+  </p>
+  <p>
+    <s>The lagoon has quadrupled in size since the 1970s and continues to grow as the glacier recedes by about 500 feet per year.</s>
+    <s>It's now Iceland's deepest lake at more than 248 meters (814 feet) deep in places.</s>
+  </p>
+  <p>
+    <s>Those magnificent icebergs you see floating in the lagoon have broken off the glacier face in a process called calving.</s>
+    <s>Some are estimated to be over 1,000 years old, containing compacted snow that fell during the Medieval Period!</s>
+    <s>As they float in the mixture of fresh glacier water and seawater, they slowly melt and drift toward the ocean.</s>
+  </p>
+  <p>
+    <s>Keep your eyes open for wildlife.</s>
+    <s>Seals can often be spotted swimming among the icebergs or resting on them, and various seabirds including Arctic terns and skuas nest in the area.</s>
+  </p>
+  <p>
+    <s>The otherworldly beauty of <lang xml:lang="is-is">Jökulsárlón</lang> has captured the imagination of filmmakers for decades.</s>
+    <s>It has been featured in two James Bond films – <emphasis>A View to a Kill</emphasis> and <emphasis>Die Another Day</emphasis> – as well as <emphasis>Tomb Raider</emphasis> and <emphasis>Batman Begins</emphasis>.</s>
+  </p>
+  <p>
+    <s>Before you set off on your zodiac boat tour, take a moment to absorb this remarkable landscape where ice, water, and light create a constantly changing natural masterpiece.</s>
+  </p>
+</speak>

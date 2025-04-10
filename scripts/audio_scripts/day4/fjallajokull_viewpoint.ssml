@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>Welcome to the <lang xml:lang="is-is">Fjallajökull</lang> Glacier viewpoint, where you can see another of <lang xml:lang="is-is">Vatnajökull's</lang> many impressive outlet glaciers.</s>
+    <s>The name literally means "Mountain Glacier" in Icelandic, and it offers yet another perspective on Iceland's diverse ice formations.</s>
+  </p>
+  <p>
+    <s>What makes this glacier distinctive is how it cascades down through the mountains, creating a dramatic icefall that resembles a frozen waterfall.</s>
+    <s>This glacier is actually connected to <lang xml:lang="is-is">Öræfajökull</lang>, Iceland's largest active volcano, which last erupted in 1727.</s>
+  </p>
+  <p>
+    <s>The terrain you can see in front of the glacier is a glacial outwash plain, created by meltwater depositing sediments over centuries.</s>
+    <s>This flat area was once covered by the glacier itself, giving you a visual indicator of how far it has retreated.</s>
+  </p>
+  <p>
+    <s>Like many of Iceland's glaciers, <lang xml:lang="is-is">Fjallajökull</lang> has been dramatically affected by climate change.</s>
+    <s>Scientists study these outlet glaciers carefully, as they serve as indicators of the health of the entire <lang xml:lang="is-is">Vatnajökull</lang> ice cap.</s>
+  </p>
+  <p>
+    <s>As you observe the glacier from this viewpoint, notice the contrast between the white ice, the dark volcanic mountains, and the green vegetation that's beginning to establish itself on the recently exposed land.</s>
+    <s>You're witnessing the initial stages of ecological succession – the process by which nature reclaims areas exposed by retreating ice.</s>
+  </p>
+  <p>
+    <s>Before you continue your journey, take a moment to appreciate this magnificent landscape that represents the ongoing dialogue between ice, fire, and time in Iceland's ever-changing environment.</s>
+  </p>
+</speak>

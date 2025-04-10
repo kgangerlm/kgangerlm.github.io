@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>Welcome to <lang xml:lang="is-is">Höfn</lang>, pronounced roughly as "hup" (like "hub" but with a "p" at the end), which means "harbor" in Icelandic.</s>
+    <s>This charming fishing town of about 2,000 people is often called the langoustine capital of Iceland.</s>
+  </p>
+  <p>
+    <s>Despite its small size, <lang xml:lang="is-is">Höfn</lang> plays an important role in southeast Iceland as a commercial center, fishing port, and increasingly, as a tourism hub for exploring <lang xml:lang="is-is">Vatnajökull</lang> National Park.</s>
+  </p>
+  <p>
+    <s><lang xml:lang="is-is">Höfn</lang> is actually quite young by Icelandic standards, only established in the early 20th century when a harbor was built here.</s>
+    <s>Its importance grew after the road connection to the rest of Iceland was completed in the 1970s, ending centuries of isolation for this corner of the country.</s>
+  </p>
+  <p>
+    <s>If you're looking for dinner tonight, <lang xml:lang="is-is">Höfn</lang> is famous for its langoustine (also called Norway lobster), which flourish in the cold waters offshore.</s>
+    <s>These sweet, delicate shellfish are smaller than lobsters but larger than shrimp, and they're a genuine local specialty.</s>
+    <s>The town even hosts an annual lobster festival to celebrate this culinary treasure.</s>
+  </p>
+  <p>
+    <s>From various points in town, you can enjoy magnificent views of <lang xml:lang="is-is">Vatnajökull</lang> glacier, which has been your constant companion today.</s>
+    <s>The harbor area offers particularly scenic vistas, especially in the evening light.</s>
+  </p>
+  <p>
+    <s>Congratulations on completing day four of your Icelandic adventure!</s>
+    <s>Today, you've experienced the power and beauty of Iceland's glaciers from many perspectives – from the ancient ice cap itself to the lagoons, beaches, and landscapes it creates.</s>
+    <s>Tomorrow, you'll continue your journey into Iceland's spectacular East Fjords, where mountains meet the sea in dramatic fashion.</s>
+  </p>
+</speak>

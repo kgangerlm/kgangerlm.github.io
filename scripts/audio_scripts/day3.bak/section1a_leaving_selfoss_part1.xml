@@ -1,0 +1,17 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        Good morning, and welcome to one of our planet's most extraordinary geological wonders. <break time="500ms"/> As you leave <lang xml:lang="is-IS">Selfoss</lang> behind, you're driving across what might appear to be an ordinary landscape. <break time="300ms"/> But here, beneath your very wheels, lies a profound boundary - the Mid-Atlantic Ridge - where the North American and Eurasian tectonic plates are slowly pulling apart.
+      </p>
+
+      <p>
+        Look to your left, where the snow-capped <lang xml:lang="is-IS">Eyjafjallajökull</lang> stands sentinel over the landscape. Within that gleaming ice cap lies a chamber of molten rock - a reminder that Iceland is, in geological terms, just an infant, born of fire and constantly remaking itself.
+      </p>
+
+      <p>
+        The flat plains extending toward the ocean represent land in its infancy. When the Viking settlers arrived over a thousand years ago, the coastline stood much closer to those mountains. These Norse settlers, led by figures like Ingólfur Arnarson, established the first permanent settlements in Iceland around <say-as interpret-as="date" format="year">874</say-as> CE, marking the beginning of Iceland's recorded history.
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>

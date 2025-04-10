@@ -1,0 +1,372 @@
+{
+  "title": "Iceland's Southern Shores: A Natural and Cultural Journey",
+  "sections": [
+    {
+      "id": "section0",
+      "title": "Introduction: Welcome to Day 3",
+      "ssmlFile": "section0_introduction.xml",
+      "combineIntoSingleMP3": false,
+      "geofence": {
+        "center": {
+          "latitude": 63.9383,
+          "longitude": -21.0021
+        },
+        "radius": 1000,
+        "description": "Starting point in Selfoss",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.9417,
+            "longitude": -21.0744
+          },
+          {
+            "direction": "west",
+            "latitude": 63.9339,
+            "longitude": -20.9267
+          }
+        ]
+      }
+    },
+    {
+      "id": "section1",
+      "title": "Leaving Selfoss",
+      "parts": [
+        {
+          "title": "The Tectonic Divide",
+          "ssmlFile": "section1a_leaving_selfoss_part1.xml"
+        },
+        {
+          "title": "Historical Context",
+          "ssmlFile": "section1b_leaving_selfoss_part2.xml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.8722,
+          "longitude": -20.8655
+        },
+        "radius": 1500,
+        "description": "East of Selfoss on Route 1",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.9281,
+            "longitude": -20.9331
+          },
+          {
+            "direction": "west",
+            "latitude": 63.8203,
+            "longitude": -20.7867
+          }
+        ]
+      }
+    },
+    {
+      "id": "section2",
+      "title": "Seljalandsfoss",
+      "parts": [
+        {
+          "title": "Nature's Veil",
+          "ssmlFile": "section2a_seljalandsfoss_part1.xml"
+        },
+        {
+          "title": "Cultural Significance",
+          "ssmlFile": "section2b_seljalandsfoss_part2.xml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.6156,
+          "longitude": -19.9885
+        },
+        "radius": 1000,
+        "description": "Seljalandsfoss waterfall",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.6847,
+            "longitude": -20.0921
+          },
+          {
+            "direction": "west",
+            "latitude": 63.5812,
+            "longitude": -19.8612
+          }
+        ]
+      }
+    },
+    {
+      "id": "section3",
+      "title": "The Journey to Skógafoss",
+      "parts": [
+        {
+          "title": "River Systems",
+          "ssmlFile": "section3a_journey_to_skogafoss_part1.xml"
+        },
+        {
+          "title": "Landscape Formation",
+          "ssmlFile": "section3b_journey_to_skogafoss_part2.xml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.5738,
+          "longitude": -19.7499
+        },
+        "radius": 1200,
+        "description": "Road between Seljalandsfoss and Skógafoss",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.6038,
+            "longitude": -19.8742
+          },
+          {
+            "direction": "west",
+            "latitude": 63.5445,
+            "longitude": -19.6223
+          }
+        ]
+      }
+    },
+    {
+      "id": "section4",
+      "title": "Skógafoss",
+      "parts": [
+        {
+          "title": "The Magnificent Falls",
+          "ssmlFile": "section4a_skogafoss_part1.xml"
+        },
+        {
+          "title": "Legends and History",
+          "ssmlFile": "section4b_skogafoss_part2.xml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.5320,
+          "longitude": -19.5114
+        },
+        "radius": 1000,
+        "description": "Skógafoss waterfall",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.5549,
+            "longitude": -19.6342
+          },
+          {
+            "direction": "west",
+            "latitude": 63.5020,
+            "longitude": -19.3967
+          }
+        ]
+      }
+    },
+    {
+      "id": "section5",
+      "title": "The Black Desert Road",
+      "parts": [
+        {
+          "title": "Volcanic Landscape",
+          "ssmlFile": "section5a_black_desert_road_part1.xml"
+        },
+        {
+          "title": "Katla's Influence",
+          "ssmlFile": "section5b_black_desert_road_part2.xml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.4702,
+          "longitude": -19.2465
+        },
+        "radius": 2000,
+        "description": "Mýrdalssandur black sand desert",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.5057,
+            "longitude": -19.3824
+          },
+          {
+            "direction": "west",
+            "latitude": 63.4382,
+            "longitude": -19.1023
+          }
+        ]
+      }
+    },
+    {
+      "id": "section6",
+      "title": "Vikurfjara",
+      "parts": [
+        {
+          "title": "The Black Shore",
+          "ssmlFile": "section6a_vikurfjara_part1.xml"
+        },
+        {
+          "title": "Maritime History",
+          "ssmlFile": "section6b_vikurfjara_part2.xml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.4192,
+          "longitude": -18.9850
+        },
+        "radius": 1200,
+        "description": "Vikurfjara black beach near Vík",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.4441,
+            "longitude": -19.1021
+          },
+          {
+            "direction": "west",
+            "latitude": 63.4048,
+            "longitude": -18.8593
+          }
+        ]
+      }
+    },
+    {
+      "id": "section7",
+      "title": "Reynisfjara",
+      "parts": [
+        {
+          "title": "The Basalt Columns",
+          "ssmlFile": "section7a_reynisfjara_part1.xml"
+        },
+        {
+          "title": "Cultural Heritage",
+          "ssmlFile": "section7b_reynisfjara_part2.xml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.4047,
+          "longitude": -19.0432
+        },
+        "radius": 1000,
+        "description": "Reynisfjara beach with basalt columns",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.4146,
+            "longitude": -19.1562
+          },
+          {
+            "direction": "west",
+            "latitude": 63.3945,
+            "longitude": -18.9359
+          }
+        ]
+      }
+    },
+    {
+      "id": "section8",
+      "title": "The Final Stretch to Dyrhólaey",
+      "ssmlFile": "section8_final_stretch_to_dyrholaey.xml",
+      "combineIntoSingleMP3": false,
+      "geofence": {
+        "center": {
+          "latitude": 63.4032,
+          "longitude": -19.0809
+        },
+        "radius": 1200,
+        "description": "Road approaching Dyrhólaey",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.4052,
+            "longitude": -19.1932
+          },
+          {
+            "direction": "west",
+            "latitude": 63.4011,
+            "longitude": -18.9714
+          }
+        ]
+      }
+    },
+    {
+      "id": "section9",
+      "title": "Dyrhólaey",
+      "parts": [
+        {
+          "title": "The Natural Arch",
+          "ssmlFile": "section9a_dyrholaey_part1.xml"
+        },
+        {
+          "title": "The Bird Sanctuary",
+          "ssmlFile": "section9b_dyrholaey_part2.xml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.4019,
+          "longitude": -19.1175
+        },
+        "radius": 1200,
+        "description": "Dyrhólaey peninsula",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.4029,
+            "longitude": -19.2301
+          },
+          {
+            "direction": "west",
+            "latitude": 63.4007,
+            "longitude": -19.0012
+          }
+        ]
+      }
+    },
+    {
+      "id": "section10",
+      "title": "The Final Journey",
+      "parts": [
+        {
+          "title": "Geological Context",
+          "ssmlFile": "section10a_final_journey_part1.xml"
+        },
+        {
+          "title": "Cultural Heritage",
+          "ssmlFile": "section10b_final_journey_part2.xml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.4231,
+          "longitude": -19.1986
+        },
+        "radius": 1500,
+        "description": "The road to The Barn accommodation",
+        "approachTriggers": [
+          {
+            "direction": "east",
+            "latitude": 63.4139,
+            "longitude": -19.0853
+          },
+          {
+            "direction": "west",
+            "latitude": 63.4328,
+            "longitude": -19.3087
+          }
+        ]
+      }
+    }
+  ]
+}

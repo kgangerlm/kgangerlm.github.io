@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>As you prepare for your zodiac boat tour on the lagoon, here are some tips to enhance your experience.</s>
+  </p>
+  <p>
+    <s>First, dress warmly even on sunny days.</s>
+    <s>The temperature near the glacier can be significantly colder than elsewhere, and the wind chill factor on the water makes it feel even cooler.</s>
+    <s>You'll be provided with a flotation suit, but layer up underneath.</s>
+  </p>
+  <p>
+    <s>During your tour, you'll get much closer to the glacier face and icebergs than possible from shore.</s>
+    <s>The zodiac boats can navigate between the icebergs, offering unique perspectives and photo opportunities.</s>
+  </p>
+  <p>
+    <s>Listen for the creaks, groans, and occasional thunderous cracks of the glacier and icebergs.</s>
+    <s>These sounds are the voice of ancient ice shifting and changing.</s>
+    <s>If you're lucky, you might even witness the dramatic spectacle of ice calving from the glacier face.</s>
+  </p>
+  <p>
+    <s>Did you know that only about 10% of each iceberg is visible above the water?</s>
+    <s>The vast majority remains hidden beneath the surface – much like the saying "just the tip of the iceberg."</s>
+  </p>
+  <p>
+    <s>Many of the icebergs contain trapped air bubbles from centuries ago.</s>
+    <s>When these bubbles pop, you're literally hearing the release of air from a different era of Earth's history.</s>
+  </p>
+  <p>
+    <s>After your boat tour, be sure to visit Diamond Beach across the road, where some of these icebergs complete their journey to the ocean.</s>
+  </p>
+</speak>

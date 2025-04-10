@@ -1,0 +1,151 @@
+
+{
+  "name": "Day 3: South Coast Wonders",
+  "voice": "aura-asteria-en",
+  "sections": [
+    {
+      "file": "section1_welcome.txt",
+      "title": "Welcome to Day 3: South Coast Wonders",
+      "voice": "aura-zeus-en",
+      "latitude": 63.9339,
+      "longitude": -21.0067,
+      "radius": 800
+    },
+    {
+      "file": "section2_leaving_selfoss.txt",
+      "title": "Leaving Selfoss",
+      "voice": "aura-athena-en",
+      "latitude": 63.9149,
+      "longitude": -20.9778,
+      "radius": 1000
+    },
+    {
+      "file": "section3_hafid_blaa.txt",
+      "title": "Hafið Bláa and Coastal Views",
+      "voice": "aura-apollo-en",
+      "latitude": 63.8499,
+      "longitude": -20.7966,
+      "radius": 1000
+    },
+    {
+      "file": "section4_eyjafjallajokull.txt",
+      "title": "Approaching Eyjafjallajökull",
+      "voice": "aura-artemis-en",
+      "latitude": 63.7395,
+      "longitude": -20.2480,
+      "radius": 2000
+    },
+    {
+      "file": "section5_seljalandsfoss.txt",
+      "title": "Approaching Seljalandsfoss",
+      "voice": "aura-hermes-en",
+      "latitude": 63.6270,
+      "longitude": -20.0290,
+      "radius": 1200
+    },
+    {
+      "file": "section6_seljalandsfoss_arrival.txt",
+      "title": "Seljalandsfoss Waterfall",
+      "voice": "aura-asteria-en",
+      "latitude": 63.6156,
+      "longitude": -19.9885,
+      "radius": 500
+    },
+    {
+      "file": "section7_gljufrabui.txt",
+      "title": "Hidden Waterfall: Gljúfrabúi",
+      "voice": "aura-zeus-en",
+      "latitude": 63.6218,
+      "longitude": -19.9827,
+      "radius": 300
+    },
+    {
+      "file": "section8_to_skogafoss.txt",
+      "title": "Journey to Skógafoss",
+      "voice": "aura-athena-en",
+      "latitude": 63.5820,
+      "longitude": -19.8114,
+      "radius": 1500
+    },
+    {
+      "file": "section9_nauthusagil.txt",
+      "title": "Nauthúsagil Hidden Ravine",
+      "voice": "aura-apollo-en",
+      "latitude": 63.5655,
+      "longitude": -19.6989,
+      "radius": 500
+    },
+    {
+      "file": "section10_skogafoss_approach.txt",
+      "title": "Approaching Skógafoss",
+      "voice": "aura-artemis-en",
+      "latitude": 63.5390,
+      "longitude": -19.5395,
+      "radius": 800
+    },
+    {
+      "file": "section11_skogafoss_arrival.txt",
+      "title": "Skógafoss Waterfall",
+      "voice": "aura-hermes-en",
+      "latitude": 63.5320,
+      "longitude": -19.5130,
+      "radius": 400
+    },
+    {
+      "file": "section12_solheimajokull.txt",
+      "title": "Sólheimajökull Glacier Viewpoint",
+      "voice": "aura-asteria-en",
+      "latitude": 63.5308,
+      "longitude": -19.3682,
+      "radius": 800
+    },
+    {
+      "file": "section13_to_vik.txt",
+      "title": "Approaching Vík",
+      "voice": "aura-zeus-en",
+      "latitude": 63.4782,
+      "longitude": -19.1494,
+      "radius": 2000
+    },
+    {
+      "file": "section14_vikurfjara.txt",
+      "title": "Vikurfjara Black Sand Beach",
+      "voice": "aura-athena-en",
+      "latitude": 63.4119,
+      "longitude": -19.0074,
+      "radius": 500
+    },
+    {
+      "file": "section15_reynisfjara.txt",
+      "title": "Reynisfjara Black Sand Beach",
+      "voice": "aura-apollo-en",
+      "latitude": 63.4044,
+      "longitude": -19.0240,
+      "radius": 500
+    },
+    {
+      "file": "section16_dyrholaey.txt",
+      "title": "Dyrhólaey Peninsula",
+      "voice": "aura-artemis-en",
+      "latitude": 63.4028,
+      "longitude": -19.1181,
+      "radius": 700
+    },
+    {
+      "file": "section17_to_barn.txt",
+      "title": "Final Stretch to The Barn",
+      "voice": "aura-hermes-en",
+      "latitude": 63.4220,
+      "longitude": -18.9960,
+      "radius": 1000
+    },
+    {
+      "file": "section18_evening_recommendations.txt",
+      "title": "Evening Recommendations",
+      "voice": "aura-asteria-en",
+      "latitude": 63.4200,
+      "longitude": -18.9920,
+      "radius": 300
+    }
+  ]
+}

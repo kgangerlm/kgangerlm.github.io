@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s><emphasis>Welcome to Diamond Beach, one of Iceland's most photogenic locations.</emphasis></s>
+    <s>The striking contrast between crystal-clear ice chunks and jet-black volcanic sand creates a natural art installation that's constantly changing.</s>
+  </p>
+  <p>
+    <s>What you're seeing is the final stage in the journey of icebergs from <lang xml:lang="is-is">Jökulsárlón</lang> Glacier Lagoon.</s>
+    <s>After floating through the lagoon, they drift through the short river into the ocean, where waves polish them into these glass-like sculptures before washing them ashore.</s>
+  </p>
+  <p>
+    <s>The black sand isn't actually sand in the traditional sense.</s>
+    <s>It's crushed lava rock from volcanic eruptions, which gives Iceland's beaches their distinctive color.</s>
+    <s>The ice chunks can be hundreds or even a thousand years old, containing ancient air bubbles and sediment that tell stories of Iceland's past climate.</s>
+  </p>
+  <p>
+    <s>Each piece of ice has its own unique shape, transparency, and blue hue depending on its age, density, and the amount of trapped air bubbles.</s>
+    <s>The interplay of sunlight through these natural ice sculptures creates an ever-changing display.</s>
+  </p>
+  <p>
+    <s>For the best photographs, try getting low to the ground to capture the ice with the waves or sky as a backdrop.</s>
+    <s>If it's sunny, look for rainbows forming in the spray around the ice chunks.</s>
+  </p>
+  <p>
+    <s>While exploring this magical beach, remember to maintain a safe distance from the water.</s>
+    <s>The North Atlantic waves are unpredictable and powerful, with dangerous sneaker waves that can surge far up the beach without warning.</s>
+    <s>Never turn your back to the ocean, and enjoy this remarkable display from a safe distance.</s>
+  </p>
+</speak>

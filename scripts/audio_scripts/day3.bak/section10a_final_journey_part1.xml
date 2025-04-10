@@ -1,0 +1,17 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        As we complete our day's exploration, we've witnessed but a brief moment in Iceland's ongoing geological saga. This island emerged from the Mid-Atlantic Ridge only about <say-as interpret-as="cardinal">20</say-as> million years ago - a mere infant in Earth's <say-as interpret-as="cardinal">4.5</say-as>-billion-year history. Yet within this geological blink of an eye, Iceland has produced some of our planet's most dramatic landscapes.
+      </p>
+
+      <p>
+        Reflect on how the forces we've observed today - volcanism, glaciation, and erosion - continue to reshape this terrain. The youngest lava flows we've passed are just decades old, while new eruptions may occur at any time. Iceland isn't a finished landscape but rather a work perpetually in progress.
+      </p>
+
+      <p>
+        The human settlements we've seen represent an extraordinary adaptation to these volatile conditions. When Norse settlers arrived in the <say-as interpret-as="ordinal">9th</say-as> century, they encountered a terrain unlike anything in their homeland. Through careful observation and sometimes painful trial and error, they developed a relationship with this land that has sustained communities for over <say-as interpret-as="cardinal">40</say-as> generations.
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>

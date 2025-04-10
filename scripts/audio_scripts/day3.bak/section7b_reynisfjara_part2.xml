@@ -1,0 +1,17 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        According to Icelandic folklore, the imposing <lang xml:lang="is-IS">Reynisdrangar</lang> sea stacks were once trolls attempting to drag a three-masted ship to shore. When dawn broke, the trolls were turned to stone, forever frozen in their labors. This tale exemplifies how early Icelanders made sense of dramatic geological features through storytelling.
+      </p>
+
+      <p>
+        Look up at the cliff face to observe the nesting sites of numerous seabirds. During summer months, northern fulmars, guillemots, and puffins create bustling aerial colonies here. The puffin - sometimes called the 'sea parrot' for its colorful breeding-season beak - spends most of its life at sea, coming ashore only to breed.
+      </p>
+
+      <p>
+        The rhythmic crash of waves against these basalt formations creates distinctive resonant frequencies - a natural music that has inspired Icelandic composers throughout history. Halldór Laxness, Iceland's Nobel laureate, wrote that the sound contains 'all the voices of the world, gathered at the edge of a continent.'
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>

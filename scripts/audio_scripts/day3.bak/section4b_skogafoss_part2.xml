@@ -1,0 +1,17 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        According to legend, the first Viking settler in this area, <lang xml:lang="is-IS">Þrasi Þórólfsson</lang>, hid a chest full of gold behind the waterfall. Many have searched for this treasure over the centuries. In the early <say-as interpret-as="ordinal">18th</say-as> century, local boys found one end of the chest but could only retrieve its ring handle before the chest disappeared again.
+      </p>
+
+      <p>
+        In the <lang xml:lang="is-IS">Njáls</lang> Saga, one of Iceland's most famous medieval literary works, characters travel through this region on their way to the Althing, the world's oldest parliamentary assembly. The power and beauty of <lang xml:lang="is-IS">Skógafoss</lang> would have been as awe-inspiring to medieval Icelanders as it is to us today.
+      </p>
+
+      <p>
+        For those feeling adventurous, I encourage you to climb the <say-as interpret-as="cardinal">527</say-as> steps to the top. You'll be following the beginning of the <lang xml:lang="is-IS">Fimmvörðuháls</lang> trail - a renowned hiking route between the <lang xml:lang="is-IS">Eyjafjallajökull</lang> and <lang xml:lang="is-IS">Mýrdalsjökull</lang> glaciers.
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>

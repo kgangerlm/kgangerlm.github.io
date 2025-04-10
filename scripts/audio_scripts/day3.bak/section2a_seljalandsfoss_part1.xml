@@ -1,0 +1,17 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        Here at <lang xml:lang="is-IS">Seljalandsfoss</lang>, nature has created one of her most enchanting spectacles. This is not merely a waterfall, but a complete liquid curtain cascading <say-as interpret-as="cardinal">60</say-as> meters down an ancient sea cliff.
+      </p>
+
+      <p>
+        What makes this place truly remarkable is the cave behind it - carved over millennia as water gradually eroded the softer rock layers beneath the harder basalt cap. I invite you to walk the path and experience a perspective that few waterfalls worldwide can match.
+      </p>
+
+      <p>
+        As you venture behind the falls, observe how the light plays through the falling water, creating ever-shifting patterns as the sun's angle changes. Notice the dark basalt layers in the cliff face. Each represents a different volcanic eruption, laid down like pages in Iceland's geological history book.
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>

@@ -1,0 +1,21 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        As we approach <lang xml:lang="is-IS">Dyrhólaey</lang>, we're traversing what geologists call a 'glacial outwash plain' - formed when catastrophic meltwater floods carried enormous quantities of volcanic debris toward the ocean. The seemingly random arrangement of rocks scattered across this landscape includes many that were transported here by ice, sometimes from mountains dozens of kilometers distant.
+      </p>
+
+      <p>
+        This ever-changing terrain provides scientists with a natural laboratory for studying primary succession - the process by which life colonizes new land. First come the pioneering lichens and mosses, gradually breaking down the volcanic rock and creating the first hints of soil.
+      </p>
+
+      <p>
+        For centuries, Icelanders traveled these coastal routes on horseback using the unique Icelandic horse—a pure breed isolated on the island since Viking times. These horses developed a distinctive gait called <lang xml:lang="is-IS">tölt</lang>—a smooth four-beat lateral amble that allows comfortable travel over rough terrain.
+      </p>
+
+      <p>
+        The distant headland now coming into view is <lang xml:lang="is-IS">Dyrhólaey</lang> - once an island but now connected to the mainland by accumulated sediments. Its name means 'Door Hill Island,' referring to the massive stone arch large enough for boats to pass through.
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>

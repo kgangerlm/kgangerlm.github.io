@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>As we continue our journey east toward <lang xml:lang="is-is">Höfn</lang>, we're traveling through one of Iceland's most dramatic coastal landscapes.</s>
+    <s>To your left, glacier tongues descend from the mighty <lang xml:lang="is-is">Vatnajökull</lang> ice cap, while to your right, the Atlantic Ocean stretches to the horizon.</s>
+  </p>
+  <p>
+    <s>This narrow strip between mountain and sea has historically made travel in this region extremely difficult.</s>
+    <s>Before the Ring Road was completed in the 1970s, this southeastern corner of Iceland was one of the country's most isolated areas.</s>
+    <s>During winter storms, communities like <lang xml:lang="is-is">Höfn</lang> could be cut off for weeks.</s>
+  </p>
+  <p>
+    <s>If you look out toward the ocean, you might spot offshore islands including the <lang xml:lang="is-is">Þorlákshöfði</lang> peninsula.</s>
+    <s>Local folklore says these islands and rock formations were once trolls caught by daylight while fishing and turned to stone.</s>
+  </p>
+  <p>
+    <s>As we approach <lang xml:lang="is-is">Höfn</lang>, you'll notice the landscape becoming more fertile.</s>
+    <s>This area has some of Iceland's most productive farmland, thanks to the rich glacial soil deposited over centuries.</s>
+    <s>Watch for local farms raising Icelandic horses and sheep, which have been bred for a thousand years to thrive in this challenging environment.</s>
+  </p>
+</speak>

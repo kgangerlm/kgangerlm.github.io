@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>As you hike toward <lang xml:lang="is-is">Svartifoss</lang>, which means "Black Falls," you'll gradually ascend about 400 feet through changing landscapes.</s>
+    <s>The trail offers excellent views of the surrounding mountains and glacier tongues snaking down from the <lang xml:lang="is-is">Vatnajökull</lang> ice cap.</s>
+  </p>
+  <p>
+    <s>You'll encounter a few smaller waterfalls before reaching the main attraction.</s>
+    <s>These include <lang xml:lang="is-is">Hundafoss</lang> (Dog Falls) and <lang xml:lang="is-is">Magnúsarfoss</lang>, each with their own unique character.</s>
+  </p>
+  <p>
+    <s><emphasis>Svartifoss itself is one of Iceland's most distinctive waterfalls.</emphasis></s>
+    <s>What makes it special are the dramatic hexagonal basalt columns that frame the waterfall, creating a natural amphitheater.</s>
+    <s>These columns formed through a process called columnar jointing, where basaltic lava cooled slowly and contracted, creating these perfect geometric shapes.</s>
+  </p>
+  <p>
+    <s>These remarkable formations directly inspired the design of <lang xml:lang="is-is">Hallgrímskirkja</lang> church in Reykjavík and the National Theatre.</s>
+    <s>If you've visited these buildings, you'll immediately recognize the connection.</s>
+  </p>
+  <p>
+    <s>The black basalt columns provide a stark contrast to the white water, especially when sunlight hits the falls.</s>
+    <s>For the best photographs, try positioning yourself on the small footbridge that crosses the stream below the falls.</s>
+  </p>
+  <p>
+    <s>As you make your way back, take time to appreciate how the glaciers, volcanoes, and water have worked together over thousands of years to create this remarkable landscape.</s>
+  </p>
+</speak>

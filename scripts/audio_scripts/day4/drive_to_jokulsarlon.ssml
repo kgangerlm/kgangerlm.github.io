@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>As we continue east toward <lang xml:lang="is-is">Jökulsárlón</lang> Glacier Lagoon, we're traveling through land that has been dramatically transformed by the retreat of the <lang xml:lang="is-is">Vatnajökull</lang> glacier.</s>
+  </p>
+  <p>
+    <s>Look to your left for stunning views of various glacier tongues descending from the main ice cap.</s>
+    <s>These massive rivers of ice have been sculpting this landscape for thousands of years, but they're now retreating at an unprecedented rate due to climate change.</s>
+  </p>
+  <p>
+    <s>Did you know that glacier ice has a distinctive blue color?</s>
+    <s>This occurs because the dense ice absorbs all colors of the visible light spectrum except blue, which is transmitted and scattered.</s>
+    <s>The older and denser the ice, the bluer it appears.</s>
+  </p>
+  <p>
+    <s>You might notice some unusual monuments along this stretch of road.</s>
+    <s>One significant landmark is the remains of the <lang xml:lang="is-is">Skeiðará</lang> Bridge Monument, twisted metal structures displayed as a reminder of the devastating 1996 glacial flood.</s>
+    <s>This <lang xml:lang="is-is">jökulhlaup</lang> was triggered by a volcanic eruption under the glacier and carried icebergs the size of houses.</s>
+  </p>
+  <p>
+    <s>The glacier lagoon we're approaching only began forming in the 1930s, when the <lang xml:lang="is-is">Breiðamerkurjökull</lang> glacier started retreating from the ocean.</s>
+    <s>What began as a small glacial lake has grown into Iceland's deepest lake at over 200 meters deep, and it continues to expand as the glacier melts.</s>
+    <s>We're witnessing a landscape in remarkably rapid transition.</s>
+  </p>
+</speak>

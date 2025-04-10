@@ -1,0 +1,305 @@
+{
+  "title": "Icelandic Road Trip: Glacier Experiences",
+  "sections": [
+    {
+      "id": "day4_intro",
+      "title": "Introduction to Glacier Day",
+      "ssmlFile": "day4_intro.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.4186809,
+          "longitude": -19.0060479
+        },
+        "radius": 500,
+        "description": "Starting point at Norðurfoss",
+        "approachTriggers": [
+          {
+            "direction": "north",
+            "latitude": 63.4166809,
+            "longitude": -19.0060479
+          }
+        ]
+      }
+    },
+    {
+      "id": "fjadrargljufur_canyon",
+      "title": "Fjaðrárgljúfur Canyon",
+      "parts": [
+        {
+          "title": "Approaching Fjaðrárgljúfur",
+          "ssmlFile": "fjadrargljufur_approach.ssml"
+        },
+        {
+          "title": "Exploring the Canyon",
+          "ssmlFile": "fjadrargljufur_explore.ssml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.7712,
+          "longitude": -18.1728
+        },
+        "radius": 800,
+        "description": "Fjaðrárgljúfur Canyon area",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 63.7712,
+            "longitude": -18.1928
+          }
+        ]
+      }
+    },
+    {
+      "id": "skeidara_bridge_monument",
+      "title": "Skeiðará Bridge Monument",
+      "ssmlFile": "skeidara_bridge.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.9780,
+          "longitude": -17.0250
+        },
+        "radius": 500,
+        "description": "Skeiðará Bridge Monument area",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 63.9780,
+            "longitude": -17.0450
+          }
+        ]
+      }
+    },
+    {
+      "id": "drive_to_skaftafell",
+      "title": "Drive to Skaftafell",
+      "ssmlFile": "drive_to_skaftafell.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 63.9000,
+          "longitude": -17.5000
+        },
+        "radius": 5000,
+        "description": "Road between Fjaðrárgljúfur and Skaftafell",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 63.9000,
+            "longitude": -17.6000
+          }
+        ]
+      }
+    },
+    {
+      "id": "svartifoss_hike",
+      "title": "Svartifoss Waterfall Hike",
+      "parts": [
+        {
+          "title": "Arrival at Skaftafell",
+          "ssmlFile": "skaftafell_arrival.ssml"
+        },
+        {
+          "title": "Hiking to Svartifoss",
+          "ssmlFile": "svartifoss_hike.ssml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 64.0283,
+          "longitude": -16.9758
+        },
+        "radius": 800,
+        "description": "Skaftafell Visitor Center area",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 64.0283,
+            "longitude": -17.0000
+          }
+        ]
+      }
+    },
+    {
+      "id": "glacier_folklore",
+      "title": "Icelandic Glacier Folklore",
+      "ssmlFile": "glacier_folklore.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 64.0800,
+          "longitude": -16.7000
+        },
+        "radius": 5000,
+        "description": "Road between Skaftafell and Jökulsárlón",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 64.0800,
+            "longitude": -16.8000
+          }
+        ]
+      }
+    },
+    {
+      "id": "drive_to_jokulsarlon",
+      "title": "Drive to Jökulsárlón",
+      "ssmlFile": "drive_to_jokulsarlon.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 64.0500,
+          "longitude": -16.5000
+        },
+        "radius": 5000,
+        "description": "Road approaching Jökulsárlón",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 64.0500,
+            "longitude": -16.6000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jokulsarlon_lagoon",
+      "title": "Jökulsárlón Glacier Lagoon",
+      "parts": [
+        {
+          "title": "Arrival at Jökulsárlón",
+          "ssmlFile": "jokulsarlon_arrival.ssml"
+        },
+        {
+          "title": "Boat Tour Tips",
+          "ssmlFile": "jokulsarlon_boat.ssml"
+        }
+      ],
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 64.0784,
+          "longitude": -16.2306
+        },
+        "radius": 800,
+        "description": "Jökulsárlón Glacier Lagoon area",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 64.0784,
+            "longitude": -16.2506
+          }
+        ]
+      }
+    },
+    {
+      "id": "diamond_beach",
+      "title": "Diamond Beach",
+      "ssmlFile": "diamond_beach.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 64.0776,
+          "longitude": -16.2292
+        },
+        "radius": 500,
+        "description": "Diamond Beach area",
+        "approachTriggers": [
+          {
+            "direction": "north",
+            "latitude": 64.0750,
+            "longitude": -16.2292
+          }
+        ]
+      }
+    },
+    {
+      "id": "fjallajokull_viewpoint",
+      "title": "Fjallajökull Glacier Viewpoint",
+      "ssmlFile": "fjallajokull_viewpoint.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 64.0830,
+          "longitude": -16.3830
+        },
+        "radius": 600,
+        "description": "Fjallajökull Glacier viewing area",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 64.0830,
+            "longitude": -16.4030
+          }
+        ]
+      }
+    },
+    {
+      "id": "drive_to_hofn",
+      "title": "Drive to Höfn",
+      "ssmlFile": "drive_to_hofn.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 64.1500,
+          "longitude": -15.7000
+        },
+        "radius": 5000,
+        "description": "Road between Diamond Beach and Höfn",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 64.1500,
+            "longitude": -15.8000
+          }
+        ]
+      }
+    },
+    {
+      "id": "southeast_iceland_history",
+      "title": "Southeast Iceland History",
+      "ssmlFile": "southeast_iceland_history.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 64.2000,
+          "longitude": -15.4000
+        },
+        "radius": 5000,
+        "description": "Approaching Höfn",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 64.2000,
+            "longitude": -15.5000
+          }
+        ]
+      }
+    },
+    {
+      "id": "hofn_arrival",
+      "title": "Arrival in Höfn",
+      "ssmlFile": "hofn_arrival.ssml",
+      "combineIntoSingleMP3": true,
+      "geofence": {
+        "center": {
+          "latitude": 64.2539,
+          "longitude": -15.1999
+        },
+        "radius": 800,
+        "description": "Höfn town area",
+        "approachTriggers": [
+          {
+            "direction": "west",
+            "latitude": 64.2539,
+            "longitude": -15.2500
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        Our journey now takes us across what appears to be a black desert - a landscape so otherworldly it has served as a training ground for Apollo astronauts and as the filming location for numerous science fiction productions.
+      </p>
+
+      <p>
+        What appears barren at first glance is actually one of Earth's newest landscapes, still in the earliest stages of ecological succession. The fine black sand beneath the road consists of volcanic glass - basalt that cooled so rapidly it couldn't form crystals. When glacial rivers carry this material to the coast, Atlantic waves grind it into the distinctive black beaches Iceland is famous for.
+      </p>
+
+      <p>
+        Unlike quartz sand, which may have traveled through multiple geological cycles over hundreds of millions of years, this material is newly minted from the Earth's interior - perhaps less than a century old.
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>

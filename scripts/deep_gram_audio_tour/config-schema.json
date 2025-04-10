@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Iceland Tour Configuration",
+  "description": "Configuration file for GPS-triggered Iceland audio tours",
+  "type": "object",
+  "required": ["name", "sections"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the tour (e.g., 'Day 4: Iceland Glacier Country')"
+    },
+    "voice": {
+      "type": "string",
+      "description": "Default voice model to use for text-to-speech (e.g., 'aura-asteria-en')",
+      "default": "aura-asteria-en"
+    },
+    "sections": {
+      "type": "array",
+      "description": "Array of tour sections with geofence data",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["file", "title", "latitude", "longitude"],
+        "properties": {
+          "file": {
+            "type": "string",
+            "description": "Filename of the text content for this section",
+            "pattern": ".+\\.txt$"
+          },
+          "title": {
+            "type": "string",
+            "description": "Title of the section (e.g., 'Welcome to Glacier Country')"
+          },
+          "voice": {
+            "type": "string",
+            "description": "Section-specific voice model, overrides the default tour voice"
+          },
+          "latitude": {
+            "type": "number",
+            "description": "Latitude of the geofence center point",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "longitude": {
+            "type": "number",
+            "description": "Longitude of the geofence center point",
+            "minimum": -180,
+            "maximum": 180
+          },
+          "radius": {
+            "type": "number",
+            "description": "Radius of the geofence in meters",
+            "minimum": 10,
+            "default": 500
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

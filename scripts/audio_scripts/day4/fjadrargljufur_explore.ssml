@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>As you walk along the rim of <lang xml:lang="is-is">Fjaðrárgljúfur</lang> Canyon, take in the serpentine gorge that winds approximately 2 kilometers through the landscape.</s>
+    <s>The moss-covered walls create an otherworldly atmosphere, especially when catching the sunlight.</s>
+  </p>
+  <p>
+    <s>The vibrant green moss you see is actually a complex ecosystem in itself.</s>
+    <s>These mosses grow extremely slowly in Iceland's harsh climate – just a few millimeters per year – which is why it's vital to stay on the marked paths.</s>
+    <s>Some of these moss patches could be hundreds of years old!</s>
+  </p>
+  <p>
+    <s>The multiple viewing platforms offer dramatically different perspectives of the canyon.</s>
+    <s>If you're visiting on a clear day, look for rainbows forming in the mist above the river.</s>
+    <s>And keep your camera ready – the interplay of light, shadow, and the vibrant colors create perfect photographic opportunities.</s>
+  </p>
+  <p>
+    <s>Before you leave, take a moment to appreciate the power of water in shaping Iceland's landscape.</s>
+    <s>Just as this canyon was carved by glacial meltwater, you'll soon see how ice continues to transform this country, creating both destruction and beauty in equal measure.</s>
+  </p>
+</speak>

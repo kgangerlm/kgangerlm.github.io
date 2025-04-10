@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>As we drive eastward toward Skaftafell, you're traveling through one of Iceland's most volcanically active regions.</s>
+    <s>Look to your left for glimpses of <lang xml:lang="is-is">Vatnajökull</lang>, Europe's largest glacier by volume, covering an astonishing 8% of Iceland's total land area.</s>
+  </p>
+  <p>
+    <s>This massive ice cap conceals several active volcanoes beneath it, creating a dynamic environment where fire and ice coexist.</s>
+    <s>When these subglacial volcanoes erupt, they can trigger devastating floods called <lang xml:lang="is-is">jökulhlaups</lang> – glacier outburst floods.</s>
+  </p>
+  <p>
+    <s>You might notice the vast gravel plains extending to your right toward the ocean.</s>
+    <s>These areas, called <lang xml:lang="is-is">sandur</lang>, were created by centuries of these glacial floods depositing sediment.</s>
+    <s>They represent yet another way glaciers shape Iceland's unique terrain.</s>
+  </p>
+  <p>
+    <s>This road we're traveling wasn't completed until the 1970s, as bridges over the powerful glacial rivers presented enormous engineering challenges.</s>
+    <s>Before this, the communities in southeast Iceland were remarkably isolated during winter months.</s>
+    <s>Skaftafell, where we're heading, was once so remote it was considered its own county with unique customs and even its own accent.</s>
+  </p>
+  <p>
+    <s>As you continue your drive, keep watching the landscape transform around you, and prepare for your next stop at Skaftafell, a lush oasis amid the glacial surroundings.</s>
+  </p>
+</speak>

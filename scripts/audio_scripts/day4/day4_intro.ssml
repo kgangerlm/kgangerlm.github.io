@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s> <lang xml:lang="is-is">Velkomin</lang>   to day four of your Icelandic adventure, where you'll experience the magnificent ice formations that give this country its name.</s>
+    <s>Today's journey takes you from <lang xml:lang="is-is">Norðurfoss</lang> to <lang xml:lang="is-is">Höfn</lang>, through Iceland's glacier country.</s>
+  </p>
+  <p>
+    <s>Ahead lies a day of dramatic contrasts – from deep canyons to massive ice fields, thundering waterfalls to serene glacier lagoons.</s>
+    <s>You'll have the chance to get up close to ancient ice during your zodiac boat tour and walk among diamond-like ice chunks on black sand beaches.</s>
+  </p>
+  <p>
+    <s>Did you know that glaciers cover about 11% of Iceland's land mass?</s>
+    <s><break time="0.5s"/>Unfortunately, they're receding at an alarming rate due to climate change, with some retreating up to 50 meters per year.</s>
+    <s>What you'll see today is a landscape in transition – a rare opportunity to witness both the beauty and fragility of these ice giants.</s>
+  </p>
+  <p>
+    <s>As we begin our drive toward <lang xml:lang="is-is">Fjaðrárgljúfur</lang> Canyon, keep an eye out for the changing landscape around you.</s>
+    <s>The road ahead promises numerous wonders of ice and fire.</s>
+  </p>
+</speak>

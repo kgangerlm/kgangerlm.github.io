@@ -1,0 +1,17 @@
+<speak>
+  <amazon:domain name="conversational">
+    <prosody rate="96%" pitch="-1%">
+      <p>
+        For generations, local families practiced '<lang xml:lang="is-IS">bjargfugl</lang>'—the harvesting of seabirds and their eggs from these cliffs. Men would be lowered on ropes to collect eggs, which provided crucial nutrition during the harsh spring months when other food stores ran low.
+      </p>
+
+      <p>
+        This promontory serves as a crucial nesting site for numerous seabird species. The Atlantic puffin, perhaps Iceland's most photographed bird, excavates meter-long burrows in the soil atop these cliffs. Each pair raises just one chick annually, feeding it small fish carried in their distinctively colorful beaks.
+      </p>
+
+      <p>
+        The lighthouse visible above was constructed in <say-as interpret-as="date" format="year">1927</say-as> to guide ships around this hazardous headland. Before such navigational aids, these waters claimed countless vessels. Even today, the seabed off this coast holds numerous shipwrecks - a submarine archaeological record of human history intertwined with natural forces.
+      </p>
+    </prosody>
+  </amazon:domain>
+</speak>
