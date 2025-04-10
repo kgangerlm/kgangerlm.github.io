@@ -1,0 +1,450 @@
+{
+  "$schema": "schema.json",
+  "id": "day3",
+  "dayNumber": 3,
+  "title": "South Coast Wonders",
+  "emoji": "🌊",
+  "date": "July 16",
+  "route": {
+    "from": "Selfoss",
+    "to": "Norðurfoss"
+  },
+  "image": {
+    "src": "https://github.com/kgangerlm/iceland-data/blob/main/images/day3.png?raw=true",
+    "alt": "Dramatic South Coast waterfall with rainbow and lush surroundings"
+  },
+  "quote": {
+    "text": "Nature is not a place to visit. It is home.",
+    "author": "Gary Snyder"
+  },
+  "shortSummary": "Journey along Iceland's dramatic South Coast with Heather, discovering waterfalls you can walk behind, impressive black sand beaches, and coastal rock formations.",
+  "summary": "Welcome Heather to your adventure as you explore Iceland's dramatic South Coast! Today features iconic waterfalls, including one you can walk behind, dramatic black sand beaches, and breathtaking coastal landscapes. From the thundering Skógafoss to the hauntingly beautiful black sand beaches with their towering sea stacks, today's journey showcases the raw power and beauty of Iceland's southern shoreline.",
+  "driving": {
+    "total": {
+      "distance": {
+        "km": 175,
+        "miles": 109
+      },
+      "time": "2 hours 35 minutes"
+    },
+    "segments": [
+      {
+        "from": "Country Dream guesthouse, Selfoss",
+        "to": "Seljalandsfoss Waterfall",
+        "distance": {
+          "km": 60,
+          "miles": 37
+        },
+        "time": "45 minutes"
+      },
+      {
+        "from": "Seljalandsfoss Waterfall",
+        "to": "Skógafoss Waterfall",
+        "distance": {
+          "km": 30,
+          "miles": 19
+        },
+        "time": "25 minutes"
+      },
+      {
+        "from": "Skógafoss Waterfall",
+        "to": "Vikurfjara Black Sand Beach",
+        "distance": {
+          "km": 40,
+          "miles": 25
+        },
+        "time": "40 minutes"
+      },
+      {
+        "from": "Vikurfjara Black Sand Beach",
+        "to": "Reynisfjara Black Sand Beach",
+        "distance": {
+          "km": 10,
+          "miles": 6
+        },
+        "time": "10 minutes"
+      },
+      {
+        "from": "Reynisfjara Black Sand Beach",
+        "to": "Dyrhólaey Peninsula",
+        "distance": {
+          "km": 15,
+          "miles": 9
+        },
+        "time": "15 minutes"
+      },
+      {
+        "from": "Dyrhólaey Peninsula",
+        "to": "The Barn, Norðurfoss",
+        "distance": {
+          "km": 20,
+          "miles": 12
+        },
+        "time": "20 minutes"
+      }
+    ]
+  },
+  "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=16not-P5qZezdTRAHL-W0BhUIyZNpXEw&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
+  "schedule": [
+    {
+      "time": "08:00",
+      "title": "Breakfast near accommodation",
+      "description": "Look for some good breakfast options near your accommodation. Consider stocking up on snacks for the day while you wait for Heather",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🍳",
+      "link": "https://www.tripadvisor.com/Restaurants-g315852-zfp2-Selfoss_South_Region.html"
+    },
+    {
+      "time": "09:00",
+      "title": "Meet Heather",
+      "description": "Heather joins your journey today. Make sure you have a good meetup plan",
+      "details": ["see link for bus schedule"],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "👋",
+      "link": "https://www.rome2rio.com/map/Reykjav%C3%ADk/Selfoss#r/Bus/s/0"
+    },
+    {
+      "time": "09:45",
+      "title": "Drive to Seljalandsfoss",
+      "description": "Head east along the Ring Road (Route 1) to your first waterfall destination.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [
+        "Hafið Bláa - You will find a funky giant lobster here but the scenery in this area is very nice (all along route 34) and you can access a really beautiful pristine black sand beach",
+        "Urriðafoss - doesn't look spectacular",
+        "LAVA Centre - Museum",
+        "Gluggafoss - luggafoss or Window Falls. (also known as Merkjárfoss) The upper half of the cliff is palagonite or tuff rock and the lower ledge is basalt. The river has formed tunnels and grooves through the soft rock and a series of ‘windows’ in the tunnels,"
+      ],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "10:30",
+      "title": "Seljalandsfoss Waterfall",
+      "description": "Experience the unique opportunity to walk behind this 200-foot waterfall. The path that circles behind the curtain of water offers an unforgettable perspective, though prepare to get a little wet!",
+      "details": [
+        "60-meter (200 foot) high waterfall fed by the Eyjafjallajökull glacier",
+        "One of the few waterfalls in the world you can walk behind",
+        "Waterproof clothing recommended as the spray is significant",
+        "Best photographed in afternoon light, but morning has fewer crowds"
+      ],
+      "duration": "1 hour",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free (parking fee: $7)",
+      "quickStops": [
+        "Gljúfrabúi - hidden waterfall just a 5-minute walk north through the canyon"
+      ],
+      "typeEmoji": "🌊",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/seljalandsfoss"
+    },
+    {
+      "time": "11:45",
+      "title": "Drive to Skógafoss",
+      "description": "Continue east along Route 1 to your next waterfall destination.",
+      "details": [],
+      "duration": "25 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": ["Nauthúsagil Waterfall - A mystical waterfalls inside a ravine! 40 minutes round trip hike"],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "12:15",
+      "title": "Skógafoss Waterfall and Hiking Trail",
+      "description": "Witness the power of this massive 200-foot waterfall and climb the 527 steps to the viewing platform at the top for panoramic views. This is also the starting point for the famous Fimmvörðuháls hiking trail.",
+      "details": [
+        "60-meter (200 foot) high waterfall with a 25-meter width",
+        "Climb 527 steps to the upper viewing platform for spectacular views",
+        "On sunny days, the spray often creates single or double rainbows",
+        "According to legend, a treasure chest is hidden behind the waterfall"
+      ],
+      "duration": "1 hour 30 minutes",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [
+        "Skógar Museum - folk museum displaying Icelandic cultural heritage (if time permits)",
+        "Fimmvörðuháls (Skogar - Porsmork) - famous hiking trail starting from Skógafoss, 22 km (13.6 miles) one way, 8-10 hours. Not a quick stop but consider a back-and-forth from the top of Skogafoss for a few hours, it will blow your mind!",
+        "Solheimajokull Glacier (snout) - a short detour to see the glacier tongue, but not a hike. You can also do a glacier hike here if you have time."
+      ],
+      "typeEmoji": "🌊",
+      "link": "https://siggadottir.com/skogafoss-waterfall-hike/"
+    },
+    {
+      "time": "13:45",
+      "title": "Lunch at Skógar Museum café",
+      "description": "Enjoy a lunch break at the museum café offering soups, sandwiches, and traditional Icelandic refreshments.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "$15-25 per person",
+      "quickStops": [],
+      "typeEmoji": "🍽️",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g608884-d24141588-Reviews-Freya_Cafe-Skogar_South_Region.html"
+    },
+    {
+      "time": "14:45",
+      "title": "Drive to Vikurfjara Black Sand Beach",
+      "description": "Continue along the Ring Road to the impressive black sand beaches.",
+      "details": [],
+      "duration": "40 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [
+        "Sólheimajökull Glacier Viewpoint - quick stop for glacier views from the parking area"
+      ],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "15:30",
+      "title": "Vikurfjara Black Sand Beach",
+      "description": "Explore this less crowded alternative to Reynisfjara with dramatic black sand and oceanic views. This beach was specifically recommended by your friends as a highlight of the South Coast.",
+      "details": [
+        "Less crowded alternative to the more famous Reynisfjara beach",
+        "Expansive black sand beach with dramatic mountain backdrops",
+        "Excellent views of Dyrhólaey arch in the distance",
+        "Always keep a safe distance from the water - sneaker waves are dangerous"
+      ],
+      "duration": "20 minutes",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🏝️",
+      "link": "https://www.tripadvisor.com/Attraction_Review-g189978-d2402443-Reviews-Vikurfjara_Black_Sand_Beach-Vik_South_Region.html"
+    },
+    {
+      "time": "16:00",
+      "title": "Reynisfjara Black Sand Beach",
+      "description": "Visit Iceland's most famous black sand beach with its impressive basalt columns and Reynisdrangar sea stacks rising from the ocean.",
+      "details": [
+        "Famous hexagonal basalt columns form a natural wall along the beach",
+        "Reynisdrangar sea stacks visible offshore - according to legend, they are trolls turned to stone",
+        "IMPORTANT: Be extremely cautious of sneaker waves - never turn your back to the ocean",
+        "Can be very crowded with tourists during peak hours"
+      ],
+      "duration": "20 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🏝️",
+      "link": "https://fortheloveofwanderlust.com/the-black-sand-beaches-of-vik-and-reynisfjara-iceland/"
+    },
+    {
+      "time": "17:00",
+      "title": "Dyrhólaey Peninsula",
+      "description": "Visit this small peninsula with a large sea arch and lighthouse. In July, you'll have a good chance to spot puffins nesting on the cliffs.",
+      "details": [
+        "120-meter high promontory with magnificent views in all directions",
+        "Large sea arch that's large enough for boats to pass through",
+        "Important breeding grounds for puffins (best viewing May-August)",
+        "Two levels to explore - upper (lighthouse) and lower (black sand beach)"
+      ],
+      "duration": "1 hour",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🦅",
+      "link": "https://ilivetotravel.me/iceland-south-shore-dyrholaey-vik/"
+    },
+    {
+      "time": "18:00",
+      "title": "Drive to The Barn",
+      "description": "Make the short drive to your accommodation for the night.",
+      "details": [],
+      "duration": "20 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "18:20",
+      "title": "Check in at The Barn",
+      "description": "Arrive at your accommodation for the night, a charming farmhouse hostel with mountain views.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🏠"
+    },
+    {
+      "time": "19:00",
+      "title": "Dinner at Suður-Vík Restaurant",
+      "description": "Enjoy dinner at this popular restaurant in Vík offering a variety of Icelandic and international dishes.",
+      "details": [],
+      "duration": "1 hour 30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "$25-40 per person",
+      "quickStops": [],
+      "typeEmoji": "🍽️",
+      "link": "https://www.reddit.com/r/VisitingIceland/comments/132bqp1/best_dining_in_vik/"
+    }
+  ],
+  "highlights": [
+    "Walking behind the curtain of Seljalandsfoss waterfall",
+    "Climbing to the top of Skógafoss for panoramic views",
+    "Experiencing the unique black sand beaches of Iceland's south coast",
+    "Spotting puffins at Dyrhólaey (in season)"
+  ],
+  "accommodation": {
+    "name": "The Barn",
+    "address": "Norðurfoss, 871, Iceland",
+    "cost": "$304.77",
+    "roomType": "Double Room, Shared Bathroom, Mountain View",
+    "amenities": [
+      "Free Wi-Fi",
+      "Shared kitchen",
+      "Mountain views"
+    ],
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "confirmation": "",
+    "phone": "779 1166",
+    "notes": "Hostel-style accommodation in a converted barn with shared facilities and beautiful views."
+  },
+  "alternatives": [
+    {
+      "title": "Kvernufoss Waterfall",
+      "description": "Hidden waterfall near Skógafoss with much fewer tourists. Requires a short 20-minute hike each way through a gorge with some scrambling over rocks.",
+      "location": "Just east of Skógafoss",
+      "cost": "Free",
+      "isGem": true,
+      "isUserSelected": false,
+      "timing": "Morning (after Skógafoss)",
+      "link": "https://www.adventurouskate.com/kvernufoss-waterfall-iceland/"
+    },
+    {
+      "title": "Sólheimajökull Glacier Viewpoint",
+      "description": "Easy access viewing point for one of Iceland's most accessible glaciers. For a more immersive experience, guided glacier hikes are available (require pre-booking).",
+      "location": "Between Skógafoss and Vík",
+      "cost": "Free (viewpoint); Guided tours from $85",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://www.tripadvisor.com/Attraction_Review-g189978-d7790479-Reviews-Solheimajokull_Glacier-Vik_South_Region.html"
+    },
+    {
+      "title": "Thakgil Canyon",
+      "description": "Beautiful canyon area with green valleys and hiking trails of various lengths. Much less visited than other South Coast attractions.",
+      "location": "12 km from Vík, requires a gravel road drive",
+      "cost": "Free",
+      "isGem": true,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://epiciceland.net/thakgil-guide-best-hiking-trails/"
+    },
+    {
+      "title": "Vík i Myrdal Church",
+      "description": "Picturesque white church on a hill overlooking the village of Vík and the black sand beaches. Offers great photo opportunities.",
+      "location": "Vík",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Evening",
+      "link": "https://www.facebook.com/groups/bluelagooniceland/posts/848116270852362/"
+    },
+    {
+      "title": "Zipline Tour in Vík",
+      "description": "Four-line zipline tour offering thrilling aerial views of South Iceland's black beaches, cliffs, and the Mýrdalsjökull glacier.",
+      "location": "Vík",
+      "cost": "$14,900 ISK (about $110) per person",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://zipline.is/"
+    }
+  ],
+  "badWeatherAlternatives": [
+    {
+      "title": "Skógar Museum",
+      "description": "Comprehensive folk museum showcasing Icelandic history and culture with both indoor and outdoor exhibitions including historic turf houses.",
+      "location": "Next to Skógafoss",
+      "cost": "2000 ISK ($15) per person",
+      "timing": "Morning or Afternoon",
+      "link": "https://www.skogasafn.is/"
+    },
+    {
+      "title": "Lava Centre",
+      "description": "Interactive exhibition about Iceland's volcanic activity with earthquake simulators and exhibits on the country's most famous eruptions.",
+      "location": "Hvolsvöllur (on the way to Seljalandsfoss)",
+      "cost": "3450 ISK ($25) per person",
+      "timing": "Morning",
+      "link": "https://lavacentre.is/"
+    },
+    {
+      "title": "Skogar Swimming Pool",
+      "description": "Indoor/outdoor swimming pool with hot tubs, located near Skógafoss. A great way to relax in bad weather.",
+      "location": "Near Skógafoss",
+      "cost": "1000 ISK ($7) per person",
+      "timing": "Afternoon",
+      "link": "https://www.tripadvisor.com/Attraction_Review-g608884-d1138165-Reviews-Seljavallalaug-Skogar_South_Region.html"
+    }
+  ],
+  "tip": "Be extremely cautious at all black sand beaches in Iceland, especially Reynisfjara. Never turn your back to the ocean and stay at least 30 meters from the water's edge. Sneaker waves have claimed lives here, even on calm-looking days.",
+  "notes": [
+    "Most restaurants along the South Coast close early (around 9pm), so plan dinner accordingly.",
+    "Consider stocking up on some groceries as options are limited after Selfoss."
+  ],
+  "hotSprings": [
+    {
+      "name": "Seljavallalaug",
+      "description": "One of Iceland's oldest swimming pools (built 1923), nestled in a mountain valley near Seljalandsfoss. Accessible via a 20-minute hike.",
+      "location": "Near Seljalandsfoss",
+      "isEveningRelaxation": false,
+      "cost": "Free",
+      "link": "https://guidetoiceland.is/connect-with-locals/regina/seljavallalaug-a-hidden-gem-in-south-iceland"
+    },
+    {
+      "name": "Gljúfrabúi Hot Spring",
+      "description": "A small natural hot spring at the base of the hidden Gljúfrabúi waterfall, just a short walk from Seljalandsfoss.",
+      "location": "Near Seljalandsfoss",
+      "isEveningRelaxation": false,
+      "cost": "Free",
+      "link": "https://www.south.is/en/place/gljufrabui"
+    },
+    {
+      "name": "Secret Lagoon (Gamla Laugin)",
+      "description": "Iceland's oldest swimming pool in Flúðir offering a natural hot spring experience. Perfect for unwinding after a day of waterfalls and black sand beaches.",
+      "location": "Flúðir (on the way back to accommodation)",
+      "isEveningRelaxation": true,
+      "cost": "3,000 ISK (~$22) per person",
+      "link": "https://secretlagoon.is/"
+    }
+  ]
+}

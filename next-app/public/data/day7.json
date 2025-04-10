@@ -1,0 +1,436 @@
+{
+  "$schema": "schema.json",
+  "id": "day7",
+  "dayNumber": 7,
+  "title": "North Iceland",
+  "emoji": "♨️",
+  "date": "July 20",
+  "route": {
+    "from": "Eidar",
+    "to": "Akureyri"
+  },
+  "image": {
+    "src": "https://github.com/kgangerlm/iceland-data/blob/main/images/day7.jpg?raw=true",
+    "alt": "Massive waterfall with rainbow and dramatic landscape of North Iceland"
+  },
+  "quote": {
+    "text": "The clearest way into the Universe is through a forest wilderness.",
+    "author": "John Muir"
+  },
+  "shortSummary": "Journey across Northeast Iceland from coastal cliffs to Europe's most powerful waterfall, a colorful volcanic crater, and end with a relaxing soak in geothermal waters near Lake Mývatn.",
+  "summary": "Journey across Iceland's diverse northeastern landscapes, from the dramatic sea cliffs of the East Fjords to the geothermal wonders near Lake Mývatn. Today's route takes you through remote countryside to the thundering Dettifoss waterfall, the colorful Viti Crater in the Krafla volcanic area, and the relaxing Mývatn Nature Baths, before reaching Akureyri, the capital of the North. After several days of intense hiking, today offers a perfect balance of scenic driving with shorter walks to spectacular natural wonders.",
+  "driving": {
+    "total": {
+      "distance": {
+        "km": 285,
+        "miles": 177
+      },
+      "time": "4 hours 45 minutes"
+    },
+    "segments": [
+      {
+        "from": "Ásgeirsstaðir Cottages",
+        "to": "Ker Cliffs",
+        "distance": {
+          "km": 60,
+          "miles": 37
+        },
+        "time": "1 hour"
+      },
+      {
+        "from": "Ker Cliffs",
+        "to": "Dettifoss Waterfall",
+        "distance": {
+          "km": 120,
+          "miles": 75
+        },
+        "time": "2 hours"
+      },
+      {
+        "from": "Dettifoss Waterfall",
+        "to": "Viti Crater",
+        "distance": {
+          "km": 105,
+          "miles": 65
+        },
+        "time": "1 hour 15 minutes"
+      },
+      {
+        "from": "Viti Crater",
+        "to": "Mývatn Nature Baths",
+        "distance": {
+          "km": 5,
+          "miles": 3
+        },
+        "time": "10 minutes"
+      },
+      {
+        "from": "Mývatn Nature Baths",
+        "to": "Goðafoss Waterfall",
+        "distance": {
+          "km": 45,
+          "miles": 28
+        },
+        "time": "40 minutes"
+      },
+      {
+        "from": "Goðafoss Waterfall",
+        "to": "Airbnb in Akureyri",
+        "distance": {
+          "km": 30,
+          "miles": 19
+        },
+        "time": "30 minutes"
+      }
+    ]
+  },
+  "mapUrl": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1yLxSSLW5Rj9_ULPOxlD1ptzMxLuSyjc&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"480\"></iframe>",
+  "schedule": [
+    {
+      "time": "07:30",
+      "title": "Breakfast at Ásgeirsstaðir Cottages",
+      "description": "Enjoy a self-prepared breakfast at your cottage before starting a day of diverse sightseeing.",
+      "details": [],
+      "duration": "45 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🍳"
+    },
+    {
+      "time": "08:30",
+      "title": "Drive to Ker Cliffs (Þerribjörg Sea Cliffs)",
+      "description": "Head to this hidden gem of East Iceland offering breathtaking coastal views.",
+      "details": [],
+      "duration": "1 hour",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "09:30",
+      "title": "Ker Cliffs Hike",
+      "description": "Explore these dramatic sea cliffs that form one of the most breathtaking coastlines in East Iceland. The easy 1.5-hour family-friendly hike offers spectacular views of the ocean and surrounding landscapes.",
+      "details": [
+        "Access via gravel road 917 (Hlíðarvegur)",
+        "Easy 1.5-hour family hike with minimal elevation gain",
+        "Dramatic views of rugged coastline and ocean",
+        "Far fewer visitors than more famous cliffs in Iceland",
+        "Watch for seabirds nesting on the cliffs"
+      ],
+      "duration": "1 hour 30 minutes",
+      "isFeatured": true,
+      "isGem": true,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [
+        "Gljúfursárfoss - Hidden waterfall near the cliffs accessible via a short detour"
+      ],
+      "typeEmoji": "🥾",
+      "link": "https://epiciceland.net/tag/ker/"
+    },
+    {
+      "time": "11:15",
+      "title": "Drive to Dettifoss Waterfall",
+      "description": "Journey through the highlands to reach Europe's most powerful waterfall.",
+      "details": [],
+      "duration": "2 hours",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [
+        "Multiple scenic viewpoints along Route 1",
+        "Egilsstaðir - last major town to stop for supplies and gas"
+      ],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "13:30",
+      "title": "Dettifoss Waterfall",
+      "description": "Experience Europe's most powerful waterfall, part of Vatnajökull National Park and a UNESCO World Heritage site. This massive waterfall is 328 feet wide and 148 feet high, creating an impressive display of raw natural power.",
+      "details": [
+        "Europe's most powerful waterfall by volume",
+        "100 meters (328 ft) wide and 45 meters (148 ft) high",
+        "Access from east side via Road 864 for best views",
+        "30-minute walk from parking area to viewing platforms",
+        "Featured in the opening scene of the film Prometheus"
+      ],
+      "duration": "1 hour 30 minutes",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [
+        "Selfoss - smaller but beautiful waterfall upstream (10-minute walk)"
+      ],
+      "typeEmoji": "🌊",
+      "link": "https://www.earthtrekkers.com/dettifoss-selfoss-hafragilsfoss-east-and-west-sides/"
+    },
+    {
+      "time": "15:15",
+      "title": "Drive to Viti Crater",
+      "description": "Continue your journey to the colorful Viti Crater in the Krafla volcanic area.",
+      "details": [],
+      "duration": "1 hour 15 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "16:30",
+      "title": "Viti Crater",
+      "description": "Explore this striking explosion crater with its vivid blue-green water set in a dramatic volcanic landscape. The name 'Viti' means 'hell' in Icelandic, and it was formed during the massive eruptions of 1724 known as the 'Mývatn Fires.'",
+      "details": [
+        "Vibrant blue-green crater lake surrounded by colorful rhyolite mountains",
+        "Easy 15-20 minute walking loop around the crater rim",
+        "Part of the active Krafla volcanic system",
+        "Geothermal area with steam vents and hot ground",
+        "Spectacular views of the surrounding lava fields and mountains"
+      ],
+      "duration": "1 hour",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🌋",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/viti-crater"
+    },
+    {
+      "time": "17:45",
+      "title": "Drive to Mývatn Nature Baths",
+      "description": "A short drive to the Lake Mývatn area for a relaxing geothermal experience.",
+      "details": [],
+      "duration": "10 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "18:00",
+      "title": "Mývatn Nature Baths",
+      "description": "Relax in these geothermal baths, often called the 'Blue Lagoon of the North'. Enjoy the mineral-rich waters with views of the surrounding volcanic landscape - a perfect way to unwind after several days of hiking and exploration.",
+      "details": [
+        "Naturally heated alkaline bathing lagoon (36-40°C/97-104°F)",
+        "Mineral-rich waters beneficial for skin",
+        "Steam baths with natural geothermal steam (50°C/122°F)",
+        "Panoramic views of Lake Mývatn area and volcanic landscapes",
+        "Much less crowded than the Blue Lagoon near Reykjavík"
+      ],
+      "duration": "1 hour 30 minutes",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "$41 per person",
+      "quickStops": [],
+      "typeEmoji": "♨️",
+      "link": "https://myvatnnaturebaths.is/"
+    },
+    {
+      "time": "19:45",
+      "title": "Drive to Goðafoss Waterfall",
+      "description": "Continue your journey toward Akureyri, stopping at this historically significant waterfall along the way.",
+      "details": [],
+      "duration": "40 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "20:30",
+      "title": "Goðafoss Waterfall",
+      "description": "Visit the 'Waterfall of the Gods,' one of Iceland's most spectacular waterfalls with historical significance. According to the Sagas, in the year 1000, the Lawspeaker Þorgeir Ljósvetningagoði threw his pagan idols into the falls when Iceland converted to Christianity.",
+      "details": [
+        "Semicircular waterfall spanning 30 meters (100 ft) width",
+        "12 meter (39 ft) drop into the Skjálfandafljót river",
+        "Viewing areas on both sides of the river",
+        "Historically significant in Iceland's conversion to Christianity",
+        "Particularly beautiful in evening light"
+      ],
+      "duration": "45 minutes",
+      "isFeatured": true,
+      "isGem": false,
+      "isUserSelected": true,
+      "cost": "Free",
+      "quickStops": [],
+      "typeEmoji": "🌊",
+      "link": "https://www.icelandtravel.is/attractions/godafoss/"
+    },
+    {
+      "time": "21:30",
+      "title": "Drive to Akureyri",
+      "description": "Complete your journey to Iceland's northern capital.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🚗"
+    },
+    {
+      "time": "22:00",
+      "title": "Check in at Airbnb in Akureyri",
+      "description": "Arrive at your accommodation in Akureyri and settle in for the evening.",
+      "details": [],
+      "duration": "30 minutes",
+      "isFeatured": false,
+      "isGem": false,
+      "isUserSelected": false,
+      "cost": "",
+      "quickStops": [],
+      "typeEmoji": "🏠"
+    }
+  ],
+  "highlights": [
+    "Witnessing the raw power of Europe's mightiest waterfall, Dettifoss",
+    "Hiking along the dramatic Ker Cliffs with panoramic ocean views",
+    "Exploring the colorful Viti Crater in the active Krafla volcanic area",
+    "Relaxing in the mineral-rich waters of Mývatn Nature Baths",
+    "Experiencing the beauty and history of Goðafoss, the 'Waterfall of the Gods'"
+  ],
+  "accommodation": {
+    "name": "Airbnb - Hildur",
+    "address": "Akureyri, Iceland",
+    "cost": "$452.00",
+    "roomType": "Entire home/apt",
+    "amenities": [
+      "Kitchen",
+      "Wi-Fi",
+      "Free parking"
+    ],
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "confirmation": "HM8YWHA8PD",
+    "phone": "+354 893 7979",
+    "notes": "Note that two cruise ships will be in port in Akureyri tomorrow: Azamara Quest (698 passengers) and Star Pride (312 passengers). Consider planning activities away from the city center during peak hours (10AM-2PM)."
+  },
+  "alternatives": [
+    {
+      "title": "Ásbyrgi Canyon",
+      "description": "Horseshoe-shaped canyon with impressive rock formations, lush greenery, and peaceful atmosphere. According to Norse mythology, formed by the hoofprint of Odin's eight-legged horse, Sleipnir.",
+      "location": "North of Dettifoss",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://www.tripadvisor.com/ShowTopic-g189952-i223-k14450265-Visiting_Dettifoss_and_Asbyrgi_canyon_864_and_862-Iceland.html"
+    },
+    {
+      "title": "Námaskarð Geothermal Area",
+      "description": "Otherworldly landscape with bubbling mud pools, steaming fumaroles, and colorful mineral deposits. The sulfurous, multicolored pass offers an excellent introduction to Iceland's geothermal activity.",
+      "location": "Near Lake Mývatn",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon (before Mývatn Nature Baths)",
+      "link": "https://guidetoiceland.is/travel-iceland/drive/namaskard"
+    },
+    {
+      "title": "Krafla Power Station",
+      "description": "Visitor center providing information about geothermal energy and how Iceland harnesses this sustainable power source. Offers insight into Iceland's renewable energy production.",
+      "location": "Near Viti Crater",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://www.landsvirkjun.com/visitus/kraflastation"
+    },
+    {
+      "title": "Grjótagjá Cave",
+      "description": "Small lava cave with a hot spring inside (viewing only, no swimming allowed). Famous as a filming location for Game of Thrones, this otherworldly cave features crystal clear blue water.",
+      "location": "Near Lake Mývatn",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://www.reddit.com/r/Iceland/comments/262dk9/question_about_grj%C3%B3tagj%C3%A1_game_of_thrones_shooting/"
+    },
+    {
+      "title": "Hverfjall Crater Hike",
+      "description": "Dramatic volcanic crater with panoramic views from the rim. The 2-mile loop around the rim takes about 1 hour and offers spectacular views of the Lake Mývatn area.",
+      "location": "Near Lake Mývatn",
+      "cost": "Free",
+      "isGem": false,
+      "isUserSelected": false,
+      "timing": "Afternoon",
+      "link": "https://www.havemediawilltravel.com/iceland-part-4-of-7-studlagil-canyon-dettifoss-viti-crater-hverfjall-crater-lake-myvatn-godafoss-haifoss-stong-and-gjain/"
+    },
+    {
+      "title": "Bergárfoss Waterfall",
+      "description": "The prettiest and most secluded waterfall in North Iceland, rarely visited even by locals. From Kolugljúfur Canyon, take gravel road south on eastern river bank for 4km, then walk.",
+      "location": "Between Goðafoss and Akureyri",
+      "cost": "Free",
+      "isGem": true,
+      "isUserSelected": false,
+      "timing": "Evening",
+      "link": "https://thephotohikes.com/bergarfoss-waterfall/"
+    }
+  ],
+  "badWeatherAlternatives": [
+    {
+      "title": "Myvatn Nature Baths",
+      "description": "The geothermal baths are actually more atmospheric in light rain or snow, with the steam creating a mystical environment.",
+      "location": "Lake Mývatn area",
+      "cost": "$41 per person",
+      "timing": "Afternoon or Evening",
+      "link": "https://myvatnnaturebaths.is/"
+    },
+    {
+      "title": "Sigurgeir's Bird Museum",
+      "description": "Impressive collection of stuffed birds from around Iceland, including all Icelandic breeding birds except one. Modern museum building with lake views.",
+      "location": "Lake Mývatn area",
+      "cost": "2,000 ISK ($15) per person",
+      "timing": "Afternoon",
+      "link": "https://www.tripadvisor.com/Attraction_Review-g1096230-d3224765-Reviews-Sigurgeirs_Bird_Museum-Reykjahlid_Lake_Myvatn_Northeast_Region.html"
+    },
+    {
+      "title": "Akureyri Art Museum",
+      "description": "Contemporary art museum housed in a former dairy cooperative building. Features rotating exhibitions of Icelandic and international artists.",
+      "location": "Akureyri",
+      "cost": "1,000 ISK ($7) per person",
+      "timing": "Evening",
+      "link": "https://www.tripadvisor.com/Attraction_Review-g189954-d2068005-Reviews-Safnasafnid_The_Folk_and_Outsider_Art_Museum-Akureyri_Northeast_Region.html"
+    }
+  ],
+  "tip": "While the Mývatn area is famous for its natural beauty, it's also notorious for midges (small flies) in summer. Though not harmful, they can be annoying - consider bringing a head net if you're particularly sensitive.",
+  "notes": [
+    "This is a day with significant driving but broken up with diverse stops.",
+    "After several active hiking days, the Mývatn Nature Baths offer a perfect opportunity to relax and recover.",
+    "Note that despite the midnight sun, some attractions like Goðafoss can be especially beautiful in evening light with fewer tourists."
+  ],
+  "hotSprings": [
+    {
+      "name": "Mývatn Nature Baths",
+      "description": "Often called the 'Blue Lagoon of the North' but with fewer crowds. Already in your itinerary, perfect for relaxation after exploring the area.",
+      "location": "Lake Mývatn area",
+      "isEveningRelaxation": true,
+      "cost": "5,700 ISK (~$41) per person",
+      "link": "https://myvatnnaturebaths.is/"
+    },
+    {
+      "name": "Forest Lagoon",
+      "description": "A newer geothermal spa near Akureyri with infinity pools carved into the mountainside with views of the fjord and forest.",
+      "location": "Near Akureyri",
+      "isEveningRelaxation": true,
+      "cost": "5,900 ISK (~$42) per person",
+      "link": "https://forestlagoon.is/en/"
+    }
+  ]
+}
