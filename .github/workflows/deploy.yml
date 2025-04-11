@@ -29,13 +29,16 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          # This makes Next.js build with the correct base path
+          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
         
       - name: Create .nojekyll file
-        run: touch public/.nojekyll
+        run: touch out/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: public
+          folder: out
           branch: gh-pages
           clean: true

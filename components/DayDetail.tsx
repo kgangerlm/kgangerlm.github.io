@@ -9,10 +9,18 @@ interface DayDetailProps {
 
 // Custom map component that safely handles the iframe
 const SafeMapEmbed = memo(({ mapUrl }: { mapUrl: string }) => {
+  // Extract the actual URL from the iframe HTML string
+  const getMapUrl = (iframeString: string) => {
+    const srcMatch = iframeString.match(/src="([^"]+)"/);
+    return srcMatch ? srcMatch[1] : '';
+  };
+  
+  const actualMapUrl = getMapUrl(mapUrl);
+  
   return (
     <div className="map-container">
       <iframe
-        src={mapUrl}
+        src={actualMapUrl}
         width="100%"
         height="450"
         style={{ border: 0, borderRadius: '10px' }}

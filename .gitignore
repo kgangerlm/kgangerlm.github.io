@@ -1,1 +1,41 @@
+# Dependencies
 node_modules/
+/.pnp
+.pnp.js
+
+# Next.js
+/.next/
+/out/
+.vercel/
+next-env.d.ts
+
+# Production
+/build
+
+# Testing
+/coverage
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# MP3 Files in scripts directory
+scripts/**/*.mp3

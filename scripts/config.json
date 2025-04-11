@@ -1,0 +1,11 @@
+{
+    "api_key": "Ury7EUOCOpGmq9mTSHFuXAtt",
+    "project_uuid": "7923d36a",
+    "voice_uuid": "21b77462",
+    "voice_uuids": [
+"21b77462"
+  ],
+    "streaming_endpoint": "https://f.cluster.resemble.ai/stream",
+    "json_file": "audio_scripts/day3.json",
+    "output_dir": "audio_output"
+}

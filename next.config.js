@@ -12,7 +12,7 @@ const nextConfig = {
     ],
   },
   // Added for GitHub Pages compatibility
-  basePath: process.env.NODE_ENV === 'production' ? '/kgangerlm.github.io' : '',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
   trailingSlash: true,
 };
 
