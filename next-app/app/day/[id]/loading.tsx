@@ -1,3 +1,5 @@
+"use client";
+
 export default function DayLoading() {
   return (
     <div className="loading-container">
