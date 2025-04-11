@@ -1,65 +1,135 @@
-# Iceland Trip Diary - Next.js App
+# Iceland Trip Diary
 
-This is a refactored version of the Iceland Trip Diary, converting it from Svelte to Next.js.
+A Next.js application for documenting and sharing an Iceland travel experience. This app allows users to explore a day-by-day itinerary of an Iceland Ring Road trip.
 
-## Setup Instructions
+## Features
 
-1. Copy data files from the original project (automated script)
-   ```
-   node scripts/copy-data.js
-   ```
+- Interactive day-by-day travel itinerary
+- Detailed information about each day's activities, driving routes, and accommodations
+- Responsive design that works on mobile, tablet, and desktop 
+- Swipe navigation on mobile devices
+- Offline capability with static export
 
-2. Install dependencies
-   ```
-   npm install
-   ```
+## Technical Details
 
-3. Install additional dependencies
-   ```
-   npm install react-intersection-observer
-   ```
+### Technology Stack
 
-4. Run the development server
-   ```
-   npm run dev
-   ```
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS with custom CSS
+- **Deployment**: Static export compatible with GitHub Pages
 
-5. Build for production
-   ```
-   npm run build
-   ```
+### Architecture Highlights
 
-6. Deploy to GitHub Pages
-   ```
-   npm run deploy
-   ```
+- **App Router**: Uses Next.js App Router for routing and layout management
+- **React Server Components**: For efficient server-side rendering and data loading
+- **Static Site Generation**: Pre-renders pages at build time for fast loading and SEO
+- **Responsive Design**: Mobile-first approach with swipe navigation
+- **Error Handling**: Comprehensive error boundaries and fallbacks
+- **TypeScript**: Full type safety throughout the application
+- **Accessibility**: ARIA attributes and semantic HTML
+
+## Development
+
+### Prerequisites
+
+- Node.js 18.17.0 or later
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project directory
+cd iceland-trip-diary
+
+# Install dependencies
+npm install
+```
+
+### Development Server
+
+```bash
+# Start the development server
+npm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to see the application.
+
+### Building for Production
+
+```bash
+# Build the application
+npm run build
+
+# Start the production server
+npm run start
+```
+
+### Static Export
+
+```bash
+# Generate a static export
+npm run build
+```
+
+The static files will be generated in the `out` directory and can be deployed to any static hosting service like GitHub Pages.
 
 ## Project Structure
 
-- `/app` - Next.js app directory with pages
-- `/components` - React components
-- `/public` - Static assets and data files
-- `/types` - TypeScript type definitions
-- `/utils` - Utility functions
+```
+next-app/
+├── app/                   # Next.js App Router
+│   ├── day/[id]/          # Dynamic day pages
+│   ├── error.tsx          # Root error component
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout
+│   ├── loading.tsx        # Loading component
+│   ├── not-found.tsx      # 404 page
+│   └── page.tsx           # Home page
+├── components/            # React components
+│   ├── ActivityItem.tsx   # Activity component
+│   ├── DayCard.tsx        # Day card component
+│   ├── DayDetail.tsx      # Day detail component
+│   ├── ScrollSpy.tsx      # Scroll detection component
+│   ├── SwipeNavigation.tsx # Swipe navigation component
+│   └── SwipeTutorial.tsx  # Swipe tutorial component
+├── public/                # Static files
+│   ├── data/              # JSON data files
+│   └── ...                # Other assets (images, icons)
+├── types/                 # TypeScript type definitions
+├── utils/                 # Utility functions
+└── ...                    # Configuration files
+```
 
-## Components
+## Best Practices Implemented
 
-- `DayCard` - Card component for displaying day summaries
-- `DayDetail` - Detailed view for each day
-- `ActivityItem` - Individual activity items
-- `ScrollSpy` - Tracks scroll position for navigation
-- `SwipeNavigation` - Mobile swipe navigation
-- `SwipeTutorial` - Tutorial for mobile users
+- **Performance Optimization**:
+  - Component memoization
+  - Image optimization
+  - Code splitting
+  - Static generation
 
-## Data Structure
+- **Accessibility**:
+  - Semantic HTML
+  - ARIA attributes
+  - Keyboard navigation
+  - Screen reader support
 
-Data is loaded from JSON files:
-- `trip-overview.json` - Overall trip information
-- `day1.json`, `day2.json`, etc. - Individual day data
+- **Error Handling**:
+  - Error boundaries
+  - Loading states
+  - Fallback UI
 
-## Styling
+- **Code Quality**:
+  - TypeScript for type safety
+  - Clean component architecture
+  - Consistent code style
+  - Modern React patterns (hooks, memoization)
 
-The application uses a combination of:
-- CSS variables for theming
-- Component-specific CSS
-- Custom styling for interactive elements
+- **SEO**:
+  - Metadata API
+  - Semantic HTML
+  - Static generation

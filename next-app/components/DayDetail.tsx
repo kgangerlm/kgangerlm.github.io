@@ -1,12 +1,33 @@
 import { DayData } from '../types';
 import ActivityItem from './ActivityItem';
 import Image from 'next/image';
+import { memo } from 'react';
 
 interface DayDetailProps {
   day: DayData;
 }
 
-export default function DayDetail({ day }: DayDetailProps) {
+// Custom map component that safely handles the iframe
+const SafeMapEmbed = memo(({ mapUrl }: { mapUrl: string }) => {
+  return (
+    <div className="map-container">
+      <iframe
+        src={mapUrl}
+        width="100%"
+        height="450"
+        style={{ border: 0, borderRadius: '10px' }}
+        allowFullScreen
+        loading="lazy"
+        title="Day Map"
+        aria-label="Interactive map for the day's route"
+      />
+    </div>
+  );
+});
+
+SafeMapEmbed.displayName = 'SafeMapEmbed';
+
+function DayDetail({ day }: DayDetailProps) {
   return (
     <section id={day.id} className="day-section">
       <div className="container">
@@ -15,18 +36,23 @@ export default function DayDetail({ day }: DayDetailProps) {
           <div className="day-date">{day.date}</div>
         </div>
         
+        {/* Using standard img tag since we're optimizing images externally 
+            and we specified unoptimized: true in next.config.js */}
         <img 
           src={day.image.src} 
           alt={day.image.alt} 
           className="day-image"
+          width={1200}
+          height={600}
         />
         
-        <div className="quote-box">
-          "{day.quote.text}" - {day.quote.author}
-        </div>
+        <blockquote className="quote-box">
+          <p>"{day.quote.text}"</p>
+          <footer>- {day.quote.author}</footer>
+        </blockquote>
         
         <div className="daily-summary">
-          <div className="summary-title">Day Summary</div>
+          <h3 className="summary-title">Day Summary</h3>
           <p>{day.summary}</p>
           
           <div className="drive-info">
@@ -41,10 +67,10 @@ export default function DayDetail({ day }: DayDetailProps) {
           </div>
         </div>
         
-        <div 
-          className="map-container"
-          dangerouslySetInnerHTML={{ __html: day.mapUrl }}
-        />
+        {/* Using a safe map component instead of dangerouslySetInnerHTML */}
+        {day.mapUrl && (
+          <SafeMapEmbed mapUrl={day.mapUrl} />
+        )}
         
         <div className="day-schedule">
           <h3 className="section-heading">Daily Schedule</h3>
@@ -56,8 +82,8 @@ export default function DayDetail({ day }: DayDetailProps) {
         </div>
         
         {/* Highlights Section */}
-        <div className="highlights-section">
-          <h4>Key Highlights of the Day</h4>
+        <section className="highlights-section" aria-labelledby="highlights-heading">
+          <h4 id="highlights-heading">Key Highlights of the Day</h4>
           <ul className="highlights-list">
             {day.highlights.map((highlight, index) => (
               <li key={index}>
@@ -66,7 +92,7 @@ export default function DayDetail({ day }: DayDetailProps) {
                 ) : (
                   <>
                     {highlight.link ? (
-                      <a href={highlight.link} target="_blank" rel="noopener">
+                      <a href={highlight.link} target="_blank" rel="noopener noreferrer">
                         <strong>{highlight.title}:</strong>
                       </a>
                     ) : (
@@ -78,57 +104,58 @@ export default function DayDetail({ day }: DayDetailProps) {
               </li>
             ))}
           </ul>
-        </div>
+        </section>
         
         {/* Accommodations Section */}
-        <div className="accommodations-section">
-          <h4>Accommodations</h4>
+        <section className="accommodations-section" aria-labelledby="accommodations-heading">
+          <h4 id="accommodations-heading">Accommodations</h4>
           <div className="accommodations-details">
             <strong>{day.accommodation.name}</strong>
-            <br />
-            {day.accommodation.address}
-            <br />
-            Cost: {day.accommodation.cost}
-            <br />
-            {day.accommodation.roomType}
-            {day.accommodation.notes && (
-              <>
-                <br />
-                Note: {day.accommodation.notes}
-              </>
-            )}
+            <address>
+              {day.accommodation.address}
+            </address>
+            <p>
+              <span className="label">Cost:</span> {day.accommodation.cost}<br />
+              <span className="label">Room Type:</span> {day.accommodation.roomType}
+              {day.accommodation.notes && (
+                <>
+                  <br />
+                  <span className="label">Note:</span> {day.accommodation.notes}
+                </>
+              )}
+            </p>
           </div>
-        </div>
+        </section>
         
         {/* Alternatives Section */}
-        <div className="alternatives-section">
-          <h4>Alternative Activities</h4>
+        <section className="alternatives-section" aria-labelledby="alternatives-heading">
+          <h4 id="alternatives-heading">Alternative Activities</h4>
           <ul className="alternatives-list">
             {day.alternatives.map((alt, index) => (
               <li key={index}>
                 {alt.link ? (
-                  <a href={alt.link} target="_blank" rel="noopener">
+                  <a href={alt.link} target="_blank" rel="noopener noreferrer">
                     <strong>{alt.title}:</strong>
                   </a>
                 ) : (
                   <strong>{alt.title}:</strong>
                 )}
                 {' '}{alt.description}
-                {alt.isGem && <span className="badge gem-badge">💎 Hidden Gem</span>}
-                {alt.isUserSelected && <span className="badge selected-badge">✓ Selected</span>}
+                {alt.isGem && <span className="badge gem-badge" aria-label="Hidden Gem">💎 Hidden Gem</span>}
+                {alt.isUserSelected && <span className="badge selected-badge" aria-label="Selected Activity">✓ Selected</span>}
               </li>
             ))}
           </ul>
-        </div>
+        </section>
         
         {/* Bad Weather Alternatives */}
-        <div className="weather-section">
-          <h4>Bad Weather Alternatives</h4>
+        <section className="weather-section" aria-labelledby="weather-heading">
+          <h4 id="weather-heading">Bad Weather Alternatives</h4>
           <ul className="weather-list">
             {day.badWeatherAlternatives.map((alt, index) => (
               <li key={index}>
                 {alt.link ? (
-                  <a href={alt.link} target="_blank" rel="noopener">
+                  <a href={alt.link} target="_blank" rel="noopener noreferrer">
                     <strong>{alt.title}:</strong>
                   </a>
                 ) : (
@@ -138,12 +165,12 @@ export default function DayDetail({ day }: DayDetailProps) {
               </li>
             ))}
           </ul>
-        </div>
+        </section>
         
         {/* Hot Springs Section */}
         {day.hotSprings && day.hotSprings.length > 0 && (
-          <div className="hotsprings-section">
-            <h4><span className="hotspring-icon">♨️</span> Hot Springs</h4>
+          <section className="hotsprings-section" aria-labelledby="hotsprings-heading">
+            <h4 id="hotsprings-heading"><span className="hotspring-icon" aria-hidden="true">♨️</span> Hot Springs</h4>
             <ul className="hotsprings-list">
               {day.hotSprings.map((spring, index) => (
                 <li 
@@ -151,7 +178,7 @@ export default function DayDetail({ day }: DayDetailProps) {
                   className={spring.isEveningRelaxation ? 'evening-relaxation' : ''}
                 >
                   {spring.link ? (
-                    <a href={spring.link} target="_blank" rel="noopener">
+                    <a href={spring.link} target="_blank" rel="noopener noreferrer">
                       <strong>{spring.name}:</strong>
                     </a>
                   ) : (
@@ -166,21 +193,21 @@ export default function DayDetail({ day }: DayDetailProps) {
                       <strong>Cost:</strong> {spring.cost}
                     </span>
                     {spring.isEveningRelaxation && (
-                      <span className="evening-badge">✨ Evening Relaxation</span>
+                      <span className="evening-badge" aria-label="Evening Relaxation Option">✨ Evening Relaxation</span>
                     )}
                   </div>
                 </li>
               ))}
             </ul>
-          </div>
+          </section>
         )}
         
         {/* Tips & Notes */}
-        {day.tip && <div className="tip-box">{day.tip}</div>}
+        {day.tip && <aside className="tip-box" aria-label="Tip">{day.tip}</aside>}
         
         {day.notes && (
-          <div className="notes-container">
-            <h4>Notes</h4>
+          <section className="notes-container" aria-labelledby="notes-heading">
+            <h4 id="notes-heading">Notes</h4>
             {typeof day.notes === 'string' ? (
               <p>{day.notes}</p>
             ) : Array.isArray(day.notes) && day.notes.length > 0 ? (
@@ -190,9 +217,11 @@ export default function DayDetail({ day }: DayDetailProps) {
                 ))}
               </ul>
             ) : null}
-          </div>
+          </section>
         )}
       </div>
     </section>
   );
 }
+
+export default memo(DayDetail);

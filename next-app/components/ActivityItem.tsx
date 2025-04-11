@@ -1,20 +1,25 @@
 import { Activity } from '../types';
+import { memo } from 'react';
 
 interface ActivityItemProps {
   item: Activity;
 }
 
-export default function ActivityItem({ item }: ActivityItemProps) {
+function ActivityItem({ item }: ActivityItemProps) {
   return (
-    <div className="activity-item">
-      <div className="activity-time">{item.time}</div>
+    <article className="activity-item">
+      <time className="activity-time">{item.time}</time>
       <div className="activity-content">
-        <div className="activity-title">
+        <h4 className="activity-title">
           {item.title}
-          {item.isHighlight && <span className="featured">Featured</span>}
-          {item.isHiddenGem && <span className="gem">Hidden Gem</span>}
-        </div>
-        <div className="activity-desc">{item.description}</div>
+          {item.isHighlight && (
+            <span className="featured" aria-label="Featured Activity">Featured</span>
+          )}
+          {item.isHiddenGem && (
+            <span className="gem" aria-label="Hidden Gem">Hidden Gem</span>
+          )}
+        </h4>
+        <p className="activity-desc">{item.description}</p>
         
         {item.subActivities && item.subActivities.length > 0 && (
           <ul className="sub-activities">
@@ -27,6 +32,8 @@ export default function ActivityItem({ item }: ActivityItemProps) {
           </ul>
         )}
       </div>
-    </div>
+    </article>
   );
 }
+
+export default memo(ActivityItem);

@@ -1,28 +1,38 @@
 import { DayData } from '../types';
 import Image from 'next/image';
 import Link from 'next/link';
+import { memo } from 'react';
 
 interface DayCardProps {
   day: DayData;
   isActive?: boolean;
 }
 
-export default function DayCard({ day, isActive = false }: DayCardProps) {
+function DayCard({ day, isActive = false }: DayCardProps) {
   return (
-    <div 
+    <article 
       className={`itinerary-card ${isActive ? 'active' : ''}`}
+      aria-labelledby={`day-${day.dayNumber}-title`}
     >
       <div 
         className="card-header"
-        style={{ backgroundImage: `url(${day.image?.src})` }}
+        style={{ 
+          backgroundImage: `url(${day.image?.src})`,
+          backgroundSize: 'cover', 
+          backgroundPosition: 'center',
+        }}
+        role="img"
+        aria-label={day.image?.alt || `Image for Day ${day.dayNumber}`}
       >
         <div className="header-content">
-          <h3>Day {day.dayNumber}</h3>
-          <div className="card-date">{day.date}</div>
+          <h3 id={`day-${day.dayNumber}-title`}>Day {day.dayNumber}</h3>
+          <time className="card-date">{day.date}</time>
         </div>
       </div>
       <div className="card-content">
-        <div className="card-highlight">{day.emoji} {day.title}</div>
+        <div className="card-highlight">
+          <span aria-hidden="true">{day.emoji}</span> {day.title}
+        </div>
         <div className="card-route">
           <strong>Route:</strong> {day.route.from} → {day.route.to}
           {day.driving?.total?.time && (
@@ -48,18 +58,16 @@ export default function DayCard({ day, isActive = false }: DayCardProps) {
         
         {day.accommodation && day.accommodation.name && (
           <div className="card-accommodation">
-            <div className="accommodation-icon">🏠</div>
+            <div className="accommodation-icon" aria-hidden="true">🏠</div>
             <div className="accommodation-details">
               <span className="accommodation-label">Stay at:</span>
               <span className="accommodation-name">{day.accommodation.name}</span>
             </div>
           </div>
         )}
-        
-        <Link href={`/day/${day.id}`} className="card-details">
-          View Details
-        </Link>
       </div>
-    </div>
+    </article>
   );
 }
+
+export default memo(DayCard);

@@ -1,20 +1,26 @@
 import { TripData, DayData } from '../types';
-import fs from 'fs';
+import { cache } from 'react';
 import path from 'path';
+import fs from 'fs';
 
 /**
- * Fetches the trip overview data
+ * Fetches the trip overview data with caching
  */
-export async function getTripData(): Promise<TripData> {
-  const filePath = path.join(process.cwd(), 'public/data/trip-overview.json');
-  const data = await fs.promises.readFile(filePath, 'utf8');
-  return JSON.parse(data) as TripData;
-}
+export const getTripData = cache(async (): Promise<TripData> => {
+  try {
+    const filePath = path.join(process.cwd(), 'public/data/trip-overview.json');
+    const data = await fs.promises.readFile(filePath, 'utf8');
+    return JSON.parse(data) as TripData;
+  } catch (error) {
+    console.error('Error loading trip data:', error);
+    throw new Error('Failed to load trip data');
+  }
+});
 
 /**
- * Fetches data for a specific day
+ * Fetches data for a specific day with caching
  */
-export async function getDayData(dayNumber: number): Promise<DayData | null> {
+export const getDayData = cache(async (dayNumber: number): Promise<DayData | null> => {
   try {
     const filePath = path.join(process.cwd(), `public/data/day${dayNumber}.json`);
     const data = await fs.promises.readFile(filePath, 'utf8');
@@ -23,12 +29,12 @@ export async function getDayData(dayNumber: number): Promise<DayData | null> {
     console.error(`Error loading day ${dayNumber} data:`, error);
     return null;
   }
-}
+});
 
 /**
- * Fetches data for all available days
+ * Fetches data for all available days with caching
  */
-export async function getAllDaysData(totalDays: number): Promise<DayData[]> {
+export const getAllDaysData = cache(async (totalDays: number): Promise<DayData[]> => {
   const daysPromises = [];
   
   for (let i = 1; i <= totalDays; i++) {
@@ -38,20 +44,20 @@ export async function getAllDaysData(totalDays: number): Promise<DayData[]> {
   const daysResults = await Promise.all(daysPromises);
   // Filter out null values (days that weren't found or failed to load)
   return daysResults.filter((day): day is DayData => day !== null);
-}
+});
 
 /**
  * Gets all the day IDs for use with dynamic routes
  */
-export async function getAllDayIds(totalDays: number): Promise<string[]> {
+export const getAllDayIds = cache(async (totalDays: number): Promise<string[]> => {
   const days = await getAllDaysData(totalDays);
   return days.map(day => day.id);
-}
+});
 
 /**
- * Gets a specific day by its ID
+ * Gets a specific day by its ID with caching
  */
-export async function getDayById(id: string, totalDays: number): Promise<DayData | null> {
+export const getDayById = cache(async (id: string, totalDays: number): Promise<DayData | null> => {
   const days = await getAllDaysData(totalDays);
   return days.find(day => day.id === id) || null;
-}
+});

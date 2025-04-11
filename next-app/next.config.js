@@ -1,22 +1,19 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
-  // For Next.js 12, use these settings for static export
+  output: 'export', // Modern static export option for Next.js 14
   images: {
-    loader: 'imgix', 
-    path: '',
-    disableStaticImages: true,
-    domains: ['res.cloudinary.com'],
+    unoptimized: true, // For static exports
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+    ],
   },
   // Added for GitHub Pages compatibility
   basePath: process.env.NODE_ENV === 'production' ? '/kgangerlm.github.io' : '',
   trailingSlash: true,
-  
-  // Export configuration for Next.js 12
-  exportPathMap: async function() {
-    return {
-      '/': { page: '/' },
-      // Dynamic routes will need to be added explicitly with getStaticPaths
-    };
-  },
 };
+
+module.exports = nextConfig;
