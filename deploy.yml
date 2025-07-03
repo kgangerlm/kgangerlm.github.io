@@ -29,4 +29,4 @@ jobs:
         with:
           folder: public
           branch: gh-pages
-          clean: true
+          clean: true 
