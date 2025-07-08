@@ -19,7 +19,8 @@
       // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
       // This way the code will only replace the route part of the path, and not
       // the project name.
-      var pathSegmentsToKeep = 1;
+      // For user/org pages (username.github.io), set to 0
+      var pathSegmentsToKeep = 0;
 
       var l = window.location;
       l.replace(

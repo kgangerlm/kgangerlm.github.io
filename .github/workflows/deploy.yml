@@ -29,9 +29,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          # This makes Next.js build with the correct base path
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
         
       - name: Create .nojekyll file
         run: touch out/.nojekyll
